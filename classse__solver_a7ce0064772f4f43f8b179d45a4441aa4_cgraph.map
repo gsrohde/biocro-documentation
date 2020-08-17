@@ -1,0 +1,7 @@
+<map id="se_solver::solve" name="se_solver::solve">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,120,83"/>
+<area shape="rect" id="node2" href="$classse__solver.html#a60012926050aa7399b3fb94422f48bea" title="Tries to find a root, starting at the initial guess and staying within the bounds." alt="" coords="168,56,283,83"/>
+<area shape="rect" id="node3" href="$se__solver__helper__functions_8h.html#a9e8ba84befba9b4aa8ecd16ce9266264" title="Checks whether the guesses have converged using an absolute threshold." alt="" coords="331,5,493,32"/>
+<area shape="rect" id="node4" href="$se__solver__helper__functions_8h.html#a5be7376d233b66d3ffb03e089c4f04ab" title="Checks whether the guesses have converged using a relative threshold." alt="" coords="334,56,490,83"/>
+<area shape="rect" id="node5" href="$se__solver__helper__functions_8h.html#adef0959092a7736ae2ab30bb2bc054e2" title="Checks whether the elements of vec_to_test lie outside the bounds." alt="" coords="347,107,477,133"/>
+</map>

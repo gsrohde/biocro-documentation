@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['c3cana_15',['c3CanA',['../R__c3CanA_8cpp.html#a5ebd47992209fdc3d74c5d688b3f84dd',1,'R_c3CanA.cpp']]],
+  ['c3photo_16',['c3photo',['../R__c3photo_8cpp.html#a8aa07fde7879c1b924d8f4b556789f74',1,'R_c3photo.cpp']]],
+  ['c4photo_17',['c4photo',['../R__c4photo_8cpp.html#a46be65f33232fb7d65cb90b4824ee4da',1,'R_c4photo.cpp']]],
+  ['calculate_5fjacobian_18',['calculate_jacobian',['../numerical__jacobian_8h.html#abb3a48da711cdaa6426f7c0e10523aee',1,'calculate_jacobian(equation_ptr_type const &amp;equation_ptr, x_vector_type const &amp;x, time_type t, f_vector_type const &amp;f_current, matrix_type &amp;jacobi):&#160;numerical_jacobian.h'],['../numerical__jacobian_8h.html#aa4613d2383d8cc1f150cfda00be21ce7',1,'calculate_jacobian(equation_ptr_type const &amp;equation_ptr, vector_type const &amp;x, time_type t, matrix_type &amp;jacobi):&#160;numerical_jacobian.h'],['../numerical__jacobian_8h.html#a10f54291c4bde3a763cb29800d0715d2',1,'calculate_jacobian(equation_ptr_type const &amp;equation_ptr, vector_type const &amp;x, matrix_type &amp;jacobi):&#160;numerical_jacobian.h']]],
+  ['calculate_5fjacobian_5fand_5ftime_5fderivative_19',['calculate_jacobian_and_time_derivative',['../numerical__jacobian_8h.html#aa69a62289bcec362abb76d68df65e6d3',1,'numerical_jacobian.h']]],
+  ['calculate_5fjacobian_5fnt_20',['calculate_jacobian_nt',['../numerical__jacobian_8h.html#a38b0760046952b949613411cbcbb8ccb',1,'numerical_jacobian.h']]],
+  ['calculate_5ftime_5fderivative_21',['calculate_time_derivative',['../numerical__jacobian_8h.html#aa1de4363b80ad4deff462bdebb669ccb',1,'calculate_time_derivative(equation_ptr_type const &amp;equation_ptr, time_type max_time, x_vector_type const &amp;x, time_type t, f_vector_type const &amp;f_current, f_vector_type &amp;dfdt):&#160;numerical_jacobian.h'],['../numerical__jacobian_8h.html#a05f4dc7946e3348ed84f118aa9639458',1,'calculate_time_derivative(equation_ptr_type const &amp;equation_ptr, time_type max_time, x_vector_type const &amp;x, time_type t, f_vector_type &amp;dfdt):&#160;numerical_jacobian.h']]],
+  ['calculation_5fconstants_22',['calculation_constants',['../namespacecalculation__constants.html',1,'']]],
+  ['cana_23',['CanA',['../R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c',1,'R_CanA.cpp']]],
+  ['celsius_5fto_5fkelvin_24',['celsius_to_kelvin',['../namespacephysical__constants.html#ab828ae302e6c0d11729d127b056d7518',1,'physical_constants']]],
+  ['check_5fadaptive_5fcompatible_25',['check_adaptive_compatible',['../system__helper__functions_8cpp.html#a683bfc8eb4a6e07f74a7b77fc1cfdb6d',1,'check_adaptive_compatible(const module_vector *ptr_to_module_vector):&#160;system_helper_functions.cpp'],['../system__helper__functions_8h.html#a683bfc8eb4a6e07f74a7b77fc1cfdb6d',1,'check_adaptive_compatible(const module_vector *ptr_to_module_vector):&#160;system_helper_functions.cpp']]],
+  ['check_5ferror_5fconditions_26',['check_error_conditions',['../module__helper__functions_8cpp.html#a57dc78c0a1397cf148187ddd09382f00',1,'check_error_conditions(std::map&lt; std::string, bool &gt; errors_to_check, std::string module_name):&#160;module_helper_functions.cpp'],['../module__helper__functions_8h.html#a57dc78c0a1397cf148187ddd09382f00',1,'check_error_conditions(std::map&lt; std::string, bool &gt; errors_to_check, std::string module_name):&#160;module_helper_functions.cpp']]],
+  ['collatz_5fphotoc_27',['collatz_photoC',['../R__collatz__photo_8cpp.html#a3ade868990a98f4180acd1ccf8ba392a',1,'R_collatz_photo.cpp']]],
+  ['constants_2eh_28',['constants.h',['../constants_8h.html',1,'']]],
+  ['create_5fmarked_5fmessage_29',['create_marked_message',['../validate__system_8h.html#abbf593dec368115b8f24cf63820b7aba',1,'validate_system.h']]],
+  ['create_5fmessage_30',['create_message',['../validate__system_8h.html#ab5f236ba78da738b307b71f73d78f2b1',1,'validate_system.h']]],
+  ['createmodule_31',['createModule',['../classmodule__wrapper__base.html#a6dcd53e6c45b419432cf18e3e0304b98',1,'module_wrapper_base::createModule()'],['../classmodule__wrapper.html#ad7e20e2658910f565b470f3186ac9d84',1,'module_wrapper::createModule()']]]
+];
