@@ -21,7 +21,9 @@ var searchData=
   ['assim_19',['Assim',['../structCan__Str.html#af806a0ccf68200e30014c08ed1a903ed',1,'Can_Str::Assim()'],['../structc3__str.html#a859d76f4c4e8c6a96e34e9b99f2857dc',1,'c3_str::Assim()'],['../structc4__str.html#ade490c8a63b9554b0ee7d88ee7f8153b',1,'c4_str::Assim()']]],
   ['assimilation_20',['assimilation',['../structcollatz__result.html#a893283c4f815592b1a5f366ac07d1a16',1,'collatz_result']]],
   ['at_21',['at',['../state__map_8cpp.html#a698066d68dbdbd7d3afbff90e8481ae8',1,'at(const state_vector_map &amp;vector_map, std::vector&lt; double &gt;::size_type n):&#160;state_map.cpp'],['../state__map_8h.html#a698066d68dbdbd7d3afbff90e8481ae8',1,'at(const state_vector_map &amp;vector_map, std::vector&lt; double &gt;::size_type n):&#160;state_map.cpp']]],
-  ['auxbiocro_2ecpp_22',['AuxBioCro.cpp',['../AuxBioCro_8cpp.html',1,'']]],
-  ['auxbiocro_2eh_23',['AuxBioCro.h',['../AuxBioCro_8h.html',1,'']]],
-  ['awc_24',['awc',['../structws__str.html#aa26f0c560619be1db558875f15fc7419',1,'ws_str']]]
+  ['auto_5fsolver_22',['auto_solver',['../classauto__solver.html',1,'auto_solver&lt; state_type &gt;'],['../classauto__solver.html#aeda1ae0610fa03d1ecd558a2e9118566',1,'auto_solver::auto_solver()']]],
+  ['auto_5fsolver_2eh_23',['auto_solver.h',['../auto__solver_8h.html',1,'']]],
+  ['auxbiocro_2ecpp_24',['AuxBioCro.cpp',['../AuxBioCro_8cpp.html',1,'']]],
+  ['auxbiocro_2eh_25',['AuxBioCro.h',['../AuxBioCro_8h.html',1,'']]],
+  ['awc_26',['awc',['../structws__str.html#aa26f0c560619be1db558875f15fc7419',1,'ws_str']]]
 ];

@@ -7,6 +7,9 @@ var hierarchy =
     [ "collatz_result", "structcollatz__result.html", null ],
     [ "crop_phenology", "structcrop__phenology.html", null ],
     [ "dbp_str", "structdbp__str.html", null ],
+    [ "dfs_visitor", null, [
+      [ "cycle_detector", "classcycle__detector.html", null ]
+    ] ],
     [ "ed_collatz_assimilation", "classed__collatz__assimilation.html", null ],
     [ "ET_Str", "structET__Str.html", null ],
     [ "frostParms", "structfrostParms.html", null ],
@@ -161,7 +164,19 @@ var hierarchy =
     [ "soilText_str", "structsoilText__str.html", null ],
     [ "Standalone_SS", "classStandalone__SS.html", null ],
     [ "System", "classSystem.html", null ],
-    [ "system_solver", "classsystem__solver.html", null ],
+    [ "system_solver", "classsystem__solver.html", [
+      [ "auto_solver< state_type >", "classauto__solver.html", null ],
+      [ "boost_system_solver< state_type >", "classboost__system__solver.html", [
+        [ "boost_euler_system_solver< state_type >", "classboost__euler__system__solver.html", null ],
+        [ "boost_rk4_system_solver< state_type >", "classboost__rk4__system__solver.html", null ],
+        [ "boost_rkck54_system_solver< state_type >", "classboost__rkck54__system__solver.html", null ]
+      ] ],
+      [ "boost_system_solver< boost::numeric::ublas::vector< double > >", "classboost__system__solver.html", [
+        [ "boost_rsnbrk_system_solver", "classboost__rsnbrk__system__solver.html", null ]
+      ] ],
+      [ "homemade_euler_solver< state_type >", "classhomemade__euler__solver.html", null ]
+    ] ],
+    [ "system_solver_factory", "classsystem__solver__factory.html", null ],
     [ "SystemPointerWrapper", "classSystemPointerWrapper.html", [
       [ "SystemCaller", "classSystemCaller.html", null ]
     ] ],
