@@ -1,0 +1,5 @@
+<map id="ed_leaf_photosynthesis::get_reference_inputs" name="ed_leaf_photosynthesis::get_reference_inputs">
+<area shape="rect" id="node1" title="A function that finds all inputs required by the reference modules, excluding any unknowns...." alt="" coords="232,39,391,80"/>
+<area shape="rect" id="node2" href="$classed__c4__leaf__photosynthesis.html#af5817afdb9496e0cc4edd2afdca8041b" title=" " alt="" coords="5,5,184,47"/>
+<area shape="rect" id="node3" href="$namespaceed__leaf__photosynthesis__nr.html#a5d70350198910713933918b34788c9cd" title="Make a simultaneous_equations object from the modules." alt="" coords="15,71,174,112"/>
+</map>

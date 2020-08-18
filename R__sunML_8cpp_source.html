@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('R__sunML_8cpp_source.html',''); initRe
 </div><!--header-->
 <div class="contents">
 <a href="R__sunML_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;Rinternals.h&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;module_library/BioCro.h&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="BioCro_8h.html">module_library/BioCro.h</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160; </div>
@@ -128,15 +128,15 @@ $(document).ready(function(){initNavTree('R__sunML_8cpp_source.html',''); initRe
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;    PROTECT(shaded_fraction = Rf_allocVector(REALSXP, nlayers));</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;    PROTECT(height = Rf_allocVector(REALSXP, nlayers));</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    Light_profile result = sunML(i_dir, i_diff, lai, nlayers, cos_theta, kd, chi_l, height_f);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;    <a class="code" href="structLight__profile.html">Light_profile</a> result = <a class="code" href="AuxBioCro_8cpp.html#a29eacaa214f1899c9df199ac80d0e1ca">sunML</a>(i_dir, i_diff, lai, nlayers, cos_theta, kd, chi_l, height_f);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
 <div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; nlayers; ++i) {</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        REAL(direct_irradiance)[i] = result.direct_irradiance[i];</div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        REAL(diffuse_irradiance)[i] = result.diffuse_irradiance[i];</div>
-<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        REAL(total_irradiance)[i] = result.total_irradiance[i];</div>
-<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        REAL(sunlit_fraction)[i] = result.sunlit_fraction[i];</div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        REAL(shaded_fraction)[i] = result.shaded_fraction[i];</div>
-<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        REAL(height)[i] = result.height[i];</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        REAL(direct_irradiance)[i] = result.<a class="code" href="structLight__profile.html#a2f8231e1e3f6b0c04e8a08ddcc419e03">direct_irradiance</a>[i];</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        REAL(diffuse_irradiance)[i] = result.<a class="code" href="structLight__profile.html#a3a64c8a4ce00e9190ec3f3b8b7233817">diffuse_irradiance</a>[i];</div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        REAL(total_irradiance)[i] = result.<a class="code" href="structLight__profile.html#a424cf9cc81031798184256d14a08786a">total_irradiance</a>[i];</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        REAL(sunlit_fraction)[i] = result.<a class="code" href="structLight__profile.html#a5ab1c660a6d5af30163325103043a419">sunlit_fraction</a>[i];</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        REAL(shaded_fraction)[i] = result.<a class="code" href="structLight__profile.html#a61e74afb9cc127be0696334b9a1ffdc8">shaded_fraction</a>[i];</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;        REAL(height)[i] = result.<a class="code" href="structLight__profile.html#ab9551f243ec3ef975ebb13d1566aa75a">height</a>[i];</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    }</div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160; </div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    SET_VECTOR_ELT(list, 0, direct_irradiance);</div>
@@ -161,7 +161,16 @@ $(document).ready(function(){initNavTree('R__sunML_8cpp_source.html',''); initRe
 <div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="astructLight__profile_html_a2f8231e1e3f6b0c04e8a08ddcc419e03"><div class="ttname"><a href="structLight__profile.html#a2f8231e1e3f6b0c04e8a08ddcc419e03">Light_profile::direct_irradiance</a></div><div class="ttdeci">double direct_irradiance[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00029">AuxBioCro.h:29</a></div></div>
+<div class="ttc" id="astructLight__profile_html_a3a64c8a4ce00e9190ec3f3b8b7233817"><div class="ttname"><a href="structLight__profile.html#a3a64c8a4ce00e9190ec3f3b8b7233817">Light_profile::diffuse_irradiance</a></div><div class="ttdeci">double diffuse_irradiance[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00031">AuxBioCro.h:31</a></div></div>
+<div class="ttc" id="aAuxBioCro_8cpp_html_a29eacaa214f1899c9df199ac80d0e1ca"><div class="ttname"><a href="AuxBioCro_8cpp.html#a29eacaa214f1899c9df199ac80d0e1ca">sunML</a></div><div class="ttdeci">Light_profile sunML(double Idir, double Idiff, double LAI, int nlayers, double cosTheta, double kd, double chil, double heightf)</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8cpp_source.html#l00149">AuxBioCro.cpp:149</a></div></div>
+<div class="ttc" id="astructLight__profile_html_a5ab1c660a6d5af30163325103043a419"><div class="ttname"><a href="structLight__profile.html#a5ab1c660a6d5af30163325103043a419">Light_profile::sunlit_fraction</a></div><div class="ttdeci">double sunlit_fraction[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00033">AuxBioCro.h:33</a></div></div>
 <div class="ttc" id="aR__sunML_8cpp_html_a193e012f2c7f0323c30619023ae6fa23"><div class="ttname"><a href="R__sunML_8cpp.html#a193e012f2c7f0323c30619023ae6fa23">R_sunML</a></div><div class="ttdeci">SEXP R_sunML(SEXP IDIR, SEXP IDIFF, SEXP LAI, SEXP NLAYERS, SEXP COSTHETA, SEXP KD, SEXP CHIL, SEXP HEIGHTF)</div><div class="ttdef"><b>Definition:</b> <a href="R__sunML_8cpp_source.html#l00006">R_sunML.cpp:6</a></div></div>
+<div class="ttc" id="astructLight__profile_html_a424cf9cc81031798184256d14a08786a"><div class="ttname"><a href="structLight__profile.html#a424cf9cc81031798184256d14a08786a">Light_profile::total_irradiance</a></div><div class="ttdeci">double total_irradiance[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00032">AuxBioCro.h:32</a></div></div>
+<div class="ttc" id="astructLight__profile_html"><div class="ttname"><a href="structLight__profile.html">Light_profile</a></div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00028">AuxBioCro.h:28</a></div></div>
+<div class="ttc" id="astructLight__profile_html_ab9551f243ec3ef975ebb13d1566aa75a"><div class="ttname"><a href="structLight__profile.html#ab9551f243ec3ef975ebb13d1566aa75a">Light_profile::height</a></div><div class="ttdeci">double height[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00035">AuxBioCro.h:35</a></div></div>
+<div class="ttc" id="astructLight__profile_html_a61e74afb9cc127be0696334b9a1ffdc8"><div class="ttname"><a href="structLight__profile.html#a61e74afb9cc127be0696334b9a1ffdc8">Light_profile::shaded_fraction</a></div><div class="ttdeci">double shaded_fraction[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00034">AuxBioCro.h:34</a></div></div>
+<div class="ttc" id="aBioCro_8h_html"><div class="ttname"><a href="BioCro_8h.html">BioCro.h</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

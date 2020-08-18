@@ -1,13 +1,13 @@
 <map id="/github/workspace/source/src/modules.h" name="/github/workspace/source/src/modules.h">
-<area shape="rect" id="node1" title=" " alt="" coords="326,5,497,47"/>
+<area shape="rect" id="node1" title=" " alt="" coords="286,5,457,47"/>
 <area shape="rect" id="node2" title=" " alt="" coords="5,244,116,271"/>
-<area shape="rect" id="node3" title=" " alt="" coords="376,169,423,196"/>
-<area shape="rect" id="node4" title=" " alt="" coords="537,244,595,271"/>
-<area shape="rect" id="node5" title=" " alt="" coords="349,95,407,121"/>
-<area shape="rect" id="node6" href="$state__map_8h.html" title=" " alt="" coords="110,169,203,196"/>
-<area shape="rect" id="node8" title=" " alt="" coords="483,95,641,121"/>
-<area shape="rect" id="node9" title=" " alt="" coords="665,95,845,121"/>
-<area shape="rect" id="node10" href="$module__helper__functions_8h.html" title=" " alt="" coords="149,95,325,121"/>
-<area shape="rect" id="node7" title=" " alt="" coords="140,244,195,271"/>
-<area shape="rect" id="node11" title=" " alt="" coords="228,169,307,196"/>
+<area shape="rect" id="node3" title=" " alt="" coords="411,244,457,271"/>
+<area shape="rect" id="node4" title=" " alt="" coords="141,244,199,271"/>
+<area shape="rect" id="node5" title=" " alt="" coords="706,95,765,121"/>
+<area shape="rect" id="node6" href="$state__map_8h.html" title=" " alt="" coords="149,169,242,196"/>
+<area shape="rect" id="node8" href="$BioCro_8h.html" title=" " alt="" coords="472,95,631,121"/>
+<area shape="rect" id="node9" href="$AuxBioCro_8h.html" title=" " alt="" coords="505,169,598,196"/>
+<area shape="rect" id="node10" href="$module__helper__functions_8h.html" title=" " alt="" coords="221,95,397,121"/>
+<area shape="rect" id="node7" title=" " alt="" coords="224,244,279,271"/>
+<area shape="rect" id="node11" title=" " alt="" coords="317,169,396,196"/>
 </map>

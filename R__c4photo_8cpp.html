@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('R__c4photo_8cpp.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Rinternals.h&gt;</code><br />
-<code>#include &quot;module_library/c4photo.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="c4photo_8h_source.html">module_library/c4photo.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for R_c4photo.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('R__c4photo_8cpp.html',''); initResizab
 <map name="_2github_2workspace_2source_2src_2R__c4photo_8cpp" id="a_2github_2workspace_2source_2src_2R__c4photo_8cpp">
 <area shape="rect" title=" " alt="" coords="41,5,212,47"/>
 <area shape="rect" title=" " alt="" coords="5,95,96,121"/>
-<area shape="rect" title=" " alt="" coords="120,95,285,121"/>
+<area shape="rect" href="c4photo_8h.html" title=" " alt="" coords="120,95,285,121"/>
 </map>
 </div>
 </div>
@@ -223,7 +223,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="R__c4photo_8cpp_source.html#l00005">5</a> of file <a class="el" href="R__c4photo_8cpp_source.html">R_c4photo.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;{</div>
-<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keyword">struct </span>c4_str tmp;</div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;        <span class="keyword">struct </span><a class="code" href="structc4__str.html">c4_str</a> tmp;</div>
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160; </div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;        <span class="keywordtype">double</span> Bet0,Bet1;</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160; </div>
@@ -276,7 +276,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">for</span>(<span class="keywordtype">size_t</span> i = 0; i &lt; nq; ++i)</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        {</div>
 <div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; </div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                tmp = c4photoC(*(pt_Qp+i), *(pt_Tl+i), *(pt_RH+i),</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                tmp = <a class="code" href="c4photo_8cpp.html#a267a416bf303e187cbab12efcad0227a">c4photoC</a>(*(pt_Qp+i), *(pt_Tl+i), *(pt_RH+i),</div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                               vmax, alpha, K,theta, beta, Rd, <span class="comment">/*\ref{parm:Vmax}\ref{parm:Rd}*/</span></div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                               Bet0, Bet1, StomWS, </div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                               *(pt_CA+i), water_stress_approach,upperT,lowerT);</div>
@@ -302,10 +302,26 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;        <span class="keywordflow">return</span>(lists);</div>
 <div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;}</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="c4photo_8h_source.html#l00009">c4_str::Assim</a>, <a class="el" href="c4photo_8cpp_source.html#l00015">c4photoC()</a>, <a class="el" href="c4photo_8h_source.html#l00011">c4_str::Ci</a>, <a class="el" href="c4photo_8h_source.html#l00012">c4_str::GrossAssim</a>, and <a class="el" href="c4photo_8h_source.html#l00010">c4_str::Gs</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="R__c4photo_8cpp_a46be65f33232fb7d65cb90b4824ee4da_cgraph.png" border="0" usemap="#aR__c4photo_8cpp_a46be65f33232fb7d65cb90b4824ee4da_cgraph" alt=""/></div>
+<map name="R__c4photo_8cpp_a46be65f33232fb7d65cb90b4824ee4da_cgraph" id="aR__c4photo_8cpp_a46be65f33232fb7d65cb90b4824ee4da_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,73,32"/>
+<area shape="rect" href="c4photo_8cpp.html#a267a416bf303e187cbab12efcad0227a" title=" " alt="" coords="121,5,199,32"/>
+<area shape="rect" href="ball__berry_8cpp.html#a6e9346e63ae6f11483c7104df9ecf92c" title=" " alt="" coords="247,5,324,32"/>
+</map>
+</div>
+
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="astructc4__str_html"><div class="ttname"><a href="structc4__str.html">c4_str</a></div><div class="ttdef"><b>Definition:</b> <a href="c4photo_8h_source.html#l00008">c4photo.h:8</a></div></div>
+<div class="ttc" id="ac4photo_8cpp_html_a267a416bf303e187cbab12efcad0227a"><div class="ttname"><a href="c4photo_8cpp.html#a267a416bf303e187cbab12efcad0227a">c4photoC</a></div><div class="ttdeci">struct c4_str c4photoC(double Qp, double leaf_temperature, double relative_humidity, double vmax, double alpha, double kparm, double theta, double beta, double Rd, double bb0, double bb1, double StomaWS, double Ca, int water_stress_approach, double upperT, double lowerT)</div><div class="ttdef"><b>Definition:</b> <a href="c4photo_8cpp_source.html#l00001">c4photo.cpp:15</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

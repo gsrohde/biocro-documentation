@@ -1,9 +1,15 @@
 <map id="string_set_to_string_vector" name="string_set_to_string_vector">
-<area shape="rect" id="node1" title=" " alt="" coords="631,71,767,112"/>
-<area shape="rect" id="node2" href="$classStandalone__SS.html#a13aa53eb99789c56a057ef1d2dc74954" title=" " alt="" coords="433,12,569,53"/>
-<area shape="rect" id="node3" href="$simultaneous__equations_8h.html#ae2a605d520f1fc493875c92029c21e7c" title="Finds the unknown quantities defined by the set of modules." alt="" coords="420,78,583,105"/>
-<area shape="rect" id="node7" href="$classsimultaneous__equations.html#a3daef1926e5ffa416a9581a7863ee72f" title=" " alt="" coords="5,100,173,141"/>
-<area shape="rect" id="node4" href="$simultaneous__equations_8h.html#a4116e1accbd144688ad8b523c9145743" title="Provides information about a set of simultaneous_equations inputs that is not strictly required to ch..." alt="" coords="222,5,371,47"/>
-<area shape="rect" id="node6" href="$simultaneous__equations_8h.html#ae5eb48d46cc1e008c6a4b0d0400c7678" title="Checks over a group of quantities and modules to ensure they can be used to create a valid set of sim..." alt="" coords="221,71,372,112"/>
-<area shape="rect" id="node5" href="$R__simultaneous__equations_8cpp.html#a50c4f1f36222d2ee70eff7aa4de41c0b" title=" " alt="" coords="6,20,173,61"/>
+<area shape="rect" id="node1" title=" " alt="" coords="697,136,833,177"/>
+<area shape="rect" id="node2" href="$classStandalone__SS.html#a13aa53eb99789c56a057ef1d2dc74954" title=" " alt="" coords="500,9,636,51"/>
+<area shape="rect" id="node3" href="$namespaceed__leaf__photosynthesis.html#a6ead371bb16ba9c670f7b6720a556d81" title="A function that finds all inputs required by the reference modules, excluding any unknowns...." alt="" coords="256,136,415,177"/>
+<area shape="rect" id="node6" href="$namespaceed__leaf__photosynthesis.html#aea52b1d46ad1fbd37fb8575987029ad7" title="A function that finds all outputs produced by the reference modules. Here it is important to sort the..." alt="" coords="489,75,647,116"/>
+<area shape="rect" id="node9" href="$simultaneous__equations_8h.html#ae2a605d520f1fc493875c92029c21e7c" title="Finds the unknown quantities defined by the set of modules." alt="" coords="487,202,649,229"/>
+<area shape="rect" id="node13" href="$classsimultaneous__equations.html#a3daef1926e5ffa416a9581a7863ee72f" title=" " alt="" coords="11,296,179,337"/>
+<area shape="rect" id="node4" href="$classed__c4__leaf__photosynthesis.html#af5817afdb9496e0cc4edd2afdca8041b" title=" " alt="" coords="5,79,184,120"/>
+<area shape="rect" id="node5" href="$namespaceed__leaf__photosynthesis__nr.html#a5d70350198910713933918b34788c9cd" title="Make a simultaneous_equations object from the modules." alt="" coords="15,144,174,185"/>
+<area shape="rect" id="node7" href="$classed__c4__leaf__photosynthesis.html#a3a8f6d49311b34c8a80d45d0635bb5ee" title=" " alt="" coords="246,5,425,47"/>
+<area shape="rect" id="node8" href="$classed__leaf__photosynthesis__nr_1_1module__base.html#a362e76aff59a108e1219d684774d6f6b" title=" " alt="" coords="232,71,439,112"/>
+<area shape="rect" id="node10" href="$simultaneous__equations_8h.html#a4116e1accbd144688ad8b523c9145743" title="Provides information about a set of simultaneous_equations inputs that is not strictly required to ch..." alt="" coords="261,201,410,243"/>
+<area shape="rect" id="node12" href="$simultaneous__equations_8h.html#ae5eb48d46cc1e008c6a4b0d0400c7678" title="Checks over a group of quantities and modules to ensure they can be used to create a valid set of sim..." alt="" coords="260,267,411,308"/>
+<area shape="rect" id="node11" href="$R__simultaneous__equations_8cpp.html#a50c4f1f36222d2ee70eff7aa4de41c0b" title=" " alt="" coords="11,216,178,257"/>
 </map>

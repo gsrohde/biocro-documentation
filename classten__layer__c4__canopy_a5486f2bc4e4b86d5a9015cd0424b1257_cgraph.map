@@ -1,0 +1,8 @@
+<map id="ten_layer_c4_canopy::get_inputs" name="ten_layer_c4_canopy::get_inputs">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,148,80"/>
+<area shape="rect" id="node2" href="$classmultilayer__canopy__photosynthesis.html#a9fd69e78114015a28c247b2c2bb85308" title=" " alt="" coords="196,39,415,80"/>
+<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a7868e0c734ccbe12020ce9597419a0b0" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="463,5,601,47"/>
+<area shape="rect" id="node5" href="$module__helper__functions_8cpp.html#a1925bc7f4cf2a5fafbfe3f4f1b3d73e2" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="465,71,599,112"/>
+<area shape="rect" id="node4" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="649,5,785,47"/>
+<area shape="rect" id="node6" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="652,71,783,112"/>
+</map>

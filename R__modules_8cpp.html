@@ -93,7 +93,7 @@ $(document).ready(function(){initNavTree('R__modules_8cpp.html',''); initResizab
 <code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="R__helper__functions_8h_source.html">R_helper_functions.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="state__map_8h_source.html">state_map.h</a>&quot;</code><br />
-<code>#include &quot;module_library/module_wrapper_factory.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="module__wrapper__factory_8h_source.html">module_library/module_wrapper_factory.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="modules_8h_source.html">modules.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for R_modules.cpp:</div>
@@ -102,21 +102,23 @@ $(document).ready(function(){initNavTree('R__modules_8cpp.html',''); initResizab
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="R__modules_8cpp__incl.png" border="0" usemap="#a_2github_2workspace_2source_2src_2R__modules_8cpp" alt=""/></div>
 <map name="_2github_2workspace_2source_2src_2R__modules_8cpp" id="a_2github_2workspace_2source_2src_2R__modules_8cpp">
-<area shape="rect" title=" " alt="" coords="168,5,339,47"/>
-<area shape="rect" title=" " alt="" coords="21,259,112,285"/>
-<area shape="rect" title=" " alt="" coords="316,333,375,360"/>
-<area shape="rect" title=" " alt="" coords="122,333,177,360"/>
-<area shape="rect" href="R__helper__functions_8h.html" title=" " alt="" coords="73,184,215,211"/>
-<area shape="rect" href="state__map_8h.html" title=" " alt="" coords="341,259,435,285"/>
-<area shape="rect" title=" " alt="" coords="342,95,493,136"/>
-<area shape="rect" href="modules_8h.html" title=" " alt="" coords="826,102,907,129"/>
-<area shape="rect" title=" " alt="" coords="782,333,893,360"/>
-<area shape="rect" title=" " alt="" coords="845,259,891,285"/>
-<area shape="rect" title=" " alt="" coords="1083,184,1141,211"/>
-<area shape="rect" title=" " alt="" coords="393,184,551,211"/>
-<area shape="rect" title=" " alt="" coords="777,184,957,211"/>
-<area shape="rect" href="module__helper__functions_8h.html" title=" " alt="" coords="576,184,752,211"/>
-<area shape="rect" title=" " alt="" coords="625,259,703,285"/>
+<area shape="rect" title=" " alt="" coords="272,5,443,47"/>
+<area shape="rect" title=" " alt="" coords="5,408,96,435"/>
+<area shape="rect" title=" " alt="" coords="472,483,531,509"/>
+<area shape="rect" title=" " alt="" coords="279,483,334,509"/>
+<area shape="rect" href="R__helper__functions_8h.html" title=" " alt="" coords="75,333,218,360"/>
+<area shape="rect" href="state__map_8h.html" title=" " alt="" coords="496,408,589,435"/>
+<area shape="rect" href="module__wrapper__factory_8h.html" title=" " alt="" coords="499,95,650,136"/>
+<area shape="rect" href="modules_8h.html" title=" " alt="" coords="859,259,941,285"/>
+<area shape="rect" title=" " alt="" coords="622,483,733,509"/>
+<area shape="rect" title=" " alt="" coords="619,259,687,285"/>
+<area shape="rect" title=" " alt="" coords="1281,483,1327,509"/>
+<area shape="rect" href="module__wrapper_8h.html" title=" " alt="" coords="499,184,637,211"/>
+<area shape="rect" title=" " alt="" coords="765,333,824,360"/>
+<area shape="rect" href="BioCro_8h.html" title=" " alt="" coords="1099,333,1258,360"/>
+<area shape="rect" href="AuxBioCro_8h.html" title=" " alt="" coords="1216,408,1309,435"/>
+<area shape="rect" href="module__helper__functions_8h.html" title=" " alt="" coords="848,333,1024,360"/>
+<area shape="rect" title=" " alt="" coords="897,408,975,435"/>
 </map>
 </div>
 </div>
@@ -171,7 +173,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="state__map_8h.html#a4dec1ecf04058a525b4009c473a76c28">state_map</a> module_output_map;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;        <span class="comment">// Get the module&#39;s description</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">auto</span> w = module_wrapper_factory::create(module_name);</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;        <span class="keyword">auto</span> w = <a class="code" href="classmodule__wrapper__factory.html#ae7cad30fa9066a569f8450294eb973e8">module_wrapper_factory::create</a>(module_name);</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;        std::string description = w-&gt;get_description();</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;        <span class="comment">// Get the module&#39;s inputs and add them to the parameter list with default</span></div>
@@ -261,7 +263,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    }</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="R__helper__functions_8cpp_source.html#l00083">list_from_map()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00063">make_vector()</a>, and <a class="el" href="parameters_8h_source.html#l00053">parameters</a>.</p>
+<p class="reference">References <a class="el" href="module__wrapper__factory_8cpp_source.html#l00106">module_wrapper_factory::create()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00083">list_from_map()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00063">make_vector()</a>, and <a class="el" href="parameters_8h_source.html#l00053">parameters</a>.</p>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
@@ -269,9 +271,10 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="R__modules_8cpp_a3bf623952876844a44049b5ddce4c618_cgraph.png" border="0" usemap="#aR__modules_8cpp_a3bf623952876844a44049b5ddce4c618_cgraph" alt=""/></div>
 <map name="R__modules_8cpp_a3bf623952876844a44049b5ddce4c618_cgraph" id="aR__modules_8cpp_a3bf623952876844a44049b5ddce4c618_cgraph">
-<area shape="rect" title=" " alt="" coords="5,31,139,57"/>
-<area shape="rect" href="R__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa" title=" " alt="" coords="187,5,291,32"/>
-<area shape="rect" href="R__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895" title=" " alt="" coords="190,56,287,83"/>
+<area shape="rect" title=" " alt="" coords="5,71,139,98"/>
+<area shape="rect" href="classmodule__wrapper__factory.html#ae7cad30fa9066a569f8450294eb973e8" title=" " alt="" coords="187,5,349,47"/>
+<area shape="rect" href="R__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa" title=" " alt="" coords="216,71,320,98"/>
+<area shape="rect" href="R__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895" title=" " alt="" coords="219,122,317,149"/>
 </map>
 </div>
 
@@ -319,7 +322,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;        <span class="comment">//  values of 0.0</span></div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;        <span class="comment">// Note: since derivative modules add their output to the module_output_map,</span></div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        <span class="comment">//  the result only makes sense if each parameter is initialized to 0</span></div>
-<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keyword">auto</span> w = module_wrapper_factory::create(module_name);</div>
+<div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;        <span class="keyword">auto</span> w = <a class="code" href="classmodule__wrapper__factory.html#ae7cad30fa9066a569f8450294eb973e8">module_wrapper_factory::create</a>(module_name);</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        std::vector&lt;std::string&gt; module_outputs = w-&gt;get_outputs();</div>
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;        <span class="keywordflow">for</span> (std::string param : module_outputs) module_output_map[param] = 0.0;</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160; </div>
@@ -337,7 +340,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    }</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="R__helper__functions_8cpp_source.html#l00083">list_from_map()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00063">make_vector()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00033">map_from_list()</a>, and <a class="el" href="parameters_8h_source.html#l00053">parameters</a>.</p>
+<p class="reference">References <a class="el" href="module__wrapper__factory_8cpp_source.html#l00106">module_wrapper_factory::create()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00083">list_from_map()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00063">make_vector()</a>, <a class="el" href="R__helper__functions_8cpp_source.html#l00033">map_from_list()</a>, and <a class="el" href="parameters_8h_source.html#l00053">parameters</a>.</p>
 <div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-2-summary" class="dynsummary" style="display:block;">
@@ -345,10 +348,11 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="R__modules_8cpp_a0c75cd613279b950f047c30907259253_cgraph.png" border="0" usemap="#aR__modules_8cpp_a0c75cd613279b950f047c30907259253_cgraph" alt=""/></div>
 <map name="R__modules_8cpp_a0c75cd613279b950f047c30907259253_cgraph" id="aR__modules_8cpp_a0c75cd613279b950f047c30907259253_cgraph">
-<area shape="rect" title=" " alt="" coords="5,56,115,83"/>
-<area shape="rect" href="R__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa" title=" " alt="" coords="163,5,267,32"/>
-<area shape="rect" href="R__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895" title=" " alt="" coords="166,56,263,83"/>
-<area shape="rect" href="R__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff" title=" " alt="" coords="163,107,267,133"/>
+<area shape="rect" title=" " alt="" coords="5,97,115,123"/>
+<area shape="rect" href="classmodule__wrapper__factory.html#ae7cad30fa9066a569f8450294eb973e8" title=" " alt="" coords="163,5,325,47"/>
+<area shape="rect" href="R__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa" title=" " alt="" coords="192,71,296,98"/>
+<area shape="rect" href="R__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895" title=" " alt="" coords="195,122,293,149"/>
+<area shape="rect" href="R__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff" title=" " alt="" coords="192,173,296,199"/>
 </map>
 </div>
 
@@ -359,6 +363,7 @@ Functions</h2></td></tr>
 <div class="ttc" id="aclassquantity__access__error_html"><div class="ttname"><a href="classquantity__access__error.html">quantity_access_error</a></div><div class="ttdef"><b>Definition:</b> <a href="module__helper__functions_8h_source.html#l00011">module_helper_functions.h:12</a></div></div>
 <div class="ttc" id="aR__helper__functions_8cpp_html_a427d311e926df18071cfb272015d6dff"><div class="ttname"><a href="R__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff">map_from_list</a></div><div class="ttdeci">state_map map_from_list(SEXP const &amp;list)</div><div class="ttdef"><b>Definition:</b> <a href="R__helper__functions_8cpp_source.html#l00033">R_helper_functions.cpp:33</a></div></div>
 <div class="ttc" id="aparameters_8h_html_accbc03a63e9b3af24585c91b9d6eb7e4"><div class="ttname"><a href="parameters_8h.html#accbc03a63e9b3af24585c91b9d6eb7e4">parameters</a></div><div class="ttdeci">parameter_list parameters</div><div class="ttdef"><b>Definition:</b> <a href="parameters_8h_source.html#l00053">parameters.h:53</a></div></div>
+<div class="ttc" id="aclassmodule__wrapper__factory_html_ae7cad30fa9066a569f8450294eb973e8"><div class="ttname"><a href="classmodule__wrapper__factory.html#ae7cad30fa9066a569f8450294eb973e8">module_wrapper_factory::create</a></div><div class="ttdeci">static std::unique_ptr&lt; module_wrapper_base &gt; create(std::string const &amp;module_name)</div><div class="ttdef"><b>Definition:</b> <a href="module__wrapper__factory_8cpp_source.html#l00106">module_wrapper_factory.cpp:106</a></div></div>
 <div class="ttc" id="aR__helper__functions_8cpp_html_a6310116404ff62eabbeb384e02482895"><div class="ttname"><a href="R__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895">make_vector</a></div><div class="ttdeci">vector&lt; string &gt; make_vector(SEXP const &amp;r_string_vector)</div><div class="ttdef"><b>Definition:</b> <a href="R__helper__functions_8cpp_source.html#l00063">R_helper_functions.cpp:63</a></div></div>
 <div class="ttc" id="aR__helper__functions_8cpp_html_a958bd8cf9a5ec1a05b6af932cd5ab1aa"><div class="ttname"><a href="R__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa">list_from_map</a></div><div class="ttdeci">SEXP list_from_map(state_map const &amp;m)</div><div class="ttdef"><b>Definition:</b> <a href="R__helper__functions_8cpp_source.html#l00083">R_helper_functions.cpp:83</a></div></div>
 <div class="ttc" id="astate__map_8h_html_a4dec1ecf04058a525b4009c473a76c28"><div class="ttname"><a href="state__map_8h.html#a4dec1ecf04058a525b4009c473a76c28">state_map</a></div><div class="ttdeci">std::unordered_map&lt; std::string, double &gt; state_map</div><div class="ttdef"><b>Definition:</b> <a href="state__map_8h_source.html#l00030">state_map.h:30</a></div></div>

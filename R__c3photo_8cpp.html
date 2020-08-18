@@ -89,7 +89,7 @@ $(document).ready(function(){initNavTree('R__c3photo_8cpp.html',''); initResizab
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &lt;Rinternals.h&gt;</code><br />
-<code>#include &quot;module_library/c3photo.hpp&quot;</code><br />
+<code>#include &quot;<a class="el" href="c3photo_8hpp_source.html">module_library/c3photo.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Include dependency graph for R_c3photo.cpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('R__c3photo_8cpp.html',''); initResizab
 <map name="_2github_2workspace_2source_2src_2R__c3photo_8cpp" id="a_2github_2workspace_2source_2src_2R__c3photo_8cpp">
 <area shape="rect" title=" " alt="" coords="44,5,215,47"/>
 <area shape="rect" title=" " alt="" coords="5,95,96,121"/>
-<area shape="rect" title=" " alt="" coords="120,95,299,121"/>
+<area shape="rect" href="c3photo_8hpp.html" title=" " alt="" coords="120,95,299,121"/>
 </map>
 </div>
 </div>
@@ -217,7 +217,7 @@ Functions</h2></td></tr>
 
 <p class="definition">Definition at line <a class="el" href="R__c3photo_8cpp_source.html#l00006">6</a> of file <a class="el" href="R__c3photo_8cpp_source.html">R_c3photo.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;{</div>
-<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keyword">struct </span>c3_str tmp = {0,0,0,0};</div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;        <span class="keyword">struct </span><a class="code" href="structc3__str.html">c3_str</a> tmp = {0,0,0,0};</div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160; </div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;        <span class="keywordtype">double</span> vcmax = REAL(VCMAX)[0];</div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        <span class="keywordtype">double</span> jmax = REAL(JMAX)[0];</div>
@@ -251,11 +251,11 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                <span class="keywordtype">double</span> RH = REAL(RH1)[i];</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                <span class="keywordtype">double</span> Catm = REAL(CA)[i];</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160; </div>
-<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                tmp = c3photoC(Qp, Tl, RH, vcmax, jmax, Rd, Bet0, Bet1, Catm, O2, theta,StomWS, water_stress_approach, electrons_per_carboxylation, electrons_per_oxygenation);</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;                tmp = <a class="code" href="c3photo_8cpp.html#a4889758656320bc9290988b4dd5dcec2">c3photoC</a>(Qp, Tl, RH, vcmax, jmax, Rd, Bet0, Bet1, Catm, O2, theta,StomWS, water_stress_approach, electrons_per_carboxylation, electrons_per_oxygenation);</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                REAL(GsV)[i] = tmp.Gs;</div>
-<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                REAL(ASSV)[i] = tmp.Assim;    </div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                REAL(CiV)[i] = tmp.Ci;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;                REAL(GsV)[i] = tmp.<a class="code" href="structc3__str.html#a2fcc3787ac1ca5dd5be990fc00fb92f6">Gs</a>;</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;                REAL(ASSV)[i] = tmp.<a class="code" href="structc3__str.html#a859d76f4c4e8c6a96e34e9b99f2857dc">Assim</a>;    </div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;                REAL(CiV)[i] = tmp.<a class="code" href="structc3__str.html#a2a12fc78a3acec1015b347ca5942cc73">Ci</a>;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        }</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        SET_VECTOR_ELT(lists,0,GsV);</div>
@@ -269,10 +269,28 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        <span class="keywordflow">return</span>(lists);</div>
 <div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;}</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="c3photo_8hpp_source.html#l00009">c3_str::Assim</a>, <a class="el" href="c3photo_8cpp_source.html#l00027">c3photoC()</a>, <a class="el" href="c3photo_8hpp_source.html#l00011">c3_str::Ci</a>, and <a class="el" href="c3photo_8hpp_source.html#l00010">c3_str::Gs</a>.</p>
+<div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-1-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
+<div id="dynsection-1-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-1-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="R__c3photo_8cpp_a8aa07fde7879c1b924d8f4b556789f74_cgraph.png" border="0" usemap="#aR__c3photo_8cpp_a8aa07fde7879c1b924d8f4b556789f74_cgraph" alt=""/></div>
+<map name="R__c3photo_8cpp_a8aa07fde7879c1b924d8f4b556789f74_cgraph" id="aR__c3photo_8cpp_a8aa07fde7879c1b924d8f4b556789f74_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,73,32"/>
+<area shape="rect" href="c3photo_8cpp.html#a4889758656320bc9290988b4dd5dcec2" title=" " alt="" coords="121,5,199,32"/>
+</map>
+</div>
+
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="ac3photo_8cpp_html_a4889758656320bc9290988b4dd5dcec2"><div class="ttname"><a href="c3photo_8cpp.html#a4889758656320bc9290988b4dd5dcec2">c3photoC</a></div><div class="ttdeci">struct c3_str c3photoC(double _Qp, double _Tleaf, double RH, double _Vcmax0, double _Jmax, double _Rd0, double bb0, double bb1, double Ca, double _O2, double thet, double StomWS, int water_stress_approach, double electrons_per_carboxylation, double electrons_per_oxygenation)</div><div class="ttdef"><b>Definition:</b> <a href="c3photo_8cpp_source.html#l00021">c3photo.cpp:27</a></div></div>
+<div class="ttc" id="astructc3__str_html_a2fcc3787ac1ca5dd5be990fc00fb92f6"><div class="ttname"><a href="structc3__str.html#a2fcc3787ac1ca5dd5be990fc00fb92f6">c3_str::Gs</a></div><div class="ttdeci">double Gs</div><div class="ttdef"><b>Definition:</b> <a href="c3photo_8hpp_source.html#l00010">c3photo.hpp:10</a></div></div>
+<div class="ttc" id="astructc3__str_html_a2a12fc78a3acec1015b347ca5942cc73"><div class="ttname"><a href="structc3__str.html#a2a12fc78a3acec1015b347ca5942cc73">c3_str::Ci</a></div><div class="ttdeci">double Ci</div><div class="ttdef"><b>Definition:</b> <a href="c3photo_8hpp_source.html#l00011">c3photo.hpp:11</a></div></div>
+<div class="ttc" id="astructc3__str_html_a859d76f4c4e8c6a96e34e9b99f2857dc"><div class="ttname"><a href="structc3__str.html#a859d76f4c4e8c6a96e34e9b99f2857dc">c3_str::Assim</a></div><div class="ttdeci">double Assim</div><div class="ttdef"><b>Definition:</b> <a href="c3photo_8hpp_source.html#l00009">c3photo.hpp:9</a></div></div>
+<div class="ttc" id="astructc3__str_html"><div class="ttname"><a href="structc3__str.html">c3_str</a></div><div class="ttdef"><b>Definition:</b> <a href="c3photo_8hpp_source.html#l00008">c3photo.hpp:8</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

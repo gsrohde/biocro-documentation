@@ -1,0 +1,5 @@
+<map id="thermal_time_bilinear" name="thermal_time_bilinear">
+<area shape="rect" id="node1" title="Calculates the rate of thermal time accumulation using a bilinear model." alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node2" href="$classDerivModule.html" title=" " alt="" coords="31,80,125,107"/>
+<area shape="rect" id="node3" href="$classModule.html" title=" " alt="" coords="46,5,110,32"/>
+</map>

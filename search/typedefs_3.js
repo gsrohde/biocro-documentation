@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['second_5ftype_475',['second_type',['../classSystemCaller.html#abfefaff29724fa00897ca4ead5df9429',1,'SystemCaller']]],
-  ['state_5fmap_476',['state_map',['../state__map_8h.html#a4dec1ecf04058a525b4009c473a76c28',1,'state_map.h']]],
-  ['state_5fvector_5fmap_477',['state_vector_map',['../state__map_8h.html#acc562c42c1d464c702e0abd69e05673d',1,'state_map.h']]],
-  ['string_5fset_478',['string_set',['../validate__system_8h.html#a296e7261543d479bb5717d96d3fd2285',1,'validate_system.h']]],
-  ['string_5fvector_479',['string_vector',['../validate__system_8h.html#a1ff119048c542e2f0fa6c826e7473e62',1,'validate_system.h']]]
+  ['module_5fvector_1422',['module_vector',['../validate__system_8h.html#a34da96d6b93ff9b355ec5b508d622d29',1,'validate_system.h']]],
+  ['mole_5ffraction_1423',['mole_fraction',['../namespacebiocro__units.html#a5e866b4b909f5578c91d22c9dfb80953',1,'biocro_units']]]
 ];

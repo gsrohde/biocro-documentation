@@ -87,7 +87,7 @@ $(document).ready(function(){initNavTree('R__collatz__photo_8cpp_source.html',''
 </div><!--header-->
 <div class="contents">
 <a href="R__collatz__photo_8cpp.html">Go to the documentation of this file.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include &lt;Rinternals.h&gt;</span></div>
-<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;module_library/collatz_photo.hpp&quot;</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include &quot;<a class="code" href="collatz__photo_8hpp.html">module_library/collatz_photo.hpp</a>&quot;</span></div>
 <div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160; </div>
 <div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="keyword">extern</span> <span class="stringliteral">&quot;C&quot;</span> {</div>
 <div class="line"><a name="l00005"></a><span class="lineno"><a class="line" href="R__collatz__photo_8cpp.html#a3ade868990a98f4180acd1ccf8ba392a">    5</a></span>&#160;SEXP <a class="code" href="R__collatz__photo_8cpp.html#a3ade868990a98f4180acd1ccf8ba392a">collatz_photoC</a>(</div>
@@ -123,7 +123,7 @@ $(document).ready(function(){initNavTree('R__collatz__photo_8cpp_source.html',''
 <div class="line"><a name="l00035"></a><span class="lineno">   35</span>&#160;    PROTECT(assimilation = Rf_allocVector(REALSXP, 1));</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;    PROTECT(gross_assimilation = Rf_allocVector(REALSXP, 1));</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160; </div>
-<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">struct </span>collatz_result const result = collatz_photo(</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    <span class="keyword">struct </span><a class="code" href="structcollatz__result.html">collatz_result</a> const result = <a class="code" href="collatz__photo_8cpp.html#a8b6ed801aeda3fb4d6de7aae13664d73">collatz_photo</a>(</div>
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;                    qp,</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;                    leaf_temperature,</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;                    vmax,</div>
@@ -137,15 +137,15 @@ $(document).ready(function(){initNavTree('R__collatz__photo_8cpp_source.html',''
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;                    k_q10,</div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;                    intercellular_co2_molar_fraction);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160; </div>
-<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    REAL(assimilation)[0] = result.assimilation;</div>
-<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    REAL(gross_assimilation)[0] = result.gross_assimilation;</div>
+<div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160;    REAL(<a class="code" href="structcollatz__result.html#a893283c4f815592b1a5f366ac07d1a16">assimilation</a>)[0] = result.<a class="code" href="structcollatz__result.html#a893283c4f815592b1a5f366ac07d1a16">assimilation</a>;</div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;    REAL(<a class="code" href="structcollatz__result.html#a3e83cac64c2a40cd709a73daf1b02c64">gross_assimilation</a>)[0] = result.<a class="code" href="structcollatz__result.html#a3e83cac64c2a40cd709a73daf1b02c64">gross_assimilation</a>;</div>
 <div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160; </div>
 <div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;    SEXP lists, names;</div>
 <div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;    PROTECT(lists = Rf_allocVector(VECSXP,2));</div>
 <div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;    PROTECT(names = Rf_allocVector(STRSXP,2));</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160; </div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    SET_VECTOR_ELT(lists, 0, assimilation);</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    SET_VECTOR_ELT(lists, 1, gross_assimilation);</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;    SET_VECTOR_ELT(lists, 0, <a class="code" href="structcollatz__result.html#a893283c4f815592b1a5f366ac07d1a16">assimilation</a>);</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    SET_VECTOR_ELT(lists, 1, <a class="code" href="structcollatz__result.html#a3e83cac64c2a40cd709a73daf1b02c64">gross_assimilation</a>);</div>
 <div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160; </div>
 <div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;    SET_STRING_ELT(names, 0, Rf_mkChar(<span class="stringliteral">&quot;assimilation_rate&quot;</span>));</div>
 <div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;    SET_STRING_ELT(names, 1, Rf_mkChar(<span class="stringliteral">&quot;gross_assimilation_rate&quot;</span>));</div>
@@ -160,7 +160,12 @@ $(document).ready(function(){initNavTree('R__collatz__photo_8cpp_source.html',''
 <div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160; </div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
+<div class="ttc" id="acollatz__photo_8cpp_html_a8b6ed801aeda3fb4d6de7aae13664d73"><div class="ttname"><a href="collatz__photo_8cpp.html#a8b6ed801aeda3fb4d6de7aae13664d73">collatz_photo</a></div><div class="ttdeci">struct collatz_result collatz_photo(double Qp, double leaf_temperature, double vmax, double alpha, double kparm, double theta, double beta, double Rd, double upperT, double lowerT, double k_Q10, double intercellular_co2_molar_fraction)</div><div class="ttdef"><b>Definition:</b> <a href="collatz__photo_8cpp_source.html#l00001">collatz_photo.cpp:16</a></div></div>
+<div class="ttc" id="acollatz__photo_8hpp_html"><div class="ttname"><a href="collatz__photo_8hpp.html">collatz_photo.hpp</a></div></div>
+<div class="ttc" id="astructcollatz__result_html"><div class="ttname"><a href="structcollatz__result.html">collatz_result</a></div><div class="ttdef"><b>Definition:</b> <a href="collatz__photo_8hpp_source.html#l00008">collatz_photo.hpp:8</a></div></div>
+<div class="ttc" id="astructcollatz__result_html_a3e83cac64c2a40cd709a73daf1b02c64"><div class="ttname"><a href="structcollatz__result.html#a3e83cac64c2a40cd709a73daf1b02c64">collatz_result::gross_assimilation</a></div><div class="ttdeci">double gross_assimilation</div><div class="ttdef"><b>Definition:</b> <a href="collatz__photo_8hpp_source.html#l00010">collatz_photo.hpp:10</a></div></div>
 <div class="ttc" id="aR__collatz__photo_8cpp_html_a3ade868990a98f4180acd1ccf8ba392a"><div class="ttname"><a href="R__collatz__photo_8cpp.html#a3ade868990a98f4180acd1ccf8ba392a">collatz_photoC</a></div><div class="ttdeci">SEXP collatz_photoC(SEXP QP, SEXP LEAF_TEMPERATURE, SEXP VMAX, SEXP ALPHA, SEXP KPARM, SEXP THETA, SEXP BETA, SEXP RD, SEXP UPPERTEMP, SEXP LOWERTEMP, SEXP K_Q10, SEXP INTERCELLULAR_CO2_MOLAR_FRACTION)</div><div class="ttdef"><b>Definition:</b> <a href="R__collatz__photo_8cpp_source.html#l00005">R_collatz_photo.cpp:5</a></div></div>
+<div class="ttc" id="astructcollatz__result_html_a893283c4f815592b1a5f366ac07d1a16"><div class="ttname"><a href="structcollatz__result.html#a893283c4f815592b1a5f366ac07d1a16">collatz_result::assimilation</a></div><div class="ttdeci">double assimilation</div><div class="ttdef"><b>Definition:</b> <a href="collatz__photo_8hpp_source.html#l00009">collatz_photo.hpp:9</a></div></div>
 <div class="ttc" id="anamespacese__solver__rand_html_a3fc034598e8f3352bdae14904d6b96ba"><div class="ttname"><a href="namespacese__solver__rand.html#a3fc034598e8f3352bdae14904d6b96ba">se_solver_rand::rd</a></div><div class="ttdeci">std::random_device rd</div><div class="ttdef"><b>Definition:</b> <a href="se__solver_8cpp_source.html#l00012">se_solver.cpp:12</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->

@@ -160,7 +160,7 @@ Public Member Functions</h2></td></tr>
 <div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;    startup_message = std::string(<span class="stringliteral">&quot;&quot;</span>);</div>
 <div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160; </div>
 <div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    <span class="comment">// Make sure the inputs can form a valid set of simultaneous equations</span></div>
-<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">bool</span> valid = <a class="code" href="simultaneous__equations_8cpp.html#ae5eb48d46cc1e008c6a4b0d0400c7678">validate_simultaneous_equations_inputs</a>(startup_message, known_quantities, unknown_quantities, ss_module_names);</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;    <span class="keywordtype">bool</span> valid = <a class="code" href="simultaneous__equations_8cpp.html#ae5eb48d46cc1e008c6a4b0d0400c7678">validate_simultaneous_equations_inputs</a>(startup_message, known_quantities, <a class="code" href="namespaceed__leaf__photosynthesis__nr.html#a2125dce254a41d380f035e38a7493c56">unknown_quantities</a>, ss_module_names);</div>
 <div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;    <span class="keywordflow">if</span> (!valid) {</div>
 <div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;        <span class="keywordflow">throw</span> std::logic_error(<span class="stringliteral">&quot;Thrown by simultaneous_equations::simultaneous_equations: the supplied inputs cannot form a valid set of simultaneous equations.\n\n&quot;</span> + startup_message);</div>
 <div class="line"><a name="l00161"></a><span class="lineno">  161</span>&#160;    }</div>
@@ -193,17 +193,17 @@ Public Member Functions</h2></td></tr>
 <div class="line"><a name="l00188"></a><span class="lineno">  188</span>&#160;    <span class="comment">// Get vectors of pointers to important subsets of the quantities.</span></div>
 <div class="line"><a name="l00189"></a><span class="lineno">  189</span>&#160;    <span class="comment">// These pointers allow us to efficiently alter portions of the</span></div>
 <div class="line"><a name="l00190"></a><span class="lineno">  190</span>&#160;    <span class="comment">//  quantity maps before running the modules.</span></div>
-<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    unknown_ptrs = <a class="code" href="system__helper__functions_8h.html#ab35470319479a69326a1de4f23c05545">get_pointers</a>(unknown_quantities, quantities);</div>
+<div class="line"><a name="l00191"></a><span class="lineno">  191</span>&#160;    unknown_ptrs = <a class="code" href="system__helper__functions_8h.html#ab35470319479a69326a1de4f23c05545">get_pointers</a>(<a class="code" href="namespaceed__leaf__photosynthesis__nr.html#a2125dce254a41d380f035e38a7493c56">unknown_quantities</a>, quantities);</div>
 <div class="line"><a name="l00192"></a><span class="lineno">  192</span>&#160;    steady_state_ptrs = <a class="code" href="system__helper__functions_8h.html#ab35470319479a69326a1de4f23c05545">get_pointers</a>(steady_state_output_names, module_output_map);</div>
 <div class="line"><a name="l00193"></a><span class="lineno">  193</span>&#160; </div>
 <div class="line"><a name="l00194"></a><span class="lineno">  194</span>&#160;    <span class="comment">// Get pairs of pointers to important subsets of the quantities.</span></div>
 <div class="line"><a name="l00195"></a><span class="lineno">  195</span>&#160;    <span class="comment">// These pairs allow us to efficiently retrieve the output of each</span></div>
 <div class="line"><a name="l00196"></a><span class="lineno">  196</span>&#160;    <span class="comment">//  module and store it in the main quantity map</span></div>
-<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    unknown_ptr_pairs = <a class="code" href="system__helper__functions_8h.html#a1e06900ea3338ca300c33d8582211d4c">get_pointer_pairs</a>(unknown_quantities, quantities, module_output_map);</div>
+<div class="line"><a name="l00197"></a><span class="lineno">  197</span>&#160;    unknown_ptr_pairs = <a class="code" href="system__helper__functions_8h.html#a1e06900ea3338ca300c33d8582211d4c">get_pointer_pairs</a>(<a class="code" href="namespaceed__leaf__photosynthesis__nr.html#a2125dce254a41d380f035e38a7493c56">unknown_quantities</a>, quantities, module_output_map);</div>
 <div class="line"><a name="l00198"></a><span class="lineno">  198</span>&#160;    steady_state_ptr_pairs = <a class="code" href="system__helper__functions_8h.html#a1e06900ea3338ca300c33d8582211d4c">get_pointer_pairs</a>(steady_state_output_names, quantities, module_output_map);</div>
 <div class="line"><a name="l00199"></a><span class="lineno">  199</span>&#160;}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="validate__system_8cpp_source.html#l00292">define_quantity_map()</a>, <a class="el" href="validate__system_8cpp_source.html#l00438">find_unique_module_outputs()</a>, <a class="el" href="system__helper__functions_8h_source.html#l00125">get_const_pointers()</a>, <a class="el" href="validate__system_8cpp_source.html#l00583">get_module_vector()</a>, <a class="el" href="system__helper__functions_8h_source.html#l00018">get_pointer_pairs()</a>, <a class="el" href="system__helper__functions_8h_source.html#l00107">get_pointers()</a>, <a class="el" href="state__map_8h_source.html#l00045">keys()</a>, <a class="el" href="validate__system_8cpp_source.html#l00667">string_set_to_string_vector()</a>, and <a class="el" href="simultaneous__equations_8cpp_source.html#l00035">validate_simultaneous_equations_inputs()</a>.</p>
+<p class="reference">References <a class="el" href="validate__system_8cpp_source.html#l00292">define_quantity_map()</a>, <a class="el" href="validate__system_8cpp_source.html#l00438">find_unique_module_outputs()</a>, <a class="el" href="system__helper__functions_8h_source.html#l00125">get_const_pointers()</a>, <a class="el" href="validate__system_8cpp_source.html#l00583">get_module_vector()</a>, <a class="el" href="system__helper__functions_8h_source.html#l00018">get_pointer_pairs()</a>, <a class="el" href="system__helper__functions_8h_source.html#l00107">get_pointers()</a>, <a class="el" href="state__map_8h_source.html#l00045">keys()</a>, <a class="el" href="validate__system_8cpp_source.html#l00667">string_set_to_string_vector()</a>, <a class="el" href="ed__leaf__photosynthesis__nr_8h_source.html#l00014">ed_leaf_photosynthesis_nr::unknown_quantities</a>, and <a class="el" href="simultaneous__equations_8cpp_source.html#l00035">validate_simultaneous_equations_inputs()</a>.</p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -211,29 +211,30 @@ Public Member Functions</h2></td></tr>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classsimultaneous__equations_a3daef1926e5ffa416a9581a7863ee72f_cgraph.png" border="0" usemap="#aclasssimultaneous__equations_a3daef1926e5ffa416a9581a7863ee72f_cgraph" alt=""/></div>
 <map name="classsimultaneous__equations_a3daef1926e5ffa416a9581a7863ee72f_cgraph" id="aclasssimultaneous__equations_a3daef1926e5ffa416a9581a7863ee72f_cgraph">
-<area shape="rect" title=" " alt="" coords="5,201,173,242"/>
-<area shape="rect" href="validate__system_8cpp.html#a07fd44b643a27c692a22032bf63f4319" title=" " alt="" coords="227,5,367,32"/>
-<area shape="rect" href="validate__system_8cpp.html#a96840539e64ce8ccec9df05cc320222e" title=" " alt="" coords="636,106,772,147"/>
-<area shape="rect" href="system__helper__functions_8h.html#ae8d8433e352300150a183ae058a753d2" title=" " alt="" coords="231,107,363,133"/>
-<area shape="rect" href="validate__system_8cpp.html#a16d70a03d490d999f59e35d66e0597fe" title=" " alt="" coords="231,157,363,184"/>
-<area shape="rect" href="system__helper__functions_8h.html#a1e06900ea3338ca300c33d8582211d4c" title=" " alt="" coords="236,208,357,235"/>
-<area shape="rect" href="system__helper__functions_8h.html#ab35470319479a69326a1de4f23c05545" title=" " alt="" coords="250,259,343,285"/>
-<area shape="rect" href="state__map_8h.html#af565e334821397e58476ac34585263de" title=" " alt="" coords="890,576,939,603"/>
-<area shape="rect" href="validate__system_8cpp.html#a81af0c9fd2ef95fe7d844d49301408d7" title=" " alt="" coords="636,294,772,335"/>
-<area shape="rect" href="simultaneous__equations_8cpp.html#ae5eb48d46cc1e008c6a4b0d0400c7678" title="Checks over a group of quantities and modules to ensure they can be used to create a valid set of sim..." alt="" coords="221,411,372,453"/>
-<area shape="rect" href="validate__system_8h.html#ab5f236ba78da738b307b71f73d78f2b1" title=" " alt="" coords="442,543,561,569"/>
-<area shape="rect" href="validate__system_8cpp.html#aba001562bc25daec2902a32b6fac72d9" title=" " alt="" coords="425,594,578,635"/>
-<area shape="rect" href="validate__system_8cpp.html#af3304d4593d3a71799f61af8eb18774f" title=" " alt="" coords="425,411,578,453"/>
-<area shape="rect" href="validate__system_8h.html#a3b0ba0722c4dd20bfc36e6f92ff276ff" title=" " alt="" coords="431,477,571,518"/>
-<area shape="rect" href="simultaneous__equations_8cpp.html#ae2a605d520f1fc493875c92029c21e7c" title="Finds the unknown quantities defined by the set of modules." alt="" coords="420,247,583,273"/>
-<area shape="rect" href="validate__system_8cpp.html#ade9afc8d0488c1ba6c692845d5c5086f" title=" " alt="" coords="421,360,581,387"/>
-<area shape="rect" href="validate__system_8h.html#acbca89ff1657b5c4b07ad672dbd47f1a" title=" " alt="" coords="641,543,767,569"/>
-<area shape="rect" href="validate__system_8cpp.html#ae000a5a42ee470ce3b44ae220dfeae4d" title=" " alt="" coords="631,594,777,635"/>
-<area shape="rect" href="validate__system_8cpp.html#a68ab75e71590ce4a83b56f348360dced" title=" " alt="" coords="631,411,777,453"/>
-<area shape="rect" href="validate__system_8h.html#ad2321956b4c48d7bbb29b60b00722982" title=" " alt="" coords="641,488,767,515"/>
-<area shape="rect" href="validate__system_8cpp.html#abeb01cae7442e3f44e4431f42c5fd79e" title="Returns a vector containing all inputs to the set of modules that are not outputs produced by previou..." alt="" coords="634,229,774,270"/>
-<area shape="rect" href="validate__system_8h.html#aa7d00f772a8481e700ff6e6ac2fae3a9" title=" " alt="" coords="855,321,975,362"/>
-<area shape="rect" href="validate__system_8cpp.html#af056787c60e69c4bd097ed626a8b3e7a" title="Creates a string_set from all the elements of a string_vector." alt="" coords="825,236,1004,263"/>
+<area shape="rect" title=" " alt="" coords="5,476,173,517"/>
+<area shape="rect" href="validate__system_8cpp.html#a07fd44b643a27c692a22032bf63f4319" title=" " alt="" coords="227,10,367,37"/>
+<area shape="rect" href="validate__system_8cpp.html#a96840539e64ce8ccec9df05cc320222e" title=" " alt="" coords="636,97,772,139"/>
+<area shape="rect" href="system__helper__functions_8h.html#ae8d8433e352300150a183ae058a753d2" title=" " alt="" coords="231,677,363,703"/>
+<area shape="rect" href="validate__system_8cpp.html#a16d70a03d490d999f59e35d66e0597fe" title=" " alt="" coords="231,61,363,87"/>
+<area shape="rect" href="system__helper__functions_8h.html#a1e06900ea3338ca300c33d8582211d4c" title=" " alt="" coords="236,727,357,754"/>
+<area shape="rect" href="system__helper__functions_8h.html#ab35470319479a69326a1de4f23c05545" title=" " alt="" coords="250,778,343,805"/>
+<area shape="rect" href="state__map_8h.html#af565e334821397e58476ac34585263de" title=" " alt="" coords="890,569,939,595"/>
+<area shape="rect" href="validate__system_8cpp.html#a81af0c9fd2ef95fe7d844d49301408d7" title=" " alt="" coords="636,163,772,204"/>
+<area shape="rect" href="simultaneous__equations_8cpp.html#ae5eb48d46cc1e008c6a4b0d0400c7678" title="Checks over a group of quantities and modules to ensure they can be used to create a valid set of sim..." alt="" coords="221,476,372,517"/>
+<area shape="rect" href="classmodule__wrapper__factory.html#ae7cad30fa9066a569f8450294eb973e8" title=" " alt="" coords="833,160,996,201"/>
+<area shape="rect" href="validate__system_8h.html#ab5f236ba78da738b307b71f73d78f2b1" title=" " alt="" coords="442,563,561,590"/>
+<area shape="rect" href="validate__system_8cpp.html#aba001562bc25daec2902a32b6fac72d9" title=" " alt="" coords="425,615,578,656"/>
+<area shape="rect" href="validate__system_8cpp.html#af3304d4593d3a71799f61af8eb18774f" title=" " alt="" coords="425,381,578,423"/>
+<area shape="rect" href="validate__system_8h.html#a3b0ba0722c4dd20bfc36e6f92ff276ff" title=" " alt="" coords="431,447,571,488"/>
+<area shape="rect" href="simultaneous__equations_8cpp.html#ae2a605d520f1fc493875c92029c21e7c" title="Finds the unknown quantities defined by the set of modules." alt="" coords="420,275,583,302"/>
+<area shape="rect" href="validate__system_8cpp.html#ade9afc8d0488c1ba6c692845d5c5086f" title=" " alt="" coords="421,513,581,539"/>
+<area shape="rect" href="validate__system_8h.html#acbca89ff1657b5c4b07ad672dbd47f1a" title=" " alt="" coords="641,563,767,590"/>
+<area shape="rect" href="validate__system_8cpp.html#ae000a5a42ee470ce3b44ae220dfeae4d" title=" " alt="" coords="631,615,777,656"/>
+<area shape="rect" href="validate__system_8cpp.html#a68ab75e71590ce4a83b56f348360dced" title=" " alt="" coords="631,396,777,437"/>
+<area shape="rect" href="validate__system_8h.html#ad2321956b4c48d7bbb29b60b00722982" title=" " alt="" coords="641,462,767,489"/>
+<area shape="rect" href="validate__system_8cpp.html#abeb01cae7442e3f44e4431f42c5fd79e" title="Returns a vector containing all inputs to the set of modules that are not outputs produced by previou..." alt="" coords="634,331,774,372"/>
+<area shape="rect" href="validate__system_8h.html#aa7d00f772a8481e700ff6e6ac2fae3a9" title=" " alt="" coords="855,448,975,489"/>
+<area shape="rect" href="validate__system_8cpp.html#af056787c60e69c4bd097ed626a8b3e7a" title="Creates a string_set from all the elements of a string_vector." alt="" coords="825,338,1004,365"/>
 </map>
 </div>
 
@@ -492,6 +493,7 @@ template&lt;typename in_vector_type , typename out_vector_type &gt; </div>
 <div class="ttc" id="asystem__helper__functions_8h_html_a1e06900ea3338ca300c33d8582211d4c"><div class="ttname"><a href="system__helper__functions_8h.html#a1e06900ea3338ca300c33d8582211d4c">get_pointer_pairs</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; value_type_1 *, const value_type_2 * &gt; &gt; get_pointer_pairs(name_list_type quantity_names, std::unordered_map&lt; std::string, value_type_1 &gt; &amp;map_1, const std::unordered_map&lt; std::string, value_type_2 &gt; &amp;map_2)</div><div class="ttdef"><b>Definition:</b> <a href="system__helper__functions_8h_source.html#l00018">system_helper_functions.h:18</a></div></div>
 <div class="ttc" id="asimultaneous__equations_8cpp_html_ae5eb48d46cc1e008c6a4b0d0400c7678"><div class="ttname"><a href="simultaneous__equations_8cpp.html#ae5eb48d46cc1e008c6a4b0d0400c7678">validate_simultaneous_equations_inputs</a></div><div class="ttdeci">bool validate_simultaneous_equations_inputs(std::string &amp;message, state_map const &amp;known_quantities, string_vector const &amp;unknown_quantities, string_vector const &amp;ss_module_names)</div><div class="ttdoc">Checks over a group of quantities and modules to ensure they can be used to create a valid set of sim...</div><div class="ttdef"><b>Definition:</b> <a href="simultaneous__equations_8cpp_source.html#l00035">simultaneous_equations.cpp:35</a></div></div>
 <div class="ttc" id="astate__map_8h_html_af565e334821397e58476ac34585263de"><div class="ttname"><a href="state__map_8h.html#af565e334821397e58476ac34585263de">keys</a></div><div class="ttdeci">std::vector&lt; std::string &gt; keys(map_with_string_key_type const &amp;map)</div><div class="ttdef"><b>Definition:</b> <a href="state__map_8h_source.html#l00045">state_map.h:45</a></div></div>
+<div class="ttc" id="anamespaceed__leaf__photosynthesis__nr_html_a2125dce254a41d380f035e38a7493c56"><div class="ttname"><a href="namespaceed__leaf__photosynthesis__nr.html#a2125dce254a41d380f035e38a7493c56">ed_leaf_photosynthesis_nr::unknown_quantities</a></div><div class="ttdeci">const string_vector unknown_quantities</div><div class="ttdef"><b>Definition:</b> <a href="ed__leaf__photosynthesis__nr_8h_source.html#l00014">ed_leaf_photosynthesis_nr.h:14</a></div></div>
 <div class="ttc" id="avalidate__system_8cpp_html_a96840539e64ce8ccec9df05cc320222e"><div class="ttname"><a href="validate__system_8cpp.html#a96840539e64ce8ccec9df05cc320222e">find_unique_module_outputs</a></div><div class="ttdeci">string_set find_unique_module_outputs(std::vector&lt; string_vector &gt; module_name_vectors)</div><div class="ttdef"><b>Definition:</b> <a href="validate__system_8cpp_source.html#l00438">validate_system.cpp:438</a></div></div>
 <div class="ttc" id="avalidate__system_8cpp_html_a07fd44b643a27c692a22032bf63f4319"><div class="ttname"><a href="validate__system_8cpp.html#a07fd44b643a27c692a22032bf63f4319">define_quantity_map</a></div><div class="ttdeci">state_map define_quantity_map(std::vector&lt; state_map &gt; state_maps, std::vector&lt; string_vector &gt; module_name_vectors)</div><div class="ttdef"><b>Definition:</b> <a href="validate__system_8cpp_source.html#l00292">validate_system.cpp:292</a></div></div>
 <div class="ttc" id="asystem__helper__functions_8h_html_ab35470319479a69326a1de4f23c05545"><div class="ttname"><a href="system__helper__functions_8h.html#ab35470319479a69326a1de4f23c05545">get_pointers</a></div><div class="ttdeci">std::vector&lt; value_type * &gt; get_pointers(name_list_type quantity_names, std::unordered_map&lt; std::string, value_type &gt; &amp;map)</div><div class="ttdef"><b>Definition:</b> <a href="system__helper__functions_8h_source.html#l00107">system_helper_functions.h:107</a></div></div>

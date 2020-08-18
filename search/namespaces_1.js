@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['math_5fconstants_253',['math_constants',['../namespacemath__constants.html',1,'']]]
+  ['calculation_5fconstants_808',['calculation_constants',['../namespacecalculation__constants.html',1,'']]]
 ];

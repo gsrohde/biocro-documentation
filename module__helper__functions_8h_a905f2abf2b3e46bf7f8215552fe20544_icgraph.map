@@ -1,4 +1,13 @@
 <map id="add_class_prefix_to_quantity_name" name="add_class_prefix_to_quantity_name">
-<area shape="rect" id="node1" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="192,5,328,47"/>
-<area shape="rect" id="node2" href="$module__helper__functions_8h.html#a7868e0c734ccbe12020ce9597419a0b0" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node1" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="780,185,916,227"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8h.html#a7868e0c734ccbe12020ce9597419a0b0" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="550,152,689,193"/>
+<area shape="rect" id="node11" href="$classmultilayer__canopy__photosynthesis.html#a8f3619ef372663999ad500e503baa225" title="Constructor for a multilayer canopy photosynthesis module, which initializes the leaf module and prep..." alt="" coords="507,217,732,259"/>
+<area shape="rect" id="node3" href="$classmultilayer__canopy__photosynthesis.html#a9fd69e78114015a28c247b2c2bb85308" title=" " alt="" coords="240,71,459,112"/>
+<area shape="rect" id="node6" href="$classmultilayer__canopy__photosynthesis.html#a9058e26dc79b82cbf5c68da3a43c9fe7" title=" " alt="" coords="240,152,459,193"/>
+<area shape="rect" id="node9" href="$classmultilayer__canopy__properties.html#a6db428ae1144dc1edfe694217135eb1e" title="Define all output names by appending leaf class prefixes and layer number suffixes...." alt="" coords="255,249,444,291"/>
+<area shape="rect" id="node4" href="$classten__layer__c3__canopy.html#a5f9ff0ed0880da8c9bca7ef1c5a13590" title=" " alt="" coords="27,5,170,47"/>
+<area shape="rect" id="node5" href="$classten__layer__c4__canopy.html#a5486f2bc4e4b86d5a9015cd0424b1257" title=" " alt="" coords="27,71,170,112"/>
+<area shape="rect" id="node7" href="$classten__layer__c3__canopy.html#ad92e7d7547888dff5a67d79d37bc31d8" title=" " alt="" coords="27,136,170,177"/>
+<area shape="rect" id="node8" href="$classten__layer__c4__canopy.html#a36d1df71045dae367795327b74fcd9a1" title=" " alt="" coords="27,201,170,243"/>
+<area shape="rect" id="node10" href="$classten__layer__canopy__properties.html#a10ed2e2e744f93c042e149d68c9b9af9" title=" " alt="" coords="5,267,192,308"/>
 </map>

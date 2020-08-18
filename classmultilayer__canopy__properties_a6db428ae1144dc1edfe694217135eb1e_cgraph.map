@@ -1,0 +1,10 @@
+<map id="multilayer_canopy_properties::get_outputs" name="multilayer_canopy_properties::get_outputs">
+<area shape="rect" id="node1" title="Define all output names by appending leaf class prefixes and layer number suffixes...." alt="" coords="5,157,195,199"/>
+<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#a2f0b02a5cc21ee9595c307139633c10a" title="Define the different leaf classes included by the module." alt="" coords="243,5,433,47"/>
+<area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#ae9f384a8b0eb171afd35282622e490a3" title="Define all outputs that have different values for each leaf class and layer." alt="" coords="243,70,433,126"/>
+<area shape="rect" id="node4" href="$classmultilayer__canopy__properties.html#ac08b254e300ec897ec6ba38ba5467783" title="Define all outputs that have different values for each layer, not including outputs that also depend ..." alt="" coords="243,150,433,206"/>
+<area shape="rect" id="node5" href="$module__helper__functions_8cpp.html#a7868e0c734ccbe12020ce9597419a0b0" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="269,229,407,271"/>
+<area shape="rect" id="node7" href="$module__helper__functions_8cpp.html#a1925bc7f4cf2a5fafbfe3f4f1b3d73e2" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="271,295,405,336"/>
+<area shape="rect" id="node6" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="481,229,617,271"/>
+<area shape="rect" id="node8" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="484,295,615,336"/>
+</map>

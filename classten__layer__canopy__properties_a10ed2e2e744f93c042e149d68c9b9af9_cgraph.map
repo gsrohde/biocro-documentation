@@ -1,0 +1,11 @@
+<map id="ten_layer_canopy_properties::get_outputs" name="ten_layer_canopy_properties::get_outputs">
+<area shape="rect" id="node1" title=" " alt="" coords="5,157,192,199"/>
+<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#a6db428ae1144dc1edfe694217135eb1e" title="Define all output names by appending leaf class prefixes and layer number suffixes...." alt="" coords="240,157,429,199"/>
+<area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#a2f0b02a5cc21ee9595c307139633c10a" title="Define the different leaf classes included by the module." alt="" coords="478,5,667,47"/>
+<area shape="rect" id="node4" href="$classmultilayer__canopy__properties.html#ae9f384a8b0eb171afd35282622e490a3" title="Define all outputs that have different values for each leaf class and layer." alt="" coords="477,70,668,126"/>
+<area shape="rect" id="node5" href="$classmultilayer__canopy__properties.html#ac08b254e300ec897ec6ba38ba5467783" title="Define all outputs that have different values for each layer, not including outputs that also depend ..." alt="" coords="478,150,667,206"/>
+<area shape="rect" id="node6" href="$module__helper__functions_8cpp.html#a7868e0c734ccbe12020ce9597419a0b0" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="503,229,642,271"/>
+<area shape="rect" id="node8" href="$module__helper__functions_8cpp.html#a1925bc7f4cf2a5fafbfe3f4f1b3d73e2" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="505,295,640,336"/>
+<area shape="rect" id="node7" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="716,229,852,271"/>
+<area shape="rect" id="node9" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="719,295,849,336"/>
+</map>
