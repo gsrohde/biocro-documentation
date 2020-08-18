@@ -1,5 +1,4 @@
 <map id="ed_leaf_photosynthesis::module_base" name="ed_leaf_photosynthesis::module_base">
-<area shape="rect" id="node1" title="A general module representing photosynthesis calculations. Note that this module cannot be created by..." alt="" coords="5,155,164,196"/>
-<area shape="rect" id="node2" href="$classSteadyModule.html" title=" " alt="" coords="33,80,137,107"/>
-<area shape="rect" id="node3" href="$classModule.html" title=" " alt="" coords="53,5,117,32"/>
+<area shape="rect" id="node1" title="A general module representing photosynthesis calculations. Note that this module cannot be created by..." alt="" coords="5,80,164,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,5,137,32"/>
 </map>

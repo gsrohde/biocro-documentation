@@ -1,5 +1,4 @@
 <map id="ed_penman_monteith_leaf_temperature" name="ed_penman_monteith_leaf_temperature">
-<area shape="rect" id="node1" title="Uses the Penman&#45;Monteith equation to determine leaf temperature (see eq. 14.11e from Thornley (1990),..." alt="" coords="5,155,152,196"/>
-<area shape="rect" id="node2" href="$classSteadyModule.html" title=" " alt="" coords="27,80,131,107"/>
-<area shape="rect" id="node3" href="$classModule.html" title=" " alt="" coords="47,5,111,32"/>
+<area shape="rect" id="node1" title="Uses the Penman&#45;Monteith equation to determine leaf temperature (see eq. 14.11e from Thornley (1990),..." alt="" coords="5,80,152,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="27,5,131,32"/>
 </map>

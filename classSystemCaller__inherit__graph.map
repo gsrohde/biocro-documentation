@@ -1,4 +1,0 @@
-<map id="SystemCaller" name="SystemCaller">
-<area shape="rect" id="node1" title="This is a simple class that allows the same object to be used as inputs to integrate_const with expli..." alt="" coords="33,80,132,107"/>
-<area shape="rect" id="node2" href="$classSystemPointerWrapper.html" title="This is a simple wrapper class that prevents odeint from making zillions of copies of an input system..." alt="" coords="5,5,160,32"/>
-</map>

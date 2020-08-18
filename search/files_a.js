@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['magic_5fclock_2ehpp_936',['magic_clock.hpp',['../magic__clock_8hpp.html',1,'']]],
-  ['module_5fdependency_5futilities_2ecpp_937',['module_dependency_utilities.cpp',['../module__dependency__utilities_8cpp.html',1,'']]],
-  ['module_5fdependency_5futilities_2eh_938',['module_dependency_utilities.h',['../module__dependency__utilities_8h.html',1,'']]],
-  ['module_5fgraph_5ftest_2ehpp_939',['module_graph_test.hpp',['../module__graph__test_8hpp.html',1,'']]],
-  ['module_5fhelper_5ffunctions_2ecpp_940',['module_helper_functions.cpp',['../module__helper__functions_8cpp.html',1,'']]],
-  ['module_5fhelper_5ffunctions_2eh_941',['module_helper_functions.h',['../module__helper__functions_8h.html',1,'']]],
-  ['module_5fwrapper_2eh_942',['module_wrapper.h',['../module__wrapper_8h.html',1,'']]],
-  ['module_5fwrapper_5ffactory_2ecpp_943',['module_wrapper_factory.cpp',['../module__wrapper__factory_8cpp.html',1,'']]],
-  ['module_5fwrapper_5ffactory_2eh_944',['module_wrapper_factory.h',['../module__wrapper__factory_8h.html',1,'']]],
-  ['modules_2ecpp_945',['modules.cpp',['../modules_8cpp.html',1,'']]],
-  ['modules_2eh_946',['modules.h',['../modules_8h.html',1,'']]],
-  ['multilayer_5fc3_5fcanopy_2eh_947',['multilayer_c3_canopy.h',['../multilayer__c3__canopy_8h.html',1,'']]],
-  ['multilayer_5fc4_5fcanopy_2eh_948',['multilayer_c4_canopy.h',['../multilayer__c4__canopy_8h.html',1,'']]],
-  ['multilayer_5fcanopy_5fintegrator_2eh_949',['multilayer_canopy_integrator.h',['../multilayer__canopy__integrator_8h.html',1,'']]],
-  ['multilayer_5fcanopy_5fphotosynthesis_2eh_950',['multilayer_canopy_photosynthesis.h',['../multilayer__canopy__photosynthesis_8h.html',1,'']]],
-  ['multilayer_5fcanopy_5fproperties_2eh_951',['multilayer_canopy_properties.h',['../multilayer__canopy__properties_8h.html',1,'']]]
+  ['night_5fand_5fday_5ftrackers_2ehpp_637',['night_and_day_trackers.hpp',['../night__and__day__trackers_8hpp.html',1,'']]],
+  ['no_5fleaf_5fresp_5fpartitioning_5fgrowth_5fcalculator_2ehpp_638',['no_leaf_resp_partitioning_growth_calculator.hpp',['../no__leaf__resp__partitioning__growth__calculator_8hpp.html',1,'']]],
+  ['nr_5fex_2ehpp_639',['nr_ex.hpp',['../nr__ex_8hpp.html',1,'']]]
 ];

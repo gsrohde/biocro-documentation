@@ -187,8 +187,8 @@ $(document).ready(function(){initNavTree('module__wrapper__factory_8cpp.html',''
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:ac56d2dfcd999b585c6f90555d7aed5ca"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:ac56d2dfcd999b585c6f90555d7aed5ca"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; <a class="el" href="classmodule__wrapper__base.html">module_wrapper_base</a> &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="module__wrapper__factory_8cpp.html#ac56d2dfcd999b585c6f90555d7aed5ca">create_wrapper</a> ()</td></tr>
-<tr class="memdesc:ac56d2dfcd999b585c6f90555d7aed5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that returns a unique_ptr to a <a class="el" href="classmodule__wrapper__base.html">module_wrapper_base</a> object.  <a href="module__wrapper__factory_8cpp.html#ac56d2dfcd999b585c6f90555d7aed5ca">More...</a><br /></td></tr>
+<tr class="memitem:ac56d2dfcd999b585c6f90555d7aed5ca"><td class="memTemplItemLeft" align="right" valign="top">std::unique_ptr&lt; module_wrapper_base &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="module__wrapper__factory_8cpp.html#ac56d2dfcd999b585c6f90555d7aed5ca">create_wrapper</a> ()</td></tr>
+<tr class="memdesc:ac56d2dfcd999b585c6f90555d7aed5ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">A function that returns a unique_ptr to a module_wrapper_base object.  <a href="module__wrapper__factory_8cpp.html#ac56d2dfcd999b585c6f90555d7aed5ca">More...</a><br /></td></tr>
 <tr class="separator:ac56d2dfcd999b585c6f90555d7aed5ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -201,7 +201,7 @@ Functions</h2></td></tr>
 template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::unique_ptr&lt;<a class="el" href="classmodule__wrapper__base.html">module_wrapper_base</a>&gt; create_wrapper </td>
+          <td class="memname">std::unique_ptr&lt;module_wrapper_base&gt; create_wrapper </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -209,18 +209,17 @@ template&lt;typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>A function that returns a unique_ptr to a <a class="el" href="classmodule__wrapper__base.html">module_wrapper_base</a> object. </p>
+<p>A function that returns a unique_ptr to a module_wrapper_base object. </p>
 
 <p class="definition">Definition at line <a class="el" href="module__wrapper__factory_8cpp_source.html#l00101">101</a> of file <a class="el" href="module__wrapper__factory_8cpp_source.html">module_wrapper_factory.cpp</a>.</p>
 <div class="fragment"><div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;{</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> std::unique_ptr&lt;module_wrapper_base&gt;(<span class="keyword">new</span> <a class="code" href="classmodule__wrapper.html">module_wrapper&lt;T&gt;</a>);</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    <span class="keywordflow">return</span> std::unique_ptr&lt;module_wrapper_base&gt;(<span class="keyword">new</span> module_wrapper&lt;T&gt;);</div>
 <div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;}</div>
 </div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassmodule__wrapper_html"><div class="ttname"><a href="classmodule__wrapper.html">module_wrapper</a></div><div class="ttdef"><b>Definition:</b> <a href="module__wrapper_8h_source.html#l00027">module_wrapper.h:27</a></div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>

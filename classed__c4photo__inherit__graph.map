@@ -1,5 +1,4 @@
 <map id="ed_c4photo" name="ed_c4photo">
-<area shape="rect" id="node1" title="Just a module wrapper for the c4photo function. Currently only intended for use by Ed." alt="" coords="13,155,102,181"/>
-<area shape="rect" id="node2" href="$classSteadyModule.html" title=" " alt="" coords="5,80,109,107"/>
-<area shape="rect" id="node3" href="$classModule.html" title=" " alt="" coords="25,5,89,32"/>
+<area shape="rect" id="node1" title="Just a module wrapper for the c4photo function. Currently only intended for use by Ed." alt="" coords="13,80,102,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,5,109,32"/>
 </map>

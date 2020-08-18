@@ -1,5 +1,0 @@
-<map id="multilayer_canopy_photosynthesis::multilayer_canopy_photosynthesis" name="multilayer_canopy_photosynthesis::multilayer_canopy_photosynthesis">
-<area shape="rect" id="node1" title="Constructor for a multilayer canopy photosynthesis module, which initializes the leaf module and prep..." alt="" coords="5,39,231,80"/>
-<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="279,5,415,47"/>
-<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="281,71,412,112"/>
-</map>

@@ -1,14 +1,10 @@
 var searchData=
 [
-  ['newcanac_402',['newCanAC',['../canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b',1,'canac_with_collatz.hpp']]],
-  ['night_5fand_5fday_5ftrackers_403',['night_and_day_trackers',['../classnight__and__day__trackers.html',1,'night_and_day_trackers'],['../classnight__and__day__trackers.html#aa9ac34a0cfc7d8828717821d396834f0',1,'night_and_day_trackers::night_and_day_trackers()']]],
-  ['night_5fand_5fday_5ftrackers_2ehpp_404',['night_and_day_trackers.hpp',['../night__and__day__trackers_8hpp.html',1,'']]],
-  ['nikolov_405',['nikolov',['../namespacenikolov.html',1,'']]],
-  ['nitroparms_406',['nitroParms',['../structnitroParms.html',1,'']]],
-  ['nleach_407',['Nleach',['../structws__str.html#adb12cb7c4d83c85849de127132bca5d1',1,'ws_str::Nleach()'],['../structsoilML__str.html#a01cde156faa3f11579218b3759f5f126',1,'soilML_str::Nleach()']]],
-  ['no_5fleaf_5fresp_5fpartitioning_5fgrowth_5fcalculator_408',['no_leaf_resp_partitioning_growth_calculator',['../classno__leaf__resp__partitioning__growth__calculator.html',1,'no_leaf_resp_partitioning_growth_calculator'],['../classno__leaf__resp__partitioning__growth__calculator.html#aaabcdc283e0427375df854997103cdc7',1,'no_leaf_resp_partitioning_growth_calculator::no_leaf_resp_partitioning_growth_calculator()']]],
-  ['no_5fleaf_5fresp_5fpartitioning_5fgrowth_5fcalculator_2ehpp_409',['no_leaf_resp_partitioning_growth_calculator.hpp',['../no__leaf__resp__partitioning__growth__calculator_8hpp.html',1,'']]],
-  ['nr_5fex_410',['nr_ex',['../classnr__ex.html',1,'nr_ex'],['../classnr__ex.html#a0ed9a3ce0add2f13c3de59b9421eff10',1,'nr_ex::nr_ex()']]],
-  ['nr_5fex_2ehpp_411',['nr_ex.hpp',['../nr__ex_8hpp.html',1,'']]],
-  ['numerical_5fjacobian_2eh_412',['numerical_jacobian.h',['../numerical__jacobian_8h.html',1,'']]]
+  ['one_5flayer_5fsoil_5fprofile_265',['one_layer_soil_profile',['../classone__layer__soil__profile.html',1,'one_layer_soil_profile'],['../classone__layer__soil__profile.html#a20169bf39c3ee8beaa07043a0fc77ba3',1,'one_layer_soil_profile::one_layer_soil_profile()']]],
+  ['one_5flayer_5fsoil_5fprofile_2ehpp_266',['one_layer_soil_profile.hpp',['../one__layer__soil__profile_8hpp.html',1,'']]],
+  ['one_5flayer_5fsoil_5fprofile_5fderivatives_267',['one_layer_soil_profile_derivatives',['../classone__layer__soil__profile__derivatives.html',1,'one_layer_soil_profile_derivatives'],['../classone__layer__soil__profile__derivatives.html#a36c31c7bc704c4fa6c0438a63a0738f1',1,'one_layer_soil_profile_derivatives::one_layer_soil_profile_derivatives()']]],
+  ['one_5flayer_5fsoil_5fprofile_5fderivatives_2ehpp_268',['one_layer_soil_profile_derivatives.hpp',['../one__layer__soil__profile__derivatives_8hpp.html',1,'']]],
+  ['oscillator_5fclock_5fcalculator_269',['oscillator_clock_calculator',['../classoscillator__clock__calculator.html',1,'oscillator_clock_calculator'],['../classoscillator__clock__calculator.html#a94aaf5aaa2bec106ed5597a767316032',1,'oscillator_clock_calculator::oscillator_clock_calculator()']]],
+  ['oscillator_5fclock_5fcalculator_2ehpp_270',['oscillator_clock_calculator.hpp',['../oscillator__clock__calculator_8hpp.html',1,'']]],
+  ['output_5fptrs_271',['output_ptrs',['../classed__leaf__photosynthesis_1_1module__base.html#a3117c09fe4e7ced50de70739e9267980',1,'ed_leaf_photosynthesis::module_base']]]
 ];

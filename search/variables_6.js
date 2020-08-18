@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['failure_5fmark_1415',['failure_mark',['../validate__system_8h.html#acc8fa929573de7b71c94c85aef4831b3',1,'validate_system.h']]],
-  ['fieldc_1416',['fieldc',['../structsoilText__str.html#a6406e1f0b3a117ec9e660334f2c8c005',1,'soilText_str']]],
-  ['first_1417',['first',['../classSystemCaller.html#add22ce116df9accd22dcf1567e156baa',1,'SystemCaller']]]
+  ['gross_5fassimilation_890',['gross_assimilation',['../structcollatz__result.html#a3e83cac64c2a40cd709a73daf1b02c64',1,'collatz_result']]],
+  ['grossassim_891',['GrossAssim',['../structCan__Str.html#a9559feead5bceed9c242fc758416f502',1,'Can_Str::GrossAssim()'],['../structc3__str.html#a0d2c3391dcf87e250d4f95b44c3bc0e6',1,'c3_str::GrossAssim()'],['../structc4__str.html#a928a57132388ea027d82a5d841d29ea3',1,'c4_str::GrossAssim()']]],
+  ['gs_892',['Gs',['../structc3__str.html#a2fcc3787ac1ca5dd5be990fc00fb92f6',1,'c3_str::Gs()'],['../structc4__str.html#a29de44c5705baf89ff902918ed0eebee',1,'c4_str::Gs()']]]
 ];

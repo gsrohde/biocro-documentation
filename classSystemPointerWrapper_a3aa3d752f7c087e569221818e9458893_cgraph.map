@@ -1,7 +1,0 @@
-<map id="SystemPointerWrapper::operator()" name="SystemPointerWrapper::operator()">
-<area shape="rect" id="node1" title=" " alt="" coords="5,23,160,65"/>
-<area shape="rect" id="node2" href="$numerical__jacobian_8h.html#aa69a62289bcec362abb76d68df65e6d3" title="Numerically compute the Jacobian matrix and time derivatives of a vector valued function." alt="" coords="208,23,353,65"/>
-<area shape="rect" id="node3" href="$numerical__jacobian_8h.html#abb3a48da711cdaa6426f7c0e10523aee" title="Numerically compute the Jacobian matrix of a vector valued function." alt="" coords="421,5,551,32"/>
-<area shape="rect" id="node5" href="$numerical__jacobian_8h.html#aa1de4363b80ad4deff462bdebb669ccb" title="Numerically compute the explicit time derivatives of a vector valued function." alt="" coords="401,56,571,83"/>
-<area shape="rect" id="node4" href="$numerical__jacobian_8h.html#abccaa35141515ada5bb3f2f3c15434f2" title="Define evaluation behavior for a set of equations defined by a System object." alt="" coords="619,31,753,57"/>
-</map>

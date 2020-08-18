@@ -1,5 +1,4 @@
 <map id="thermal_time_and_frost_senescence" name="thermal_time_and_frost_senescence">
-<area shape="rect" id="node1" title=" " alt="" coords="5,155,164,196"/>
-<area shape="rect" id="node2" href="$classDerivModule.html" title=" " alt="" coords="37,80,132,107"/>
-<area shape="rect" id="node3" href="$classModule.html" title=" " alt="" coords="53,5,117,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,80,164,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="37,5,132,32"/>
 </map>

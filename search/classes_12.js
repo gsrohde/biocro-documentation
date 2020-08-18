@@ -1,7 +1,4 @@
 var searchData=
 [
-  ['utilization_5fgrowth_847',['utilization_growth',['../classutilization__growth.html',1,'']]],
-  ['utilization_5fgrowth_5fcalculator_848',['utilization_growth_calculator',['../classutilization__growth__calculator.html',1,'']]],
-  ['utilization_5fsenescence_849',['utilization_senescence',['../classutilization__senescence.html',1,'']]],
-  ['utilization_5fsenescence_5fcalculator_850',['utilization_senescence_calculator',['../classutilization__senescence__calculator.html',1,'']]]
+  ['velocity_5foscillator_556',['velocity_oscillator',['../classvelocity__oscillator.html',1,'']]]
 ];

@@ -91,7 +91,7 @@ $(document).ready(function(){initNavTree('AuxBioCro_8cpp.html',''); initResizabl
 <div class="textblock"><code>#include &lt;stdexcept&gt;</code><br />
 <code>#include &lt;string&gt;</code><br />
 <code>#include &lt;cmath&gt;</code><br />
-<code>#include &quot;<a class="el" href="constants_8h_source.html">../constants.h</a>&quot;</code><br />
+<code>#include &quot;../constants.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="c4photo_8h_source.html">c4photo.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="BioCro_8h_source.html">BioCro.h</a>&quot;</code><br />
 </div><div class="textblock"><div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
@@ -105,12 +105,11 @@ $(document).ready(function(){initNavTree('AuxBioCro_8cpp.html',''); initResizabl
 <area shape="rect" title=" " alt="" coords="5,95,84,121"/>
 <area shape="rect" title=" " alt="" coords="108,95,163,121"/>
 <area shape="rect" title=" " alt="" coords="187,95,246,121"/>
-<area shape="rect" href="constants_8h.html" title=" " alt="" coords="270,95,369,121"/>
+<area shape="rect" title=" " alt="" coords="270,95,369,121"/>
 <area shape="rect" href="c4photo_8h.html" title=" " alt="" coords="393,95,472,121"/>
 <area shape="rect" href="BioCro_8h.html" title=" " alt="" coords="496,95,567,121"/>
-<area shape="rect" title=" " alt="" coords="245,169,393,211"/>
-<area shape="rect" href="AuxBioCro_8h.html" title=" " alt="" coords="485,177,578,203"/>
-<area shape="rect" title=" " alt="" coords="508,259,555,285"/>
+<area shape="rect" href="AuxBioCro_8h.html" title=" " alt="" coords="485,169,578,196"/>
+<area shape="rect" title=" " alt="" coords="508,244,555,271"/>
 </map>
 </div>
 </div>
@@ -342,15 +341,15 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 <p>Computation of the cosine of the zenith angle from latitute (<code>lat</code>), day of the year (<code>DOY</code>), and time of day (<code>td</code>).</p>
-<p>For the values of angles in radians, we'll use the common practice of denoting the latitude by <code>phi</code> ( <img class="formulaInl" alt="$\phi$" src="form_2.png"/>), the declination by <code>delta</code> ( <img class="formulaInl" alt="$\delta$" src="form_3.png"/>), and the hour angle by <code>tau</code> ( <img class="formulaInl" alt="$\tau$" src="form_4.png"/>). <code>NDS</code> denotes the number of days after December solstice and <code>omega</code> ( <img class="formulaInl" alt="$\omega$" src="form_5.png"/>) denotes the angle (in radians) of the orbital position of the earth around the sun relative to its position at the December solstice.</p>
-<p>Denoting the axial tilt of the earth by <img class="formulaInl" alt="$\varepsilon$" src="form_6.png"/>, the equation used for declination (<code>delta</code>) is </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \delta = -\varepsilon \cos(\omega) \]" src="form_7.png"/>
+<p>For the values of angles in radians, we'll use the common practice of denoting the latitude by <code>phi</code> ( <img class="formulaInl" alt="$\phi$" src="form_0.png"/>), the declination by <code>delta</code> ( <img class="formulaInl" alt="$\delta$" src="form_1.png"/>), and the hour angle by <code>tau</code> ( <img class="formulaInl" alt="$\tau$" src="form_2.png"/>). <code>NDS</code> denotes the number of days after December solstice and <code>omega</code> ( <img class="formulaInl" alt="$\omega$" src="form_3.png"/>) denotes the angle (in radians) of the orbital position of the earth around the sun relative to its position at the December solstice.</p>
+<p>Denoting the axial tilt of the earth by <img class="formulaInl" alt="$\varepsilon$" src="form_4.png"/>, the equation used for declination (<code>delta</code>) is </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \delta = -\varepsilon \cos(\omega) \]" src="form_5.png"/>
 </p>
 <p> which is an approximation (always accurate to within 0.26 degrees) of the more accurate formula </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \sin(\delta) = -\sin(\varepsilon) \cos(\omega) \]" src="form_8.png"/>
+<img class="formulaDsp" alt="\[ \sin(\delta) = -\sin(\varepsilon) \cos(\omega) \]" src="form_6.png"/>
 </p>
-<p>The cosine of the solar zenith angle <img class="formulaInl" alt="$\theta_s$" src="form_9.png"/> may be calculated from the declination <img class="formulaInl" alt="$\delta$" src="form_3.png"/>, the latitude <img class="formulaInl" alt="$\phi$" src="form_2.png"/>, and the hour angle <img class="formulaInl" alt="$\tau$" src="form_4.png"/> by the formula </p><p class="formulaDsp">
-<img class="formulaDsp" alt="\[ \cos(\theta_s) = \sin(\delta) \sin(\phi) + \cos(\delta) \cos(\phi) \cos(\tau) \]" src="form_10.png"/>
+<p>The cosine of the solar zenith angle <img class="formulaInl" alt="$\theta_s$" src="form_7.png"/> may be calculated from the declination <img class="formulaInl" alt="$\delta$" src="form_1.png"/>, the latitude <img class="formulaInl" alt="$\phi$" src="form_0.png"/>, and the hour angle <img class="formulaInl" alt="$\tau$" src="form_2.png"/> by the formula </p><p class="formulaDsp">
+<img class="formulaDsp" alt="\[ \cos(\theta_s) = \sin(\delta) \sin(\phi) + \cos(\delta) \cos(\phi) \cos(\tau) \]" src="form_8.png"/>
 </p>
 <p> which is a straight-forward application of the law of cosines for spherical triangles, substituting cofunctions of coangles in the case of latitude and declination. </p>
 
@@ -381,12 +380,11 @@ Functions</h2></td></tr>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_a81eccf5a903a575f17d799d959397f61_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_a81eccf5a903a575f17d799d959397f61_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_a81eccf5a903a575f17d799d959397f61_icgraph" id="aAuxBioCro_8cpp_a81eccf5a903a575f17d799d959397f61_icgraph">
-<area shape="rect" title=" " alt="" coords="356,56,479,83"/>
-<area shape="rect" href="BioCro_8h.html#a1d896aaaf32c2c9dfce1a53f7d22a884" title=" " alt="" coords="243,56,308,83"/>
-<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="113,5,190,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="120,56,183,83"/>
-<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="108,107,195,133"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" title=" " alt="" coords="253,56,376,83"/>
+<area shape="rect" href="BioCro_8h.html#a1d896aaaf32c2c9dfce1a53f7d22a884" title=" " alt="" coords="140,56,205,83"/>
+<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="10,5,87,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="17,56,80,83"/>
+<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="5,107,92,133"/>
 </map>
 </div>
 
@@ -512,7 +510,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00348"></a><span class="lineno">  348</span>&#160;    constexpr <span class="keywordtype">double</span> tau = 0.2;                          <span class="comment">// dimensionless. Leaf transmission coefficient.</span></div>
 <div class="line"><a name="l00349"></a><span class="lineno">  349</span>&#160;    constexpr <span class="keywordtype">double</span> LeafReflectance = 0.2;              <span class="comment">// dimensionless.</span></div>
 <div class="line"><a name="l00350"></a><span class="lineno">  350</span>&#160;    constexpr <span class="keywordtype">double</span> SpecificHeat = 1010;                <span class="comment">// J / kg / K</span></div>
-<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    constexpr <span class="keywordtype">double</span> <a class="code" href="namespacephysical__constants.html#a88164a134188ae2e16a0c8a9791a94d5">molar_mass_of_water</a> = 18.01528e-3;  <span class="comment">// kg / mol</span></div>
+<div class="line"><a name="l00351"></a><span class="lineno">  351</span>&#160;    constexpr <span class="keywordtype">double</span> molar_mass_of_water = 18.01528e-3;  <span class="comment">// kg / mol</span></div>
 <div class="line"><a name="l00352"></a><span class="lineno">  352</span>&#160;    constexpr <span class="keywordtype">double</span> R = 8.314472;                       <span class="comment">// joule / kelvin / mole.</span></div>
 <div class="line"><a name="l00353"></a><span class="lineno">  353</span>&#160;    <span class="comment">//constexpr double atmospheric_pressure = 101325;      // Pa</span></div>
 <div class="line"><a name="l00354"></a><span class="lineno">  354</span>&#160; </div>
@@ -541,7 +539,7 @@ Functions</h2></td></tr>
 <div class="line"><a name="l00377"></a><span class="lineno">  377</span>&#160;        <span class="keywordflow">throw</span> std::range_error(<span class="stringliteral">&quot;Thrown in EvapoTrans2: RH (relative humidity) is greater than 1.&quot;</span>);</div>
 <div class="line"><a name="l00378"></a><span class="lineno">  378</span>&#160; </div>
 <div class="line"><a name="l00379"></a><span class="lineno">  379</span>&#160; </div>
-<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> SWVC = SWVP / R / (airTemp + 273.15) * <a class="code" href="namespacephysical__constants.html#a88164a134188ae2e16a0c8a9791a94d5">molar_mass_of_water</a>;  <span class="comment">// kg / m^3. Convert from vapor pressure to vapor density using the ideal gas law. This is approximately right for temperatures what won&#39;t kill plants.</span></div>
+<div class="line"><a name="l00380"></a><span class="lineno">  380</span>&#160;    <span class="keyword">const</span> <span class="keywordtype">double</span> SWVC = SWVP / R / (airTemp + 273.15) * molar_mass_of_water;  <span class="comment">// kg / m^3. Convert from vapor pressure to vapor density using the ideal gas law. This is approximately right for temperatures what won&#39;t kill plants.</span></div>
 <div class="line"><a name="l00381"></a><span class="lineno">  381</span>&#160; </div>
 <div class="line"><a name="l00382"></a><span class="lineno">  382</span>&#160;    <span class="keywordflow">if</span> (SWVC &lt; 0)</div>
 <div class="line"><a name="l00383"></a><span class="lineno">  383</span>&#160;        <span class="keywordflow">throw</span> std::range_error(<span class="stringliteral">&quot;Thrown in EvapoTrans2: SWVC is less than 0.&quot;</span>);</div>
@@ -654,9 +652,8 @@ Functions</h2></td></tr>
 <div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_a5272d35a20edaa0de28ca4ccae5b10a5_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_a5272d35a20edaa0de28ca4ccae5b10a5_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_a5272d35a20edaa0de28ca4ccae5b10a5_icgraph" id="aAuxBioCro_8cpp_a5272d35a20edaa0de28ca4ccae5b10a5_icgraph">
-<area shape="rect" title=" " alt="" coords="219,5,317,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="108,5,171,32"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" title=" " alt="" coords="116,5,215,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="5,5,68,32"/>
 </map>
 </div>
 
@@ -924,11 +921,10 @@ Functions</h2></td></tr>
 <div id="dynsection-7-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_ac5f31df2b025300918f031bf8f1e51d9_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_ac5f31df2b025300918f031bf8f1e51d9_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_ac5f31df2b025300918f031bf8f1e51d9_icgraph" id="aAuxBioCro_8cpp_ac5f31df2b025300918f031bf8f1e51d9_icgraph">
-<area shape="rect" title=" " alt="" coords="243,56,308,83"/>
-<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="113,5,190,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="120,56,183,83"/>
-<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="108,107,195,133"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" title=" " alt="" coords="140,56,205,83"/>
+<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="10,5,87,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="17,56,80,83"/>
+<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="5,107,92,133"/>
 </map>
 </div>
 
@@ -996,12 +992,11 @@ Functions</h2></td></tr>
 <div id="dynsection-8-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_a2905c23b422ad454d9577841ca594d0d_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_a2905c23b422ad454d9577841ca594d0d_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_a2905c23b422ad454d9577841ca594d0d_icgraph" id="aAuxBioCro_8cpp_a2905c23b422ad454d9577841ca594d0d_icgraph">
-<area shape="rect" title=" " alt="" coords="369,81,432,108"/>
-<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="176,5,253,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="183,56,246,83"/>
-<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="171,107,258,133"/>
-<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="108,157,321,184"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" title=" " alt="" coords="267,81,329,108"/>
+<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="73,5,151,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="81,56,143,83"/>
+<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="69,107,155,133"/>
+<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="5,157,219,184"/>
 </map>
 </div>
 
@@ -1159,12 +1154,11 @@ Functions</h2></td></tr>
 <div id="dynsection-9-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_aa4d2cdd07093428af4830f4c8afd660c_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_aa4d2cdd07093428af4830f4c8afd660c_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_aa4d2cdd07093428af4830f4c8afd660c_icgraph" id="aAuxBioCro_8cpp_aa4d2cdd07093428af4830f4c8afd660c_icgraph">
-<area shape="rect" title=" " alt="" coords="369,81,432,108"/>
-<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="176,5,253,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="183,56,246,83"/>
-<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="171,107,258,133"/>
-<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="108,157,321,184"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" title=" " alt="" coords="267,81,329,108"/>
+<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="73,5,151,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="81,56,143,83"/>
+<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="69,107,155,133"/>
+<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="5,157,219,184"/>
 </map>
 </div>
 
@@ -2048,7 +2042,7 @@ Functions</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="AuxBioCro_8h_source.html#l00031">Light_profile::diffuse_irradiance</a>, <a class="el" href="AuxBioCro_8h_source.html#l00029">Light_profile::direct_irradiance</a>, <a class="el" href="AuxBioCro_8h_source.html#l00035">Light_profile::height</a>, <a class="el" href="AuxBioCro_8h_source.html#l00017">MAXLAY</a>, <a class="el" href="AuxBioCro_8h_source.html#l00030">Light_profile::scattered_irradiance</a>, <a class="el" href="AuxBioCro_8h_source.html#l00034">Light_profile::shaded_fraction</a>, <a class="el" href="AuxBioCro_8h_source.html#l00033">Light_profile::sunlit_fraction</a>, and <a class="el" href="AuxBioCro_8h_source.html#l00032">Light_profile::total_irradiance</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="c3CanAC_8cpp_source.html#l00004">c3CanAC()</a>, <a class="el" href="CanAC_8cpp_source.html#l00004">CanAC()</a>, <a class="el" href="canac__with__collatz_8hpp_source.html#l00011">newCanAC()</a>, <a class="el" href="R__sunML_8cpp_source.html#l00006">R_sunML()</a>, and <a class="el" href="multilayer__canopy__properties_8h_source.html#l00184">multilayer_canopy_properties::run()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="c3CanAC_8cpp_source.html#l00004">c3CanAC()</a>, <a class="el" href="CanAC_8cpp_source.html#l00004">CanAC()</a>, <a class="el" href="canac__with__collatz_8hpp_source.html#l00011">newCanAC()</a>, and <a class="el" href="multilayer__canopy__properties_8h_source.html#l00184">multilayer_canopy_properties::run()</a>.</p>
 <div id="dynsection-12" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-12-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
 <div id="dynsection-12-summary" class="dynsummary" style="display:block;">
@@ -2056,13 +2050,11 @@ Functions</h2></td></tr>
 <div id="dynsection-12-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_a29eacaa214f1899c9df199ac80d0e1ca_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_a29eacaa214f1899c9df199ac80d0e1ca_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_a29eacaa214f1899c9df199ac80d0e1ca_icgraph" id="aAuxBioCro_8cpp_a29eacaa214f1899c9df199ac80d0e1ca_icgraph">
-<area shape="rect" title=" " alt="" coords="369,107,432,133"/>
-<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="176,5,253,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="183,56,246,83"/>
-<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="171,107,258,133"/>
-<area shape="rect" href="R__sunML_8cpp.html#a193e012f2c7f0323c30619023ae6fa23" title=" " alt="" coords="175,157,254,184"/>
-<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="108,208,321,235"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" title=" " alt="" coords="267,81,329,108"/>
+<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="73,5,151,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="81,56,143,83"/>
+<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="69,107,155,133"/>
+<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="5,157,219,184"/>
 </map>
 </div>
 
@@ -2421,12 +2413,11 @@ Functions</h2></td></tr>
 <div id="dynsection-16-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="AuxBioCro_8cpp_ad5f0fc680176f312e47c32701ce779f7_icgraph.png" border="0" usemap="#aAuxBioCro_8cpp_ad5f0fc680176f312e47c32701ce779f7_icgraph" alt=""/></div>
 <map name="AuxBioCro_8cpp_ad5f0fc680176f312e47c32701ce779f7_icgraph" id="aAuxBioCro_8cpp_ad5f0fc680176f312e47c32701ce779f7_icgraph">
-<area shape="rect" title=" " alt="" coords="369,81,448,108"/>
-<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="176,5,253,32"/>
-<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="183,56,246,83"/>
-<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="171,107,258,133"/>
-<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="108,157,321,184"/>
-<area shape="rect" href="R__CanA_8cpp.html#a002996c49166df248864255deb8f2b4c" title=" " alt="" coords="5,56,60,83"/>
+<area shape="rect" title=" " alt="" coords="267,81,345,108"/>
+<area shape="rect" href="c3CanAC_8cpp.html#abe33cbe09472254ce42dc5ff9f397dd1" title=" " alt="" coords="73,5,151,32"/>
+<area shape="rect" href="CanAC_8cpp.html#a201d4294ee9d1b27817aea11f9e53e30" title=" " alt="" coords="81,56,143,83"/>
+<area shape="rect" href="canac__with__collatz_8hpp.html#a80bef649007309c406cdbc790a9ef36b" title=" " alt="" coords="69,107,155,133"/>
+<area shape="rect" href="classmultilayer__canopy__properties.html#a12f0b07cdb6505cf1cfc91773b9e1fd4" title=" " alt="" coords="5,157,219,184"/>
 </map>
 </div>
 
@@ -2448,7 +2439,6 @@ Functions</h2></td></tr>
 <div class="ttc" id="astructET__Str_html"><div class="ttname"><a href="structET__Str.html">ET_Str</a></div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00038">AuxBioCro.h:38</a></div></div>
 <div class="ttc" id="astructLight__model_html"><div class="ttname"><a href="structLight__model.html">Light_model</a></div><div class="ttdef"><b>Definition:</b> <a href="BioCro_8h_source.html#l00009">BioCro.h:9</a></div></div>
 <div class="ttc" id="astructLight__profile_html_a2f8231e1e3f6b0c04e8a08ddcc419e03"><div class="ttname"><a href="structLight__profile.html#a2f8231e1e3f6b0c04e8a08ddcc419e03">Light_profile::direct_irradiance</a></div><div class="ttdeci">double direct_irradiance[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00029">AuxBioCro.h:29</a></div></div>
-<div class="ttc" id="anamespacephysical__constants_html_a88164a134188ae2e16a0c8a9791a94d5"><div class="ttname"><a href="namespacephysical__constants.html#a88164a134188ae2e16a0c8a9791a94d5">physical_constants::molar_mass_of_water</a></div><div class="ttdeci">const double molar_mass_of_water</div><div class="ttdef"><b>Definition:</b> <a href="constants_8h_source.html#l00027">constants.h:27</a></div></div>
 <div class="ttc" id="astructLight__profile_html_a3a64c8a4ce00e9190ec3f3b8b7233817"><div class="ttname"><a href="structLight__profile.html#a3a64c8a4ce00e9190ec3f3b8b7233817">Light_profile::diffuse_irradiance</a></div><div class="ttdeci">double diffuse_irradiance[MAXLAY]</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00031">AuxBioCro.h:31</a></div></div>
 <div class="ttc" id="astructLight__model_html_a8ad7918d4aada10f0c64e073da9c4ff4"><div class="ttname"><a href="structLight__model.html#a8ad7918d4aada10f0c64e073da9c4ff4">Light_model::cosine_zenith_angle</a></div><div class="ttdeci">double cosine_zenith_angle</div><div class="ttdef"><b>Definition:</b> <a href="BioCro_8h_source.html#l00012">BioCro.h:12</a></div></div>
 <div class="ttc" id="astructsoilML__str_html_a01cde156faa3f11579218b3759f5f126"><div class="ttname"><a href="structsoilML__str.html#a01cde156faa3f11579218b3759f5f126">soilML_str::Nleach</a></div><div class="ttdeci">double Nleach</div><div class="ttdef"><b>Definition:</b> <a href="AuxBioCro_8h_source.html#l00067">AuxBioCro.h:67</a></div></div>

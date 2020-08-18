@@ -1,9 +1,0 @@
-<map id="R_Gro_ode" name="R_Gro_ode">
-<area shape="rect" id="node1" title=" " alt="" coords="5,123,92,149"/>
-<area shape="rect" id="node2" href="$classSystem.html#a464979e28c3da139271ef7417ff97213" title="Updates the state parameter x with the current values of all the state parameters." alt="" coords="172,5,299,32"/>
-<area shape="rect" id="node3" href="$classSystem.html#afe3a7defc3c854da84ef5eeb163609c7" title=" " alt="" coords="140,57,331,98"/>
-<area shape="rect" id="node5" href="$R__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa" title=" " alt="" coords="183,123,287,149"/>
-<area shape="rect" id="node6" href="$R__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895" title=" " alt="" coords="187,173,284,200"/>
-<area shape="rect" id="node7" href="$R__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff" title=" " alt="" coords="183,224,287,251"/>
-<area shape="rect" id="node4" href="$state__map_8h.html#af565e334821397e58476ac34585263de" title=" " alt="" coords="379,64,428,91"/>
-</map>

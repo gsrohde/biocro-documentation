@@ -1,20 +1,14 @@
 var searchData=
 [
-  ['rcoefphoto_1449',['rcoefPhoto',['../structsoilML__str.html#a18a83a9cab2ee1fe35ec98a9a3a7a7c8',1,'soilML_str']]],
-  ['rcoefspleaf_1450',['rcoefSpleaf',['../structsoilML__str.html#a61a206aa7c24239e09e3d717368665a5',1,'soilML_str']]],
-  ['rd_1451',['rd',['../namespacese__solver__rand.html#a3fc034598e8f3352bdae14904d6b96ba',1,'se_solver_rand']]],
-  ['rdb0_1452',['Rdb0',['../structnitroParms.html#ab87cf4969607b3d3afd0bd895b219543',1,'nitroParms']]],
-  ['rdb1_1453',['Rdb1',['../structnitroParms.html#aafdfebf8e92977c0185a1e4a3155b439',1,'nitroParms']]],
-  ['reference_5fmodule_5fnames_1454',['reference_module_names',['../namespaceed__leaf__photosynthesis.html#a4096531fb59c3970c31424545303e3dd',1,'ed_leaf_photosynthesis']]],
-  ['rel_5ferror_5ftol_1455',['rel_error_tol',['../namespaceed__leaf__photosynthesis__nr.html#a03bfa762f2d438de7a9b8327c37709ab',1,'ed_leaf_photosynthesis_nr']]],
-  ['result_5fmatrix_1456',['result_matrix',['../structCan__Str.html#a652f573fcd65d47a2690915af8966af4',1,'Can_Str']]],
-  ['rhiz_1457',['rhiz',['../structcrop__phenology.html#a15cc77e11a516dd2a67039c1f4cf565c',1,'crop_phenology']]],
-  ['rhizomet0_1458',['rhizomeT0',['../structfrostParms.html#a02b34b6493c02561edb91f9197acd87b',1,'frostParms']]],
-  ['rhizomet100_1459',['rhizomeT100',['../structfrostParms.html#a5e5069bc7b62eba2fe2bdd203737eb9c',1,'frostParms']]],
-  ['root_1460',['root',['../structcrop__phenology.html#abe9280c39281ab1c2833457d87ed7ce0',1,'crop_phenology']]],
-  ['rootdepths_1461',['rootDepths',['../structseqRD__str.html#ab592512393bbc9e05f905ec8cb9149c2',1,'seqRD_str']]],
-  ['rootdist_1462',['rootDist',['../structsoilML__str.html#a4ff288d6741c98f41855d489942ab1af',1,'soilML_str::rootDist()'],['../structrd__str.html#a72c08ee2378ad2245439d54ff775b4de',1,'rd_str::rootDist()']]],
-  ['roott0_1463',['rootT0',['../structfrostParms.html#a34516140fa8e686c195d6a756a4214b8',1,'frostParms']]],
-  ['roott100_1464',['rootT100',['../structfrostParms.html#a4ef0bdb083dd1cd9d06cfc96f72d1015',1,'frostParms']]],
-  ['runoff_1465',['runoff',['../structws__str.html#a7160f2549e1fd6eb443f25f735f266ce',1,'ws_str']]]
+  ['sand_933',['sand',['../structsoilText__str.html#a7dc7fd46c11d906de403e9c70fbbfb2e',1,'soilText_str']]],
+  ['satur_934',['satur',['../structsoilText__str.html#a5448f507e6f5753bb03efbdac6c5141d',1,'soilText_str']]],
+  ['scattered_5firradiance_935',['scattered_irradiance',['../structLight__profile.html#a49cce1a633a8cb676490a30f16b5d761',1,'Light_profile']]],
+  ['shaded_5ffraction_936',['shaded_fraction',['../structLight__profile.html#a61e74afb9cc127be0696334b9a1ffdc8',1,'Light_profile']]],
+  ['silt_937',['silt',['../structsoilText__str.html#a2f92b9054369175170b1abdeaaffd9b1',1,'soilText_str']]],
+  ['soil_5fparameters_938',['soil_parameters',['../AuxBioCro_8h.html#a132d736e080fb28f7c4fde8561b02934',1,'AuxBioCro.h']]],
+  ['soilevapo_939',['SoilEvapo',['../structsoilML__str.html#ad1c34d3fec2b0784367f785d57906217',1,'soilML_str']]],
+  ['stem_940',['stem',['../structcrop__phenology.html#ad0b74e2e3b664cbaff1f31cfaf73a018',1,'crop_phenology']]],
+  ['stemt0_941',['stemT0',['../structfrostParms.html#af485a9eb9c8d4cc39a5ce9b8fcdcc6a5',1,'frostParms']]],
+  ['stemt100_942',['stemT100',['../structfrostParms.html#a2e32827366e4d9070d0631201fdd92e9',1,'frostParms']]],
+  ['sunlit_5ffraction_943',['sunlit_fraction',['../structLight__profile.html#a5ab1c660a6d5af30163325103043a419',1,'Light_profile']]]
 ];
