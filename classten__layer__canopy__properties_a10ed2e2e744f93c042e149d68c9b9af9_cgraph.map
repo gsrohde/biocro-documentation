@@ -1,7 +1,0 @@
-<map id="ten_layer_canopy_properties::get_outputs" name="ten_layer_canopy_properties::get_outputs">
-<area shape="rect" id="node1" title=" " alt="" coords="5,77,192,119"/>
-<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#a6db428ae1144dc1edfe694217135eb1e" title="Define all output names by appending leaf class prefixes and layer number suffixes...." alt="" coords="240,77,429,119"/>
-<area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#a2f0b02a5cc21ee9595c307139633c10a" title="Define the different leaf classes included by the module." alt="" coords="478,5,667,47"/>
-<area shape="rect" id="node4" href="$classmultilayer__canopy__properties.html#ae9f384a8b0eb171afd35282622e490a3" title="Define all outputs that have different values for each leaf class and layer." alt="" coords="477,70,668,126"/>
-<area shape="rect" id="node5" href="$classmultilayer__canopy__properties.html#ac08b254e300ec897ec6ba38ba5467783" title="Define all outputs that have different values for each layer, not including outputs that also depend ..." alt="" coords="478,150,667,206"/>
-</map>
