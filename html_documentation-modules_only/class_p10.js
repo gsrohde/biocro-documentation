@@ -1,25 +1,4 @@
 var class_p10 =
 [
-    [ "P10", "class_p10.html#abcb95a3e7037d4e659a3695b585eb8a1", null ],
-    [ "do_operation", "class_p10.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
-    [ "i10_indx", "class_p10.html#add5978037d698c504e52d2d5e1c7f271", null ],
-    [ "i1_indx", "class_p10.html#a906da9b84018bb1c22364d6a4467b6dc", null ],
-    [ "i2_indx", "class_p10.html#a0ffab05f7b0855e8f77e8b25dfa22380", null ],
-    [ "i3_indx", "class_p10.html#a66bdaf2ee57381fdd1e88c7a6a03103b", null ],
-    [ "i4_indx", "class_p10.html#aca8b71b94f1511526711da96f33fcd8a", null ],
-    [ "i5_indx", "class_p10.html#a30cfa36f4fd480eebe671b7863d48ca5", null ],
-    [ "i6_indx", "class_p10.html#af7a00071e26521118589a50a17064089", null ],
-    [ "i7_indx", "class_p10.html#ac11eea798f95a7c2615c6495605da32f", null ],
-    [ "i8_indx", "class_p10.html#a2a7c264c9758199b5efaf4ac12b3607c", null ],
-    [ "i9_indx", "class_p10.html#a1fbdac7a320a556172078ff242ccfa2f", null ],
-    [ "o10_indx", "class_p10.html#a69137941ad1f8e045c4d42b54439e576", null ],
-    [ "o1_indx", "class_p10.html#ac0fa3b1a1525b9bae8238a5e0f168da7", null ],
-    [ "o2_indx", "class_p10.html#aeee0f5b09d3bba61d9655d90ad138701", null ],
-    [ "o3_indx", "class_p10.html#a9100b5bec891a6e6a00e8ac86960476b", null ],
-    [ "o4_indx", "class_p10.html#ab62508c67756320a35a587e36ed0c605", null ],
-    [ "o5_indx", "class_p10.html#af3fc6af61fbeb5f1cdf9c4de9747ed6e", null ],
-    [ "o6_indx", "class_p10.html#a804b83e75cc82b4b100c2a94b36a444a", null ],
-    [ "o7_indx", "class_p10.html#a51dd0072482a064ecdc88a4b647b0a94", null ],
-    [ "o8_indx", "class_p10.html#ad027ea4d7ff19b76bdaa5d42f37767de", null ],
-    [ "o9_indx", "class_p10.html#a51b052f3a68176de5e5a32c7a937b22b", null ]
+    [ "P10", "class_p10.html#abcb95a3e7037d4e659a3695b585eb8a1", null ]
 ];

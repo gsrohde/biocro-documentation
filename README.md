@@ -4,5 +4,7 @@
 
 ## [HTML documentation of the public interface to the BioCro modules](html_documentation-modules_only)
 
+## [Documentation for developers: public and private members of the simulation framework, excluding the modules](html_documentation-framework)
+
 
 

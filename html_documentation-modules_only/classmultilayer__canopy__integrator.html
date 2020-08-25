@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: multilayer_canopy_integrator Class Reference</title>
+<title>The BioCro C++ Library Modules: multilayer_canopy_integrator Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -92,8 +92,6 @@ $(document).ready(function(){initNavTree('classmultilayer__canopy__integrator.ht
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classmultilayer__canopy__integrator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">multilayer_canopy_integrator Class Reference</div>  </div>
@@ -130,15 +128,15 @@ $(document).ready(function(){initNavTree('classmultilayer__canopy__integrator.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a29fda7694d447efebe831472317e9dd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a29fda7694d447efebe831472317e9dd6">multilayer_canopy_integrator</a> (const std::string &amp;module_name, const int &amp;<a class="el" href="classmultilayer__canopy__integrator.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a>, const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</td></tr>
+<tr class="memitem:a29fda7694d447efebe831472317e9dd6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a29fda7694d447efebe831472317e9dd6">multilayer_canopy_integrator</a> (const std::string &amp;module_name, const int &amp;nlayers, const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</td></tr>
 <tr class="separator:a29fda7694d447efebe831472317e9dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a586f4cb90199901349389ca4553b9365"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a586f4cb90199901349389ca4553b9365">get_inputs</a> (int <a class="el" href="classmultilayer__canopy__integrator.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a>)</td></tr>
+<tr class="memitem:a586f4cb90199901349389ca4553b9365"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a586f4cb90199901349389ca4553b9365">get_inputs</a> (int nlayers)</td></tr>
 <tr class="memdesc:a586f4cb90199901349389ca4553b9365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define all inputs required by the module, adding layer suffixes as required.  <a href="classmultilayer__canopy__integrator.html#a586f4cb90199901349389ca4553b9365">More...</a><br /></td></tr>
 <tr class="separator:a586f4cb90199901349389ca4553b9365"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07ef272e7460b825b87df850d4ff7174"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a07ef272e7460b825b87df850d4ff7174">get_outputs</a> (int <a class="el" href="classmultilayer__canopy__integrator.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a>)</td></tr>
+<tr class="memitem:a07ef272e7460b825b87df850d4ff7174"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a07ef272e7460b825b87df850d4ff7174">get_outputs</a> (int nlayers)</td></tr>
 <tr class="memdesc:a07ef272e7460b825b87df850d4ff7174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define all outputs produced by the module.  <a href="classmultilayer__canopy__integrator.html#a07ef272e7460b825b87df850d4ff7174">More...</a><br /></td></tr>
 <tr class="separator:a07ef272e7460b825b87df850d4ff7174"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -146,48 +144,6 @@ Static Public Member Functions</h2></td></tr>
 Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa6b7bb009af6cd63f442559d3b8d1ab2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#aa6b7bb009af6cd63f442559d3b8d1ab2">run</a> () const</td></tr>
 <tr class="separator:aa6b7bb009af6cd63f442559d3b8d1ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a391e9fd4e949f6e987eb654a11b1e451"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a391e9fd4e949f6e987eb654a11b1e451">do_operation</a> () const</td></tr>
-<tr class="separator:a391e9fd4e949f6e987eb654a11b1e451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a39f9ff793dc820578cfbd116f99c24b9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a></td></tr>
-<tr class="separator:a39f9ff793dc820578cfbd116f99c24b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2cb6a9b90219328672471b94ae50091"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#af2cb6a9b90219328672471b94ae50091">sunlit_fraction_ips</a></td></tr>
-<tr class="separator:af2cb6a9b90219328672471b94ae50091"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a493d875b6d9fec20bfab5d3e3884931a"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a493d875b6d9fec20bfab5d3e3884931a">sunlit_Assim_ips</a></td></tr>
-<tr class="separator:a493d875b6d9fec20bfab5d3e3884931a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8395c43f48b317788fa9e0a06351124"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#aa8395c43f48b317788fa9e0a06351124">sunlit_GrossAssim_ips</a></td></tr>
-<tr class="separator:aa8395c43f48b317788fa9e0a06351124"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac7c38222c78977c31005890b6bdf18c3"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#ac7c38222c78977c31005890b6bdf18c3">sunlit_Gs_ips</a></td></tr>
-<tr class="separator:ac7c38222c78977c31005890b6bdf18c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac22abeefe8bd3755cee99069fbcc03e0"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#ac22abeefe8bd3755cee99069fbcc03e0">sunlit_TransR_ips</a></td></tr>
-<tr class="separator:ac22abeefe8bd3755cee99069fbcc03e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa04db282c56899cd5d79782064440be6"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#aa04db282c56899cd5d79782064440be6">shaded_fraction_ips</a></td></tr>
-<tr class="separator:aa04db282c56899cd5d79782064440be6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a507c2d520d0b477c3a2a807b0907f1df"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a507c2d520d0b477c3a2a807b0907f1df">shaded_Assim_ips</a></td></tr>
-<tr class="separator:a507c2d520d0b477c3a2a807b0907f1df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a389f44a4efc5e1b618abef9e540dd62e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a389f44a4efc5e1b618abef9e540dd62e">shaded_GrossAssim_ips</a></td></tr>
-<tr class="separator:a389f44a4efc5e1b618abef9e540dd62e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abadd3f7151d023416a2359c5528f643e"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#abadd3f7151d023416a2359c5528f643e">shaded_Gs_ips</a></td></tr>
-<tr class="separator:abadd3f7151d023416a2359c5528f643e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a98391d04b478e0ea1252badce6be5a"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; const double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a5a98391d04b478e0ea1252badce6be5a">shaded_TransR_ips</a></td></tr>
-<tr class="separator:a5a98391d04b478e0ea1252badce6be5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0758ff6ded324151a24756afea5d8d0"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#ad0758ff6ded324151a24756afea5d8d0">lai</a></td></tr>
-<tr class="separator:ad0758ff6ded324151a24756afea5d8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a17a2b40ddfd4e983e811487ae3715dcb"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a17a2b40ddfd4e983e811487ae3715dcb">growth_respiration_fraction</a></td></tr>
-<tr class="separator:a17a2b40ddfd4e983e811487ae3715dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4fdddf6c5bb5cfc4d42787b3d89e6097"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a4fdddf6c5bb5cfc4d42787b3d89e6097">canopy_assimilation_rate_op</a></td></tr>
-<tr class="separator:a4fdddf6c5bb5cfc4d42787b3d89e6097"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7386f613dfe2c4999b3a8818e00dabac"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a7386f613dfe2c4999b3a8818e00dabac">canopy_transpiration_rate_op</a></td></tr>
-<tr class="separator:a7386f613dfe2c4999b3a8818e00dabac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2df34ae8a48eb7285cee41082dea6523"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#a2df34ae8a48eb7285cee41082dea6523">canopy_conductance_op</a></td></tr>
-<tr class="separator:a2df34ae8a48eb7285cee41082dea6523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebaf8075767f5e2e368001dc936a3933"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__integrator.html#aebaf8075767f5e2e368001dc936a3933">GrossAssim_op</a></td></tr>
-<tr class="separator:aebaf8075767f5e2e368001dc936a3933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Calculates properties of each canopy layer using functions found in AuxBioCro (for the most part). Also includes multiple leaf classes (sunlit &amp; shaded). Leaf class is added to output parameters as a prefix, while layer number is added as a suffix. </p>
@@ -241,44 +197,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a391e9fd4e949f6e987eb654a11b1e451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a391e9fd4e949f6e987eb654a11b1e451">&#9670;&nbsp;</a></span>do_operation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void do_operation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="classten__layer__canopy__integrator.html#a391e9fd4e949f6e987eb654a11b1e451">ten_layer_canopy_integrator</a>.</p>
-<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the call graph for this function:</div>
-<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-2-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classmultilayer__canopy__integrator_a391e9fd4e949f6e987eb654a11b1e451_cgraph.png" border="0" usemap="#classmultilayer__canopy__integrator_a391e9fd4e949f6e987eb654a11b1e451_cgraph" alt=""/></div>
-<map name="classmultilayer__canopy__integrator_a391e9fd4e949f6e987eb654a11b1e451_cgraph" id="classmultilayer__canopy__integrator_a391e9fd4e949f6e987eb654a11b1e451_cgraph">
-<area shape="rect" title=" " alt="" coords="5,5,101,32"/>
-<area shape="rect" href="classmultilayer__canopy__integrator.html#aa6b7bb009af6cd63f442559d3b8d1ab2" title=" " alt="" coords="149,5,189,32"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a586f4cb90199901349389ca4553b9365"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a586f4cb90199901349389ca4553b9365">&#9670;&nbsp;</a></span>get_inputs()</h2>
 
@@ -304,11 +222,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Define all inputs required by the module, adding layer suffixes as required. </p>
-<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-2" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-2-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-2-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-3-content" class="dyncontent" style="display:none;">
+<div id="dynsection-2-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classmultilayer__canopy__integrator_a586f4cb90199901349389ca4553b9365_icgraph.png" border="0" usemap="#classmultilayer__canopy__integrator_a586f4cb90199901349389ca4553b9365_icgraph" alt=""/></div>
 <map name="classmultilayer__canopy__integrator_a586f4cb90199901349389ca4553b9365_icgraph" id="classmultilayer__canopy__integrator_a586f4cb90199901349389ca4553b9365_icgraph">
 <area shape="rect" title="Define all inputs required by the module, adding layer suffixes as required." alt="" coords="236,13,319,39"/>
@@ -343,11 +261,11 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Define all outputs produced by the module. </p>
-<div id="dynsection-4" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-4-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-4-summary" class="dynsummary" style="display:block;">
+<div id="dynsection-3" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-3-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
+<div id="dynsection-3-summary" class="dynsummary" style="display:block;">
 </div>
-<div id="dynsection-4-content" class="dyncontent" style="display:none;">
+<div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classmultilayer__canopy__integrator_a07ef272e7460b825b87df850d4ff7174_icgraph.png" border="0" usemap="#classmultilayer__canopy__integrator_a07ef272e7460b825b87df850d4ff7174_icgraph" alt=""/></div>
 <map name="classmultilayer__canopy__integrator_a07ef272e7460b825b87df850d4ff7174_icgraph" id="classmultilayer__canopy__integrator_a07ef272e7460b825b87df850d4ff7174_icgraph">
 <area shape="rect" title="Define all outputs produced by the module." alt="" coords="236,13,327,39"/>
@@ -379,393 +297,6 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div id="dynsection-5" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-5-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-5-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-5-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classmultilayer__canopy__integrator_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph.png" border="0" usemap="#classmultilayer__canopy__integrator_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph" alt=""/></div>
-<map name="classmultilayer__canopy__integrator_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph" id="classmultilayer__canopy__integrator_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph">
-<area shape="rect" title=" " alt="" coords="236,35,276,61"/>
-<area shape="rect" href="classmultilayer__canopy__integrator.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="49,5,145,32"/>
-<area shape="rect" href="classten__layer__canopy__integrator.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,57,188,98"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a4fdddf6c5bb5cfc4d42787b3d89e6097"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4fdddf6c5bb5cfc4d42787b3d89e6097">&#9670;&nbsp;</a></span>canopy_assimilation_rate_op</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double* canopy_assimilation_rate_op</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2df34ae8a48eb7285cee41082dea6523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2df34ae8a48eb7285cee41082dea6523">&#9670;&nbsp;</a></span>canopy_conductance_op</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double* canopy_conductance_op</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a7386f613dfe2c4999b3a8818e00dabac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7386f613dfe2c4999b3a8818e00dabac">&#9670;&nbsp;</a></span>canopy_transpiration_rate_op</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double* canopy_transpiration_rate_op</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aebaf8075767f5e2e368001dc936a3933"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebaf8075767f5e2e368001dc936a3933">&#9670;&nbsp;</a></span>GrossAssim_op</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double* GrossAssim_op</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a17a2b40ddfd4e983e811487ae3715dcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a17a2b40ddfd4e983e811487ae3715dcb">&#9670;&nbsp;</a></span>growth_respiration_fraction</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; growth_respiration_fraction</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad0758ff6ded324151a24756afea5d8d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0758ff6ded324151a24756afea5d8d0">&#9670;&nbsp;</a></span>lai</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; lai</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39f9ff793dc820578cfbd116f99c24b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f9ff793dc820578cfbd116f99c24b9">&#9670;&nbsp;</a></span>nlayers</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int nlayers</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a507c2d520d0b477c3a2a807b0907f1df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a507c2d520d0b477c3a2a807b0907f1df">&#9670;&nbsp;</a></span>shaded_Assim_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; shaded_Assim_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa04db282c56899cd5d79782064440be6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa04db282c56899cd5d79782064440be6">&#9670;&nbsp;</a></span>shaded_fraction_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; shaded_fraction_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a389f44a4efc5e1b618abef9e540dd62e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a389f44a4efc5e1b618abef9e540dd62e">&#9670;&nbsp;</a></span>shaded_GrossAssim_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; shaded_GrossAssim_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abadd3f7151d023416a2359c5528f643e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abadd3f7151d023416a2359c5528f643e">&#9670;&nbsp;</a></span>shaded_Gs_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; shaded_Gs_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5a98391d04b478e0ea1252badce6be5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a98391d04b478e0ea1252badce6be5a">&#9670;&nbsp;</a></span>shaded_TransR_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; shaded_TransR_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a493d875b6d9fec20bfab5d3e3884931a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a493d875b6d9fec20bfab5d3e3884931a">&#9670;&nbsp;</a></span>sunlit_Assim_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; sunlit_Assim_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af2cb6a9b90219328672471b94ae50091"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2cb6a9b90219328672471b94ae50091">&#9670;&nbsp;</a></span>sunlit_fraction_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; sunlit_fraction_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa8395c43f48b317788fa9e0a06351124"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8395c43f48b317788fa9e0a06351124">&#9670;&nbsp;</a></span>sunlit_GrossAssim_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; sunlit_GrossAssim_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac7c38222c78977c31005890b6bdf18c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac7c38222c78977c31005890b6bdf18c3">&#9670;&nbsp;</a></span>sunlit_Gs_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; sunlit_Gs_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac22abeefe8bd3755cee99069fbcc03e0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac22abeefe8bd3755cee99069fbcc03e0">&#9670;&nbsp;</a></span>sunlit_TransR_ips</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;const double*&gt; sunlit_TransR_ips</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -778,7 +309,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classmultilayer__canopy__integrator.html">multilayer_canopy_integrator</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:14 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

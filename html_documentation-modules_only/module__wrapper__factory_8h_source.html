@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: /github/workspace/source/src/module_library/module_wrapper_factory.h Source File</title>
+<title>The BioCro C++ Library Modules: /github/workspace/source/src/module_library/module_wrapper_factory.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -111,9 +111,9 @@ $(document).ready(function(){initNavTree('module__wrapper__factory_8h_source.htm
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;    <span class="keyword">static</span> std::unordered_map&lt;std::string, std::vector&lt;std::string&gt;&gt; <a class="code" href="classmodule__wrapper__factory.html#afde6d703ab3e6581b0716e0c5543dcab">get_all_quantities</a>();</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160; </div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;   <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classmodule__wrapper__factory.html#ad2f7bad2ec851b29b46f7ef18e860f33">   20</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classmodule__wrapper__factory.html#ad2f7bad2ec851b29b46f7ef18e860f33">module_wrapper_creator</a> = std::unique_ptr&lt;module_wrapper_base&gt; (*)();</div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classmodule__wrapper__factory.html#a864db3ed7a5a930d71150e7eb3bd9a42">   21</a></span>&#160;    <span class="keyword">using</span> <a class="code" href="classmodule__wrapper__factory.html#a864db3ed7a5a930d71150e7eb3bd9a42">module_wrapper_creator_map</a> = std::map&lt;std::string, module_wrapper_creator&gt;;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classmodule__wrapper__factory.html#aad0572cf54f1ce9b0b06ba73e105c0ba">   22</a></span>&#160;    <span class="keyword">static</span> <a class="code" href="classmodule__wrapper__factory.html#a864db3ed7a5a930d71150e7eb3bd9a42">module_wrapper_creator_map</a> <a class="code" href="classmodule__wrapper__factory.html#aad0572cf54f1ce9b0b06ba73e105c0ba">module_wrapper_creators</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;    <span class="keyword">using</span> module_wrapper_creator = std::unique_ptr&lt;module_wrapper_base&gt; (*)();</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;    <span class="keyword">using</span> module_wrapper_creator_map = std::map&lt;std::string, module_wrapper_creator&gt;;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    <span class="keyword">static</span> module_wrapper_creator_map module_wrapper_creators;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;};</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160; </div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -143,7 +143,6 @@ $(document).ready(function(){initNavTree('module__wrapper__factory_8h_source.htm
 <div class="ttc" id="aed__c4__leaf__photosynthesis_8h_html"><div class="ttname"><a href="ed__c4__leaf__photosynthesis_8h.html">ed_c4_leaf_photosynthesis.h</a></div></div>
 <div class="ttc" id="athermal__time__beta_8h_html"><div class="ttname"><a href="thermal__time__beta_8h.html">thermal_time_beta.h</a></div></div>
 <div class="ttc" id="apartitioning__coefficient__selector_8hpp_html"><div class="ttname"><a href="partitioning__coefficient__selector_8hpp.html">partitioning_coefficient_selector.hpp</a></div></div>
-<div class="ttc" id="aclassmodule__wrapper__factory_html_a864db3ed7a5a930d71150e7eb3bd9a42"><div class="ttname"><a href="classmodule__wrapper__factory.html#a864db3ed7a5a930d71150e7eb3bd9a42">module_wrapper_factory::module_wrapper_creator_map</a></div><div class="ttdeci">std::map&lt; std::string, module_wrapper_creator &gt; module_wrapper_creator_map</div><div class="ttdef"><b>Definition:</b> module_wrapper_factory.h:21</div></div>
 <div class="ttc" id="ac3__leaf__photosynthesis_8h_html"><div class="ttname"><a href="c3__leaf__photosynthesis_8h.html">c3_leaf_photosynthesis.h</a></div></div>
 <div class="ttc" id="ahyperbolas_8h_html"><div class="ttname"><a href="hyperbolas_8h.html">hyperbolas.h</a></div></div>
 <div class="ttc" id="aleaf__shape__factor_8h_html"><div class="ttname"><a href="leaf__shape__factor_8h.html">leaf_shape_factor.h</a></div></div>
@@ -156,7 +155,6 @@ $(document).ready(function(){initNavTree('module__wrapper__factory_8h_source.htm
 <div class="ttc" id="aed__penman__monteith__leaf__temperature_8h_html"><div class="ttname"><a href="ed__penman__monteith__leaf__temperature_8h.html">ed_penman_monteith_leaf_temperature.h</a></div></div>
 <div class="ttc" id="aharmonic__oscillator_8hpp_html"><div class="ttname"><a href="harmonic__oscillator_8hpp.html">harmonic_oscillator.hpp</a></div></div>
 <div class="ttc" id="aclassmodule__wrapper__factory_html_a88c7e6e99de6589d718c74152040e94d"><div class="ttname"><a href="classmodule__wrapper__factory.html#a88c7e6e99de6589d718c74152040e94d">module_wrapper_factory::create</a></div><div class="ttdeci">static std::unique_ptr&lt; module_wrapper_base &gt; create(std::string const &amp;module_name)</div><div class="ttdef"><b>Definition:</b> module_wrapper_factory.cpp:106</div></div>
-<div class="ttc" id="aclassmodule__wrapper__factory_html_ad2f7bad2ec851b29b46f7ef18e860f33"><div class="ttname"><a href="classmodule__wrapper__factory.html#ad2f7bad2ec851b29b46f7ef18e860f33">module_wrapper_factory::module_wrapper_creator</a></div><div class="ttdeci">std::unique_ptr&lt; module_wrapper_base &gt;(*)() module_wrapper_creator</div><div class="ttdef"><b>Definition:</b> module_wrapper_factory.h:20</div></div>
 <div class="ttc" id="alinear__vmax__from__leaf__n_8hpp_html"><div class="ttname"><a href="linear__vmax__from__leaf__n_8hpp.html">linear_vmax_from_leaf_n.hpp</a></div></div>
 <div class="ttc" id="astomata__water__stress__exponential_8hpp_html"><div class="ttname"><a href="stomata__water__stress__exponential_8hpp.html">stomata_water_stress_exponential.hpp</a></div></div>
 <div class="ttc" id="aed__nikolov__conductance_8h_html"><div class="ttname"><a href="ed__nikolov__conductance_8h.html">ed_nikolov_conductance.h</a></div></div>
@@ -167,7 +165,6 @@ $(document).ready(function(){initNavTree('module__wrapper__factory_8h_source.htm
 <div class="ttc" id="astomata__water__stress__linear_8hpp_html"><div class="ttname"><a href="stomata__water__stress__linear_8hpp.html">stomata_water_stress_linear.hpp</a></div></div>
 <div class="ttc" id="aoscillator__clock__calculator_8hpp_html"><div class="ttname"><a href="oscillator__clock__calculator_8hpp.html">oscillator_clock_calculator.hpp</a></div></div>
 <div class="ttc" id="amultilayer__c4__canopy_8h_html"><div class="ttname"><a href="multilayer__c4__canopy_8h.html">multilayer_c4_canopy.h</a></div></div>
-<div class="ttc" id="aclassmodule__wrapper__factory_html_aad0572cf54f1ce9b0b06ba73e105c0ba"><div class="ttname"><a href="classmodule__wrapper__factory.html#aad0572cf54f1ce9b0b06ba73e105c0ba">module_wrapper_factory::module_wrapper_creators</a></div><div class="ttdeci">static module_wrapper_creator_map module_wrapper_creators</div><div class="ttdef"><b>Definition:</b> module_wrapper_factory.h:22</div></div>
 <div class="ttc" id="apoincare__clock_8hpp_html"><div class="ttname"><a href="poincare__clock_8hpp.html">poincare_clock.hpp</a></div></div>
 <div class="ttc" id="ac3__canopy_8hpp_html"><div class="ttname"><a href="c3__canopy_8hpp.html">c3_canopy.hpp</a></div></div>
 <div class="ttc" id="apartitioning__growth__calculator_8hpp_html"><div class="ttname"><a href="partitioning__growth__calculator_8hpp.html">partitioning_growth_calculator.hpp</a></div></div>
@@ -223,7 +220,7 @@ $(document).ready(function(){initNavTree('module__wrapper__factory_8h_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_567355a66c5b87dfe03a58cbdce72993.html">module_library</a></li><li class="navelem"><a class="el" href="module__wrapper__factory_8h.html">module_wrapper_factory.h</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:13 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

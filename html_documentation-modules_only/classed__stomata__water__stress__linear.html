@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: ed_stomata_water_stress_linear Class Reference</title>
+<title>The BioCro C++ Library Modules: ed_stomata_water_stress_linear Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -91,8 +91,6 @@ $(document).ready(function(){initNavTree('classed__stomata__water__stress__linea
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classed__stomata__water__stress__linear-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ed_stomata_water_stress_linear Class Reference</div>  </div>
@@ -137,24 +135,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a70377e14f631d7fd158d2f3356ed6107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5b9919e2d8b1ee7bc8cc37558c79de"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">get_outputs</a> ()</td></tr>
 <tr class="separator:a5a5b9919e2d8b1ee7bc8cc37558c79de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a391e9fd4e949f6e987eb654a11b1e451"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#a391e9fd4e949f6e987eb654a11b1e451">do_operation</a> () const</td></tr>
-<tr class="separator:a391e9fd4e949f6e987eb654a11b1e451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a210267a25eacc12fe688911e6145816e"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#a210267a25eacc12fe688911e6145816e">soil_field_capacity_ip</a></td></tr>
-<tr class="separator:a210267a25eacc12fe688911e6145816e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc98cac4d76f2ee23f784fd0bcc44ec7"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#afc98cac4d76f2ee23f784fd0bcc44ec7">soil_wilting_point_ip</a></td></tr>
-<tr class="separator:afc98cac4d76f2ee23f784fd0bcc44ec7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6f92f691315e6c4996c2d18db52dac0"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#af6f92f691315e6c4996c2d18db52dac0">soil_water_content_ip</a></td></tr>
-<tr class="separator:af6f92f691315e6c4996c2d18db52dac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c8bca0b19cf8b2a24ffd17735edaac6"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#a8c8bca0b19cf8b2a24ffd17735edaac6">StomataWS_min_ip</a></td></tr>
-<tr class="separator:a8c8bca0b19cf8b2a24ffd17735edaac6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9a9e1c30f559d61d3b875a0472b81c"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__stomata__water__stress__linear.html#adf9a9e1c30f559d61d3b875a0472b81c">StomataWS_op</a></td></tr>
-<tr class="separator:adf9a9e1c30f559d61d3b875a0472b81c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Determine the stomata water stress factor. If the soil water content is below the wilting point, the stress factor takes its minimum value. If the water content is at or above the field capacity, the stress factor reaches its maximum of 1. Between the wilting point and the field capacity, the stress factor is determined by a straight line. </p>
@@ -196,31 +176,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a391e9fd4e949f6e987eb654a11b1e451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a391e9fd4e949f6e987eb654a11b1e451">&#9670;&nbsp;</a></span>do_operation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void do_operation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a70377e14f631d7fd158d2f3356ed6107"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70377e14f631d7fd158d2f3356ed6107">&#9670;&nbsp;</a></span>get_inputs()</h2>
 
@@ -271,117 +226,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a210267a25eacc12fe688911e6145816e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a210267a25eacc12fe688911e6145816e">&#9670;&nbsp;</a></span>soil_field_capacity_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* soil_field_capacity_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af6f92f691315e6c4996c2d18db52dac0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af6f92f691315e6c4996c2d18db52dac0">&#9670;&nbsp;</a></span>soil_water_content_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* soil_water_content_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afc98cac4d76f2ee23f784fd0bcc44ec7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc98cac4d76f2ee23f784fd0bcc44ec7">&#9670;&nbsp;</a></span>soil_wilting_point_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* soil_wilting_point_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8c8bca0b19cf8b2a24ffd17735edaac6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c8bca0b19cf8b2a24ffd17735edaac6">&#9670;&nbsp;</a></span>StomataWS_min_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* StomataWS_min_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="adf9a9e1c30f559d61d3b875a0472b81c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf9a9e1c30f559d61d3b875a0472b81c">&#9670;&nbsp;</a></span>StomataWS_op</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double* StomataWS_op</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/source/src/module_library/<a class="el" href="ed__stomata__water__stress__linear_8h_source.html">ed_stomata_water_stress_linear.h</a></li>
 </ul>
@@ -391,7 +235,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classed__stomata__water__stress__linear.html">ed_stomata_water_stress_linear</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:14 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

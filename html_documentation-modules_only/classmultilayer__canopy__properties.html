@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: multilayer_canopy_properties Class Reference</title>
+<title>The BioCro C++ Library Modules: multilayer_canopy_properties Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -92,7 +92,6 @@ $(document).ready(function(){initNavTree('classmultilayer__canopy__properties.ht
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="#pro-static-methods">Static Protected Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classmultilayer__canopy__properties-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">multilayer_canopy_properties Class Reference</div>  </div>
@@ -129,7 +128,7 @@ $(document).ready(function(){initNavTree('classmultilayer__canopy__properties.ht
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aee3c0ef743d7a019bf25abc318c60df6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#aee3c0ef743d7a019bf25abc318c60df6">multilayer_canopy_properties</a> (const std::string &amp;module_name, const int &amp;<a class="el" href="classmultilayer__canopy__properties.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a>, const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</td></tr>
+<tr class="memitem:aee3c0ef743d7a019bf25abc318c60df6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#aee3c0ef743d7a019bf25abc318c60df6">multilayer_canopy_properties</a> (const std::string &amp;module_name, const int &amp;nlayers, const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</td></tr>
 <tr class="separator:aee3c0ef743d7a019bf25abc318c60df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -139,7 +138,7 @@ Protected Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-static-methods"></a>
 Static Protected Member Functions</h2></td></tr>
-<tr class="memitem:a586f4cb90199901349389ca4553b9365"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a586f4cb90199901349389ca4553b9365">get_inputs</a> (int <a class="el" href="classmultilayer__canopy__properties.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a>)</td></tr>
+<tr class="memitem:a586f4cb90199901349389ca4553b9365"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a586f4cb90199901349389ca4553b9365">get_inputs</a> (int nlayers)</td></tr>
 <tr class="memdesc:a586f4cb90199901349389ca4553b9365"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define all inputs required by the module.  <a href="classmultilayer__canopy__properties.html#a586f4cb90199901349389ca4553b9365">More...</a><br /></td></tr>
 <tr class="separator:a586f4cb90199901349389ca4553b9365"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab232ea5bbeedc24a5ea77e3beaa65ac2"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#ab232ea5bbeedc24a5ea77e3beaa65ac2">define_leaf_classes</a> ()</td></tr>
@@ -151,58 +150,9 @@ Static Protected Member Functions</h2></td></tr>
 <tr class="memitem:aeb5a4dcd7ac9e83f3b434ed8bede9bd8"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#aeb5a4dcd7ac9e83f3b434ed8bede9bd8">define_pure_multilayer_outputs</a> ()</td></tr>
 <tr class="memdesc:aeb5a4dcd7ac9e83f3b434ed8bede9bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define all outputs that have different values for each layer, not including outputs that also depend on leaf class.  <a href="classmultilayer__canopy__properties.html#aeb5a4dcd7ac9e83f3b434ed8bede9bd8">More...</a><br /></td></tr>
 <tr class="separator:aeb5a4dcd7ac9e83f3b434ed8bede9bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07ef272e7460b825b87df850d4ff7174"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174">get_outputs</a> (int <a class="el" href="classmultilayer__canopy__properties.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a>)</td></tr>
+<tr class="memitem:a07ef272e7460b825b87df850d4ff7174"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174">get_outputs</a> (int nlayers)</td></tr>
 <tr class="memdesc:a07ef272e7460b825b87df850d4ff7174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define all output names by appending leaf class prefixes and layer number suffixes.  <a href="classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174">More...</a><br /></td></tr>
 <tr class="separator:a07ef272e7460b825b87df850d4ff7174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a39f9ff793dc820578cfbd116f99c24b9"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a39f9ff793dc820578cfbd116f99c24b9">nlayers</a></td></tr>
-<tr class="separator:a39f9ff793dc820578cfbd116f99c24b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a699a52cea92cf5ce3dc2d1c4f69a12aa"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a699a52cea92cf5ce3dc2d1c4f69a12aa">par_incident_direct</a></td></tr>
-<tr class="separator:a699a52cea92cf5ce3dc2d1c4f69a12aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4825830a4156fc1b43cdcff7decbc22"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#ad4825830a4156fc1b43cdcff7decbc22">par_incident_diffuse</a></td></tr>
-<tr class="separator:ad4825830a4156fc1b43cdcff7decbc22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0758ff6ded324151a24756afea5d8d0"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#ad0758ff6ded324151a24756afea5d8d0">lai</a></td></tr>
-<tr class="separator:ad0758ff6ded324151a24756afea5d8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67c4c02ec016ebe5ecf3c23e8fde9306"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a67c4c02ec016ebe5ecf3c23e8fde9306">cosine_zenith_angle</a></td></tr>
-<tr class="separator:a67c4c02ec016ebe5ecf3c23e8fde9306"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8db9c42030c0abeb0e735a732ac73c6d"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a8db9c42030c0abeb0e735a732ac73c6d">kd</a></td></tr>
-<tr class="separator:a8db9c42030c0abeb0e735a732ac73c6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a41ec33ecdca1ac00d743ee4072883e87"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a41ec33ecdca1ac00d743ee4072883e87">chil</a></td></tr>
-<tr class="separator:a41ec33ecdca1ac00d743ee4072883e87"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37ffcaca637db5517c877c580a069901"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a37ffcaca637db5517c877c580a069901">heightf</a></td></tr>
-<tr class="separator:a37ffcaca637db5517c877c580a069901"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a85b5e7152d8dea373ee75251ca167e31"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a85b5e7152d8dea373ee75251ca167e31">rh</a></td></tr>
-<tr class="separator:a85b5e7152d8dea373ee75251ca167e31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89378e7987415f652f8c3b39d1a901e1"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a89378e7987415f652f8c3b39d1a901e1">windspeed</a></td></tr>
-<tr class="separator:a89378e7987415f652f8c3b39d1a901e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f4c04484ec975472bcf60a8bf7fee44"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a9f4c04484ec975472bcf60a8bf7fee44">LeafN</a></td></tr>
-<tr class="separator:a9f4c04484ec975472bcf60a8bf7fee44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3946f8b48e7779a7495bf1e66e42398a"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a3946f8b48e7779a7495bf1e66e42398a">kpLN</a></td></tr>
-<tr class="separator:a3946f8b48e7779a7495bf1e66e42398a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5bb97569111d25827a5b38e0dc2dbe4a"><td class="memItemLeft" align="right" valign="top">const double &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a5bb97569111d25827a5b38e0dc2dbe4a">lnfun</a></td></tr>
-<tr class="separator:a5bb97569111d25827a5b38e0dc2dbe4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1bfb31caedce55ff1c1e9409a97a0dc"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#ae1bfb31caedce55ff1c1e9409a97a0dc">sunlit_incident_par_ops</a></td></tr>
-<tr class="separator:ae1bfb31caedce55ff1c1e9409a97a0dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad567e459d89233a15ad36b04c3384a1c"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#ad567e459d89233a15ad36b04c3384a1c">sunlit_fraction_ops</a></td></tr>
-<tr class="separator:ad567e459d89233a15ad36b04c3384a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4081ff7fe71205752965dac475771424"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a4081ff7fe71205752965dac475771424">shaded_incident_par_ops</a></td></tr>
-<tr class="separator:a4081ff7fe71205752965dac475771424"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad591178ae652579ed7823879b54949ab"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#ad591178ae652579ed7823879b54949ab">shaded_fraction_ops</a></td></tr>
-<tr class="separator:ad591178ae652579ed7823879b54949ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a36eeb9c61fe893dd005112c1c13013"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a8a36eeb9c61fe893dd005112c1c13013">incident_scattered_par_ops</a></td></tr>
-<tr class="separator:a8a36eeb9c61fe893dd005112c1c13013"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1641035132b58967459e173af20b7655"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a1641035132b58967459e173af20b7655">incident_average_par_ops</a></td></tr>
-<tr class="separator:a1641035132b58967459e173af20b7655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a547202b067627c3f4dab003bba1dbe84"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a547202b067627c3f4dab003bba1dbe84">height_ops</a></td></tr>
-<tr class="separator:a547202b067627c3f4dab003bba1dbe84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afbeb4fec1d5cf43983ddef7e50f1282c"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#afbeb4fec1d5cf43983ddef7e50f1282c">rh_ops</a></td></tr>
-<tr class="separator:afbeb4fec1d5cf43983ddef7e50f1282c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c767e4a4b0d4fab48098a61fc8689a1"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a0c767e4a4b0d4fab48098a61fc8689a1">windspeed_ops</a></td></tr>
-<tr class="separator:a0c767e4a4b0d4fab48098a61fc8689a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70478d5e24baf49a054ec19205071a26"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; double * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmultilayer__canopy__properties.html#a70478d5e24baf49a054ec19205071a26">LeafN_ops</a></td></tr>
-<tr class="separator:a70478d5e24baf49a054ec19205071a26"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Calculates properties of each canopy layer using functions found in AuxBioCro (for the most part). Also includes multiple leaf classes (sunlit &amp; shaded). Leaf class is added to output parameters as a prefix, while layer number is added as a suffix. Note that this module has a non-standard constructor, so it cannot be created using the <a class="el" href="classmodule__wrapper__factory.html">module_wrapper_factory</a>. </p>
@@ -509,524 +459,6 @@ Private Attributes</h2></td></tr>
 <area shape="rect" href="_aux_bio_cro_8cpp.html#ad5f0fc680176f312e47c32701ce779f7" title="RH and Wind profile function." alt="" coords="93,157,172,184"/>
 </map>
 </div>
-<div id="dynsection-9" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
-  <img id="dynsection-9-trigger" src="closed.png" alt="+"/> Here is the caller graph for this function:</div>
-<div id="dynsection-9-summary" class="dynsummary" style="display:block;">
-</div>
-<div id="dynsection-9-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="classmultilayer__canopy__properties_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph.png" border="0" usemap="#classmultilayer__canopy__properties_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph" alt=""/></div>
-<map name="classmultilayer__canopy__properties_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph" id="classmultilayer__canopy__properties_aa6b7bb009af6cd63f442559d3b8d1ab2_icgraph">
-<area shape="rect" title=" " alt="" coords="240,13,280,39"/>
-<area shape="rect" href="classten__layer__canopy__properties.html#a391e9fd4e949f6e987eb654a11b1e451" title=" " alt="" coords="5,5,192,47"/>
-</map>
-</div>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a41ec33ecdca1ac00d743ee4072883e87"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ec33ecdca1ac00d743ee4072883e87">&#9670;&nbsp;</a></span>chil</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; chil</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a67c4c02ec016ebe5ecf3c23e8fde9306"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67c4c02ec016ebe5ecf3c23e8fde9306">&#9670;&nbsp;</a></span>cosine_zenith_angle</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; cosine_zenith_angle</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a547202b067627c3f4dab003bba1dbe84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a547202b067627c3f4dab003bba1dbe84">&#9670;&nbsp;</a></span>height_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; height_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a37ffcaca637db5517c877c580a069901"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37ffcaca637db5517c877c580a069901">&#9670;&nbsp;</a></span>heightf</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; heightf</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a1641035132b58967459e173af20b7655"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1641035132b58967459e173af20b7655">&#9670;&nbsp;</a></span>incident_average_par_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; incident_average_par_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8a36eeb9c61fe893dd005112c1c13013"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a36eeb9c61fe893dd005112c1c13013">&#9670;&nbsp;</a></span>incident_scattered_par_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; incident_scattered_par_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a8db9c42030c0abeb0e735a732ac73c6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8db9c42030c0abeb0e735a732ac73c6d">&#9670;&nbsp;</a></span>kd</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; kd</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a3946f8b48e7779a7495bf1e66e42398a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3946f8b48e7779a7495bf1e66e42398a">&#9670;&nbsp;</a></span>kpLN</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; kpLN</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad0758ff6ded324151a24756afea5d8d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0758ff6ded324151a24756afea5d8d0">&#9670;&nbsp;</a></span>lai</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; lai</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9f4c04484ec975472bcf60a8bf7fee44"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9f4c04484ec975472bcf60a8bf7fee44">&#9670;&nbsp;</a></span>LeafN</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; LeafN</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a70478d5e24baf49a054ec19205071a26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70478d5e24baf49a054ec19205071a26">&#9670;&nbsp;</a></span>LeafN_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; LeafN_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5bb97569111d25827a5b38e0dc2dbe4a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bb97569111d25827a5b38e0dc2dbe4a">&#9670;&nbsp;</a></span>lnfun</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; lnfun</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a39f9ff793dc820578cfbd116f99c24b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39f9ff793dc820578cfbd116f99c24b9">&#9670;&nbsp;</a></span>nlayers</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int nlayers</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad4825830a4156fc1b43cdcff7decbc22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4825830a4156fc1b43cdcff7decbc22">&#9670;&nbsp;</a></span>par_incident_diffuse</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; par_incident_diffuse</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a699a52cea92cf5ce3dc2d1c4f69a12aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a699a52cea92cf5ce3dc2d1c4f69a12aa">&#9670;&nbsp;</a></span>par_incident_direct</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; par_incident_direct</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a85b5e7152d8dea373ee75251ca167e31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a85b5e7152d8dea373ee75251ca167e31">&#9670;&nbsp;</a></span>rh</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; rh</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afbeb4fec1d5cf43983ddef7e50f1282c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbeb4fec1d5cf43983ddef7e50f1282c">&#9670;&nbsp;</a></span>rh_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; rh_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad591178ae652579ed7823879b54949ab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad591178ae652579ed7823879b54949ab">&#9670;&nbsp;</a></span>shaded_fraction_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; shaded_fraction_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4081ff7fe71205752965dac475771424"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4081ff7fe71205752965dac475771424">&#9670;&nbsp;</a></span>shaded_incident_par_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; shaded_incident_par_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad567e459d89233a15ad36b04c3384a1c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad567e459d89233a15ad36b04c3384a1c">&#9670;&nbsp;</a></span>sunlit_fraction_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; sunlit_fraction_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae1bfb31caedce55ff1c1e9409a97a0dc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae1bfb31caedce55ff1c1e9409a97a0dc">&#9670;&nbsp;</a></span>sunlit_incident_par_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; sunlit_incident_par_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a89378e7987415f652f8c3b39d1a901e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89378e7987415f652f8c3b39d1a901e1">&#9670;&nbsp;</a></span>windspeed</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double&amp; windspeed</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0c767e4a4b0d4fab48098a61fc8689a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c767e4a4b0d4fab48098a61fc8689a1">&#9670;&nbsp;</a></span>windspeed_ops</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::vector&lt;double*&gt; windspeed_ops</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -1039,7 +471,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classmultilayer__canopy__properties.html">multilayer_canopy_properties</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:14 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

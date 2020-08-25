@@ -156,7 +156,7 @@ var dir_567355a66c5b87dfe03a58cbdce72993 =
     ] ],
     [ "module_wrapper_factory.cpp", "module__wrapper__factory_8cpp.html", "module__wrapper__factory_8cpp" ],
     [ "module_wrapper_factory.h", "module__wrapper__factory_8h.html", [
-      [ "module_wrapper_factory", "classmodule__wrapper__factory.html", "classmodule__wrapper__factory" ]
+      [ "module_wrapper_factory", "classmodule__wrapper__factory.html", null ]
     ] ],
     [ "multilayer_c3_canopy.h", "multilayer__c3__canopy_8h.html", [
       [ "ten_layer_c3_canopy", "classten__layer__c3__canopy.html", "classten__layer__c3__canopy" ]

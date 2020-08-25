@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: /github/workspace/source/src/module_library/ed_leaf_photosynthesis.h Source File</title>
+<title>The BioCro C++ Library Modules: /github/workspace/source/src/module_library/ed_leaf_photosynthesis.h Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -189,7 +189,7 @@ $(document).ready(function(){initNavTree('ed__leaf__photosynthesis_8h_source.htm
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;                <span class="keyword">const</span> state_map* input_parameters,</div>
 <div class="line"><a name="l00132"></a><span class="lineno">  132</span>&#160;                state_map* output_parameters)</div>
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;        : SteadyModule(module_name),</div>
-<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;          <a class="code" href="classed__leaf__photosynthesis_1_1module__base.html#a42f105c7ce8a5cfea86276bc4bf1e29b">validated</a>(<a class="code" href="namespaceed__leaf__photosynthesis.html#add16f7d2ec62115d83939e9d1be43224">validate_modules</a>(input_module_names)),</div>
+<div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;          validated(<a class="code" href="namespaceed__leaf__photosynthesis.html#add16f7d2ec62115d83939e9d1be43224">validate_modules</a>(input_module_names)),</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;          <a class="code" href="classed__leaf__photosynthesis_1_1module__base.html#af473183dd1ed26f8c72073edc380f48d">input_ptrs</a>(get_ip(input_parameters, <a class="code" href="namespaceed__leaf__photosynthesis.html#a6ead371bb16ba9c670f7b6720a556d81">get_reference_inputs</a>())),</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;          <a class="code" href="classed__leaf__photosynthesis_1_1module__base.html#ae47e9d21f2fbf8c9d4b033adec7e1b45">output_ptrs</a>(get_op(output_parameters, <a class="code" href="namespaceed__leaf__photosynthesis.html#aea52b1d46ad1fbd37fb8575987029ad7">get_reference_outputs</a>()))</div>
 <div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    {</div>
@@ -197,7 +197,7 @@ $(document).ready(function(){initNavTree('ed__leaf__photosynthesis_8h_source.htm
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <span class="keyword">virtual</span> <a class="code" href="classed__leaf__photosynthesis_1_1module__base.html#a102f51620809f6213614d252a570fd86">~module_base</a>() = 0;</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160; </div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;   <span class="keyword">private</span>:</div>
-<div class="line"><a name="l00142"></a><span class="lineno"><a class="line" href="classed__leaf__photosynthesis_1_1module__base.html#a42f105c7ce8a5cfea86276bc4bf1e29b">  142</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classed__leaf__photosynthesis_1_1module__base.html#a42f105c7ce8a5cfea86276bc4bf1e29b">validated</a>;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;    <span class="keywordtype">bool</span> validated;</div>
 <div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160; </div>
 <div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;   <span class="keyword">protected</span>:</div>
 <div class="line"><a name="l00145"></a><span class="lineno">  145</span>&#160;    <span class="comment">// Pointers to input parameters</span></div>
@@ -222,7 +222,6 @@ $(document).ready(function(){initNavTree('ed__leaf__photosynthesis_8h_source.htm
 <div class="ttc" id="aclassed__leaf__photosynthesis_1_1module__base_html"><div class="ttname"><a href="classed__leaf__photosynthesis_1_1module__base.html">ed_leaf_photosynthesis::module_base</a></div><div class="ttdoc">A general module representing photosynthesis calculations. Note that this module cannot be created by...</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis.h:127</div></div>
 <div class="ttc" id="aclassed__leaf__photosynthesis_1_1module__base_html_ae47e9d21f2fbf8c9d4b033adec7e1b45"><div class="ttname"><a href="classed__leaf__photosynthesis_1_1module__base.html#ae47e9d21f2fbf8c9d4b033adec7e1b45">ed_leaf_photosynthesis::module_base::output_ptrs</a></div><div class="ttdeci">std::vector&lt; double * &gt; output_ptrs</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis.h:148</div></div>
 <div class="ttc" id="anamespaceed__leaf__photosynthesis_html_a6ead371bb16ba9c670f7b6720a556d81"><div class="ttname"><a href="namespaceed__leaf__photosynthesis.html#a6ead371bb16ba9c670f7b6720a556d81">ed_leaf_photosynthesis::get_reference_inputs</a></div><div class="ttdeci">string_vector get_reference_inputs()</div><div class="ttdoc">A function that finds all inputs required by the reference modules, excluding any unknowns.</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis.h:33</div></div>
-<div class="ttc" id="aclassed__leaf__photosynthesis_1_1module__base_html_a42f105c7ce8a5cfea86276bc4bf1e29b"><div class="ttname"><a href="classed__leaf__photosynthesis_1_1module__base.html#a42f105c7ce8a5cfea86276bc4bf1e29b">ed_leaf_photosynthesis::module_base::validated</a></div><div class="ttdeci">bool validated</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis.h:142</div></div>
 <div class="ttc" id="anamespaceed__leaf__photosynthesis__nr_html_a67e21959462c17b156447914663126c8"><div class="ttname"><a href="namespaceed__leaf__photosynthesis__nr.html#a67e21959462c17b156447914663126c8">ed_leaf_photosynthesis_nr::unknown_quantities</a></div><div class="ttdeci">const string_vector unknown_quantities</div><div class="ttdoc">Define a list of the unknown quantities.</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis_nr.h:14</div></div>
 <div class="ttc" id="anamespaceed__leaf__photosynthesis_html_add16f7d2ec62115d83939e9d1be43224"><div class="ttname"><a href="namespaceed__leaf__photosynthesis.html#add16f7d2ec62115d83939e9d1be43224">ed_leaf_photosynthesis::validate_modules</a></div><div class="ttdeci">bool validate_modules(string_vector input_module_names)</div><div class="ttdoc">Checks to make sure the input modules are valid.</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis.h:94</div></div>
 <div class="ttc" id="anamespaceed__leaf__photosynthesis_html_a4dec6eacf4654aae909bb6debb078051"><div class="ttname"><a href="namespaceed__leaf__photosynthesis.html#a4dec6eacf4654aae909bb6debb078051">ed_leaf_photosynthesis::reference_module_names</a></div><div class="ttdeci">const string_vector reference_module_names</div><div class="ttdoc">Define a list of reference module names.</div><div class="ttdef"><b>Definition:</b> ed_leaf_photosynthesis.h:14</div></div>
@@ -231,7 +230,7 @@ $(document).ready(function(){initNavTree('ed__leaf__photosynthesis_8h_source.htm
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_567355a66c5b87dfe03a58cbdce72993.html">module_library</a></li><li class="navelem"><a class="el" href="ed__leaf__photosynthesis_8h.html">ed_leaf_photosynthesis.h</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:13 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:24 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

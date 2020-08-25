@@ -1,0 +1,5 @@
+<map id="run_modules" name="run_modules">
+<area shape="rect" id="node1" title="Runs each module using the values from unknown_quantity_vector and updates the central map of quantit..." alt="" coords="164,31,260,57"/>
+<area shape="rect" id="node2" href="$classsimultaneous__equations.html#a2be68ff867d1ac0a7e1b797ffc8561d5" title="Updates the values of vector_to_update using the values pointed to by the elements of the private mem..." alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node3" href="$classsimultaneous__equations.html#ae2a3097168dcf10cc2c5f0c2cde4851a" title="Calculates the change in value of the unknown quantities given a vector of initial values." alt="" coords="22,56,99,83"/>
+</map>

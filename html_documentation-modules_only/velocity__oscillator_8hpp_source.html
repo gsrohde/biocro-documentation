@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: /github/workspace/source/src/module_library/velocity_oscillator.hpp Source File</title>
+<title>The BioCro C++ Library Modules: /github/workspace/source/src/module_library/velocity_oscillator.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -103,19 +103,19 @@ $(document).ready(function(){initNavTree('velocity__oscillator_8hpp_source.html'
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                        <span class="comment">// Define basic module properties by passing its name to its parent class</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                        DerivModule(<span class="stringliteral">&quot;velocity_oscillator&quot;</span>),</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                        <span class="comment">// Get pointers to input parameters</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        <a class="code" href="classvelocity__oscillator.html#a98c3c8042317e417b06a4edce4c778ba">position_ip</a>(get_ip(input_parameters, <span class="stringliteral">&quot;position&quot;</span>)),</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        position_ip(get_ip(input_parameters, <span class="stringliteral">&quot;position&quot;</span>)),</div>
 <div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        <span class="comment">// Get pointers to output parameters</span></div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                        <a class="code" href="classvelocity__oscillator.html#ae151f7f75356d701c5df0ea94375d9ef">velocity_op</a>(get_op(output_parameters, <span class="stringliteral">&quot;velocity&quot;</span>))</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                        velocity_op(get_op(output_parameters, <span class="stringliteral">&quot;velocity&quot;</span>))</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                {}</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classvelocity__oscillator.html#a70377e14f631d7fd158d2f3356ed6107">get_inputs</a>();</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classvelocity__oscillator.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">get_outputs</a>();</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;        <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="comment">// Pointers to input parameters</span></div>
-<div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="classvelocity__oscillator.html#a98c3c8042317e417b06a4edce4c778ba">   20</a></span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* <a class="code" href="classvelocity__oscillator.html#a98c3c8042317e417b06a4edce4c778ba">position_ip</a>;</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* position_ip;</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="comment">// Pointers to output parameters</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classvelocity__oscillator.html#ae151f7f75356d701c5df0ea94375d9ef">   22</a></span>&#160;                <span class="keywordtype">double</span>* <a class="code" href="classvelocity__oscillator.html#ae151f7f75356d701c5df0ea94375d9ef">velocity_op</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keywordtype">double</span>* velocity_op;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="comment">// Main operation</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="classvelocity__oscillator.html#a391e9fd4e949f6e987eb654a11b1e451">do_operation</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordtype">void</span> do_operation() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div>
 <div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160; </div>
 <div class="line"><a name="l00027"></a><span class="lineno"><a class="line" href="classvelocity__oscillator.html#a70377e14f631d7fd158d2f3356ed6107">   27</a></span>&#160;std::vector&lt;std::string&gt; <a class="code" href="classvelocity__oscillator.html#a70377e14f631d7fd158d2f3356ed6107">velocity_oscillator::get_inputs</a>() {</div>
@@ -130,9 +130,9 @@ $(document).ready(function(){initNavTree('velocity__oscillator_8hpp_source.html'
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;        };</div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;}</div>
 <div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160; </div>
-<div class="line"><a name="l00039"></a><span class="lineno"><a class="line" href="classvelocity__oscillator.html#a391e9fd4e949f6e987eb654a11b1e451">   39</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classvelocity__oscillator.html#a391e9fd4e949f6e987eb654a11b1e451">velocity_oscillator::do_operation</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;<span class="keywordtype">void</span> velocity_oscillator::do_operation()<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        <span class="comment">// Update the output parameter list</span></div>
-<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        update(<a class="code" href="classvelocity__oscillator.html#ae151f7f75356d701c5df0ea94375d9ef">velocity_op</a>, -(*<a class="code" href="classvelocity__oscillator.html#a98c3c8042317e417b06a4edce4c778ba">position_ip</a>));</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        update(velocity_op, -(*position_ip));</div>
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;}</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160; </div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;<span class="preprocessor">#endif</span></div>
@@ -140,16 +140,13 @@ $(document).ready(function(){initNavTree('velocity__oscillator_8hpp_source.html'
 </div><!-- doc-content -->
 <div class="ttc" id="aclassvelocity__oscillator_html_a70377e14f631d7fd158d2f3356ed6107"><div class="ttname"><a href="classvelocity__oscillator.html#a70377e14f631d7fd158d2f3356ed6107">velocity_oscillator::get_inputs</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; get_inputs()</div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:27</div></div>
 <div class="ttc" id="aclassvelocity__oscillator_html_af520e3c55d5627b88debe8bad4906683"><div class="ttname"><a href="classvelocity__oscillator.html#af520e3c55d5627b88debe8bad4906683">velocity_oscillator::velocity_oscillator</a></div><div class="ttdeci">velocity_oscillator(const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:8</div></div>
-<div class="ttc" id="aclassvelocity__oscillator_html_a391e9fd4e949f6e987eb654a11b1e451"><div class="ttname"><a href="classvelocity__oscillator.html#a391e9fd4e949f6e987eb654a11b1e451">velocity_oscillator::do_operation</a></div><div class="ttdeci">void do_operation() const</div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:39</div></div>
-<div class="ttc" id="aclassvelocity__oscillator_html_a98c3c8042317e417b06a4edce4c778ba"><div class="ttname"><a href="classvelocity__oscillator.html#a98c3c8042317e417b06a4edce4c778ba">velocity_oscillator::position_ip</a></div><div class="ttdeci">const double * position_ip</div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:20</div></div>
-<div class="ttc" id="aclassvelocity__oscillator_html_ae151f7f75356d701c5df0ea94375d9ef"><div class="ttname"><a href="classvelocity__oscillator.html#ae151f7f75356d701c5df0ea94375d9ef">velocity_oscillator::velocity_op</a></div><div class="ttdeci">double * velocity_op</div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:22</div></div>
 <div class="ttc" id="aclassvelocity__oscillator_html"><div class="ttname"><a href="classvelocity__oscillator.html">velocity_oscillator</a></div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:6</div></div>
 <div class="ttc" id="aclassvelocity__oscillator_html_a5a5b9919e2d8b1ee7bc8cc37558c79de"><div class="ttname"><a href="classvelocity__oscillator.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">velocity_oscillator::get_outputs</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; get_outputs()</div><div class="ttdef"><b>Definition:</b> velocity_oscillator.hpp:33</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_567355a66c5b87dfe03a58cbdce72993.html">module_library</a></li><li class="navelem"><a class="el" href="velocity__oscillator_8hpp.html">velocity_oscillator.hpp</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:13 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

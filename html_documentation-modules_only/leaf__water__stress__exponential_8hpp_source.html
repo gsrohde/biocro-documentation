@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: /github/workspace/source/src/module_library/leaf_water_stress_exponential.hpp Source File</title>
+<title>The BioCro C++ Library Modules: /github/workspace/source/src/module_library/leaf_water_stress_exponential.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -103,23 +103,23 @@ $(document).ready(function(){initNavTree('leaf__water__stress__exponential_8hpp_
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                        <span class="comment">// Define basic module properties by passing its name to its parent class</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                        SteadyModule(<span class="stringliteral">&quot;leaf_water_stress_exponential&quot;</span>),</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                        <span class="comment">// Get pointers to input parameters</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        <a class="code" href="classleaf__water__stress__exponential.html#af6f92f691315e6c4996c2d18db52dac0">soil_water_content_ip</a>(get_ip(input_parameters, <span class="stringliteral">&quot;soil_water_content&quot;</span>)),</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        <a class="code" href="classleaf__water__stress__exponential.html#a210267a25eacc12fe688911e6145816e">soil_field_capacity_ip</a>(get_ip(input_parameters, <span class="stringliteral">&quot;soil_field_capacity&quot;</span>)),</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                        <a class="code" href="classleaf__water__stress__exponential.html#a6d1aed05f85791295270a48ab34e9d3f">phi2_ip</a>(get_ip(input_parameters, <span class="stringliteral">&quot;phi2&quot;</span>)),</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        soil_water_content_ip(get_ip(input_parameters, <span class="stringliteral">&quot;soil_water_content&quot;</span>)),</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        soil_field_capacity_ip(get_ip(input_parameters, <span class="stringliteral">&quot;soil_field_capacity&quot;</span>)),</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                        phi2_ip(get_ip(input_parameters, <span class="stringliteral">&quot;phi2&quot;</span>)),</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        <span class="comment">// Get pointers to output parameters</span></div>
-<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                        <a class="code" href="classleaf__water__stress__exponential.html#af8280cb64e1949c93094e429d2296cb4">LeafWS_op</a>(get_op(output_parameters, <span class="stringliteral">&quot;LeafWS&quot;</span>))</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                        LeafWS_op(get_op(output_parameters, <span class="stringliteral">&quot;LeafWS&quot;</span>))</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                {}</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classleaf__water__stress__exponential.html#a70377e14f631d7fd158d2f3356ed6107">get_inputs</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;                <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classleaf__water__stress__exponential.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">get_outputs</a>();</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;        <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="comment">// Pointers to input parameters</span></div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classleaf__water__stress__exponential.html#af6f92f691315e6c4996c2d18db52dac0">   22</a></span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* <a class="code" href="classleaf__water__stress__exponential.html#af6f92f691315e6c4996c2d18db52dac0">soil_water_content_ip</a>;</div>
-<div class="line"><a name="l00023"></a><span class="lineno"><a class="line" href="classleaf__water__stress__exponential.html#a210267a25eacc12fe688911e6145816e">   23</a></span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* <a class="code" href="classleaf__water__stress__exponential.html#a210267a25eacc12fe688911e6145816e">soil_field_capacity_ip</a>;</div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classleaf__water__stress__exponential.html#a6d1aed05f85791295270a48ab34e9d3f">   24</a></span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* <a class="code" href="classleaf__water__stress__exponential.html#a6d1aed05f85791295270a48ab34e9d3f">phi2_ip</a>;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* soil_water_content_ip;</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* soil_field_capacity_ip;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* phi2_ip;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="comment">// Pointers to output parameters</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno"><a class="line" href="classleaf__water__stress__exponential.html#af8280cb64e1949c93094e429d2296cb4">   26</a></span>&#160;                <span class="keywordtype">double</span>* <a class="code" href="classleaf__water__stress__exponential.html#af8280cb64e1949c93094e429d2296cb4">LeafWS_op</a>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordtype">double</span>* LeafWS_op;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;                <span class="comment">// Main operation</span></div>
-<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="classleaf__water__stress__exponential.html#a391e9fd4e949f6e987eb654a11b1e451">do_operation</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;                <span class="keywordtype">void</span> do_operation() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;};</div>
 <div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160; </div>
 <div class="line"><a name="l00031"></a><span class="lineno"><a class="line" href="classleaf__water__stress__exponential.html#a70377e14f631d7fd158d2f3356ed6107">   31</a></span>&#160;std::vector&lt;std::string&gt; <a class="code" href="classleaf__water__stress__exponential.html#a70377e14f631d7fd158d2f3356ed6107">leaf_water_stress_exponential::get_inputs</a>() {</div>
@@ -136,28 +136,23 @@ $(document).ready(function(){initNavTree('leaf__water__stress__exponential_8hpp_
 <div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        };</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;}</div>
 <div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160; </div>
-<div class="line"><a name="l00045"></a><span class="lineno"><a class="line" href="classleaf__water__stress__exponential.html#a391e9fd4e949f6e987eb654a11b1e451">   45</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classleaf__water__stress__exponential.html#a391e9fd4e949f6e987eb654a11b1e451">leaf_water_stress_exponential::do_operation</a>()<span class="keyword"> const </span>{      </div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;<span class="keywordtype">void</span> leaf_water_stress_exponential::do_operation()<span class="keyword"> const </span>{      </div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        <span class="comment">// Update the output parameter list</span></div>
-<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        update(<a class="code" href="classleaf__water__stress__exponential.html#af8280cb64e1949c93094e429d2296cb4">LeafWS_op</a>, std::min(std::max(pow((*<a class="code" href="classleaf__water__stress__exponential.html#af6f92f691315e6c4996c2d18db52dac0">soil_water_content_ip</a>)/(*<a class="code" href="classleaf__water__stress__exponential.html#a210267a25eacc12fe688911e6145816e">soil_field_capacity_ip</a>), *<a class="code" href="classleaf__water__stress__exponential.html#a6d1aed05f85791295270a48ab34e9d3f">phi2_ip</a>), eps), 1.0));</div>
+<div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        update(LeafWS_op, std::min(std::max(pow((*soil_water_content_ip)/(*soil_field_capacity_ip), *phi2_ip), eps), 1.0));</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;}</div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160; </div>
 <div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
-<div class="ttc" id="aclassleaf__water__stress__exponential_html_af6f92f691315e6c4996c2d18db52dac0"><div class="ttname"><a href="classleaf__water__stress__exponential.html#af6f92f691315e6c4996c2d18db52dac0">leaf_water_stress_exponential::soil_water_content_ip</a></div><div class="ttdeci">const double * soil_water_content_ip</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:22</div></div>
-<div class="ttc" id="aclassleaf__water__stress__exponential_html_a210267a25eacc12fe688911e6145816e"><div class="ttname"><a href="classleaf__water__stress__exponential.html#a210267a25eacc12fe688911e6145816e">leaf_water_stress_exponential::soil_field_capacity_ip</a></div><div class="ttdeci">const double * soil_field_capacity_ip</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:23</div></div>
 <div class="ttc" id="aclassleaf__water__stress__exponential_html_a70377e14f631d7fd158d2f3356ed6107"><div class="ttname"><a href="classleaf__water__stress__exponential.html#a70377e14f631d7fd158d2f3356ed6107">leaf_water_stress_exponential::get_inputs</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; get_inputs()</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:31</div></div>
-<div class="ttc" id="aclassleaf__water__stress__exponential_html_af8280cb64e1949c93094e429d2296cb4"><div class="ttname"><a href="classleaf__water__stress__exponential.html#af8280cb64e1949c93094e429d2296cb4">leaf_water_stress_exponential::LeafWS_op</a></div><div class="ttdeci">double * LeafWS_op</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:26</div></div>
 <div class="ttc" id="aclassleaf__water__stress__exponential_html"><div class="ttname"><a href="classleaf__water__stress__exponential.html">leaf_water_stress_exponential</a></div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:6</div></div>
-<div class="ttc" id="aclassleaf__water__stress__exponential_html_a391e9fd4e949f6e987eb654a11b1e451"><div class="ttname"><a href="classleaf__water__stress__exponential.html#a391e9fd4e949f6e987eb654a11b1e451">leaf_water_stress_exponential::do_operation</a></div><div class="ttdeci">void do_operation() const</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:45</div></div>
 <div class="ttc" id="aclassleaf__water__stress__exponential_html_af50a938bc895ac8304d276d6ea1f6978"><div class="ttname"><a href="classleaf__water__stress__exponential.html#af50a938bc895ac8304d276d6ea1f6978">leaf_water_stress_exponential::leaf_water_stress_exponential</a></div><div class="ttdeci">leaf_water_stress_exponential(const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:8</div></div>
 <div class="ttc" id="aclassleaf__water__stress__exponential_html_a5a5b9919e2d8b1ee7bc8cc37558c79de"><div class="ttname"><a href="classleaf__water__stress__exponential.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">leaf_water_stress_exponential::get_outputs</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; get_outputs()</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:39</div></div>
-<div class="ttc" id="aclassleaf__water__stress__exponential_html_a6d1aed05f85791295270a48ab34e9d3f"><div class="ttname"><a href="classleaf__water__stress__exponential.html#a6d1aed05f85791295270a48ab34e9d3f">leaf_water_stress_exponential::phi2_ip</a></div><div class="ttdeci">const double * phi2_ip</div><div class="ttdef"><b>Definition:</b> leaf_water_stress_exponential.hpp:24</div></div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_567355a66c5b87dfe03a58cbdce72993.html">module_library</a></li><li class="navelem"><a class="el" href="leaf__water__stress__exponential_8hpp.html">leaf_water_stress_exponential.hpp</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:13 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

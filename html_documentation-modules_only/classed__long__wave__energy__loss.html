@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: ed_long_wave_energy_loss Class Reference</title>
+<title>The BioCro C++ Library Modules: ed_long_wave_energy_loss Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -91,8 +91,6 @@ $(document).ready(function(){initNavTree('classed__long__wave__energy__loss.html
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classed__long__wave__energy__loss-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">ed_long_wave_energy_loss Class Reference</div>  </div>
@@ -137,22 +135,6 @@ Static Public Member Functions</h2></td></tr>
 <tr class="separator:a70377e14f631d7fd158d2f3356ed6107"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a5b9919e2d8b1ee7bc8cc37558c79de"><td class="memItemLeft" align="right" valign="top">static std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__long__wave__energy__loss.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">get_outputs</a> ()</td></tr>
 <tr class="separator:a5a5b9919e2d8b1ee7bc8cc37558c79de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:aba36ef6feb82085d0a909a9b5998e3d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__long__wave__energy__loss.html#aba36ef6feb82085d0a909a9b5998e3d8">do_operation</a> () const override</td></tr>
-<tr class="separator:aba36ef6feb82085d0a909a9b5998e3d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a5bad0bb4be07567fb982f60e360b1b66"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__long__wave__energy__loss.html#a5bad0bb4be07567fb982f60e360b1b66">temperature_leaf_ip</a></td></tr>
-<tr class="separator:a5bad0bb4be07567fb982f60e360b1b66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac63c97f9467e03bc37d32004c7e7ea6a"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__long__wave__energy__loss.html#ac63c97f9467e03bc37d32004c7e7ea6a">temperature_air_ip</a></td></tr>
-<tr class="separator:ac63c97f9467e03bc37d32004c7e7ea6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5a85820b79937a7552931dadbc923a8"><td class="memItemLeft" align="right" valign="top">const double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__long__wave__energy__loss.html#aa5a85820b79937a7552931dadbc923a8">emissivity_leaf_ip</a></td></tr>
-<tr class="separator:aa5a85820b79937a7552931dadbc923a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab266c068ef098cadb86f69d20266e20a"><td class="memItemLeft" align="right" valign="top">double *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classed__long__wave__energy__loss.html#ab266c068ef098cadb86f69d20266e20a">long_wave_energy_loss_leaf_op</a></td></tr>
-<tr class="separator:ab266c068ef098cadb86f69d20266e20a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Uses the Stefan-Boltzmann law to calculate long-wave energy losses from the leaf to the air. Currently only intended for use by Ed. </p>
@@ -194,31 +176,6 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aba36ef6feb82085d0a909a9b5998e3d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba36ef6feb82085d0a909a9b5998e3d8">&#9670;&nbsp;</a></span>do_operation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void do_operation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a70377e14f631d7fd158d2f3356ed6107"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a70377e14f631d7fd158d2f3356ed6107">&#9670;&nbsp;</a></span>get_inputs()</h2>
 
@@ -269,95 +226,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa5a85820b79937a7552931dadbc923a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5a85820b79937a7552931dadbc923a8">&#9670;&nbsp;</a></span>emissivity_leaf_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* emissivity_leaf_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab266c068ef098cadb86f69d20266e20a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab266c068ef098cadb86f69d20266e20a">&#9670;&nbsp;</a></span>long_wave_energy_loss_leaf_op</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">double* long_wave_energy_loss_leaf_op</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac63c97f9467e03bc37d32004c7e7ea6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac63c97f9467e03bc37d32004c7e7ea6a">&#9670;&nbsp;</a></span>temperature_air_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* temperature_air_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5bad0bb4be07567fb982f60e360b1b66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5bad0bb4be07567fb982f60e360b1b66">&#9670;&nbsp;</a></span>temperature_leaf_ip</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const double* temperature_leaf_ip</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>/github/workspace/source/src/module_library/<a class="el" href="ed__long__wave__energy__loss_8h_source.html">ed_long_wave_energy_loss.h</a></li>
 </ul>
@@ -367,7 +235,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classed__long__wave__energy__loss.html">ed_long_wave_energy_loss</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:14 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:25 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

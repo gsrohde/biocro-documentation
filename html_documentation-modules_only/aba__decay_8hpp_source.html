@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.18"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>The BioCro C++ Library: /github/workspace/source/src/module_library/aba_decay.hpp Source File</title>
+<title>The BioCro C++ Library Modules: /github/workspace/source/src/module_library/aba_decay.hpp Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -32,7 +32,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">The BioCro C++ Library
+   <div id="projectname">The BioCro C++ Library Modules
    </div>
   </td>
  </tr>
@@ -103,21 +103,21 @@ $(document).ready(function(){initNavTree('aba__decay_8hpp_source.html',''); init
 <div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;                        <span class="comment">// Define basic module properties by passing its name to its parent class</span></div>
 <div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;                        DerivModule(<span class="stringliteral">&quot;aba_decay&quot;</span>),</div>
 <div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;                        <span class="comment">// Get pointers to input parameters</span></div>
-<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        <a class="code" href="classaba__decay.html#a45550d4f6d4b0d4252e2c041922c7bba">soil_aba_concentration_ip</a>(get_ip(input_parameters, <span class="stringliteral">&quot;soil_aba_concentration&quot;</span>)),</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        <a class="code" href="classaba__decay.html#a76b38119c721f3c288cb2cb10f5ea28e">aba_decay_constant_ip</a>(get_ip(input_parameters, <span class="stringliteral">&quot;aba_decay_constant&quot;</span>)),</div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;                        soil_aba_concentration_ip(get_ip(input_parameters, <span class="stringliteral">&quot;soil_aba_concentration&quot;</span>)),</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                        aba_decay_constant_ip(get_ip(input_parameters, <span class="stringliteral">&quot;aba_decay_constant&quot;</span>)),</div>
 <div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                        <span class="comment">// Get pointers to output parameters</span></div>
-<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        <a class="code" href="classaba__decay.html#aed96860e4b1955dfe5ff3e3b5d5b4fb3">soil_aba_concentration_op</a>(get_op(output_parameters, <span class="stringliteral">&quot;soil_aba_concentration&quot;</span>))</div>
+<div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;                        soil_aba_concentration_op(get_op(output_parameters, <span class="stringliteral">&quot;soil_aba_concentration&quot;</span>))</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                {}</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classaba__decay.html#a70377e14f631d7fd158d2f3356ed6107">get_inputs</a>();</div>
 <div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;                <span class="keyword">static</span> std::vector&lt;std::string&gt; <a class="code" href="classaba__decay.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">get_outputs</a>();</div>
 <div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;        <span class="keyword">private</span>:</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;                <span class="comment">// Pointers to input parameters</span></div>
-<div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="classaba__decay.html#a45550d4f6d4b0d4252e2c041922c7bba">   21</a></span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* <a class="code" href="classaba__decay.html#a45550d4f6d4b0d4252e2c041922c7bba">soil_aba_concentration_ip</a>;</div>
-<div class="line"><a name="l00022"></a><span class="lineno"><a class="line" href="classaba__decay.html#a76b38119c721f3c288cb2cb10f5ea28e">   22</a></span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* <a class="code" href="classaba__decay.html#a76b38119c721f3c288cb2cb10f5ea28e">aba_decay_constant_ip</a>;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* soil_aba_concentration_ip;</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;                <span class="keyword">const</span> <span class="keywordtype">double</span>* aba_decay_constant_ip;</div>
 <div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;                <span class="comment">// Pointers to output parameters</span></div>
-<div class="line"><a name="l00024"></a><span class="lineno"><a class="line" href="classaba__decay.html#aed96860e4b1955dfe5ff3e3b5d5b4fb3">   24</a></span>&#160;                <span class="keywordtype">double</span>* <a class="code" href="classaba__decay.html#aed96860e4b1955dfe5ff3e3b5d5b4fb3">soil_aba_concentration_op</a>;</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;                <span class="keywordtype">double</span>* soil_aba_concentration_op;</div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;                <span class="comment">// Main operation</span></div>
-<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordtype">void</span> <a class="code" href="classaba__decay.html#a391e9fd4e949f6e987eb654a11b1e451">do_operation</a>() <span class="keyword">const</span>;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;                <span class="keywordtype">void</span> do_operation() <span class="keyword">const</span>;</div>
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;};</div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160; </div>
 <div class="line"><a name="l00029"></a><span class="lineno"><a class="line" href="classaba__decay.html#a70377e14f631d7fd158d2f3356ed6107">   29</a></span>&#160;std::vector&lt;std::string&gt; <a class="code" href="classaba__decay.html#a70377e14f631d7fd158d2f3356ed6107">aba_decay::get_inputs</a>() {</div>
@@ -133,25 +133,21 @@ $(document).ready(function(){initNavTree('aba__decay_8hpp_source.html',''); init
 <div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        };</div>
 <div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;}</div>
 <div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160; </div>
-<div class="line"><a name="l00042"></a><span class="lineno"><a class="line" href="classaba__decay.html#a391e9fd4e949f6e987eb654a11b1e451">   42</a></span>&#160;<span class="keywordtype">void</span> <a class="code" href="classaba__decay.html#a391e9fd4e949f6e987eb654a11b1e451">aba_decay::do_operation</a>()<span class="keyword"> const </span>{</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;<span class="keywordtype">void</span> aba_decay::do_operation()<span class="keyword"> const </span>{</div>
 <div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="comment">// Collect input parameters and make calculations</span></div>
-<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">double</span> aba_decay_constant = *<a class="code" href="classaba__decay.html#a76b38119c721f3c288cb2cb10f5ea28e">aba_decay_constant_ip</a>;</div>
-<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">double</span> soil_aba_concentration = *<a class="code" href="classaba__decay.html#a45550d4f6d4b0d4252e2c041922c7bba">soil_aba_concentration_ip</a>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">double</span> aba_decay_constant = *aba_decay_constant_ip;</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;        <span class="keywordtype">double</span> soil_aba_concentration = *soil_aba_concentration_ip;</div>
 <div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;        </div>
 <div class="line"><a name="l00047"></a><span class="lineno">   47</span>&#160;        <span class="keywordtype">double</span> decay_rate = - aba_decay_constant * soil_aba_concentration;</div>
 <div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;        </div>
 <div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;        <span class="comment">// Update the output parameter list</span></div>
-<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        update(<a class="code" href="classaba__decay.html#aed96860e4b1955dfe5ff3e3b5d5b4fb3">soil_aba_concentration_op</a>, decay_rate);</div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;        update(soil_aba_concentration_op, decay_rate);</div>
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;}</div>
 <div class="line"><a name="l00052"></a><span class="lineno">   52</span>&#160; </div>
 <div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;<span class="preprocessor">#endif</span></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <div class="ttc" id="aclassaba__decay_html_a5a5b9919e2d8b1ee7bc8cc37558c79de"><div class="ttname"><a href="classaba__decay.html#a5a5b9919e2d8b1ee7bc8cc37558c79de">aba_decay::get_outputs</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; get_outputs()</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:36</div></div>
-<div class="ttc" id="aclassaba__decay_html_aed96860e4b1955dfe5ff3e3b5d5b4fb3"><div class="ttname"><a href="classaba__decay.html#aed96860e4b1955dfe5ff3e3b5d5b4fb3">aba_decay::soil_aba_concentration_op</a></div><div class="ttdeci">double * soil_aba_concentration_op</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:24</div></div>
-<div class="ttc" id="aclassaba__decay_html_a76b38119c721f3c288cb2cb10f5ea28e"><div class="ttname"><a href="classaba__decay.html#a76b38119c721f3c288cb2cb10f5ea28e">aba_decay::aba_decay_constant_ip</a></div><div class="ttdeci">const double * aba_decay_constant_ip</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:22</div></div>
-<div class="ttc" id="aclassaba__decay_html_a45550d4f6d4b0d4252e2c041922c7bba"><div class="ttname"><a href="classaba__decay.html#a45550d4f6d4b0d4252e2c041922c7bba">aba_decay::soil_aba_concentration_ip</a></div><div class="ttdeci">const double * soil_aba_concentration_ip</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:21</div></div>
-<div class="ttc" id="aclassaba__decay_html_a391e9fd4e949f6e987eb654a11b1e451"><div class="ttname"><a href="classaba__decay.html#a391e9fd4e949f6e987eb654a11b1e451">aba_decay::do_operation</a></div><div class="ttdeci">void do_operation() const</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:42</div></div>
 <div class="ttc" id="aclassaba__decay_html_a70377e14f631d7fd158d2f3356ed6107"><div class="ttname"><a href="classaba__decay.html#a70377e14f631d7fd158d2f3356ed6107">aba_decay::get_inputs</a></div><div class="ttdeci">static std::vector&lt; std::string &gt; get_inputs()</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:29</div></div>
 <div class="ttc" id="aclassaba__decay_html_a18d8e4124a27f2eaa036538453a98c67"><div class="ttname"><a href="classaba__decay.html#a18d8e4124a27f2eaa036538453a98c67">aba_decay::aba_decay</a></div><div class="ttdeci">aba_decay(const std::unordered_map&lt; std::string, double &gt; *input_parameters, std::unordered_map&lt; std::string, double &gt; *output_parameters)</div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:8</div></div>
 <div class="ttc" id="aclassaba__decay_html"><div class="ttname"><a href="classaba__decay.html">aba_decay</a></div><div class="ttdef"><b>Definition:</b> aba_decay.hpp:6</div></div>
@@ -159,7 +155,7 @@ $(document).ready(function(){initNavTree('aba__decay_8hpp_source.html',''); init
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_567355a66c5b87dfe03a58cbdce72993.html">module_library</a></li><li class="navelem"><a class="el" href="aba__decay_8hpp.html">aba_decay.hpp</a></li>
-    <li class="footer">Generated on Tue Aug 25 2020 20:45:12 for The BioCro C++ Library by
+    <li class="footer">Generated on Tue Aug 25 2020 21:30:24 for The BioCro C++ Library Modules by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.18 </li>
   </ul>

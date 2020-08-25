@@ -1,0 +1,4 @@
+<map id="System" name="System">
+<area shape="rect" id="node1" title="Defines a system of differential equations. Intended to be passed to a system_solver object." alt="" coords="5,95,72,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="11,5,66,32"/>
+</map>

@@ -1,27 +1,4 @@
 var classed__collatz__c4__assimilation =
 [
-    [ "ed_collatz_c4_assimilation", "classed__collatz__c4__assimilation.html#ae668b2519f2728fdea2a15b191992b5d", null ],
-    [ "do_operation", "classed__collatz__c4__assimilation.html#aba36ef6feb82085d0a909a9b5998e3d8", null ],
-    [ "assimilation_adjustment_factor_WS_ip", "classed__collatz__c4__assimilation.html#a7774c0821e51b28731c9ae839988c2fb", null ],
-    [ "assimilation_carbon_limited_op", "classed__collatz__c4__assimilation.html#af09d63b46b5110fb53fad5abc1b8777b", null ],
-    [ "assimilation_gross_op", "classed__collatz__c4__assimilation.html#a10dbf035b145172830676d32c8a0cefe", null ],
-    [ "assimilation_light_limited_op", "classed__collatz__c4__assimilation.html#aef8654405b849e4f1a63a4df699e712e", null ],
-    [ "assimilation_net_op", "classed__collatz__c4__assimilation.html#a381a6d7a0fdb2401bf3b67c9842954fc", null ],
-    [ "assimilation_rubisco_limited_op", "classed__collatz__c4__assimilation.html#a12d917937d80e52f6f80d46baab41708", null ],
-    [ "collatz_alpha_ip", "classed__collatz__c4__assimilation.html#aa4084c8d91408f88cf9ef5a7945a84f1", null ],
-    [ "collatz_beta_ip", "classed__collatz__c4__assimilation.html#a9c8df9d622b403a548ee78081bf17f58", null ],
-    [ "collatz_k_ip", "classed__collatz__c4__assimilation.html#ae60def79cce7b23f1a293956f043735c", null ],
-    [ "collatz_KT_op", "classed__collatz__c4__assimilation.html#a69833442e9ad085c44b47b79e9a7436a", null ],
-    [ "collatz_PAR_flux_ip", "classed__collatz__c4__assimilation.html#a5d3c2e5c928338b67a6f45a727fcc63c", null ],
-    [ "collatz_q10_ip", "classed__collatz__c4__assimilation.html#a3833649b7a13a8a98eb37accc6a9c57b", null ],
-    [ "collatz_rd_ip", "classed__collatz__c4__assimilation.html#a0929f31ce499c1da1b6e52801f421a61", null ],
-    [ "collatz_RT_op", "classed__collatz__c4__assimilation.html#a20b155f8d06fa0ffcff04ffe71ad357a", null ],
-    [ "collatz_rubisco_temperature_lower_ip", "classed__collatz__c4__assimilation.html#a3af4da2af45be7d5b4daf6573812fe02", null ],
-    [ "collatz_rubisco_temperature_upper_ip", "classed__collatz__c4__assimilation.html#a6947435f01ee37eb4916c4aa31c55a10", null ],
-    [ "collatz_theta_ip", "classed__collatz__c4__assimilation.html#a17b79ecfd5bd6bfb235c0bfdf07ffe34", null ],
-    [ "collatz_vmax_ip", "classed__collatz__c4__assimilation.html#a17b31e40d34f68c4f393ed3ec9bc7a63", null ],
-    [ "collatz_VT_op", "classed__collatz__c4__assimilation.html#aa8832dea578b851f2ada8167fc1a0e0d", null ],
-    [ "mole_fraction_co2_intercellular_ip", "classed__collatz__c4__assimilation.html#ad48e4c9bfc49429e1138025acba490e3", null ],
-    [ "respiration_op", "classed__collatz__c4__assimilation.html#a6f602ea91bc94d2074ee4428ba017f87", null ],
-    [ "temperature_leaf_ip", "classed__collatz__c4__assimilation.html#a5bad0bb4be07567fb982f60e360b1b66", null ]
+    [ "ed_collatz_c4_assimilation", "classed__collatz__c4__assimilation.html#ae668b2519f2728fdea2a15b191992b5d", null ]
 ];

@@ -63,7 +63,7 @@ var annotated_dup =
     [ "Module_1", "class_module__1.html", "class_module__1" ],
     [ "Module_2", "class_module__2.html", "class_module__2" ],
     [ "Module_3", "class_module__3.html", "class_module__3" ],
-    [ "module_wrapper_factory", "classmodule__wrapper__factory.html", "classmodule__wrapper__factory" ],
+    [ "module_wrapper_factory", "classmodule__wrapper__factory.html", null ],
     [ "multilayer_canopy_integrator", "classmultilayer__canopy__integrator.html", "classmultilayer__canopy__integrator" ],
     [ "multilayer_canopy_photosynthesis", "classmultilayer__canopy__photosynthesis.html", "classmultilayer__canopy__photosynthesis" ],
     [ "multilayer_canopy_properties", "classmultilayer__canopy__properties.html", "classmultilayer__canopy__properties" ],
