@@ -1,0 +1,4 @@
+<map id="check_module_io_equivalence" name="check_module_io_equivalence">
+<area shape="rect" id="node1" title="Check the the test module to make sure it has the same inputs and outputs as the reference module." alt="" coords="176,5,375,32"/>
+<area shape="rect" id="node2" href="$namespaceed__leaf__photosynthesis.html#add16f7d2ec62115d83939e9d1be43224" title="Checks to make sure the input modules are valid." alt="" coords="5,5,128,32"/>
+</map>

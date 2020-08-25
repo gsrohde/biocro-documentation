@@ -1,0 +1,2 @@
+INPUT = ../src/module_library
+OUTPUT_DIRECTORY = doxygen_modules_only
