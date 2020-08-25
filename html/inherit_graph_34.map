@@ -1,0 +1,11 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classsystem__solver.html" title=" " alt="" coords="5,143,112,170"/>
+<area shape="rect" id="node2" href="$classauto__solver.html" title=" " alt="" coords="177,35,306,76"/>
+<area shape="rect" id="node3" href="$classboost__system__solver.html" title="A class representing a generic boost system solver." alt="" coords="169,100,314,141"/>
+<area shape="rect" id="node7" href="$classboost__system__solver.html" title=" " alt="" coords="164,165,319,221"/>
+<area shape="rect" id="node9" href="$classhomemade__euler__solver.html" title=" " alt="" coords="160,244,323,285"/>
+<area shape="rect" id="node4" href="$classboost__euler__system__solver.html" title=" " alt="" coords="383,5,529,47"/>
+<area shape="rect" id="node5" href="$classboost__rk4__system__solver.html" title=" " alt="" coords="371,71,541,112"/>
+<area shape="rect" id="node6" href="$classboost__rkck54__system__solver.html" title=" " alt="" coords="381,136,531,177"/>
+<area shape="rect" id="node8" href="$classboost__rsnbrk__system__solver.html" title=" " alt="" coords="383,201,529,243"/>
+</map>

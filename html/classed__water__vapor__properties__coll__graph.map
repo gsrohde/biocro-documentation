@@ -1,4 +1,5 @@
 <map id="ed_water_vapor_properties" name="ed_water_vapor_properties">
-<area shape="rect" id="node1" title="Determines water vapor properties from the air temperature and atmospheric H2O mole fraction...." alt="" coords="5,80,184,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="43,5,147,32"/>
+<area shape="rect" id="node1" title="Determines water vapor properties from the air temperature and atmospheric H2O mole fraction...." alt="" coords="5,155,184,181"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="43,80,147,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="63,5,127,32"/>
 </map>

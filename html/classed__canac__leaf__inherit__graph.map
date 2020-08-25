@@ -1,4 +1,5 @@
 <map id="ed_canac_leaf" name="ed_canac_leaf">
-<area shape="rect" id="node1" title="Uses the Stefan&#45;Boltzmann law to calculate long&#45;wave energy losses from the leaf to the air...." alt="" coords="5,80,112,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="7,5,111,32"/>
+<area shape="rect" id="node1" title="Uses the Stefan&#45;Boltzmann law to calculate long&#45;wave energy losses from the leaf to the air...." alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="7,80,111,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="27,5,91,32"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="ed_evapotrans2" name="ed_evapotrans2">
-<area shape="rect" id="node1" title="Just a module wrapper for the EvapoTrans2 function. Currently only intended for use by Ed." alt="" coords="5,80,120,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="11,5,115,32"/>
+<area shape="rect" id="node1" title="Just a module wrapper for the EvapoTrans2 function. Currently only intended for use by Ed." alt="" coords="5,155,120,181"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="11,80,115,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="31,5,95,32"/>
 </map>

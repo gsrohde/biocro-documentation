@@ -1,4 +1,5 @@
 <map id="thermal_time_trilinear" name="thermal_time_trilinear">
-<area shape="rect" id="node1" title="Calculates the rate of thermal time accumulation using a trilinear model." alt="" coords="5,80,152,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="31,5,126,32"/>
+<area shape="rect" id="node1" title="Calculates the rate of thermal time accumulation using a trilinear model." alt="" coords="5,155,152,181"/>
+<area shape="rect" id="node2" href="$class_deriv_module.html" title=" " alt="" coords="31,80,126,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="47,5,111,32"/>
 </map>

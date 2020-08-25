@@ -1,0 +1,6 @@
+<map id="is_outside_bounds" name="is_outside_bounds">
+<area shape="rect" id="node1" title="Checks whether the elements of vec_to_test lie outside the bounds." alt="" coords="525,42,656,69"/>
+<area shape="rect" id="node2" href="$classse__solver.html#ad091e631858fd31d8794db431cdc1cc6" title="Sets the default behavior for determining a new guess from a bad one." alt="" coords="331,5,477,47"/>
+<area shape="rect" id="node3" href="$classse__solver.html#af9734f05e914820ac8e871ac28d7e86a" title="Tries to find a root, starting at the initial guess and staying within the bounds." alt="" coords="168,42,283,69"/>
+<area shape="rect" id="node4" href="$classse__solver.html#a878e6eedbbb92a96f6769e0cd62800b8" title=" " alt="" coords="5,42,120,69"/>
+</map>

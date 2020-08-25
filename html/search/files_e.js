@@ -1,13 +1,18 @@
 var searchData=
 [
-  ['shortwave_5fatmospheric_5fscattering_2eh_3370',['shortwave_atmospheric_scattering.h',['../shortwave__atmospheric__scattering_8h.html',1,'']]],
-  ['size_5ftesting_2ehpp_3371',['size_testing.hpp',['../size__testing_8hpp.html',1,'']]],
-  ['soil_5fevaporation_2ehpp_3372',['soil_evaporation.hpp',['../soil__evaporation_8hpp.html',1,'']]],
-  ['soil_5ftype_5fselector_2ehpp_3373',['soil_type_selector.hpp',['../soil__type__selector_8hpp.html',1,'']]],
-  ['solar_5fzenith_5fangle_2eh_3374',['solar_zenith_angle.h',['../solar__zenith__angle_8h.html',1,'']]],
-  ['song_5fflowering_2ehpp_3375',['song_flowering.hpp',['../song__flowering_8hpp.html',1,'']]],
-  ['stomata_5fwater_5fstress_5fexponential_2ehpp_3376',['stomata_water_stress_exponential.hpp',['../stomata__water__stress__exponential_8hpp.html',1,'']]],
-  ['stomata_5fwater_5fstress_5flinear_2ehpp_3377',['stomata_water_stress_linear.hpp',['../stomata__water__stress__linear_8hpp.html',1,'']]],
-  ['stomata_5fwater_5fstress_5flinear_5faba_5fresponse_2ehpp_3378',['stomata_water_stress_linear_aba_response.hpp',['../stomata__water__stress__linear__aba__response_8hpp.html',1,'']]],
-  ['stomata_5fwater_5fstress_5fsigmoid_2ehpp_3379',['stomata_water_stress_sigmoid.hpp',['../stomata__water__stress__sigmoid_8hpp.html',1,'']]]
+  ['r_5fc3cana_2ecpp_3761',['R_c3CanA.cpp',['../_r__c3_can_a_8cpp.html',1,'']]],
+  ['r_5fc3photo_2ecpp_3762',['R_c3photo.cpp',['../_r__c3photo_8cpp.html',1,'']]],
+  ['r_5fc4photo_2ecpp_3763',['R_c4photo.cpp',['../_r__c4photo_8cpp.html',1,'']]],
+  ['r_5fcana_2ecpp_3764',['R_CanA.cpp',['../_r___can_a_8cpp.html',1,'']]],
+  ['r_5fcollatz_5fphoto_2ecpp_3765',['R_collatz_photo.cpp',['../_r__collatz__photo_8cpp.html',1,'']]],
+  ['r_5fget_5fall_2ecpp_3766',['R_get_all.cpp',['../_r__get__all_8cpp.html',1,'']]],
+  ['r_5fgro_2ecpp_3767',['R_Gro.cpp',['../_r___gro_8cpp.html',1,'']]],
+  ['r_5fhelper_5ffunctions_2ecpp_3768',['R_helper_functions.cpp',['../_r__helper__functions_8cpp.html',1,'']]],
+  ['r_5fhelper_5ffunctions_2eh_3769',['R_helper_functions.h',['../_r__helper__functions_8h.html',1,'']]],
+  ['r_5fmodules_2ecpp_3770',['R_modules.cpp',['../_r__modules_8cpp.html',1,'']]],
+  ['r_5fsimultaneous_5fequations_2ecpp_3771',['R_simultaneous_equations.cpp',['../_r__simultaneous__equations_8cpp.html',1,'']]],
+  ['r_5fstandalone_5fss_2ecpp_3772',['R_standalone_ss.cpp',['../_r__standalone__ss_8cpp.html',1,'']]],
+  ['r_5fsunml_2ecpp_3773',['R_sunML.cpp',['../_r__sun_m_l_8cpp.html',1,'']]],
+  ['r_5fsystem_2ecpp_3774',['R_system.cpp',['../_r__system_8cpp.html',1,'']]],
+  ['reaction_2ehpp_3775',['reaction.hpp',['../reaction_8hpp.html',1,'']]]
 ];

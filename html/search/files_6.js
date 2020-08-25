@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['harmonic_5foscillator_2ehpp_3335',['harmonic_oscillator.hpp',['../harmonic__oscillator_8hpp.html',1,'']]],
-  ['hyperbolas_2eh_3336',['hyperbolas.h',['../hyperbolas_8h.html',1,'']]]
+  ['gamma_5foscillator_2ehpp_3714',['gamma_oscillator.hpp',['../gamma__oscillator_8hpp.html',1,'']]],
+  ['grimm_5fsoybean_5fflowering_2eh_3715',['grimm_soybean_flowering.h',['../grimm__soybean__flowering_8h.html',1,'']]],
+  ['grimm_5fsoybean_5fflowering_5fcalculator_2eh_3716',['grimm_soybean_flowering_calculator.h',['../grimm__soybean__flowering__calculator_8h.html',1,'']]]
 ];

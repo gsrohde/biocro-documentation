@@ -1,4 +1,5 @@
 <map id="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;" name="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;">
-<area shape="rect" id="node1" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy...." alt="" coords="5,80,224,136"/>
-<area shape="rect" id="node2" title=" " alt="" coords="63,5,167,32"/>
+<area shape="rect" id="node1" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy...." alt="" coords="5,155,224,211"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="63,80,167,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="83,5,147,32"/>
 </map>

@@ -1,7 +1,11 @@
 <map id="get_outputs" name="get_outputs">
-<area shape="rect" id="node1" title=" " alt="" coords="5,85,96,111"/>
-<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174" title="Define all output names by appending leaf class prefixes and layer number suffixes." alt="" coords="144,77,333,119"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,165,96,191"/>
+<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174" title="Define all output names by appending leaf class prefixes and layer number suffixes." alt="" coords="144,157,333,199"/>
 <area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#ab232ea5bbeedc24a5ea77e3beaa65ac2" title="Define the different leaf classes included by the module." alt="" coords="382,5,571,47"/>
 <area shape="rect" id="node4" href="$classmultilayer__canopy__properties.html#acae876d69fd574732592e0dd251dc59d" title="Define all outputs that have different values for each leaf class and layer." alt="" coords="381,70,572,126"/>
 <area shape="rect" id="node5" href="$classmultilayer__canopy__properties.html#aeb5a4dcd7ac9e83f3b434ed8bede9bd8" title="Define all outputs that have different values for each layer, not including outputs that also depend ..." alt="" coords="382,150,571,206"/>
+<area shape="rect" id="node6" href="$module__helper__functions_8cpp.html#a7868e0c734ccbe12020ce9597419a0b0" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class." alt="" coords="407,229,546,271"/>
+<area shape="rect" id="node8" href="$module__helper__functions_8cpp.html#a1925bc7f4cf2a5fafbfe3f4f1b3d73e2" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="409,295,544,336"/>
+<area shape="rect" id="node7" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="620,229,756,271"/>
+<area shape="rect" id="node9" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="623,295,753,336"/>
 </map>

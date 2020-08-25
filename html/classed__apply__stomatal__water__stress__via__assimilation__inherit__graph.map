@@ -1,4 +1,5 @@
 <map id="ed_apply_stomatal_water_stress_via_assimilation" name="ed_apply_stomatal_water_stress_via_assimilation">
-<area shape="rect" id="node1" title="Sets the water stress adjustment factors to apply the stomatal water stress only to the stomatal cond..." alt="" coords="5,80,175,121"/>
-<area shape="rect" id="node2" title=" " alt="" coords="38,5,142,32"/>
+<area shape="rect" id="node1" title="Sets the water stress adjustment factors to apply the stomatal water stress only to the stomatal cond..." alt="" coords="5,155,175,196"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="38,80,142,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="58,5,122,32"/>
 </map>
