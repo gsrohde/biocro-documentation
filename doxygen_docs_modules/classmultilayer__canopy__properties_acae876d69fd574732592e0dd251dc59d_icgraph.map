@@ -1,0 +1,6 @@
+<map id="define_multiclass_multilayer_outputs" name="define_multiclass_multilayer_outputs">
+<area shape="rect" id="node1" title="Define all outputs that have different values for each leaf class and layer." alt="" coords="479,46,663,87"/>
+<area shape="rect" id="node2" href="$classten__layer__canopy__properties.html#acae876d69fd574732592e0dd251dc59d" title=" " alt="" coords="240,5,431,61"/>
+<area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174" title="Define all output names by appending leaf class prefixes and layer number suffixes." alt="" coords="290,85,381,112"/>
+<area shape="rect" id="node4" href="$classten__layer__canopy__properties.html#a5a5b9919e2d8b1ee7bc8cc37558c79de" title=" " alt="" coords="5,78,192,119"/>
+</map>

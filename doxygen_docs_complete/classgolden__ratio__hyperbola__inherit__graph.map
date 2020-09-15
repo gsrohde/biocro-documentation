@@ -1,0 +1,5 @@
+<map id="golden_ratio_hyperbola" name="golden_ratio_hyperbola">
+<area shape="rect" id="node1" title="Represents a simple hyperbola defined by f(x) = 1 + 1 / x. Intended to be used as a simple test case ..." alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="31,80,135,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="51,5,115,32"/>
+</map>
