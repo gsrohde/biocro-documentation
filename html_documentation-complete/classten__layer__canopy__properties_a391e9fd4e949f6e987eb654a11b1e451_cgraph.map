@@ -1,9 +1,0 @@
-<map id="do_operation" name="do_operation">
-<area shape="rect" id="node1" title=" " alt="" coords="5,107,101,133"/>
-<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#aa6b7bb009af6cd63f442559d3b8d1ab2" title=" " alt="" coords="149,107,363,133"/>
-<area shape="rect" id="node3" href="$_aux_bio_cro_8cpp.html#a2905c23b422ad454d9577841ca594d0d" title=" " alt="" coords="454,5,517,32"/>
-<area shape="rect" id="node4" href="$_aux_bio_cro_8cpp.html#aa4d2cdd07093428af4830f4c8afd660c" title="Preconditions: RH is between 0 and 1." alt="" coords="454,56,517,83"/>
-<area shape="rect" id="node5" href="$_aux_bio_cro_8cpp.html#a29eacaa214f1899c9df199ac80d0e1ca" title="Computation of an n&#45;layered light profile from the direct light Idir, diffuse light Idiff,..." alt="" coords="454,107,517,133"/>
-<area shape="rect" id="node6" href="$class_steady_module.html#a3f5a6c165abfe31f11a5465b11d645be" title=" " alt="" coords="411,157,560,184"/>
-<area shape="rect" id="node7" href="$_aux_bio_cro_8cpp.html#ad5f0fc680176f312e47c32701ce779f7" title="RH and Wind profile function." alt="" coords="446,208,525,235"/>
-</map>

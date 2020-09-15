@@ -1,6 +1,0 @@
-<map id="define_pure_multilayer_outputs" name="define_pure_multilayer_outputs">
-<area shape="rect" id="node1" title="Define all outputs that have different values for each layer, not including outputs that also depend ..." alt="" coords="475,46,625,87"/>
-<area shape="rect" id="node2" href="$classten__layer__canopy__properties.html#aeb5a4dcd7ac9e83f3b434ed8bede9bd8" title=" " alt="" coords="240,5,427,61"/>
-<area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#a07ef272e7460b825b87df850d4ff7174" title="Define all output names by appending leaf class prefixes and layer number suffixes." alt="" coords="288,85,379,112"/>
-<area shape="rect" id="node4" href="$classten__layer__canopy__properties.html#a5a5b9919e2d8b1ee7bc8cc37558c79de" title=" " alt="" coords="5,78,192,119"/>
-</map>

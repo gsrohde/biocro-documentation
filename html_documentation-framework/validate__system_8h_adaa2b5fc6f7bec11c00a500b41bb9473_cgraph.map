@@ -1,6 +1,0 @@
-<map id="find_mischaracterized_modules" name="find_mischaracterized_modules">
-<area shape="rect" id="node1" title="Returns mischaracterized modules, i.e., steady&#45;state modules in the derivative module list or vice&#45;ve..." alt="" coords="5,71,152,112"/>
-<area shape="rect" id="node2" href="$validate__system_8cpp.html#a95935e4a12b3c26794fa8d67f88e7d7a" title="Returns a set containing all unique inputs to the modules." alt="" coords="200,5,336,47"/>
-<area shape="rect" id="node3" href="$validate__system_8cpp.html#a96840539e64ce8ccec9df05cc320222e" title="Returns a set containing all unique outputs produced by the modules." alt="" coords="200,71,336,112"/>
-<area shape="rect" id="node4" href="$validate__system_8cpp.html#a16d70a03d490d999f59e35d66e0597fe" title="Returns a vector of unique_ptrs to module objects." alt="" coords="202,137,334,163"/>
-</map>

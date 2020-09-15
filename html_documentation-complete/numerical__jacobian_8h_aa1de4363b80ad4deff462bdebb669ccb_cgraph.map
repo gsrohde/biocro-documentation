@@ -1,4 +1,0 @@
-<map id="calculate_time_derivative" name="calculate_time_derivative">
-<area shape="rect" id="node1" title="Numerically compute the explicit time derivatives of a vector valued function." alt="" coords="5,5,175,32"/>
-<area shape="rect" id="node2" href="$numerical__jacobian_8h.html#abccaa35141515ada5bb3f2f3c15434f2" title="Define evaluation behavior for a set of equations defined by a System object." alt="" coords="223,5,357,32"/>
-</map>

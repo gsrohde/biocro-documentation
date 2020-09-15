@@ -1,9 +1,0 @@
-<map id="string_set_to_string_vector" name="string_set_to_string_vector">
-<area shape="rect" id="node1" title="Converts a string_set to a string_vector." alt="" coords="631,71,767,112"/>
-<area shape="rect" id="node2" href="$class_standalone___s_s.html#ae7f54946c7083df6036b545c06999979" title=" " alt="" coords="433,12,569,53"/>
-<area shape="rect" id="node3" href="$simultaneous__equations_8h.html#ae2a605d520f1fc493875c92029c21e7c" title="Finds the unknown quantities defined by the set of modules." alt="" coords="420,78,583,105"/>
-<area shape="rect" id="node7" href="$classsimultaneous__equations.html#a7ae8cd6501dac563518119132accd194" title=" " alt="" coords="5,100,173,141"/>
-<area shape="rect" id="node4" href="$simultaneous__equations_8h.html#a4116e1accbd144688ad8b523c9145743" title="Provides information about a set of simultaneous_equations inputs that is not strictly required to ch..." alt="" coords="222,5,371,47"/>
-<area shape="rect" id="node6" href="$simultaneous__equations_8h.html#ae5eb48d46cc1e008c6a4b0d0400c7678" title="Checks over a group of quantities and modules to ensure they can be used to create a valid set of sim..." alt="" coords="221,71,372,112"/>
-<area shape="rect" id="node5" href="$_r__simultaneous__equations_8cpp.html#a50c4f1f36222d2ee70eff7aa4de41c0b" title=" " alt="" coords="6,20,173,61"/>
-</map>

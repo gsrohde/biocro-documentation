@@ -1,6 +1,0 @@
-<map id="get_outputs" name="get_outputs">
-<area shape="rect" id="node1" title="Define all output names by appending leaf class prefixes and layer number suffixes." alt="" coords="5,64,96,91"/>
-<area shape="rect" id="node2" href="$classmultilayer__canopy__properties.html#ab232ea5bbeedc24a5ea77e3beaa65ac2" title="Define the different leaf classes included by the module." alt="" coords="168,5,304,32"/>
-<area shape="rect" id="node3" href="$classmultilayer__canopy__properties.html#acae876d69fd574732592e0dd251dc59d" title="Define all outputs that have different values for each leaf class and layer." alt="" coords="144,57,328,98"/>
-<area shape="rect" id="node4" href="$classmultilayer__canopy__properties.html#aeb5a4dcd7ac9e83f3b434ed8bede9bd8" title="Define all outputs that have different values for each layer, not including outputs that also depend ..." alt="" coords="161,122,311,163"/>
-</map>

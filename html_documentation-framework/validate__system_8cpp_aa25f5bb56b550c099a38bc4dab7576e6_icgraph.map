@@ -1,5 +1,0 @@
-<map id="find_undefined_module_outputs" name="find_undefined_module_outputs">
-<area shape="rect" id="node1" title="Finds quantities that are output by modules but are not defined by quantity_names." alt="" coords="435,5,588,47"/>
-<area shape="rect" id="node2" href="$validate__system_8h.html#a2c3bc2da37086d89035ee4891bba7296" title="Checks over a group of quantities and modules to ensure they can be used to create a valid system." alt="" coords="228,13,387,39"/>
-<area shape="rect" id="node3" href="$_r__system_8cpp.html#a088275dd9f43af4b616cbfeb9c1abc1a" title=" " alt="" coords="5,13,180,39"/>
-</map>

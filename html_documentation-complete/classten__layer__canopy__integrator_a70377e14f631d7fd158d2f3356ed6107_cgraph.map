@@ -1,6 +1,0 @@
-<map id="get_inputs" name="get_inputs">
-<area shape="rect" id="node1" title=" " alt="" coords="5,13,88,39"/>
-<area shape="rect" id="node2" href="$classmultilayer__canopy__integrator.html#a586f4cb90199901349389ca4553b9365" title="Define all inputs required by the module, adding layer suffixes as required." alt="" coords="136,5,323,47"/>
-<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a1925bc7f4cf2a5fafbfe3f4f1b3d73e2" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="371,5,505,47"/>
-<area shape="rect" id="node4" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="553,5,684,47"/>
-</map>
