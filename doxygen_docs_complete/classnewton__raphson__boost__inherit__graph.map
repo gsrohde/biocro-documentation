@@ -1,4 +1,0 @@
-<map id="newton_raphson_boost" name="newton_raphson_boost">
-<area shape="rect" id="node1" title="This class implements the fixed&#45;point method for solving simultaneous equations, where y = f(x) is th..." alt="" coords="5,80,161,107"/>
-<area shape="rect" id="node2" href="$classse__solver.html" title="An abstract class for a generic simultaneous equation solver. Its solve member function provides a un..." alt="" coords="44,5,123,32"/>
-</map>

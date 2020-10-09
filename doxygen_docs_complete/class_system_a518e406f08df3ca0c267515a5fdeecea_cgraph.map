@@ -1,6 +1,0 @@
-<map id="update" name="update">
-<area shape="rect" id="node1" title="Updates all quantities (including ones calculated by steady state modules) based on the input state a..." alt="" coords="5,56,67,83"/>
-<area shape="rect" id="node2" href="$class_system.html#a9d9062476ba61d5163bf6bd34cbb991b" title="Runs all the steady state modules." alt="" coords="115,5,292,32"/>
-<area shape="rect" id="node3" href="$class_system.html#ab722e7e5ef669a73a73a45da49bc1672" title="Updates the system&#39;s internally stored state parameter values to the new ones in new_state." alt="" coords="130,56,277,83"/>
-<area shape="rect" id="node4" href="$class_system.html#ad93cb32977add17cd56c24c147141d9a" title="Gets values from the varying parameters at the input time (double)" alt="" coords="124,107,283,133"/>
-</map>

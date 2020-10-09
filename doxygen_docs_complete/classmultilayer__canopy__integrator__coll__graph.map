@@ -1,5 +1,0 @@
-<map id="multilayer_canopy_integrator" name="multilayer_canopy_integrator">
-<area shape="rect" id="node1" title="Calculates properties of each canopy layer using functions found in AuxBioCro (for the most part)...." alt="" coords="5,155,192,181"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="47,80,151,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="67,5,131,32"/>
-</map>

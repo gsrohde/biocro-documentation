@@ -1,5 +1,0 @@
-<map id="ed_boundary_conductance_quadrature" name="ed_boundary_conductance_quadrature">
-<area shape="rect" id="node1" title="Determines an overall value for the boundary layer conductance from the free and forced conductances...." alt="" coords="5,155,181,196"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="41,80,145,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="61,5,125,32"/>
-</map>
