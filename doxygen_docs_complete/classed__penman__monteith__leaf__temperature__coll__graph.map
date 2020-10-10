@@ -1,0 +1,5 @@
+<map id="ed_penman_monteith_leaf_temperature" name="ed_penman_monteith_leaf_temperature">
+<area shape="rect" id="node1" title="Uses the Penman&#45;Monteith equation to determine leaf temperature (see eq. 14.11e from Thornley (1990),..." alt="" coords="5,155,152,196"/>
+<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="27,80,131,107"/>
+<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="47,5,111,32"/>
+</map>

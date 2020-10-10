@@ -1,0 +1,5 @@
+<map id="check_adaptive_compatible" name="check_adaptive_compatible">
+<area shape="rect" id="node1" title="Checks whether the collection of modules is compatible with adaptive step size solvers." alt="" coords="237,46,420,73"/>
+<area shape="rect" id="node2" href="$class_system.html#a4a0752ee6c5bef508d66ee480b77a19c" title="Check that the system is adaptive compatible based on the modules that it uses." alt="" coords="28,5,167,47"/>
+<area shape="rect" id="node3" href="$class_standalone___s_s.html#a4a0752ee6c5bef508d66ee480b77a19c" title=" " alt="" coords="5,71,189,112"/>
+</map>
