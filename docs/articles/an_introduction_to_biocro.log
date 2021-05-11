@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.11)  11 MAY 2021 23:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.11)  11 MAY 2021 23:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -351,8 +351,50 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen174
 \Gin@req@width=\dimen175
 )
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count297
+\lst@gtempboxa=\box59
+\lst@token=\toks25
+\lst@length=\count298
+\lst@currlwidth=\dimen176
+\lst@column=\count299
+\lst@pos=\count300
+\lst@lostspace=\dimen177
+\lst@width=\dimen178
+\lst@newlines=\count301
+\lst@lineno=\count302
+\lst@maxwidth=\dimen179
 
-! LaTeX Error: File `listings.sty' not found.
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count303
+\lst@skipnumbers=\count304
+\lst@framebox=\box60
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+
+! LaTeX Error: File `appendix.sty' not found.
 
 Type X to quit or <RETURN> to proceed,
 or enter new name. (Default extension: sty)
@@ -361,17 +403,17 @@ Enter file name:
 ! Emergency stop.
 <read *> 
          
-l.22 \usepackage
-                {xcolor}^^M
+l.25 ^^M
+        
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 10443 strings out of 480806
- 185786 string characters out of 5904033
- 469891 words of memory out of 5000000
- 27737 multiletter control sequences out of 15000+600000
+ 12074 strings out of 480806
+ 208699 string characters out of 5904033
+ 498967 words of memory out of 5000000
+ 29351 multiletter control sequences out of 15000+600000
  404193 words of font info for 28 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,0n,67p,278b,38s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,0n,67p,278b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
