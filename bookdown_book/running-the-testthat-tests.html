@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>3 Running the testthat Tests | BioCro Development</title>
+  <meta name="description" content="3 Running the testthat Tests | BioCro Development" />
+  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="3 Running the testthat Tests | BioCro Development" />
+  <meta property="og:type" content="book" />
+  
+  
+  
+  
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="3 Running the testthat Tests | BioCro Development" />
+  
+  
+  
+
+
+
+<meta name="date" content="2021-05-11" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="generating-documentation.html"/>
+<link rel="next" href="adding-the-boost-libraries.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#note-about-the-types-of-documentation-in-biocro"><i class="fa fa-check"></i>Note about the types of documentation in BioCro</a></li>
+</ul></li>
+<li class="chapter" data-level="1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html"><i class="fa fa-check"></i><b>1</b> Contributing to BioCro</a><ul>
+<li class="chapter" data-level="1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#making-changes"><i class="fa fa-check"></i><b>1.1</b> Making Changes</a><ul>
+<li class="chapter" data-level="1.1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#discuss-first"><i class="fa fa-check"></i><b>1.1.1</b> Discuss first</a></li>
+</ul></li>
+<li class="chapter" data-level="1.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#code-style"><i class="fa fa-check"></i><b>1.2</b> Code style</a><ul>
+<li class="chapter" data-level="1.2.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#scientific-considerations"><i class="fa fa-check"></i><b>1.2.1</b> Scientific considerations</a></li>
+<li class="chapter" data-level="1.2.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#general-coding-considerations"><i class="fa fa-check"></i><b>1.2.2</b> General coding considerations</a></li>
+<li class="chapter" data-level="1.2.3" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#formatting-code"><i class="fa fa-check"></i><b>1.2.3</b> Formatting code</a></li>
+<li class="chapter" data-level="1.2.4" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#r-specific-coding-advice"><i class="fa fa-check"></i><b>1.2.4</b> R-specific coding advice</a></li>
+</ul></li>
+<li class="chapter" data-level="1.3" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#formatting-tools"><i class="fa fa-check"></i><b>1.3</b> Formatting Tools</a><ul>
+<li class="chapter" data-level="1.3.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#clang"><i class="fa fa-check"></i><b>1.3.1</b> Clang</a></li>
+<li class="chapter" data-level="1.3.2" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#editorconfig"><i class="fa fa-check"></i><b>1.3.2</b> EditorConfig</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="generating-documentation.html"><a href="generating-documentation.html"><i class="fa fa-check"></i><b>2</b> Generating Documentation</a><ul>
+<li class="chapter" data-level="2.1" data-path="generating-documentation.html"><a href="generating-documentation.html#documentation-for-the-cc-code."><i class="fa fa-check"></i><b>2.1</b> Documentation for the C/C++ code.</a><ul>
+<li class="chapter" data-level="2.1.1" data-path="generating-documentation.html"><a href="generating-documentation.html#required-software"><i class="fa fa-check"></i><b>2.1.1</b> Required software</a></li>
+<li class="chapter" data-level="2.1.2" data-path="generating-documentation.html"><a href="generating-documentation.html#installation-1"><i class="fa fa-check"></i><b>2.1.2</b> Installation</a></li>
+<li class="chapter" data-level="2.1.3" data-path="generating-documentation.html"><a href="generating-documentation.html#generating-the-documentation"><i class="fa fa-check"></i><b>2.1.3</b> Generating the Documentation</a></li>
+<li class="chapter" data-level="2.1.4" data-path="generating-documentation.html"><a href="generating-documentation.html#viewing-and-using-the-documentation"><i class="fa fa-check"></i><b>2.1.4</b> Viewing and using the documentation</a></li>
+</ul></li>
+<li class="chapter" data-level="2.2" data-path="generating-documentation.html"><a href="generating-documentation.html#building-package-vignettes"><i class="fa fa-check"></i><b>2.2</b> Building package vignettes</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="generating-documentation.html"><a href="generating-documentation.html#required-software-1"><i class="fa fa-check"></i><b>2.2.1</b> Required software</a></li>
+<li class="chapter" data-level="2.2.2" data-path="generating-documentation.html"><a href="generating-documentation.html#build-procedure"><i class="fa fa-check"></i><b>2.2.2</b> Build procedure</a></li>
+<li class="chapter" data-level="2.2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#alternative-options"><i class="fa fa-check"></i><b>2.2.3</b> Alternative options</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html"><i class="fa fa-check"></i><b>3</b> Running the <em>testthat</em> Tests</a><ul>
+<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.1</b> tl;dr</a></li>
+<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#required-r-packages"><i class="fa fa-check"></i><b>3.2</b> Required R Packages</a></li>
+<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-tests"><i class="fa fa-check"></i><b>3.3</b> Running the Tests</a><ul>
+<li class="chapter" data-level="3.3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-on-the-installed-version-of-biocro"><i class="fa fa-check"></i><b>3.3.1</b> Running the test suite on the installed version of BioCro</a></li>
+<li class="chapter" data-level="3.3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-against-the-biocro-source-code"><i class="fa fa-check"></i><b>3.3.2</b> Running the test suite against the BioCro source code</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.4</b> Running individual test files</a><ul>
+<li class="chapter" data-level="3.4.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.4.1</b> Running an individual test file on the installed package</a></li>
+<li class="chapter" data-level="3.4.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.4.2</b> Running an individual test file against the package source code</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using-devtools"><i class="fa fa-check"></i><b>3.5</b> Using devtools</a></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html"><i class="fa fa-check"></i><b>4</b> Adding the Boost libraries</a><ul>
+<li class="chapter" data-level="4.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#why-this-is-needed"><i class="fa fa-check"></i><b>4.1</b> Why this is needed</a></li>
+<li class="chapter" data-level="4.2" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#how-to-extract-parts-of-boost"><i class="fa fa-check"></i><b>4.2</b> How to extract parts of Boost</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#notes-for-using-bcp-in-windows"><i class="fa fa-check"></i><b>4.2.1</b> Notes for using bcp in Windows</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="the-update-documentation-workflow.html"><a href="the-update-documentation-workflow.html"><i class="fa fa-check"></i><b>5</b> The <em>Update Documentation</em> Workflow</a></li>
+<li class="chapter" data-level="6" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html"><i class="fa fa-check"></i><b>6</b> The <em>Doxygen Docker Action using Makefile</em> Action</a><ul>
+<li class="chapter" data-level="6.1" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#inputs"><i class="fa fa-check"></i><b>6.1</b> Inputs</a><ul>
+<li class="chapter" data-level="6.1.1" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#working-directory"><i class="fa fa-check"></i><b>6.1.1</b> ‘working-directory’</a></li>
+<li class="chapter" data-level="6.1.2" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#color"><i class="fa fa-check"></i><b>6.1.2</b> ‘color’</a></li>
+<li class="chapter" data-level="6.1.3" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#document-private"><i class="fa fa-check"></i><b>6.1.3</b> ‘document-private’</a></li>
+<li class="chapter" data-level="6.1.4" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#generate-treeview"><i class="fa fa-check"></i><b>6.1.4</b> ‘generate-treeview’</a></li>
+<li class="chapter" data-level="6.1.5" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#extra-settings"><i class="fa fa-check"></i><b>6.1.5</b> ‘extra-settings’</a></li>
+<li class="chapter" data-level="6.1.6" data-path="the-doxygen-docker-action-using-makefile-action.html"><a href="the-doxygen-docker-action-using-makefile-action.html#makefile-target"><i class="fa fa-check"></i><b>6.1.6</b> ‘makefile-target’</a></li>
+</ul></li>
+</ul></li>
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">BioCro Development</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="running-the-testthat-tests" class="section level1">
+<h1><span class="header-section-number">3</span> Running the <em>testthat</em> Tests</h1>
+<p>BioCro’s <em>testthat</em> test suite is automatically run on GitHub as part
+of the <em>R-CMD-check</em> workflow every time a BioCro developer either pushes
+code to GitHub or makes a new pull request to merge code into the
+master branch. Workflow results are viewable on GitHub under the
+repository’s <em>Actions</em> tab.</p>
+<p>There are (at least) two scenarios, however, under which you may want
+to run tests manually:</p>
+<ol style="list-style-type: decimal">
+<li><p>You have revised the package’s R code, stored data, or C++ code,
+and you want to run the <em>testthat</em> test suite against the changed code
+before pushing that code to GitHub.</p></li>
+<li><p>You are writing new tests, and you want to ensure that they work as
+expected.</p></li>
+</ol>
+<hr />
+<div id="tldr" class="section level2">
+<h2><span class="header-section-number">3.1</span> tl;dr</h2>
+<p>To run all tests in a copy of the package source against the R and C++
+code in that source, install <em>devtools</em>, open an R session in any
+directory in the source tree, load <em>devtools</em> with
+<code>library(devtools)</code>, and call <code>test()</code>.</p>
+<p>To run all tests from the source against an <em>installed</em> version of the
+BioCro package, install <em>testthat</em> (or <em>devtools</em>), start an R session
+in the<code>tests</code> directory of the source tree, and call
+<code>source('testthat.R')</code>.</p>
+<p>Read on for further information about various topics, including</p>
+<ul>
+<li>running the tests on source code without installing <em>devtools</em></li>
+<li>better test reporting options</li>
+<li>running individual test files</li>
+</ul>
+<hr />
+</div>
+<div id="required-r-packages" class="section level2">
+<h2><span class="header-section-number">3.2</span> Required R Packages</h2>
+<ul>
+<li><code>testthat</code> (To install, run <code>install.packages('testthat')</code> in R.)</li>
+<li>(optional) <code>devtools</code> (<code>install.packages('devtools')</code>)</li>
+</ul>
+<p>(Note: Installing <em>devtools</em> installs <em>testthat</em> as a side-effect.)</p>
+</div>
+<div id="running-the-tests" class="section level2">
+<h2><span class="header-section-number">3.3</span> Running the Tests</h2>
+<p>There are two main ways to run the <code>testthat</code> tests:
+- Run tests in the <code>tests/testthat</code> directory of a source tree against an installed version of BioCro
+- Run tests in the <code>tests/testthat</code> directory of a source tree against the package code in that source tree</p>
+<p>(A third scenario exists—running installed <em>testthat</em> tests against the
+installed package—but currently the BioCro package does not install
+any of its tests.)</p>
+<div id="running-the-test-suite-on-the-installed-version-of-biocro" class="section level3">
+<h3><span class="header-section-number">3.3.1</span> Running the test suite on the installed version of BioCro</h3>
+<p>The simplest way to do this is as follows:</p>
+<ol style="list-style-type: decimal">
+<li><p>Start an R session in the <code>tests</code> directory of a BioCro source tree
+(or start R anywhere and use <code>setwd()</code> to move to that directory).</p></li>
+<li><p>Run <code>source('testthat.R')</code>.</p></li>
+</ol>
+<p>This will run the <em>testthat</em> tests in the same way that <code>R CMD check</code> would run them.</p>
+<p>The default output of the test method used by <code>testthat.R</code> can be
+exceedingly terse, however, and so it is highly desirable to tweak the
+test output of that method for interactive use. This is done by
+overriding the default reporter of the testing function using the
+<em>reporter</em> argument.</p>
+<p>A particularly useful and informative reporter is the <em>Summary</em>
+reporter. To use it, replace step 2 above with</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="running-the-testthat-tests.html#cb10-1"></a><span class="kw">library</span>(BioCro)</span>
+<span id="cb10-2"><a href="running-the-testthat-tests.html#cb10-2"></a><span class="kw">library</span>(testthat)</span>
+<span id="cb10-3"><a href="running-the-testthat-tests.html#cb10-3"></a><span class="kw">test_check</span>(<span class="st">&#39;BioCro&#39;</span>, <span class="dt">reporter =</span> <span class="st">&#39;Summary&#39;</span>)</span></code></pre></div>
+<p>(Note: If you have already sourced <code>testthat.R</code> at least once, there
+is no need to reload the <em>BioCro</em> and <em>testthat</em> packages!)</p>
+<p>The <em>Summary</em> reporter is useful in two ways: It clearly indicates
+testing progress by printing a character to the screen each time a
+test completes (“.” for success, “S” for a skipped test, “W” for a
+warning, and an (error) number for a failed test). And it prints the
+name of each test file run before printing that file’s <em>context</em>
+message.</p>
+<p>Setting reporter to ‘Progress’ yields slightly less verbose output.
+Crucially and inconveniently, it doesn’t print the names of the test
+files being run. On the other hand, it gives a better numerical
+summary of the test results—how many tests passed, failed, or were
+skipped.</p>
+<p>[Comment: The names “Progress” and “Summary” almost seem to me as if
+they have been reversed! After all, it is the <em>Summary</em> reporter
+which most clearly indicates how the testing is progressing and the
+<em>Progress</em> reporter that gives the best numerical summary of how many
+tests failed.]</p>
+</div>
+<div id="running-the-test-suite-against-the-biocro-source-code" class="section level3">
+<h3><span class="header-section-number">3.3.2</span> Running the test suite against the BioCro source code</h3>
+<p>If you are making changes to the R code or to the C++ code (or even to
+the package data) and you want to test your changes to the source code
+without installing (or <em>re</em>-installing) the BioCro package, the
+function to use is <code>test_local</code>. The steps are similar to the steps
+above for running <code>test_check</code>:</p>
+<ol style="list-style-type: decimal">
+<li><p>Start an R session.</p></li>
+<li><p>Load the <em>testthat</em> library: <code>library(testthat)</code>. (Note that we
+<em>don’t</em> need to load the <em>BioCro</em> library, and there needn’t even be a
+copy of it installed!)</p></li>
+<li><p>Run <code>test_local('&lt;path to the tests directory of some BioCro source tree&gt;')</code></p></li>
+</ol>
+<p>If you are actually <em>in</em> the <code>tests</code> directory (either because you
+started R there or because you moved there with <code>setwd()</code>), you
+needn’t even supply the <code>path</code> argument; you can just run
+<code>test_local()</code> because the path defaults to <code>'.'</code>.</p>
+<p>Note that this function expects to find an up-to-date copy of
+<code>BioCro.so</code> in the <code>src</code> directory. If it doesn’t find it (or if it
+is out of date with respect to the C++ source files), it will try to
+re-create it. This will happen even if none of the tests use any of
+the package code. (<em>So be patient if the function seems to hang for
+several minutes while it does this!</em>)</p>
+<p>The default reporter for <code>test_local</code> is the <em>Progress</em> reporter, but
+if you prefer the <em>Summary</em> reporter, which gives better progress
+indication and prints the name of each test file it runs, you can
+switch:</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb11-1"><a href="running-the-testthat-tests.html#cb11-1"></a><span class="kw">test_local</span>(<span class="st">&#39;&lt;path to the tests directory of some BioCro source tree&gt;&#39;</span>, <span class="dt">reporter =</span> <span class="st">&#39;Summary&#39;</span>)<span class="st">`</span></span></code></pre></div>
+</div>
+</div>
+<div id="running-individual-test-files" class="section level2">
+<h2><span class="header-section-number">3.4</span> Running individual test files</h2>
+<p>While writing new tests, it is useful to be able to run a single test
+file rather than the whole test suite. The test may be run either
+against the installed version of the BioCro package, or against the
+source code.</p>
+<div id="running-an-individual-test-file-on-the-installed-package" class="section level3">
+<h3><span class="header-section-number">3.4.1</span> Running an individual test file on the installed package</h3>
+<p>Method 1</p>
+<ol style="list-style-type: decimal">
+<li>Start an R session.</li>
+<li>Load the <em>BioCro</em> and <em>testthat</em> packages:</li>
+</ol>
+<div class="sourceCode" id="cb12"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb12-1"><a href="running-the-testthat-tests.html#cb12-1"></a><span class="kw">library</span>(BioCro)</span>
+<span id="cb12-2"><a href="running-the-testthat-tests.html#cb12-2"></a><span class="kw">library</span>(testthat)</span></code></pre></div>
+<ol style="list-style-type: decimal">
+<li>Call the <code>test_file</code> function on the path to a test file:</li>
+</ol>
+<div class="sourceCode" id="cb13"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb13-1"><a href="running-the-testthat-tests.html#cb13-1"></a><span class="kw">test_file</span>(<span class="st">&#39;&lt;path to test file to run&gt;&#39;</span>)</span></code></pre></div>
+<p>Note the path can be either a relative or an absolute path. It
+doesn’t matter what directory the R session was started in or what the
+current R directory is as long as the path is correct. (Making the
+<code>testthat</code> directory the current directory, however, will make for
+shorter path names.)</p>
+<p>Once again, the default reporter (“CompactProgress”, in this case) may
+be overridden:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb14-1"><a href="running-the-testthat-tests.html#cb14-1"></a><span class="kw">test_file</span>(<span class="st">&#39;&lt;path to test file to run&gt;&#39;</span>, <span class="dt">reporter =</span> <span class="st">&#39;Summary&#39;</span>)</span></code></pre></div>
+<p>See the documentation for <code>testthat::Reporter</code> for a list of
+reporters.</p>
+<p>Method 2</p>
+<p>This uses the <code>test_check</code> function we used earlier, but with a
+“filter” option.</p>
+<ol style="list-style-type: decimal">
+<li>Start an R session in the <code>tests</code> directory of a BioCro source tree
+(or start R anywhere and use <code>setwd()</code> to move to that directory).</li>
+<li>Load the <em>BioCro</em> and <em>testthat</em> packages:</li>
+</ol>
+<div class="sourceCode" id="cb15"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb15-1"><a href="running-the-testthat-tests.html#cb15-1"></a><span class="kw">library</span>(BioCro)</span>
+<span id="cb15-2"><a href="running-the-testthat-tests.html#cb15-2"></a><span class="kw">library</span>(testthat)</span></code></pre></div>
+<ol style="list-style-type: decimal">
+<li>Call the <code>test_check</code> function with a filter option to select the
+desired test file. The filter pattern should be a regular expression
+matching the main part of the test file. For example, to run the
+tests in <code>test.HarmonicOscillationModeling.R</code>, we could call
+<code>test_check</code> as follows:</li>
+</ol>
+<div class="sourceCode" id="cb16"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb16-1"><a href="running-the-testthat-tests.html#cb16-1"></a><span class="kw">test_check</span>(<span class="st">&#39;BioCro&#39;</span>, <span class="dt">filter =</span> <span class="st">&#39;Harm&#39;</span>)</span></code></pre></div>
+<p>The filter matching is performed on file names after they are
+stripped of “<code>test-</code>” and “<code>.R</code>”.</p>
+<p>Again, a <em>reporter</em> option may be specified.</p>
+</div>
+<div id="running-an-individual-test-file-against-the-package-source-code" class="section level3">
+<h3><span class="header-section-number">3.4.2</span> Running an individual test file against the package source code</h3>
+<p>Again, the <code>test_local</code> function is used. The method is exactly the
+same as specified above except that a <em>filter</em> option is used to limit
+testing to matching file(s).</p>
+</div>
+</div>
+<div id="using-devtools" class="section level2">
+<h2><span class="header-section-number">3.5</span> Using devtools</h2>
+<p>If you don’t mind installing and using the <em>devtools</em> package, it
+provides a particularly easy way to run tests against the package
+source code:</p>
+<ol style="list-style-type: decimal">
+<li><p>Start an R session inside any directory in package source tree of
+the source code you are testing (or <code>setwd()</code> to such a directory).</p></li>
+<li><p>Load the <em>devtools</em> package: <code>library(devtools)</code></p></li>
+<li><p>Call <code>test()</code>.</p></li>
+</ol>
+<p>Again, the <em>filter</em> option may be used with this function to limit the
+tests run, and the default reporter may be overridden with the
+<em>reporter</em> option.</p>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="generating-documentation.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="adding-the-boost-libraries.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"whatsapp": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": null,
+"text": null
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": null,
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
