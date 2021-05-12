@@ -83,10 +83,11 @@
     
     
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'R CMD Sweave --pdf an_introduction_to_biocro.Rnw'</span><span class="op">)</span>
-<span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'pdflatex an_introduction_to_biocro.tex'</span><span class="op">)</span>
-<span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'R CMD Sweave --pdf biocro-manual-knitr.Rnw'</span><span class="op">)</span>
-<span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'pdflatex biocro-manual-knitr.tex'</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/getwd.html">getwd</a></span><span class="op">(</span><span class="op">)</span></code></pre></div>
+<pre><code>## [1] "/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_readme/source/vignettes"</code></pre>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/system2.html">system2</a></span><span class="op">(</span><span class="st">'R'</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'CMD'</span>, <span class="st">'Sweave'</span>, <span class="st">'--pdf'</span>, <span class="st">'an_introduction_to_biocro.Rnw'</span><span class="op">)</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/base/system2.html">system2</a></span><span class="op">(</span><span class="st">'R'</span>, <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'CMD'</span>, <span class="st">'Sweave'</span>, <span class="st">'--pdf'</span>, <span class="st">'biocro-manual-knitr.Rnw'</span><span class="op">)</span><span class="op">)</span></code></pre></div>
 <!--
 <iframe src="an_introduction_to_biocro.pdf"/> 
 <iframe src="biocro-manual-knitr.pdf"/>
