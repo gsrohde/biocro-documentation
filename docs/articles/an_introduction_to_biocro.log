@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  12 MAY 2021 01:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.11)  12 MAY 2021 01:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -399,27 +399,457 @@ Package: appendix 2020/02/08 v1.2c extra appendix facilities
 \c@@ppsavesec=\count306
 \c@@ppsaveapp=\count307
 )
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-com
+mon.tex
+\pgfutil@everybye=\toks26
+\pgfutil@tempdima=\dimen180
+\pgfutil@tempdimb=\dimen181
 
-! LaTeX Error: File `tikz.sty' not found.
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-com
+mon-lists.tex))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfutil-lat
+ex.def
+\pgfutil@abb=\box61
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code
+.tex (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/pgf.revision.tex
+)
+Package: pgfrcs 2020/12/27 v3.1.8b (3.1.8b)
+))
+Package: pgf 2020/12/27 v3.1.8b (3.1.8b)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.co
+de.tex
+Package: pgfsys 2020/12/27 v3.1.8b (3.1.8b)
 
-Enter file name: 
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.cod
+e.tex
+\pgfkeys@pathtoks=\toks27
+\pgfkeys@temptoks=\toks28
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeysfilt
+ered.code.tex
+\pgfkeys@tmptoks=\toks29
+))
+\pgf@x=\dimen182
+\pgf@y=\dimen183
+\pgf@xa=\dimen184
+\pgf@ya=\dimen185
+\pgf@xb=\dimen186
+\pgf@yb=\dimen187
+\pgf@xc=\dimen188
+\pgf@yc=\dimen189
+\pgf@xd=\dimen190
+\pgf@yd=\dimen191
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count308
+\c@pgf@countb=\count309
+\c@pgf@countc=\count310
+\c@pgf@countd=\count311
+\t@pgf@toka=\toks30
+\t@pgf@tokb=\toks31
+\t@pgf@tokc=\toks32
+\pgf@sys@id@count=\count312
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2020/12/27 v3.1.8b (3.1.8b)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pd
+ftex.def
+File: pgfsys-pdftex.def 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-co
+mmon-pdf.def
+File: pgfsys-common-pdf.def 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssof
+tpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfsyssoftpath@smallbuffer@items=\count313
+\pgfsyssoftpath@bigbuffer@items=\count314
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/systemlayer/pgfsyspro
+tocol.code.tex
+File: pgfsysprotocol.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.co
+de.tex
+Package: pgfcore 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code
+.tex
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathutil.code
+.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathparser.co
+de.tex
+\pgfmath@dimen=\dimen192
+\pgfmath@count=\count315
+\pgfmath@box=\box62
+\pgfmath@toks=\toks33
+\pgfmath@stack@operand=\toks34
+\pgfmath@stack@operation=\toks35
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.code.tex
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.basic.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.trigonometric.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.random.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.comparison.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.base.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.round.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.misc.code.tex)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfunctions
+.integerarithmetics.code.tex)))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmathfloat.cod
+e.tex
+\c@pgfmathroundto@lastzeros=\count316
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoi
+nts.code.tex
+File: pgfcorepoints.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@picminx=\dimen193
+\pgf@picmaxx=\dimen194
+\pgf@picminy=\dimen195
+\pgf@picmaxy=\dimen196
+\pgf@pathminx=\dimen197
+\pgf@pathmaxx=\dimen198
+\pgf@pathminy=\dimen199
+\pgf@pathmaxy=\dimen256
+\pgf@xx=\dimen257
+\pgf@xy=\dimen258
+\pgf@yx=\dimen259
+\pgf@yy=\dimen260
+\pgf@zx=\dimen261
+\pgf@zy=\dimen262
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepat
+hconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@path@lastx=\dimen263
+\pgf@path@lasty=\dimen264
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepat
+husage.code.tex
+File: pgfcorepathusage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@shorten@end@additional=\dimen265
+\pgf@shorten@start@additional=\dimen266
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoresco
+pes.code.tex
+File: pgfcorescopes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfpic=\box63
+\pgf@hbox=\box64
+\pgf@layerbox@main=\box65
+\pgf@picture@serial@count=\count317
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregra
+phicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgflinewidth=\dimen267
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretra
+nsformations.code.tex
+File: pgfcoretransformations.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@pt@x=\dimen268
+\pgf@pt@y=\dimen269
+\pgf@pt@temp=\dimen270
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequi
+ck.code.tex
+File: pgfcorequick.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobj
+ects.code.tex
+File: pgfcoreobjects.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepat
+hprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearr
+ows.code.tex
+File: pgfcorearrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfarrowsep=\dimen271
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoresha
+de.code.tex
+File: pgfcoreshade.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@max=\dimen272
+\pgf@sys@shading@range@num=\count318
+\pgf@shadingcount=\count319
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreima
+ge.code.tex
+File: pgfcoreimage.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreext
+ernal.code.tex
+File: pgfcoreexternal.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfexternal@startupbox=\box66
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelay
+ers.code.tex
+File: pgfcorelayers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretra
+nsparency.code.tex
+File: pgfcoretransparency.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepat
+terns.code.tex
+File: pgfcorepatterns.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf
+.code.tex
+File: pgfcorerdf.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleshap
+es.code.tex
+File: pgfmoduleshapes.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfnodeparttextbox=\box67
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot
+.code.tex
+File: pgfmoduleplot.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-v
+ersion-0-65.sty
+Package: pgfcomp-version-0-65 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@nodesepstart=\dimen273
+\pgf@nodesepend=\dimen274
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-v
+ersion-1-18.sty
+Package: pgfcomp-version-1-18 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgfkeys.cod
+e.tex))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/utilities/pgffor.code
+.tex
+Package: pgffor 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+)
+\pgffor@iter=\dimen275
+\pgffor@skip=\dimen276
+\pgffor@stack=\toks36
+\pgffor@toks=\toks37
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/ti
+kz.code.tex
+Package: tikz 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibraryp
+lothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgf@plot@mark@count=\count320
+\pgfplotmarksize=\dimen277
+)
+\tikz@lastx=\dimen278
+\tikz@lasty=\dimen279
+\tikz@lastxsaved=\dimen280
+\tikz@lastysaved=\dimen281
+\tikz@lastmovetox=\dimen282
+\tikz@lastmovetoy=\dimen283
+\tikzleveldistance=\dimen284
+\tikzsiblingdistance=\dimen285
+\tikz@figbox=\box68
+\tikz@figbox@bg=\box69
+\tikz@tempbox=\box70
+\tikz@tempbox@bg=\box71
+\tikztreelevel=\count321
+\tikznumberofchildren=\count322
+\tikznumberofcurrentchild=\count323
+\tikz@fig@count=\count324
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmodulematr
+ix.code.tex
+File: pgfmodulematrix.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\pgfmatrixcurrentrow=\count325
+\pgfmatrixcurrentcolumn=\count326
+\pgf@matrix@numberofcolumns=\count327
+)
+\tikz@expandcount=\count328
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/li
+braries/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+)))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/li
+braries/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/shapes/pgfl
+ibraryshapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/li
+braries/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/pgflibrarya
+rrows.code.tex
+File: pgflibraryarrows.code.tex 2020/12/27 v3.1.8b (3.1.8b)
+\arrowsize=\dimen286
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/li
+braries/tikzlibrarydecorations.pathreplacing.code.tex
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/frontendlayer/tikz/li
+braries/tikzlibrarydecorations.code.tex
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/modules/pgfmoduledeco
+rations.code.tex
+\pgfdecoratedcompleteddistance=\dimen287
+\pgfdecoratedremainingdistance=\dimen288
+\pgfdecoratedinputsegmentcompleteddistance=\dimen289
+\pgfdecoratedinputsegmentremainingdistance=\dimen290
+\pgf@decorate@distancetomove=\dimen291
+\pgf@decorate@repeatstate=\count329
+\pgfdecorationsegmentamplitude=\dimen292
+\pgfdecorationsegmentlength=\dimen293
+)
+\tikz@lib@dec@box=\box72
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pgf/libraries/decorations
+/pgflibrarydecorations.pathreplacing.code.tex))
+LaTeX Font Info:    Trying to load font information for T1+cmss on input line 1
+52.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/t1cmss.fd
+File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+No file an_introduction_to_biocro.aux.
+\openout1 = `an_introduction_to_biocro.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 152.
+LaTeX Font Info:    ... okay on input line 152.
+Package hyperref Info: Link coloring ON on input line 152.
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlest
+ring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count330
+)
+LaTeX Info: Redefining \ref on input line 152.
+LaTeX Info: Redefining \pageref on input line 152.
+LaTeX Info: Redefining \nameref on input line 152.
+\@outlinefile=\write4
+\openout4 = `an_introduction_to_biocro.out'.
+
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx-abbreviatio
+ns.cfg
+File: siunitx-abbreviations.cfg 2021-04-17 v2.8e siunitx: Abbreviated units
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
+sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count331
+\tf@toc=\write5
+\openout5 = `an_introduction_to_biocro.toc'.
+
+)
+*
 ! Emergency stop.
-<read *> 
-         
-l.114 \usetikzlibrary
-                     {shapes.geometric, arrows, decorations.pathreplacing}^^M
+<*> an_introduction_to_biocro.tex
+                                 
 End of file on the terminal!
 
  
 Here is how much of TeX's memory you used:
- 12198 strings out of 480806
- 210288 string characters out of 5904205
- 498967 words of memory out of 5000000
- 29474 multiletter control sequences out of 15000+600000
- 404193 words of font info for 28 fonts, out of 8000000 for 9000
+ 24360 strings out of 480806
+ 483895 string characters out of 5904033
+ 732792 words of memory out of 5000000
+ 41349 multiletter control sequences out of 15000+600000
+ 414719 words of font info for 59 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,0n,67p,278b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 84i,6n,83p,474b,264s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!
