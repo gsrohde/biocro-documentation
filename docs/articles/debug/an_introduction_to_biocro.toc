@@ -5,15 +5,15 @@
 \contentsline {subsubsection}{\numberline {1.2.2}Model equations}{4}{subsubsection.1.2.2}%
 \contentsline {subsection}{\numberline {1.3}Relating the mathematics to the program code}{4}{subsection.1.3}%
 \contentsline {subsubsection}{\numberline {1.3.1}Function inputs}{4}{subsubsection.1.3.1}%
-\contentsline {subsubsection}{\numberline {1.3.2}Function output}{6}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {1.3.2}Function output}{7}{subsubsection.1.3.2}%
 \contentsline {subsubsection}{\numberline {1.3.3}An example}{7}{subsubsection.1.3.3}%
-\contentsline {section}{\numberline {2}Modifying the BioCro code}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Organization of the source files}{7}{subsection.2.1}%
+\contentsline {section}{\numberline {2}Modifying the BioCro code}{8}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Organization of the source files}{8}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Adding new models}{9}{BackrefHyperFootnoteCounter.19}%
-\contentsline {subsubsection}{\numberline {2.2.1}Example: Steps for creating a steady-state module.}{9}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Example: Steps for creating a steady-state module.}{10}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}Example: Steps for creating a derivative module.}{13}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Generating the Doxygen documentation}{16}{subsubsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.3}Writing tests for new models}{16}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Writing tests for new models}{17}{subsection.2.3}%
 \contentsline {subsubsection}{\numberline {2.3.1}Writing unit tests for a steady-state module}{17}{subsubsection.2.3.1}%
 \contentsline {subsubsection}{\numberline {2.3.2}Writing unit tests for a derivative module}{19}{subsubsection.2.3.2}%
 \contentsline {subsubsection}{\numberline {2.3.3}Running the tests}{19}{subsubsection.2.3.3}%

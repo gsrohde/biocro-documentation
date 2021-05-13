@@ -83,8 +83,24 @@
     
     
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'R CMD Sweave --pdf an_introduction_to_biocro.Rnw'</span><span class="op">)</span>
-<span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'R CMD Sweave --pdf biocro-manual-knitr.Rnw'</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/libPaths.html">.libPaths</a></span><span class="op">(</span><span class="op">)</span> <span class="co"># debugging</span></code></pre></div>
+<pre><code>## [1] "/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/RtmpENbthT/temp_libpatha10cca2063"
+## [2] "/Users/runner/work/_temp/Library"                                                          
+## [3] "/Library/Frameworks/R.framework/Versions/4.0/Resources/library"</code></pre>
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="va">rpath</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/libPaths.html">.libPaths</a></span><span class="op">(</span><span class="op">)</span>, collapse <span class="op">=</span> <span class="st">':'</span><span class="op">)</span> <span class="co"># make a path that includes where pkgdown installed BioCro</span>
+<span class="fu"><a href="https://rdrr.io/r/base/print.html">print</a></span><span class="op">(</span><span class="va">rpath</span><span class="op">)</span> <span class="co"># debugging</span></code></pre></div>
+<pre><code>## [1] "/private/var/folders/24/8k48jl6d249_n_qfxwsl6xvm0000gn/T/RtmpENbthT/temp_libpatha10cca2063:/Users/runner/work/_temp/Library:/Library/Frameworks/R.framework/Versions/4.0/Resources/library"</code></pre>
+<div class="sourceCode" id="cb5"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/system2.html">system2</a></span><span class="op">(</span><span class="st">'R'</span>, args <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="st">'CMD'</span>, <span class="st">'Sweave'</span>, <span class="st">'--pdf'</span>, <span class="st">'an_introduction_to_biocro.Rnw'</span><span class="op">)</span>,
+             env <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste0</a></span><span class="op">(</span><span class="st">'R_LIBS='</span>, <span class="va">rpath</span><span class="op">)</span><span class="op">)</span> <span class="co"># pass the expanded R</span>
+                                               <span class="co"># path (which includes</span>
+                                               <span class="co"># the location of the</span>
+                                               <span class="co"># just-build BioCro</span>
+                                               <span class="co"># package) in the</span>
+                                               <span class="co"># environment</span>
+       <span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/base/system.html">system</a></span><span class="op">(</span><span class="st">'R CMD Sweave --pdf biocro-manual-knitr.Rnw'</span><span class="op">)</span> <span class="co"># this vignette doesn't need BioCro</span></code></pre></div>
 <!--
 <iframe src="an_introduction_to_biocro.pdf"/> 
 <iframe src="biocro-manual-knitr.pdf"/>

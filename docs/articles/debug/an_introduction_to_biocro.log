@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  13 MAY 2021 01:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.13)  13 MAY 2021 17:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -883,25 +883,22 @@ File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 213.
-
-
-Package xcolor Warning: Incompatible color definition on input line 217.
-
 <an_introduction_to_biocro/example_gro.png, id=164, 406.51875pt x 412.54124pt>
 File: an_introduction_to_biocro/example_gro.png Graphic file (type png)
 <use an_introduction_to_biocro/example_gro.png>
 Package pdftex.def Info: an_introduction_to_biocro/example_gro.png  used on inp
-ut line 231.
+ut line 229.
 (pdftex.def)             Requested size: 140.92793pt x 143.01302pt.
 
+
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 254.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 252.
 
 [2 </Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxyg
 en_readme/source/vignettes/an_introduction_to_biocro/example_gro.png>]
 
 LaTeX Font Warning: Font shape `T1/cmss/m/sc' in size <8> not available
-(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 310.
+(Font)              Font shape `T1/cmr/m/sc' tried instead on input line 308.
 
 [3] (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
@@ -923,82 +920,74 @@ File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
 [4]
 
-Package xcolor Warning: Incompatible color definition on input line 518.
+Package xcolor Warning: Incompatible color definition on input line 516.
 
 
-Package xcolor Warning: Incompatible color definition on input line 576.
+Package xcolor Warning: Incompatible color definition on input line 574.
 
 [5]
 
-Package xcolor Warning: Incompatible color definition on input line 582.
+Package xcolor Warning: Incompatible color definition on input line 631.
 
 
-Package xcolor Warning: Incompatible color definition on input line 626.
-
-
-Package xcolor Warning: Incompatible color definition on input line 655.
-
-
-Package xcolor Warning: Incompatible color definition on input line 661.
-
-
-Overfull \hbox (76.11168pt too wide) in paragraph at lines 661--661
-[]\T1/cmtt/m/n/10 ## Error in get_growing_season_climate(weather05): could not 
-find function "get_growing_season_climate"[] 
- []
+Package xcolor Warning: Incompatible color definition on input line 660.
 
 [6]
 
-Package xcolor Warning: Incompatible color definition on input line 695.
+Package xcolor Warning: Incompatible color definition on input line 707.
 
 
-Package xcolor Warning: Incompatible color definition on input line 701.
+Package xcolor Warning: Incompatible color definition on input line 717.
 
 
-Package xcolor Warning: Incompatible color definition on input line 709.
-
-
-Overfull \hbox (39.37065pt too wide) in paragraph at lines 709--709
-[]\T1/cmtt/m/n/10 ## Error in Gro(sorghum_initial_state, sorghum_parameters, ge
-t_growing_season_climate(weather05),
+Overfull \hbox (13.12706pt too wide) in paragraph at lines 717--717
+[]\T1/cmtt/m/n/10 ## Error in as.data.frame(.Call(R_Gro_solver, initial_state, 
+parameters, : Caught exception
  []
 
 
-Package xcolor Warning: Incompatible color definition on input line 714.
+Overfull \hbox (2.62962pt too wide) in paragraph at lines 717--717
+\T1/cmtt/m/n/10 in R_Gro_solver: "soil_type_selector" was given as a module nam
+e, but no module with that
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 722.
 
 [7]
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-743.
+751.
  (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-Overfull \hbox (73.58298pt too wide) in paragraph at lines 743--744
+Overfull \hbox (73.58298pt too wide) in paragraph at lines 751--752
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
-Overfull \hbox (1.42094pt too wide) in paragraph at lines 836--837
+[8]
+Overfull \hbox (1.42094pt too wide) in paragraph at lines 844--845
  [] 
  []
 
-[8] [9] [10] [11] [12] [13] [14] [15]
-Underfull \hbox (badness 1881) in paragraph at lines 1417--1417
+[9] [10] [11] [12] [13] [14] [15]
+Underfull \hbox (badness 1881) in paragraph at lines 1425--1425
 [][][]\T1/cmss/m/n/8 The name \T1/cmss/m/it/8 min-i-mal \T1/cmss/m/n/8 for the 
 out-put di-rec-tory is ar-bi-trary ex-cept that it is best to choose a name tha
 t doesn't
  []
 
 [16]
-Overfull \hbox (1.30553pt too wide) in paragraph at lines 1487--1490
+Overfull \hbox (1.30553pt too wide) in paragraph at lines 1495--1498
 []\T1/cmss/m/n/10 More specif-i-cally, each test will gen-er-ally set in-put pa
 -ram-e-ter val-ues for the mod-ule and then call [][][]: 
  []
 
 [17] [18] [19] [20] [21] [22]
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 1987.
+nput line 1995.
 
 (/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_
 readme/source/vignettes/an_introduction_to_biocro/solar_zenith_angle_in_degrees
@@ -1027,7 +1016,7 @@ ed.
 Here is how much of TeX's memory you used:
  27181 strings out of 480806
  526730 string characters out of 5904033
- 1088371 words of memory out of 5000000
+ 1088373 words of memory out of 5000000
  43158 multiletter control sequences out of 15000+600000
  435252 words of font info for 98 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -1084,9 +1073,9 @@ b></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmsy9.pfb>
-Output written on an_introduction_to_biocro.pdf (31 pages, 493593 bytes).
+Output written on an_introduction_to_biocro.pdf (31 pages, 495554 bytes).
 PDF statistics:
- 2287 PDF objects out of 2487 (max. 8388607)
+ 2292 PDF objects out of 2487 (max. 8388607)
  1541 compressed objects within 16 object streams
  900 named destinations out of 1000 (max. 500000)
  250 words of extra memory for PDF output out of 10000 (max. 10000000)

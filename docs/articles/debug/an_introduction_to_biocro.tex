@@ -212,9 +212,7 @@
 \begin{alltt}
 \hlkwd{library}\hlstd{(BioCro,} \hlkwc{quietly}\hlstd{=}\hlnum{TRUE}\hlstd{)}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in library(BioCro, quietly = TRUE): there is no package called 'BioCro'}}\end{kframe}
+\end{kframe}
 \end{knitrout}
 
 \section{Plant growth as a system of differential equations}
@@ -577,9 +575,16 @@ and willow and are named using names of the form
 \begin{alltt}
 \hlkwd{str}\hlstd{(}\hlkwd{head}\hlstd{(willow_initial_state))} \hlcom{# head truncates the list to six items}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in head(willow\_initial\_state): object 'willow\_initial\_state' not found}}\end{kframe}
+\begin{verbatim}
+## List of 6
+##  $ Grain        : num 0
+##  $ Leaf         : num 0.02
+##  $ leafdeathrate: num 5
+##  $ LeafLitter   : num 0
+##  $ Rhizome      : num 0.99
+##  $ RhizomeLitter: num 0
+\end{verbatim}
+\end{kframe}
 \end{knitrout}
 
 \code{varying\_parameters}, since it is made up of variables whose
@@ -656,9 +661,16 @@ provided as one means of subsetting climate data.\footnote{The
 \begin{alltt}
 \hlkwd{head}\hlstd{(}\hlkwd{get_growing_season_climate}\hlstd{(weather05))}
 \end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in get\_growing\_season\_climate(weather05): could not find function "{}get\_growing\_season\_climate"{}}}\end{kframe}
+\begin{verbatim}
+##      year doy hour solar       temp        rh windspeed precip
+## 2953 2005 124    0     0  3.5972222 0.3235000 0.7602778      0
+## 2954 2005 124    1     0  1.3938362 0.2495629 0.7602778      0
+## 2955 2005 124    2     0 -0.2968814 0.1928289 0.7602778      0
+## 2956 2005 124    3     0 -1.3597109 0.1571645 0.7602778      0
+## 2957 2005 124    4     0 -1.7222222 0.1450000 0.7602778      0
+## 2958 2005 124    5     0 -1.3597109 0.1571645 0.7602778      0
+\end{verbatim}
+\end{kframe}
 \end{knitrout}
 
 \subsubsection{Function output}
@@ -695,10 +707,6 @@ development of a crop as follows:
 \definecolor{shadecolor}{rgb}{0.969, 0.969, 0.969}\color{fgcolor}\begin{kframe}
 \begin{alltt}
 \hlkwd{library}\hlstd{(BioCro)}
-\end{alltt}
-
-
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in library(BioCro): there is no package called 'BioCro'}}\begin{alltt}
 \hlkwd{library}\hlstd{(lattice)}  \hlcom{# This is a package that creates figures.}
 
 \hlstd{result} \hlkwb{=} \hlkwd{Gro}\hlstd{(sorghum_initial_state, sorghum_parameters,}
@@ -706,7 +714,7 @@ development of a crop as follows:
 \end{alltt}
 
 
-{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in Gro(sorghum\_initial\_state, sorghum\_parameters, get\_growing\_season\_climate(weather05), : could not find function "{}Gro"{}}}\begin{alltt}
+{\ttfamily\noindent\bfseries\color{errorcolor}{\#\# Error in as.data.frame(.Call(R\_Gro\_solver, initial\_state, parameters, : Caught exception in R\_Gro\_solver: "{}soil\_type\_selector"{} was given as a module name, but no module with that name could be found.}}\begin{alltt}
 \hlkwd{xyplot}\hlstd{(Stem} \hlopt{+} \hlstd{Leaf} \hlopt{+} \hlstd{Root} \hlopt{~} \hlstd{TTc,} \hlkwc{data}\hlstd{=result)}  \hlcom{# The output is not shown here.}
 \end{alltt}
 

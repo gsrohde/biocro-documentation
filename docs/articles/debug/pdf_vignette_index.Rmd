@@ -7,8 +7,20 @@ vignette: >
   %\VignetteEncoding{UTF-8}
 ---
 ```{r, echo = TRUE}
-system('R CMD Sweave --pdf an_introduction_to_biocro.Rnw')
-system('R CMD Sweave --pdf biocro-manual-knitr.Rnw')
+.libPaths() # debugging
+
+rpath <- paste(.libPaths(), collapse = ':') # make a path that includes where pkgdown installed BioCro
+print(rpath) # debugging
+
+system2('R', args = c('CMD', 'Sweave', '--pdf', 'an_introduction_to_biocro.Rnw'),
+             env = c(paste0('R_LIBS=', rpath)) # pass the expanded R
+                                               # path (which includes
+                                               # the location of the
+                                               # just-build BioCro
+                                               # package) in the
+                                               # environment
+       )
+system('R CMD Sweave --pdf biocro-manual-knitr.Rnw') # this vignette doesn't need BioCro
 ```
 
 <!--
