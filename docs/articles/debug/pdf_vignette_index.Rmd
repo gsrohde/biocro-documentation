@@ -1,0 +1,21 @@
+---
+title: "PDF Vignettes"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{PDF Vignettes}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+```{r, echo = TRUE}
+system('R CMD Sweave --pdf an_introduction_to_biocro.Rnw')
+system('R CMD Sweave --pdf biocro-manual-knitr.Rnw')
+```
+
+<!--
+<iframe src="an_introduction_to_biocro.pdf"/> 
+<iframe src="biocro-manual-knitr.pdf"/>
+-->
+
+[An Introduction to BioCro for Those Who Want to Add Models](an_introduction_to_biocro.pdf){target="_blank"}
+
+[Simulation and Parameter Estimation for Biomass Crops](biocro-manual-knitr.pdf){target="_blank"}

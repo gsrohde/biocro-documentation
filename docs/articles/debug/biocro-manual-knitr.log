@@ -1,0 +1,600 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.12)  13 MAY 2021 01:47
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\nonstopmode \input ./biocro-manual-knitr.tex \input ./biocro-manual-knitr.te
+x \input ./biocro-manual-knitr.tex
+(./biocro-manual-knitr.tex
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2020/04/10 v1.4m Standard LaTeX document class
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count179
+\c@section=\count180
+\c@subsection=\count181
+\c@subsubsection=\count182
+\c@paragraph=\count183
+\c@subparagraph=\count184
+\c@figure=\count185
+\c@table=\count186
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip49
+\fb@frw=\dimen141
+\fb@frh=\dimen142
+\FrameRule=\dimen143
+\FrameSep=\dimen144
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen145
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen146
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count187
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count188
+\leftroot@=\count189
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count190
+\DOTSCASE@=\count191
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen147
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count192
+\c@MaxMatrixCols=\count193
+\dotsspace@=\muskip16
+\c@parentequation=\count194
+\dspbrk@lvl=\count195
+\tag@help=\toks17
+\row@=\count196
+\column@=\count197
+\maxfields@=\count198
+\andhelp@=\toks18
+\eqnshift@=\dimen148
+\alignsep@=\dimen149
+\tagshift@=\dimen150
+\tagwidth@=\dimen151
+\totwidth@=\dimen152
+\lineht@=\dimen153
+\@envbody=\toks19
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2019/07/24 v1.2d Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 209.
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-05-07 L3 programming layer (loader) 
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.
+def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count199
+\l__pdf_internal_box=\box49
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.st
+y
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-20
+20-10-01.sty
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse-ge
+neric.tex)))
+Package: siunitx 2021-04-17 v2.8e A comprehensive (SI) units package
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/tools/array.sty
+Package: array 2020/10/01 v2.5c Tabular extension package (FMi)
+\col@sep=\dimen154
+\ar@mcellbox=\box50
+\extrarowheight=\dimen155
+\NC@list=\toks21
+\extratabsurround=\skip53
+\backup@length=\skip54
+\ar@cellbox=\box51
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2
+e.sty
+Package: l3keys2e 2021-05-07 LaTeX2e option processing using LaTeX3 keys
+)
+\l__siunitx_tmp_box=\box52
+\l__siunitx_tmp_dim=\dimen156
+\l__siunitx_tmp_int=\count266
+\l__siunitx_number_mantissa_length_int=\count267
+\l__siunitx_number_uncert_length_int=\count268
+\l__siunitx_round_int=\count269
+\l__siunitx_process_decimal_int=\count270
+\l__siunitx_process_uncertainty_int=\count271
+\l__siunitx_process_fixed_int=\count272
+\l__siunitx_process_integer_min_int=\count273
+\l__siunitx_process_precision_int=\count274
+\l__siunitx_group_min_int=\count275
+\l__siunitx_angle_marker_box=\box53
+\l__siunitx_angle_unit_box=\box54
+\l__siunitx_angle_marker_dim=\dimen157
+\l__siunitx_angle_unit_dim=\dimen158
+\l__siunitx_unit_int=\count276
+\l__siunitx_unit_denominator_int=\count277
+\l__siunitx_unit_numerator_int=\count278
+\l__siunitx_unit_prefix_int=\count279
+\l__siunitx_unit_prefix_base_int=\count280
+\l__siunitx_unit_prefix_gram_int=\count281
+\l__siunitx_number_product_int=\count282
+\c__siunitx_one_fill_skip=\skip55
+\l__siunitx_table_unit_align_skip=\skip56
+\l__siunitx_table_exponent_dim=\dimen159
+\l__siunitx_table_integer_dim=\dimen160
+\l__siunitx_table_mantissa_dim=\dimen161
+\l__siunitx_table_marker_dim=\dimen162
+\l__siunitx_table_result_dim=\dimen163
+\l__siunitx_table_uncert_dim=\dimen164
+\l__siunitx_table_fill_pre_dim=\dimen165
+\l__siunitx_table_fill_post_dim=\dimen166
+\l__siunitx_table_fill_mid_dim=\dimen167
+\l__siunitx_table_pre_box=\box55
+\l__siunitx_table_post_box=\box56
+\l__siunitx_table_mantissa_box=\box57
+\l__siunitx_table_result_box=\box58
+\l__siunitx_table_number_align_skip=\skip57
+\l__siunitx_table_text_align_skip=\skip58
+) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2021/04/26 3.58 The Babel package
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2021/04/26 3.58 Babel common definitions
+\babel@savecnt=\count283
+\U@D=\dimen168
+\l@unhyphenated=\language3
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count284
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/babel-english/american.ld
+f
+Language: american 2017/06/06 v3.3r English support from the babel system
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'british' set to \l@english
+(babel)             (\language0). Reported on input line 82.
+Package babel Info: Hyphen rules for 'UKenglish' set to \l@english
+(babel)             (\language0). Reported on input line 83.
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@english
+(babel)             (\language0). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@english
+(babel)             (\language0). Reported on input line 108.
+))) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip59
+\bibsep=\skip60
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count285
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2021-02-27 v7.00k Hypertext links for LaTeX
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys
+.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen169
+\Hy@linkcounter=\count286
+\Hy@pagecounter=\count287
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2021-02-27 v7.00k Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref-langpatch
+es.def
+File: hyperref-langpatches.def 2021-02-27 v7.00k Hyperref: patches for babel la
+nguages
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count288
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2021-02-27 v7.00k Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4192.
+Package hyperref Info: Link nesting OFF on input line 4197.
+Package hyperref Info: Hyper index ON on input line 4200.
+Package hyperref Info: Plain pages OFF on input line 4207.
+Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4445.
+\c@Hy@tempcnt=\count289
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4804.
+\XeTeXLinkMargin=\dimen170
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count290
+\Field@Width=\dimen171
+\Fld@charsize=\dimen172
+Package hyperref Info: Hyper figures OFF on input line 6075.
+Package hyperref Info: Link nesting OFF on input line 6080.
+Package hyperref Info: Hyper index ON on input line 6083.
+Package hyperref Info: backreferencing OFF on input line 6090.
+Package hyperref Info: Link coloring OFF on input line 6095.
+Package hyperref Info: Link coloring with OCG OFF on input line 6100.
+Package hyperref Info: PDF/A mode OFF on input line 6105.
+LaTeX Info: Redefining \ref on input line 6145.
+LaTeX Info: Redefining \pageref on input line 6149.
+ (/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count291
+\c@Item=\count292
+\c@Hfootnote=\count293
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2021-02-27 v7.00k Hyperref driver for pdfTeX
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count294
+\c@bookmark@seq@number=\count295
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfileche
+ck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecount
+er.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip61
+)
+(/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_
+readme/source/vignettes/biocro-manual-knitr.aux)
+\openout1 = `biocro-manual-knitr.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.
+sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cf
+g
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/siunitx/siunitx-abbreviatio
+ns.cfg
+File: siunitx-abbreviations.cfg 2021-04-17 v2.8e siunitx: Abbreviated units
+)
+Package hyperref Info: Link coloring OFF on input line 69.
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/Users/runner/Library/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlest
+ring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count296
+)
+LaTeX Info: Redefining \ref on input line 69.
+LaTeX Info: Redefining \pageref on input line 69.
+LaTeX Info: Redefining \nameref on input line 69.
+
+(/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_
+readme/source/vignettes/biocro-manual-knitr.out)
+(/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_
+readme/source/vignettes/biocro-manual-knitr.out)
+\@outlinefile=\write3
+\openout3 = `biocro-manual-knitr.out'.
+
+
+(/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_
+readme/source/vignettes/biocro-manual-knitr.toc [1
+
+{/Users/runner/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write4
+\openout4 = `biocro-manual-knitr.toc'.
+
+
+Overfull \hbox (4.10316pt too wide) in paragraph at lines 109--115
+\OT1/cmr/m/n/12 Steve Humphries []$\OT1/cmtt/m/n/12 http : / / www . life . ill
+inois . edu / plantbio / wimovac/$[] \OT1/cmr/m/n/12 and
+ []
+
+Package color Info: Redefining color shadecolor on input line 137.
+[2]
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 139.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 164.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `subscript' on input line 164.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 164.
+
+Package color Info: Redefining color shadecolor on input line 170.
+
+Overfull \hbox (79.30023pt too wide) in paragraph at lines 174--174
+[][]\OT1/cmtt/m/n/12 res2[] []<-[] []c4photo[][](idat[][]$[][]Qp, idat[][]$[][]
+temp, idat[][]$[][]rh,[] []uppertemp[] []=[] []45[][],[] []lowertemp[] []=[] []
+10[][])[][] 
+ []
+
+
+Overfull \hbox (10.9841pt too wide) in paragraph at lines 201--208
+[]\OT1/cmr/m/n/12 ) and dark res-pi-ra-tion (net CO$[]$ ex-change at zero light
+, []). 
+ []
+
+[3]
+Package color Info: Redefining color shadecolor on input line 234.
+
+Overfull \hbox (104.00024pt too wide) in paragraph at lines 238--238
+[][]\OT1/cmtt/m/n/12 lattice[][]::[][]xyplot[][](A[] []~[] []PARi[] []|[] []trt
+,[] []data[][]=aq,[] []ylab[][]=[][]'CO2 uptake'[][],[] []xlab[][]=[][]'Quantum
+ flux'[][])[][] 
+ []
+
+Package color Info: Redefining color shadecolor on input line 246.
+Package color Info: Redefining color shadecolor on input line 254.
+[4]
+Package color Info: Redefining color shadecolor on input line 266.
+Package color Info: Redefining color shadecolor on input line 280.
+Package color Info: Redefining color shadecolor on input line 294.
+Package color Info: Redefining color shadecolor on input line 308.
+Package color Info: Redefining color shadecolor on input line 320.
+ [5]
+Package color Info: Redefining color shadecolor on input line 338.
+Package color Info: Redefining color shadecolor on input line 359.
+
+Overfull \hbox (85.47523pt too wide) in paragraph at lines 361--361
+[][]\OT1/cmtt/m/n/12 op.mc1[] []<-[] []MCMCc4photo[][](curve1[,[][]3[][]:[][]6[
+][]],[] []scale[][]=[][]1.5[][],[] []prior[][]=[][]c[][]([][]20[][],[] []1[][],
+[] []0.045[][],[] []0.0025[][]))[][] 
+ []
+
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 362--362
+[][]\OT1/cmtt/m/n/12 plot[][](op.mc1,[] []plot.kind[] []=[] []"density"[][],[] 
+[]prior[] []=[] []TRUE[][],[] []burnin[][]=[][]1e3[][],[] []lwd[][]=[][]2[][])[
+][] 
+ []
+
+Package color Info: Redefining color shadecolor on input line 376.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 
+378.
+(/Library/Frameworks/R.framework/Resources/share/texmf/tex/latex/omscmtt.fd
+File: omscmtt.fd 
+)
+LaTeX Font Info:    Font shape `OMS/cmtt/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 378.
+
+Overfull \hbox (29.9002pt too wide) in paragraph at lines 379--379
+[]    []\OT1/cmtt/m/n/12 res[] []<-[] []c4photo[][](A,T,RH,[] []vmax[][]=vmax,[
+] []alpha[][]=alpha)[][]$[][]assimilation_rate[][] 
+ []
+
+[6]
+Package color Info: Redefining color shadecolor on input line 424.
+ [7]
+Package color Info: Redefining color shadecolor on input line 439.
+ [8]
+Overfull \hbox (6.90701pt too wide) in paragraph at lines 496--498
+[]\OT1/cmr/m/n/12 At the mo-ment Pen-man over es-ti-mates tran-spi-ra-tion, Pri
+estly and Penman-
+ []
+
+[9]
+Package color Info: Redefining color shadecolor on input line 540.
+
+Overfull \hbox (5.91321pt too wide) in paragraph at lines 561--563
+\OT1/cmr/m/n/12 As in the \OT1/cmtt/m/n/10.95 CanA \OT1/cmr/m/n/12 func-tion tr
+an-spi-ra-tion can be cal-cu-lated us-ing Priestly, Penman-
+ []
+
+[10]
+Package color Info: Redefining color shadecolor on input line 598.
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 609--609
+[][]\OT1/cmtt/m/n/12 soilP[] []<-[] []soilParms[][]([][]iWatCont[][]=iwc,[] []s
+oilDepth[][]=soildepth,[] []soilLayers[][]=[][]1[][])[][] 
+ []
+
+[11]
+(/Users/runner/work/biocro-dev-revise_doxygen_readme/biocro-dev-revise_doxygen_
+readme/source/vignettes/biocro-manual-knitr.aux)
+Package rerunfilecheck Info: File `biocro-manual-knitr.out' has not changed.
+(rerunfilecheck)             Checksum: 643D29EC72A59910D01246C60641181B;3253.
+ ) 
+Here is how much of TeX's memory you used:
+ 11792 strings out of 480806
+ 208240 string characters out of 5904033
+ 512502 words of memory out of 5000000
+ 28958 multiletter control sequences out of 15000+600000
+ 422387 words of font info for 94 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 60i,13n,67p,488b,844s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </Users/runner/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm120
+0.600pk></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmbx12.pfb></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbxti10.pfb></Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmitt10.pfb></Users/runner/Library/TinyTeX/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmmi12.pfb></Users/runner/Library/TinyTeX/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi8.pfb></Users/runner/Library/TinyTeX/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/runner/Library/TinyTeX/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></Users/runner/Library/TinyTeX/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></Users/runner/Library/Tiny
+TeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></Users/runner/Library/T
+inyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></Users/runner/Libr
+ary/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/runner
+/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></Users/ru
+nner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></Use
+rs/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+</Users/runner/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12
+.pfb>
+Output written on biocro-manual-knitr.pdf (11 pages, 209900 bytes).
+PDF statistics:
+ 203 PDF objects out of 1000 (max. 8388607)
+ 169 compressed objects within 2 object streams
+ 26 named destinations out of 1000 (max. 500000)
+ 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+
