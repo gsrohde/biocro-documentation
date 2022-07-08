@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>4 Adding the Boost libraries | BioCro Development</title>
   <meta name="description" content="4 Adding the Boost libraries | BioCro Development" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
   <meta property="og:title" content="4 Adding the Boost libraries | BioCro Development" />
   <meta property="og:type" content="book" />
-  
   
   
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-13" />
+<meta name="date" content="2022-07-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="running-the-testthat-tests.html"/>
 <link rel="next" href="the-update-documentation-workflow.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,10 +48,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -134,6 +134,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#note-about-the-types-of-documentation-in-biocro"><i class="fa fa-check"></i>Note about the types of documentation in BioCro</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#version-info"><i class="fa fa-check"></i>Version Info</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html"><i class="fa fa-check"></i><b>1</b> Contributing to BioCro</a><ul>
 <li class="chapter" data-level="1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#making-changes"><i class="fa fa-check"></i><b>1.1</b> Making Changes</a><ul>
@@ -162,19 +163,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.2" data-path="generating-documentation.html"><a href="generating-documentation.html#build-procedure"><i class="fa fa-check"></i><b>2.2.2</b> Build procedure</a></li>
 <li class="chapter" data-level="2.2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#alternative-options"><i class="fa fa-check"></i><b>2.2.3</b> Alternative options</a></li>
 </ul></li>
+<li class="chapter" data-level="2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#compiling-and-viewing-the-bookdown-book"><i class="fa fa-check"></i><b>2.3</b> Compiling and viewing the <em>bookdown</em> book</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html"><i class="fa fa-check"></i><b>3</b> Running the <em>testthat</em> Tests</a><ul>
-<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.1</b> tl;dr</a></li>
-<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#required-r-packages"><i class="fa fa-check"></i><b>3.2</b> Required R Packages</a></li>
-<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-tests"><i class="fa fa-check"></i><b>3.3</b> Running the Tests</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-on-the-installed-version-of-biocro"><i class="fa fa-check"></i><b>3.3.1</b> Running the test suite on the installed version of BioCro</a></li>
-<li class="chapter" data-level="3.3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-against-the-biocro-source-code"><i class="fa fa-check"></i><b>3.3.2</b> Running the test suite against the BioCro source code</a></li>
+<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#requirements"><i class="fa fa-check"></i><b>3.1</b> Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.2</b> tl;dr</a></li>
+<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:TLDR"><i class="fa fa-check"></i><b>3.3</b> tl;dr for devtools users</a></li>
+<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#continuous-integration-workflow-why-run-tests-manually"><i class="fa fa-check"></i><b>3.4</b> Continuous integration workflow; why run tests manually?</a></li>
+<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#test-running-scenarios"><i class="fa fa-check"></i><b>3.5</b> Test-running scenarios</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:test-installed"><i class="fa fa-check"></i><b>3.5.1</b> Running the test suite on the installed version of BioCro</a></li>
+<li class="chapter" data-level="3.5.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:switching-reporters"><i class="fa fa-check"></i><b>3.5.2</b> Switching reporters</a></li>
+<li class="chapter" data-level="3.5.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:testing-local"><i class="fa fa-check"></i><b>3.5.3</b> Running the test suite against the BioCro source code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.4</b> Running individual test files</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.4.1</b> Running an individual test file on the installed package</a></li>
-<li class="chapter" data-level="3.4.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.4.2</b> Running an individual test file against the package source code</a></li>
+<li class="chapter" data-level="3.6" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.6</b> Running individual test files</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.6.1</b> Running an individual test file on the installed package</a></li>
+<li class="chapter" data-level="3.6.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.6.2</b> Running an individual test file against the package source code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using-devtools"><i class="fa fa-check"></i><b>3.5</b> Using devtools</a></li>
+<li class="chapter" data-level="3.7" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using_devtools"><i class="fa fa-check"></i><b>3.7</b> Using devtools</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html"><i class="fa fa-check"></i><b>4</b> Adding the Boost libraries</a><ul>
 <li class="chapter" data-level="4.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#why-this-is-needed"><i class="fa fa-check"></i><b>4.1</b> Why this is needed</a></li>
@@ -210,15 +215,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="adding-the-boost-libraries" class="section level1">
-<h1><span class="header-section-number">4</span> Adding the Boost libraries</h1>
-<div id="why-this-is-needed" class="section level2">
-<h2><span class="header-section-number">4.1</span> Why this is needed</h2>
+<div id="adding-the-boost-libraries" class="section level1 hasAnchor">
+<h1><span class="header-section-number">4</span> Adding the Boost libraries<a href="adding-the-boost-libraries.html#adding-the-boost-libraries" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="why-this-is-needed" class="section level2 hasAnchor">
+<h2><span class="header-section-number">4.1</span> Why this is needed<a href="adding-the-boost-libraries.html#why-this-is-needed" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>BioCro uses software from the Boost C++ libraries. Boost does not assure backward compatibility, so changes to Boost could break BioCro. Thus, we don’t want to link our code to a user supplied Boost installation, and we include a version with BioCro.
 Boost is very large, so we want to include only the necessary parts. This document lists steps to extract the relevant parts and update files in BioCro to use them.</p>
 </div>
-<div id="how-to-extract-parts-of-boost" class="section level2">
-<h2><span class="header-section-number">4.2</span> How to extract parts of Boost</h2>
+<div id="how-to-extract-parts-of-boost" class="section level2 hasAnchor">
+<h2><span class="header-section-number">4.2</span> How to extract parts of Boost<a href="adding-the-boost-libraries.html#how-to-extract-parts-of-boost" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>Use the bcp tool included with Boost to extract parts of the Boost library. bcp accepts a list of files or modules and extracts the relevant parts of the Boost library to a directory.
 The packages BioCro uses are as follows:</p>
 <table>
@@ -251,7 +256,7 @@ The packages BioCro uses are as follows:</p>
 </tr>
 <tr class="odd">
 <td><code>boost/numeric/ublas</code></td>
-<td>Used in <code>system.h</code>, among others</td>
+<td>Used in <code>dynamical_system.h</code>, among others</td>
 </tr>
 <tr class="even">
 <td><code>boost/numeric/odeint.hpp</code></td>
@@ -269,8 +274,8 @@ The packages BioCro uses are as follows:</p>
 <li>Check that the Boost license at <code>biocro/boost_[version_num]</code> is correct for the version used, and update <code>biocro/LICENSE</code> if necssary.</li>
 <li>Update the path to the Boost license in <code>biocro/LICENSE</code>.</li>
 </ol>
-<div id="notes-for-using-bcp-in-windows" class="section level3">
-<h3><span class="header-section-number">4.2.1</span> Notes for using bcp in Windows</h3>
+<div id="notes-for-using-bcp-in-windows" class="section level3 hasAnchor">
+<h3><span class="header-section-number">4.2.1</span> Notes for using bcp in Windows<a href="adding-the-boost-libraries.html#notes-for-using-bcp-in-windows" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>First, follow the instructions in the “Getting Started on Windows” <a href="https://www.boost.org/doc/libs/1_71_0/more/getting_started/windows.html">Boost page</a>.
 For V1.71.0, this entails the following:
 - Install the Visual Studio 2019 Developer Command Prompt (<a href="https://docs.microsoft.com/en-us/cpp/build/building-on-the-command-line?view=vs-2019">see here</a>).
@@ -298,7 +303,6 @@ For V1.71.0, this entails the following:
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -338,6 +342,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

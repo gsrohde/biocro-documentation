@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>BioCro Development</title>
   <meta name="description" content="BioCro Development" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
   <meta property="og:title" content="BioCro Development" />
   <meta property="og:type" content="book" />
-  
   
   
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-13" />
+<meta name="date" content="2022-07-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 
 <link rel="next" href="contributing-to-biocro.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,10 +48,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -134,6 +134,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#note-about-the-types-of-documentation-in-biocro"><i class="fa fa-check"></i>Note about the types of documentation in BioCro</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#version-info"><i class="fa fa-check"></i>Version Info</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html"><i class="fa fa-check"></i><b>1</b> Contributing to BioCro</a><ul>
 <li class="chapter" data-level="1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#making-changes"><i class="fa fa-check"></i><b>1.1</b> Making Changes</a><ul>
@@ -162,19 +163,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.2" data-path="generating-documentation.html"><a href="generating-documentation.html#build-procedure"><i class="fa fa-check"></i><b>2.2.2</b> Build procedure</a></li>
 <li class="chapter" data-level="2.2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#alternative-options"><i class="fa fa-check"></i><b>2.2.3</b> Alternative options</a></li>
 </ul></li>
+<li class="chapter" data-level="2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#compiling-and-viewing-the-bookdown-book"><i class="fa fa-check"></i><b>2.3</b> Compiling and viewing the <em>bookdown</em> book</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html"><i class="fa fa-check"></i><b>3</b> Running the <em>testthat</em> Tests</a><ul>
-<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.1</b> tl;dr</a></li>
-<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#required-r-packages"><i class="fa fa-check"></i><b>3.2</b> Required R Packages</a></li>
-<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-tests"><i class="fa fa-check"></i><b>3.3</b> Running the Tests</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-on-the-installed-version-of-biocro"><i class="fa fa-check"></i><b>3.3.1</b> Running the test suite on the installed version of BioCro</a></li>
-<li class="chapter" data-level="3.3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-against-the-biocro-source-code"><i class="fa fa-check"></i><b>3.3.2</b> Running the test suite against the BioCro source code</a></li>
+<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#requirements"><i class="fa fa-check"></i><b>3.1</b> Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.2</b> tl;dr</a></li>
+<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:TLDR"><i class="fa fa-check"></i><b>3.3</b> tl;dr for devtools users</a></li>
+<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#continuous-integration-workflow-why-run-tests-manually"><i class="fa fa-check"></i><b>3.4</b> Continuous integration workflow; why run tests manually?</a></li>
+<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#test-running-scenarios"><i class="fa fa-check"></i><b>3.5</b> Test-running scenarios</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:test-installed"><i class="fa fa-check"></i><b>3.5.1</b> Running the test suite on the installed version of BioCro</a></li>
+<li class="chapter" data-level="3.5.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:switching-reporters"><i class="fa fa-check"></i><b>3.5.2</b> Switching reporters</a></li>
+<li class="chapter" data-level="3.5.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:testing-local"><i class="fa fa-check"></i><b>3.5.3</b> Running the test suite against the BioCro source code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.4</b> Running individual test files</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.4.1</b> Running an individual test file on the installed package</a></li>
-<li class="chapter" data-level="3.4.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.4.2</b> Running an individual test file against the package source code</a></li>
+<li class="chapter" data-level="3.6" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.6</b> Running individual test files</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.6.1</b> Running an individual test file on the installed package</a></li>
+<li class="chapter" data-level="3.6.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.6.2</b> Running an individual test file against the package source code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using-devtools"><i class="fa fa-check"></i><b>3.5</b> Using devtools</a></li>
+<li class="chapter" data-level="3.7" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using_devtools"><i class="fa fa-check"></i><b>3.7</b> Using devtools</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html"><i class="fa fa-check"></i><b>4</b> Adding the Boost libraries</a><ul>
 <li class="chapter" data-level="4.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#why-this-is-needed"><i class="fa fa-check"></i><b>4.1</b> Why this is needed</a></li>
@@ -212,18 +217,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">BioCro Development</h1>
-<p class="date" style="margin-top: 1.5em;"><em>2021-05-13</em></p>
+<p class="date"><em>2022-07-08</em></p>
 </div>
-<div id="introduction" class="section level1 unnumbered">
-<h1>Introduction</h1>
+<div id="introduction" class="section level1 unnumbered hasAnchor">
+<h1>Introduction<a href="index.html#introduction" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>The documentation in this short book is aimed at developers—at those
 who will be writing new modules or modifying existing ones; and most
 especially at those fixing bugs in or adding new features to the
 BioCro simulation framework, and those involved with the overall
 maintenance of the BioCro package.</p>
 
-<div id="note-about-the-types-of-documentation-in-biocro" class="section level2 unnumbered">
-<h2>Note about the types of documentation in BioCro</h2>
+<div id="note-about-the-types-of-documentation-in-biocro" class="section level2 unnumbered hasAnchor">
+<h2>Note about the types of documentation in BioCro<a href="index.html#note-about-the-types-of-documentation-in-biocro" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>There several categories of documentation for BioCro:</p>
 <ul>
 <li><p>The top-level <code>README.md</code> is for general information about BioCro
@@ -246,6 +251,15 @@ developers and maintainers.</p></li>
 </ul>
 
 </div>
+<div id="version-info" class="section level2 unnumbered hasAnchor">
+<h2>Version Info<a href="index.html#version-info" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<pre><code>This document was generated from the version of BioCro specified as follows:
+
+Commit Hash: 331e247
+Date: Thu, 7 Jul 2022 20:58:31 -0500
+Branch: revise-doc-workflows</code></pre>
+
+</div>
 </div>
             </section>
 
@@ -257,7 +271,6 @@ developers and maintainers.</p></li>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -297,6 +310,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

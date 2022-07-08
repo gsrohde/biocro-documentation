@@ -6,11 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>1 Contributing to BioCro | BioCro Development</title>
   <meta name="description" content="1 Contributing to BioCro | BioCro Development" />
-  <meta name="generator" content="bookdown 0.22 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
   <meta property="og:title" content="1 Contributing to BioCro | BioCro Development" />
   <meta property="og:type" content="book" />
-  
   
   
   
@@ -23,7 +22,7 @@
 
 
 
-<meta name="date" content="2021-05-13" />
+<meta name="date" content="2022-07-08" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -32,7 +31,8 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="generating-documentation.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -48,10 +48,10 @@
 
 
 
-
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
-<link href="libs/anchor-sections-1.0.1/anchor-sections.css" rel="stylesheet" />
-<script src="libs/anchor-sections-1.0.1/anchor-sections.js"></script>
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
 
 <style type="text/css">
@@ -134,6 +134,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#note-about-the-types-of-documentation-in-biocro"><i class="fa fa-check"></i>Note about the types of documentation in BioCro</a></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html#version-info"><i class="fa fa-check"></i>Version Info</a></li>
 </ul></li>
 <li class="chapter" data-level="1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html"><i class="fa fa-check"></i><b>1</b> Contributing to BioCro</a><ul>
 <li class="chapter" data-level="1.1" data-path="contributing-to-biocro.html"><a href="contributing-to-biocro.html#making-changes"><i class="fa fa-check"></i><b>1.1</b> Making Changes</a><ul>
@@ -162,19 +163,23 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="2.2.2" data-path="generating-documentation.html"><a href="generating-documentation.html#build-procedure"><i class="fa fa-check"></i><b>2.2.2</b> Build procedure</a></li>
 <li class="chapter" data-level="2.2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#alternative-options"><i class="fa fa-check"></i><b>2.2.3</b> Alternative options</a></li>
 </ul></li>
+<li class="chapter" data-level="2.3" data-path="generating-documentation.html"><a href="generating-documentation.html#compiling-and-viewing-the-bookdown-book"><i class="fa fa-check"></i><b>2.3</b> Compiling and viewing the <em>bookdown</em> book</a></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html"><i class="fa fa-check"></i><b>3</b> Running the <em>testthat</em> Tests</a><ul>
-<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.1</b> tl;dr</a></li>
-<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#required-r-packages"><i class="fa fa-check"></i><b>3.2</b> Required R Packages</a></li>
-<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-tests"><i class="fa fa-check"></i><b>3.3</b> Running the Tests</a><ul>
-<li class="chapter" data-level="3.3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-on-the-installed-version-of-biocro"><i class="fa fa-check"></i><b>3.3.1</b> Running the test suite on the installed version of BioCro</a></li>
-<li class="chapter" data-level="3.3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-the-test-suite-against-the-biocro-source-code"><i class="fa fa-check"></i><b>3.3.2</b> Running the test suite against the BioCro source code</a></li>
+<li class="chapter" data-level="3.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#requirements"><i class="fa fa-check"></i><b>3.1</b> Requirements</a></li>
+<li class="chapter" data-level="3.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#tldr"><i class="fa fa-check"></i><b>3.2</b> tl;dr</a></li>
+<li class="chapter" data-level="3.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:TLDR"><i class="fa fa-check"></i><b>3.3</b> tl;dr for devtools users</a></li>
+<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#continuous-integration-workflow-why-run-tests-manually"><i class="fa fa-check"></i><b>3.4</b> Continuous integration workflow; why run tests manually?</a></li>
+<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#test-running-scenarios"><i class="fa fa-check"></i><b>3.5</b> Test-running scenarios</a><ul>
+<li class="chapter" data-level="3.5.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:test-installed"><i class="fa fa-check"></i><b>3.5.1</b> Running the test suite on the installed version of BioCro</a></li>
+<li class="chapter" data-level="3.5.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:switching-reporters"><i class="fa fa-check"></i><b>3.5.2</b> Switching reporters</a></li>
+<li class="chapter" data-level="3.5.3" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#sec:testing-local"><i class="fa fa-check"></i><b>3.5.3</b> Running the test suite against the BioCro source code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.4" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.4</b> Running individual test files</a><ul>
-<li class="chapter" data-level="3.4.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.4.1</b> Running an individual test file on the installed package</a></li>
-<li class="chapter" data-level="3.4.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.4.2</b> Running an individual test file against the package source code</a></li>
+<li class="chapter" data-level="3.6" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-individual-test-files"><i class="fa fa-check"></i><b>3.6</b> Running individual test files</a><ul>
+<li class="chapter" data-level="3.6.1" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-on-the-installed-package"><i class="fa fa-check"></i><b>3.6.1</b> Running an individual test file on the installed package</a></li>
+<li class="chapter" data-level="3.6.2" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#running-an-individual-test-file-against-the-package-source-code"><i class="fa fa-check"></i><b>3.6.2</b> Running an individual test file against the package source code</a></li>
 </ul></li>
-<li class="chapter" data-level="3.5" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using-devtools"><i class="fa fa-check"></i><b>3.5</b> Using devtools</a></li>
+<li class="chapter" data-level="3.7" data-path="running-the-testthat-tests.html"><a href="running-the-testthat-tests.html#using_devtools"><i class="fa fa-check"></i><b>3.7</b> Using devtools</a></li>
 </ul></li>
 <li class="chapter" data-level="4" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html"><i class="fa fa-check"></i><b>4</b> Adding the Boost libraries</a><ul>
 <li class="chapter" data-level="4.1" data-path="adding-the-boost-libraries.html"><a href="adding-the-boost-libraries.html#why-this-is-needed"><i class="fa fa-check"></i><b>4.1</b> Why this is needed</a></li>
@@ -210,25 +215,25 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="contributing-to-biocro" class="section level1">
-<h1><span class="header-section-number">1</span> Contributing to BioCro</h1>
-<div id="making-changes" class="section level2">
-<h2><span class="header-section-number">1.1</span> Making Changes</h2>
-<div id="discuss-first" class="section level3">
-<h3><span class="header-section-number">1.1.1</span> Discuss first</h3>
+<div id="contributing-to-biocro" class="section level1 hasAnchor">
+<h1><span class="header-section-number">1</span> Contributing to BioCro<a href="contributing-to-biocro.html#contributing-to-biocro" class="anchor-section" aria-label="Anchor link to header"></a></h1>
+<div id="making-changes" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.1</span> Making Changes<a href="contributing-to-biocro.html#making-changes" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="discuss-first" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.1.1</span> Discuss first<a href="contributing-to-biocro.html#discuss-first" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li>Check the list of <a href="https://github.com/ebimodeling/biocro-dev/issues">GitHub issues</a><!-- CHANGE THIS URL WHEN MOVING FROM ebimodeling/biocro-dev TO ebimodeling/biocro!!! --> for a discussion of the issue. If there is not one, create an issue with a description of the problem and your proposed solution.</li>
+<li>Check the list of <a href="https://github.com/ebimodeling/biocro/issues">GitHub issues</a> for a discussion of the issue. If there is not one, create an issue with a description of the problem and your proposed solution.</li>
 </ul>
 <p>By making changes without discussing it with the group, you risk spending time working on a solution that others may not accept. The members of the group also have diverse backgrounds and likely can give valuable design insights.</p>
 </div>
 </div>
-<div id="code-style" class="section level2">
-<h2><span class="header-section-number">1.2</span> Code style</h2>
+<div id="code-style" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.2</span> Code style<a href="contributing-to-biocro.html#code-style" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <p>(Most of what is discussed here pertains specifically to code for the BioCro C++ library.)</p>
-<div id="scientific-considerations" class="section level3">
-<h3><span class="header-section-number">1.2.1</span> Scientific considerations</h3>
-<div id="document-sources-and-justification-in-the-code" class="section level4">
-<h4><span class="header-section-number">1.2.1.1</span> Document sources and justification in the code</h4>
+<div id="scientific-considerations" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.1</span> Scientific considerations<a href="contributing-to-biocro.html#scientific-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
+<div id="document-sources-and-justification-in-the-code" class="section level4 hasAnchor">
+<h4><span class="header-section-number">1.2.1.1</span> Document sources and justification in the code<a href="contributing-to-biocro.html#document-sources-and-justification-in-the-code" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li>Include citations to sources for equations and parameters used in the code. The citation should be sufficient to locate the article and relevant information within it. Include a table or figure reference if appropriate.</li>
 <li>Use <a href="https://www.doxygen.nl/manual/docblocks.html">Doxygen</a>-style comment syntax for high-level documentation of functions and classes. (See the documentation of the <code>solar_zenith_angle</code> class in the <a href="../src/module_library/solar_zenith_angle.h">Solar Zenith Angle module</a> for a short example of a Doxygen-style comment.)</li>
@@ -236,34 +241,34 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>See the <a href="../src/module_library/ball_berry.cpp">Ball-Berry model</a> for an example.</li>
 </ul>
 </div>
-<div id="document-units-in-the-code" class="section level4">
-<h4><span class="header-section-number">1.2.1.2</span> Document units in the code</h4>
+<div id="document-units-in-the-code" class="section level4 hasAnchor">
+<h4><span class="header-section-number">1.2.1.2</span> Document units in the code<a href="contributing-to-biocro.html#document-units-in-the-code" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li><p>After every <a href="https://en.wikipedia.org/wiki/Physical_quantity">physical quantity</a>, include a comment with the units. The idea is that every quantity will roughly be read as if it were written in normal text: <code>double yield = 10  // Mg / ha</code> is something like “the yield was 10 Mg / ha”. Using dimensions instead of units is acceptable if the code is written with the expectation that <a href="https://en.wikipedia.org/wiki/Coherence_%28units_of_measurement%29">coherent units</a> are used.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb1-1"><a href="contributing-to-biocro.html#cb1-1"></a><span class="co">// In function signatures</span></span>
-<span id="cb1-2"><a href="contributing-to-biocro.html#cb1-2"></a><span class="dt">double</span> ball_berry(<span class="dt">double</span> assimilation,                   <span class="co">// mol / m^2 / s</span></span>
-<span id="cb1-3"><a href="contributing-to-biocro.html#cb1-3"></a>                  <span class="dt">double</span> atmospheric_co2_concentration,  <span class="co">// mol / mol</span></span>
-<span id="cb1-4"><a href="contributing-to-biocro.html#cb1-4"></a>                  <span class="dt">double</span> atmospheric_relative_humidity,  <span class="co">// Pa / Pa</span></span>
-<span id="cb1-5"><a href="contributing-to-biocro.html#cb1-5"></a>                  <span class="dt">double</span> beta0,                          <span class="co">// mol / m^2 / s</span></span>
-<span id="cb1-6"><a href="contributing-to-biocro.html#cb1-6"></a>                  <span class="dt">double</span> beta1)                          <span class="co">// dimensionless from [mol / m^2 / s] / [mol / m^2 / s]</span></span>
-<span id="cb1-7"><a href="contributing-to-biocro.html#cb1-7"></a></span>
-<span id="cb1-8"><a href="contributing-to-biocro.html#cb1-8"></a><span class="co">// In assignments</span></span>
-<span id="cb1-9"><a href="contributing-to-biocro.html#cb1-9"></a><span class="dt">double</span> leaf_temperature = air_temperature - <span class="dt">delta_t</span>;  <span class="co">// K.</span></span>
-<span id="cb1-10"><a href="contributing-to-biocro.html#cb1-10"></a></span>
-<span id="cb1-11"><a href="contributing-to-biocro.html#cb1-11"></a><span class="co">// In return statements</span></span>
-<span id="cb1-12"><a href="contributing-to-biocro.html#cb1-12"></a><span class="cf">return</span> assimilation_rate;  <span class="co">// micromoles / m^2 / s.</span></span>
-<span id="cb1-13"><a href="contributing-to-biocro.html#cb1-13"></a></span>
-<span id="cb1-14"><a href="contributing-to-biocro.html#cb1-14"></a><span class="co">// In tables</span></span>
-<span id="cb1-15"><a href="contributing-to-biocro.html#cb1-15"></a><span class="at">const</span> <span class="bu">std::</span>map&lt;SoilType, soilText_str&gt; soil_parameters =</span>
-<span id="cb1-16"><a href="contributing-to-biocro.html#cb1-16"></a>{</span>
-<span id="cb1-17"><a href="contributing-to-biocro.html#cb1-17"></a>    <span class="co">//                        d = dimensionless</span></span>
-<span id="cb1-18"><a href="contributing-to-biocro.html#cb1-18"></a>    <span class="co">//                        d     d     d     J kg^-1     d     J s m^-3     d     d      d     Mg m^-3</span></span>
-<span id="cb1-19"><a href="contributing-to-biocro.html#cb1-19"></a>    <span class="co">//                        silt  clay  sand  air_entry   b     Ks           satur fieldc wiltp bulk_density</span></span>
-<span id="cb1-20"><a href="contributing-to-biocro.html#cb1-20"></a>    { SoilType::sand,       { <span class="fl">0.05</span>, <span class="fl">0.03</span>, <span class="fl">0.92</span>,      -<span class="fl">0.7</span>,  <span class="fl">1.7</span>,  <span class="fl">5.8e-3</span>,      <span class="fl">0.87</span>, <span class="fl">0.09</span>,  <span class="fl">0.03</span>, <span class="fl">1.60</span> } },</span>
-<span id="cb1-21"><a href="contributing-to-biocro.html#cb1-21"></a>    { SoilType::loamy_sand, { <span class="fl">0.12</span>, <span class="fl">0.07</span>, <span class="fl">0.81</span>,      -<span class="fl">0.9</span>,  <span class="fl">2.1</span>,  <span class="fl">1.7e-3</span>,      <span class="fl">0.72</span>, <span class="fl">0.13</span>,  <span class="fl">0.06</span>, <span class="fl">1.55</span> } },</span>
-<span id="cb1-22"><a href="contributing-to-biocro.html#cb1-22"></a>};</span></code></pre></div></li>
+<div class="sourceCode" id="cb2"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="contributing-to-biocro.html#cb2-1"></a><span class="co">// In function signatures</span></span>
+<span id="cb2-2"><a href="contributing-to-biocro.html#cb2-2"></a><span class="dt">double</span> ball_berry(<span class="dt">double</span> assimilation,                   <span class="co">// mol / m^2 / s</span></span>
+<span id="cb2-3"><a href="contributing-to-biocro.html#cb2-3"></a>                  <span class="dt">double</span> atmospheric_co2_concentration,  <span class="co">// mol / mol</span></span>
+<span id="cb2-4"><a href="contributing-to-biocro.html#cb2-4"></a>                  <span class="dt">double</span> atmospheric_relative_humidity,  <span class="co">// Pa / Pa</span></span>
+<span id="cb2-5"><a href="contributing-to-biocro.html#cb2-5"></a>                  <span class="dt">double</span> beta0,                          <span class="co">// mol / m^2 / s</span></span>
+<span id="cb2-6"><a href="contributing-to-biocro.html#cb2-6"></a>                  <span class="dt">double</span> beta1)                          <span class="co">// dimensionless from [mol / m^2 / s] / [mol / m^2 / s]</span></span>
+<span id="cb2-7"><a href="contributing-to-biocro.html#cb2-7"></a></span>
+<span id="cb2-8"><a href="contributing-to-biocro.html#cb2-8"></a><span class="co">// In assignments</span></span>
+<span id="cb2-9"><a href="contributing-to-biocro.html#cb2-9"></a><span class="dt">double</span> leaf_temperature = air_temperature - <span class="dt">delta_t</span>;  <span class="co">// K.</span></span>
+<span id="cb2-10"><a href="contributing-to-biocro.html#cb2-10"></a></span>
+<span id="cb2-11"><a href="contributing-to-biocro.html#cb2-11"></a><span class="co">// In return statements</span></span>
+<span id="cb2-12"><a href="contributing-to-biocro.html#cb2-12"></a><span class="cf">return</span> assimilation_rate;  <span class="co">// micromoles / m^2 / s.</span></span>
+<span id="cb2-13"><a href="contributing-to-biocro.html#cb2-13"></a></span>
+<span id="cb2-14"><a href="contributing-to-biocro.html#cb2-14"></a><span class="co">// In tables</span></span>
+<span id="cb2-15"><a href="contributing-to-biocro.html#cb2-15"></a><span class="at">const</span> <span class="bu">std::</span>map&lt;SoilType, soilText_str&gt; soil_parameters =</span>
+<span id="cb2-16"><a href="contributing-to-biocro.html#cb2-16"></a>{</span>
+<span id="cb2-17"><a href="contributing-to-biocro.html#cb2-17"></a>    <span class="co">//                        d = dimensionless</span></span>
+<span id="cb2-18"><a href="contributing-to-biocro.html#cb2-18"></a>    <span class="co">//                        d     d     d     J kg^-1     d     J s m^-3     d     d      d     Mg m^-3</span></span>
+<span id="cb2-19"><a href="contributing-to-biocro.html#cb2-19"></a>    <span class="co">//                        silt  clay  sand  air_entry   b     Ks           satur fieldc wiltp bulk_density</span></span>
+<span id="cb2-20"><a href="contributing-to-biocro.html#cb2-20"></a>    { SoilType::sand,       { <span class="fl">0.05</span>, <span class="fl">0.03</span>, <span class="fl">0.92</span>,      -<span class="fl">0.7</span>,  <span class="fl">1.7</span>,  <span class="fl">5.8e-3</span>,      <span class="fl">0.87</span>, <span class="fl">0.09</span>,  <span class="fl">0.03</span>, <span class="fl">1.60</span> } },</span>
+<span id="cb2-21"><a href="contributing-to-biocro.html#cb2-21"></a>    { SoilType::loamy_sand, { <span class="fl">0.12</span>, <span class="fl">0.07</span>, <span class="fl">0.81</span>,      -<span class="fl">0.9</span>,  <span class="fl">2.1</span>,  <span class="fl">1.7e-3</span>,      <span class="fl">0.72</span>, <span class="fl">0.13</span>,  <span class="fl">0.06</span>, <span class="fl">1.55</span> } },</span>
+<span id="cb2-22"><a href="contributing-to-biocro.html#cb2-22"></a>};</span></code></pre></div></li>
 <li><p>If you would like to include other details, include the units in the same way, and include details <strong>following</strong> the units so that the variables are still read like regular text. For example, write</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb2-1"><a href="contributing-to-biocro.html#cb2-1"></a>✓ <span class="cf">return</span> gswmol * <span class="dv">1000</span>;  <span class="co">// mmol / m^2 / s. Convert from mol to mmol.</span></span></code></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb3-1"><a href="contributing-to-biocro.html#cb3-1"></a>✓ <span class="cf">return</span> gswmol * <span class="dv">1000</span>;  <span class="co">// mmol / m^2 / s. Convert from mol to mmol.</span></span></code></pre></div>
 <p><em>not</em>
 <code>c++   ✗ return gswmol * 1000;  // Converting from mol / m^2 / s to mmol / m^2 / s.</code></p></li>
 <li><p>Use SI conventions for units and dimensions, including capitalization. Specifically, use “<code>degrees C</code>”, not “<code>C</code>”, to indicate °C.</p></li>
@@ -278,16 +283,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li><p>Either a solidus (“/”) or negative exponent is acceptable to indicate division, but ensure that the solidus is used correctly if used multiple times. Prefer exactly one space on each side of the solidus.</p></li>
 </ul>
 </div>
-<div id="document-parameters" class="section level4">
-<h4><span class="header-section-number">1.2.1.3</span> Document parameters</h4>
+<div id="document-parameters" class="section level4 hasAnchor">
+<h4><span class="header-section-number">1.2.1.3</span> Document parameters<a href="contributing-to-biocro.html#document-parameters" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <ul>
 <li>When adding models that require new parameters, document the parameters in the parameter table in <a href="../src/parameters.h">src/parameters.h</a>. Please keep the table well formatted.</li>
 <li>If you are working on a model with undocumented parameters, it would be nice if you added them to the table as you work through the issue.</li>
 </ul>
 </div>
 </div>
-<div id="general-coding-considerations" class="section level3">
-<h3><span class="header-section-number">1.2.2</span> General coding considerations</h3>
+<div id="general-coding-considerations" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.2</span> General coding considerations<a href="contributing-to-biocro.html#general-coding-considerations" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><p>Do not use C-style arrays. Use an appropriate data type from the standard library instead.</p></li>
 <li><p>Use cmath, not math.h, for common mathematical functions.</p></li>
@@ -307,17 +312,17 @@ difficult-to-find errors. The coherent set of SI units consists of
 all the units without prefixes, except that kg is the coherent unit
 of mass, not g.</p></li>
 <li><p>Do not copy and paste code, changing only small parts. Choose a design that eliminates the duplication. Duplication is often the result of not separating control flow from data. Consider the following R code.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="contributing-to-biocro.html#cb3-1"></a><span class="cf">if</span> (<span class="op">!</span>(<span class="st">&quot;lattice&quot;</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>()[,<span class="st">&quot;Package&quot;</span>])) {</span>
-<span id="cb3-2"><a href="contributing-to-biocro.html#cb3-2"></a>  <span class="kw">install.packages</span>(<span class="st">&quot;lattice&quot;</span>, <span class="dt">repos=</span><span class="st">&quot;http://R-Forge.R-project.org&quot;</span>, <span class="dt">type=</span><span class="st">&quot;source&quot;</span>)</span>
-<span id="cb3-3"><a href="contributing-to-biocro.html#cb3-3"></a>}</span>
-<span id="cb3-4"><a href="contributing-to-biocro.html#cb3-4"></a></span>
-<span id="cb3-5"><a href="contributing-to-biocro.html#cb3-5"></a><span class="cf">if</span> (<span class="op">!</span>(<span class="st">&quot;BioCro&quot;</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>()[,<span class="st">&quot;Package&quot;</span>])) {</span>
-<span id="cb3-6"><a href="contributing-to-biocro.html#cb3-6"></a>  devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;ebimodeling/biocro&quot;</span>)</span>
-<span id="cb3-7"><a href="contributing-to-biocro.html#cb3-7"></a>}</span>
-<span id="cb3-8"><a href="contributing-to-biocro.html#cb3-8"></a></span>
-<span id="cb3-9"><a href="contributing-to-biocro.html#cb3-9"></a><span class="cf">if</span> (<span class="op">!</span>(<span class="st">&quot;boot&quot;</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>()[,<span class="st">&quot;Package&quot;</span>])) {</span>
-<span id="cb3-10"><a href="contributing-to-biocro.html#cb3-10"></a>  devtools<span class="op">::</span><span class="kw">install_url</span>(<span class="st">&quot;http://cran.r-project.org/src/contrib/Archive/boot/boot_1.3-7.tar.gz&quot;</span>)</span>
-<span id="cb3-11"><a href="contributing-to-biocro.html#cb3-11"></a>}</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="contributing-to-biocro.html#cb4-1"></a><span class="cf">if</span> (<span class="op">!</span>(<span class="st">&quot;lattice&quot;</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>()[,<span class="st">&quot;Package&quot;</span>])) {</span>
+<span id="cb4-2"><a href="contributing-to-biocro.html#cb4-2"></a>  <span class="kw">install.packages</span>(<span class="st">&quot;lattice&quot;</span>, <span class="dt">repos=</span><span class="st">&quot;http://R-Forge.R-project.org&quot;</span>, <span class="dt">type=</span><span class="st">&quot;source&quot;</span>)</span>
+<span id="cb4-3"><a href="contributing-to-biocro.html#cb4-3"></a>}</span>
+<span id="cb4-4"><a href="contributing-to-biocro.html#cb4-4"></a></span>
+<span id="cb4-5"><a href="contributing-to-biocro.html#cb4-5"></a><span class="cf">if</span> (<span class="op">!</span>(<span class="st">&quot;BioCro&quot;</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>()[,<span class="st">&quot;Package&quot;</span>])) {</span>
+<span id="cb4-6"><a href="contributing-to-biocro.html#cb4-6"></a>  devtools<span class="op">::</span><span class="kw">install_github</span>(<span class="st">&quot;ebimodeling/biocro&quot;</span>)</span>
+<span id="cb4-7"><a href="contributing-to-biocro.html#cb4-7"></a>}</span>
+<span id="cb4-8"><a href="contributing-to-biocro.html#cb4-8"></a></span>
+<span id="cb4-9"><a href="contributing-to-biocro.html#cb4-9"></a><span class="cf">if</span> (<span class="op">!</span>(<span class="st">&quot;boot&quot;</span> <span class="op">%in%</span><span class="st"> </span><span class="kw">installed.packages</span>()[,<span class="st">&quot;Package&quot;</span>])) {</span>
+<span id="cb4-10"><a href="contributing-to-biocro.html#cb4-10"></a>  devtools<span class="op">::</span><span class="kw">install_url</span>(<span class="st">&quot;http://cran.r-project.org/src/contrib/Archive/boot/boot_1.3-7.tar.gz&quot;</span>)</span>
+<span id="cb4-11"><a href="contributing-to-biocro.html#cb4-11"></a>}</span></code></pre></div>
 <p>The data and behavior can be separated.
 ```r
 required_packages = list(
@@ -343,8 +348,8 @@ do.call(row[[2]], row[[3]])
 <li><p>The <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines">C++ guidelines</a> have useful advice about <a href="https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines#S-naming">aspects of coding and design</a>.</p></li>
 </ul>
 </div>
-<div id="formatting-code" class="section level3">
-<h3><span class="header-section-number">1.2.3</span> Formatting code</h3>
+<div id="formatting-code" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.3</span> Formatting code<a href="contributing-to-biocro.html#formatting-code" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>(Again, except in a few instances, this pertains specifically to C++ code.)</p>
 <p>The most important aspect of formatting is that the code is easy to understand. Below are unenforced preferences.</p>
 <ul>
@@ -363,16 +368,16 @@ facilitates presenting material in a more readable format. In the
 following snippet from the module library documentation, for
 example, we have allowed slighly-longer lines in order to be able to
 maintain one line per interval:</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb4-1"><a href="contributing-to-biocro.html#cb4-1"></a><span class="co">/*</span></span>
-<span id="cb4-2"><a href="contributing-to-biocro.html#cb4-2"></a><span class="co">*  However, this definition is flexible. For example, for our soybean model</span></span>
-<span id="cb4-3"><a href="contributing-to-biocro.html#cb4-3"></a><span class="co">*  (soybean_development_rate_calculator.h) we define the intervals as follows:</span></span>
-<span id="cb4-4"><a href="contributing-to-biocro.html#cb4-4"></a><span class="co">*  -1 &lt;= DVI &lt; 0 : Sowing to Emergence</span></span>
-<span id="cb4-5"><a href="contributing-to-biocro.html#cb4-5"></a><span class="co">*   0 &lt;= DVI &lt; 1  :  Emergence to R1 (Flowering) is broken into three stages.</span></span>
-<span id="cb4-6"><a href="contributing-to-biocro.html#cb4-6"></a><span class="co">*       0 &lt;= DVI &lt; 0.333        : Emergence to V0 (Cotyledon stage)</span></span>
-<span id="cb4-7"><a href="contributing-to-biocro.html#cb4-7"></a><span class="co">*       0.333 &lt;= DVI &lt; 0.667    : V0 (Cotyledon stage) to R0 (End of Floral Induction)</span></span>
-<span id="cb4-8"><a href="contributing-to-biocro.html#cb4-8"></a><span class="co">*       0.667 &lt;= DVI &lt; 1        : R0 (End of Floral Induction) to R1 (Flowering)</span></span>
-<span id="cb4-9"><a href="contributing-to-biocro.html#cb4-9"></a><span class="co">*  1 &lt;= DVI &lt; 2 : R1 (Flowering) to R7 (Maturity)</span></span>
-<span id="cb4-10"><a href="contributing-to-biocro.html#cb4-10"></a><span class="co">*/</span></span></code></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode cpp"><code class="sourceCode cpp"><span id="cb5-1"><a href="contributing-to-biocro.html#cb5-1"></a><span class="co">/*</span></span>
+<span id="cb5-2"><a href="contributing-to-biocro.html#cb5-2"></a><span class="co">*  However, this definition is flexible. For example, for our soybean model</span></span>
+<span id="cb5-3"><a href="contributing-to-biocro.html#cb5-3"></a><span class="co">*  (soybean_development_rate_calculator.h) we define the intervals as follows:</span></span>
+<span id="cb5-4"><a href="contributing-to-biocro.html#cb5-4"></a><span class="co">*  -1 &lt;= DVI &lt; 0 : Sowing to Emergence</span></span>
+<span id="cb5-5"><a href="contributing-to-biocro.html#cb5-5"></a><span class="co">*   0 &lt;= DVI &lt; 1  :  Emergence to R1 (Flowering) is broken into three stages.</span></span>
+<span id="cb5-6"><a href="contributing-to-biocro.html#cb5-6"></a><span class="co">*       0 &lt;= DVI &lt; 0.333        : Emergence to V0 (Cotyledon stage)</span></span>
+<span id="cb5-7"><a href="contributing-to-biocro.html#cb5-7"></a><span class="co">*       0.333 &lt;= DVI &lt; 0.667    : V0 (Cotyledon stage) to R0 (End of Floral Induction)</span></span>
+<span id="cb5-8"><a href="contributing-to-biocro.html#cb5-8"></a><span class="co">*       0.667 &lt;= DVI &lt; 1        : R0 (End of Floral Induction) to R1 (Flowering)</span></span>
+<span id="cb5-9"><a href="contributing-to-biocro.html#cb5-9"></a><span class="co">*  1 &lt;= DVI &lt; 2 : R1 (Flowering) to R7 (Maturity)</span></span>
+<span id="cb5-10"><a href="contributing-to-biocro.html#cb5-10"></a><span class="co">*/</span></span></code></pre></div>
 <p>As for the code lines themselves, we point to the following advice
 from the Linux kernel project:<sup id="a1"><a href="contributing-to-biocro.html#f1">1</a></sup></p>
 <blockquote>
@@ -392,8 +397,8 @@ readability and does not hide information.</p>
 <p>For tools to help with formatting code, see the section
 <a href="contributing-to-biocro.html#formatting-tools">1.3</a>.</p>
 </div>
-<div id="r-specific-coding-advice" class="section level3">
-<h3><span class="header-section-number">1.2.4</span> R-specific coding advice</h3>
+<div id="r-specific-coding-advice" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.2.4</span> R-specific coding advice<a href="contributing-to-biocro.html#r-specific-coding-advice" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
 <li><p>Prefer to use the double-bracket operator (<code>list[['element']]</code>) rather than
 the dollar-sign operator (<code>list$element</code>) when accessing the elements of a
@@ -430,33 +435,33 @@ slightly longer lines. <a href="contributing-to-biocro.html#a1">↩︎</a></p>
 
 </div>
 </div>
-<div id="formatting-tools" class="section level2">
-<h2><span class="header-section-number">1.3</span> Formatting Tools</h2>
-<div id="clang" class="section level3">
-<h3><span class="header-section-number">1.3.1</span> Clang</h3>
+<div id="formatting-tools" class="section level2 hasAnchor">
+<h2><span class="header-section-number">1.3</span> Formatting Tools<a href="contributing-to-biocro.html#formatting-tools" class="anchor-section" aria-label="Anchor link to header"></a></h2>
+<div id="clang" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.3.1</span> Clang<a href="contributing-to-biocro.html#clang" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Many of these BioCro formatting preferences can be applied automatically using the program <a href="https://clang.llvm.org/docs/ClangFormat.html">clang-format</a> with the <a href="../.clang-format">.clang-format</a> file provided in the base directory of BioCro. <strong>Do not apply clang-format to all files indiscriminately</strong>, as that will ruin manually-aligned tables.</p>
-<div id="installation" class="section level4">
-<h4><span class="header-section-number">1.3.1.1</span> Installation</h4>
+<div id="installation" class="section level4 hasAnchor">
+<h4><span class="header-section-number">1.3.1.1</span> Installation<a href="contributing-to-biocro.html#installation" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>One can install clang-format on Ubunutu using <code>sudo apt install clang-format</code> and on MacOS through Homebrew.</p>
 </div>
-<div id="using-clang" class="section level4">
-<h4><span class="header-section-number">1.3.1.2</span> Using Clang</h4>
+<div id="using-clang" class="section level4 hasAnchor">
+<h4><span class="header-section-number">1.3.1.2</span> Using Clang<a href="contributing-to-biocro.html#using-clang" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>Files can be formatted using</p>
 <pre><code>clang-format file_name &gt; new_file</code></pre>
 <p>or edited in place using</p>
 <pre><code>clang-format -i file_name</code></pre>
 <p>If your editor has the ability to display differences between the original and revised versions of the file, it is a good idea to step through and inspect the proposed changes to ensure they are desirable.</p>
 </div>
-<div id="clang-with-the-codelite-ide" class="section level4">
-<h4><span class="header-section-number">1.3.1.3</span> Clang with the CodeLite IDE</h4>
+<div id="clang-with-the-codelite-ide" class="section level4 hasAnchor">
+<h4><span class="header-section-number">1.3.1.3</span> Clang with the CodeLite IDE<a href="contributing-to-biocro.html#clang-with-the-codelite-ide" class="anchor-section" aria-label="Anchor link to header"></a></h4>
 <p>On Windows, MacOS, or Linux, the CodeLite IDE includes clang-format
 and provides an easy way to use it. First go to Plugins -&gt; Source Code
 Formatter -&gt; Options. In the C++ tab, select <code>use .clang-format file</code>. Now press <code>Ctrl-I</code> or click Plugins -&gt; Source Code Formatter -&gt;
 Format Current Source to format a file.</p>
 </div>
 </div>
-<div id="editorconfig" class="section level3">
-<h3><span class="header-section-number">1.3.2</span> EditorConfig</h3>
+<div id="editorconfig" class="section level3 hasAnchor">
+<h3><span class="header-section-number">1.3.2</span> EditorConfig<a href="contributing-to-biocro.html#editorconfig" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Another tool to help with formatting is EditorConfig. EditorConfig,
 when used in conjunction with the <a href="../.editorconfig">.editorconfig</a>
 file provided in the base directory of BioCro, provides a method for
@@ -477,7 +482,6 @@ editors have native support, others require a plugin. See the
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -517,6 +521,10 @@ gitbook.start({
 "text": null
 },
 "download": null,
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }
