@@ -1,0 +1,5 @@
+<map id="thermal_time_development_rate_calculator" name="thermal_time_development_rate_calculator">
+<area shape="rect" id="node1" title="Calculates hourly plant development rate based on thermal time ranges of emergence,..." alt="" coords="5,155,184,196"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="43,80,146,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="45,5,144,32"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="example_model_partitioning" name="example_model_partitioning">
+<area shape="rect" id="node1" title="An example for the BioCro II manuscript." alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="31,80,162,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="47,5,146,32"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="get_op" name="get_op">
+<area shape="rect" id="node1" title="Returns a pointer to an element of a module output map, i.e., an output pointer (op)" alt="" coords="279,56,340,83"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a0781e900076a7d51603dc77e2cdea9ad" title="Analagous to get_op but returns a vector of output pointers, as required for a multilayer module." alt="" coords="57,5,179,32"/>
+<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a6c8d13f621c69fd2fe93ea30522231c5" title="Returns a vector of pointers to elements of a module output map, i.e., a vector of output pointers (o..." alt="" coords="87,56,149,83"/>
+<area shape="rect" id="node4" href="$classmultilayer__canopy__photosynthesis.html#a23a7179b59f988ac0bc630396ec83843" title="Constructor for a multilayer canopy photosynthesis module, which initializes the leaf module and prep..." alt="" coords="5,107,231,149"/>
+</map>

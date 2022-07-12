@@ -1,0 +1,4 @@
+<map id="senescence_coefficient_logistic" name="senescence_coefficient_logistic">
+<area shape="rect" id="node1" title="Calculates coefficients representing fraction of biomass senesced for each organ; coefficents are rep..." alt="" coords="5,80,163,121"/>
+<area shape="rect" id="node2" title=" " alt="" coords="33,5,135,32"/>
+</map>

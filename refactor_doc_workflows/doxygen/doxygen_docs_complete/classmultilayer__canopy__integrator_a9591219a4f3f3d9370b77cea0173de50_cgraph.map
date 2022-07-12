@@ -1,0 +1,5 @@
+<map id="get_inputs" name="get_inputs">
+<area shape="rect" id="node1" title="Define all inputs required by the module, adding layer suffixes as required." alt="" coords="5,13,88,39"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a9b9c005d6aefeed83f3af611aa02a0cf" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="136,5,271,47"/>
+<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="319,5,449,47"/>
+</map>
