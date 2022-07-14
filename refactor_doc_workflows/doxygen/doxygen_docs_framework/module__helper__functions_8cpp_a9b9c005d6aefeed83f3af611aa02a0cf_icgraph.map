@@ -1,5 +1,0 @@
-<map id="generate_multilayer_quantity_names" name="generate_multilayer_quantity_names">
-<area shape="rect" id="node1" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="176,23,311,65"/>
-<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#aa5b16a638a620b56938bb7659d101f41" title="Analagous to get_ip but returns a vector of output pointers, as required for a multilayer module." alt="" coords="7,5,126,32"/>
-<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a0781e900076a7d51603dc77e2cdea9ad" title="Analagous to get_op but returns a vector of output pointers, as required for a multilayer module." alt="" coords="5,56,128,83"/>
-</map>

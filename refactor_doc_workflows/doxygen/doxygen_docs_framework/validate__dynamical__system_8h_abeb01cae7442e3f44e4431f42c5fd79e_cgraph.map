@@ -1,5 +1,0 @@
-<map id="find_strictly_required_inputs" name="find_strictly_required_inputs">
-<area shape="rect" id="node1" title="Returns a vector containing all inputs to the set of modules that are not outputs produced by previou..." alt="" coords="5,35,145,76"/>
-<area shape="rect" id="node2" href="$validate__dynamical__system_8h.html#aa7d00f772a8481e700ff6e6ac2fae3a9" title="If quantity_name is not included in defined_quantity_names, it is inserted into undefined_quantity_na..." alt="" coords="223,5,343,47"/>
-<area shape="rect" id="node3" href="$validate__dynamical__system_8cpp.html#af056787c60e69c4bd097ed626a8b3e7a" title="Creates a string_set from all the elements of a string_vector." alt="" coords="193,71,372,98"/>
-</map>

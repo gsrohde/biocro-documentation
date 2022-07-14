@@ -1,8 +1,0 @@
-<map id="do_operation" name="do_operation">
-<area shape="rect" id="node1" title=" " alt="" coords="5,81,101,108"/>
-<area shape="rect" id="node2" href="$_aux_bio_cro_8cpp.html#ab163aedfdfb73c66e5eb8dca307016be" title=" " alt="" coords="149,81,229,108"/>
-<area shape="rect" id="node3" href="$_aux_bio_cro_8cpp.html#a117fba2c85ba6d52345e7cefc05a43ff" title="Determine saturation water vapor pressure (Pa) from air temperature (degrees C) using the Arden Buck ..." alt="" coords="277,5,452,32"/>
-<area shape="rect" id="node4" href="$_aux_bio_cro_8cpp.html#a6380d8cd4192408df76baefe6b369a70" title="Determines the density of dry air from the air temperature." alt="" coords="312,56,417,83"/>
-<area shape="rect" id="node5" href="$_aux_bio_cro_8cpp.html#a460579178484521ecc50b488c58bb0dd" title="Determine the latent heat of vaporization for water from its temperature." alt="" coords="316,107,413,133"/>
-<area shape="rect" id="node6" href="$_aux_bio_cro_8cpp.html#a05f381bbff6170709a8d0e2e34f4556a" title="Determine the derivative of saturation water vapor pressure with respect to temperature at a particul..." alt="" coords="317,157,413,184"/>
-</map>

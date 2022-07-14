@@ -1,6 +1,0 @@
-<map id="ten_layer_c3_canopy" name="ten_layer_c3_canopy">
-<area shape="rect" id="node1" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Farquhar&#45;von&#45;Ca..." alt="" coords="5,244,148,271"/>
-<area shape="rect" id="node2" href="$classmultilayer__canopy__photosynthesis.html" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy." alt="" coords="5,155,148,196"/>
-<area shape="rect" id="node3" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="25,80,128,107"/>
-<area shape="rect" id="node4" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="27,5,126,32"/>
-</map>

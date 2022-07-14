@@ -1,7 +1,0 @@
-<map id="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;" name="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;">
-<area shape="rect" id="node1" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy." alt="" coords="156,85,375,141"/>
-<area shape="rect" id="node3" href="$classten__layer__c3__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Farquhar&#45;von&#45;Ca..." alt="" coords="423,5,624,61"/>
-<area shape="rect" id="node4" href="$classten__layer__c4__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Collatz et al...." alt="" coords="423,85,624,141"/>
-<area shape="rect" id="node5" href="$classten__layer__rue__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using a simple radiation ..." alt="" coords="423,165,624,221"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,100,108,127"/>
-</map>

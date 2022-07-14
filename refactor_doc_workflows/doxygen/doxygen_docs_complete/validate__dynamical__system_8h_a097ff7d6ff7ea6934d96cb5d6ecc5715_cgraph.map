@@ -1,7 +1,0 @@
-<map id="find_mischaracterized_modules" name="find_mischaracterized_modules">
-<area shape="rect" id="node1" title="Returns mischaracterized modules, i.e., direct modules in the differential module list or vice&#45;versa." alt="" coords="5,71,152,112"/>
-<area shape="rect" id="node2" href="$validate__dynamical__system_8cpp.html#a95935e4a12b3c26794fa8d67f88e7d7a" title="Returns a set containing all unique inputs to the modules." alt="" coords="200,5,336,47"/>
-<area shape="rect" id="node4" href="$validate__dynamical__system_8cpp.html#a96840539e64ce8ccec9df05cc320222e" title="Returns a set containing all unique outputs produced by the modules." alt="" coords="200,71,336,112"/>
-<area shape="rect" id="node5" href="$validate__dynamical__system_8cpp.html#aeba94f51872fbf5e8415ec80fad7cc71" title="Returns a vector of unique_ptrs to module objects." alt="" coords="202,137,334,163"/>
-<area shape="rect" id="node3" href="$classmodule__wrapper__factory.html#a88c7e6e99de6589d718c74152040e94d" title=" " alt="" coords="384,71,547,112"/>
-</map>

@@ -1,4 +1,0 @@
-<map id="hyperbola_2d" name="hyperbola_2d">
-<area shape="rect" id="node1" title="Represents two 2D hyperbolas defined by f(x,y) = 1 + 1 / (x + y) and g(x,y) = 1 + 1 / (2x &#45; y)...." alt="" coords="7,80,106,107"/>
-<area shape="rect" id="node2" title=" " alt="" coords="5,5,108,32"/>
-</map>

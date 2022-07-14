@@ -1,7 +1,0 @@
-<map id="boost_ode_solver&lt; state_type &gt;" name="boost_ode_solver&lt; state_type &gt;">
-<area shape="rect" id="node1" title="A class representing a generic boost system ode_solver." alt="" coords="139,71,303,112"/>
-<area shape="rect" id="node3" href="$classboost__euler__ode__solver.html" title=" " alt="" coords="357,5,515,47"/>
-<area shape="rect" id="node4" href="$classboost__rk4__ode__solver.html" title=" " alt="" coords="361,71,511,112"/>
-<area shape="rect" id="node5" href="$classboost__rkck54__ode__solver.html" title=" " alt="" coords="351,136,521,177"/>
-<area shape="rect" id="node2" href="$classode__solver.html" title=" " alt="" coords="5,78,91,105"/>
-</map>
