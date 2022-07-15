@@ -1,7 +1,0 @@
-<map id="saturation_vapor_pressure" name="saturation_vapor_pressure">
-<area shape="rect" id="node1" title="Determine saturation water vapor pressure (Pa) from air temperature (degrees C) using the Arden Buck ..." alt="" coords="329,64,504,91"/>
-<area shape="rect" id="node2" href="$_bio_cro_8h.html#a61b7d88adafff31f703008da477eb090" title=" " alt="" coords="153,5,259,32"/>
-<area shape="rect" id="node4" href="$_aux_bio_cro_8cpp.html#a7ffa2369991fbb92c2cf4fef41743e49" title="Caluclates the conductance for water vapor flow between the leaf surface and the atmosphere (AKA,..." alt="" coords="131,57,281,98"/>
-<area shape="rect" id="node5" href="$_aux_bio_cro_8cpp.html#ab163aedfdfb73c66e5eb8dca307016be" title=" " alt="" coords="166,123,246,149"/>
-<area shape="rect" id="node3" href="$_bio_cro_8h.html#af6dcba839dcdfeb1a6564ea28b5f9da2" title=" " alt="" coords="5,5,83,32"/>
-</map>

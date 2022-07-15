@@ -1,4 +1,0 @@
-<map id="dynamical_system_pointer_wrapper" name="dynamical_system_pointer_wrapper">
-<area shape="rect" id="node1" title="This is a simple wrapper class that prevents odeint from making zillions of copies of a dynamical_sys..." alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$classdynamical__system__caller.html" title="This is a simple class that allows us to use the same object as an input to boost::numeric::odeint::i..." alt="" coords="9,95,176,121"/>
-</map>

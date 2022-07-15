@@ -1,5 +1,0 @@
-<map id="thermal_time_linear_extended" name="thermal_time_linear_extended">
-<area shape="rect" id="node1" title="Calculates the rate of thermal time accumulation using an extended linear model." alt="" coords="5,155,140,196"/>
-<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="7,80,138,107"/>
-<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="23,5,122,32"/>
-</map>

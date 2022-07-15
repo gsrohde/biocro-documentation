@@ -1,8 +1,0 @@
-<map id="calculate_derivative" name="calculate_derivative">
-<area shape="rect" id="node1" title="Calculates derivatives for each of the differential quantities based on supplied values for the diffe..." alt="" coords="5,35,143,61"/>
-<area shape="rect" id="node2" href="$classdynamical__system.html#ab1942c1f4d1019fbf2babf75d3b093e4" title="Calculates a derivative from the internally stored quantity map by running all the differential modul..." alt="" coords="191,8,353,35"/>
-<area shape="rect" id="node4" href="$classdynamical__system.html#a2fef37d6ec33798ab011389b08e08bff" title="Updates all quantities in the internally stored map (including ones calculated by direct modules) bas..." alt="" coords="200,60,344,87"/>
-<area shape="rect" id="node3" href="$modules_8cpp.html#aa9a6947a0392ccf0dbc65e6691c2094b" title="Runs each module in the input list." alt="" coords="408,5,521,32"/>
-<area shape="rect" id="node5" href="$classdynamical__system.html#a8a5b457fffabc33a29724fd4eca53108" title="Updates the system&#39;s internally stored values for the differential quantities to the ones in new_valu..." alt="" coords="401,57,528,98"/>
-<area shape="rect" id="node6" href="$classdynamical__system.html#ad2994d904767ac1aab548f55a7b4da65" title="Updates values of the drivers in the internally stored quantity map to match their values in the inte..." alt="" coords="411,123,518,149"/>
-</map>

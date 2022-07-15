@@ -1,5 +1,0 @@
-<map id="R_module_wrapper_pointer" name="R_module_wrapper_pointer">
-<area shape="rect" id="node1" title="Creates a vector of &quot;R external pointer&quot; objects that each point to a module_wrapper_base object." alt="" coords="5,42,184,69"/>
-<area shape="rect" id="node2" href="$_r__module__wrapper_8cpp.html#a7e2a939db710c22846d98c0da81f9727" title="Deletes a module_wrapper_base object that is pointed to by an &quot;R external pointer&quot; object." alt="" coords="232,5,395,47"/>
-<area shape="rect" id="node3" href="$_r__helper__functions_8cpp.html#a78b4dc65c356615f963ff971d9c28424" title=" " alt="" coords="265,71,362,98"/>
-</map>

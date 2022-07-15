@@ -1,4 +1,0 @@
-<map id="generate_multilayer_quantity_names" name="generate_multilayer_quantity_names">
-<area shape="rect" id="node1" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="5,5,140,47"/>
-<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="188,5,319,47"/>
-</map>

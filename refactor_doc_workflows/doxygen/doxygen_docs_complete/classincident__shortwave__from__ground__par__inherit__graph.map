@@ -1,5 +1,0 @@
-<map id="incident_shortwave_from_ground_par" name="incident_shortwave_from_ground_par">
-<area shape="rect" id="node1" title="Uses a value for total PAR flux density measured at the Earth&#39;s surface to calculate the total light ..." alt="" coords="5,155,140,196"/>
-<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="21,80,124,107"/>
-<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="23,5,122,32"/>
-</map>

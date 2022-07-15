@@ -1,4 +1,0 @@
-<map id="requires_euler_ode_solver" name="requires_euler_ode_solver">
-<area shape="rect" id="node1" title=" " alt="" coords="5,5,136,47"/>
-<area shape="rect" id="node2" href="$dynamical__system__helper__functions_8cpp.html#a67a06f75e30d97caffc99a6ba0c5911e" title="Checks whether the collection of modules requires an Euler ODE solver." alt="" coords="184,13,351,39"/>
-</map>

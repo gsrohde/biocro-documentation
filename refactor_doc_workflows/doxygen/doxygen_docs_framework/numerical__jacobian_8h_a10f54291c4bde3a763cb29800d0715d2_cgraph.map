@@ -1,5 +1,0 @@
-<map id="calculate_jacobian" name="calculate_jacobian">
-<area shape="rect" id="node1" title="A wrapper for calculate_jacobian(equation_ptr, x, t, f_current, jacobi) that automatically evaluates ..." alt="" coords="5,5,135,32"/>
-<area shape="rect" id="node2" href="$numerical__jacobian_8h.html#abb3a48da711cdaa6426f7c0e10523aee" title="Numerically compute the Jacobian matrix of a vector valued function." alt="" coords="183,5,312,32"/>
-<area shape="rect" id="node3" href="$numerical__jacobian_8h.html#a3663e16fd2cb02e7095f93993cf8f463" title="Define evaluation behavior for a set of equations defined by a dynamical_system object." alt="" coords="360,5,495,32"/>
-</map>

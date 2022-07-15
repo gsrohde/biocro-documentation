@@ -1,6 +1,0 @@
-<map id="do_operation" name="do_operation">
-<area shape="rect" id="node1" title=" " alt="" coords="5,56,101,83"/>
-<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a57dc78c0a1397cf148187ddd09382f00" title="Checks over an error_map for problems. The error_map should pair a string description of an important..." alt="" coords="149,5,305,32"/>
-<area shape="rect" id="node3" href="$classrh__to__mole__fraction.html#ad0866265cb5b92692af7be0ef011f355" title=" " alt="" coords="188,56,267,83"/>
-<area shape="rect" id="node4" href="$classdirect__module.html#a3f5a6c165abfe31f11a5465b11d645be" title="In a valid dynamical_system object, a given quantity may be defined by only one direct module...." alt="" coords="153,107,301,133"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="senescence_logistic" name="senescence_logistic">
-<area shape="rect" id="node1" title="Calculates the change in plant organ biomasses due to senescence." alt="" coords="5,155,145,181"/>
-<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="10,80,141,107"/>
-<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="26,5,125,32"/>
-</map>
