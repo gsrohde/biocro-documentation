@@ -25,12 +25,12 @@
 var NAVTREE =
 [
   [ "The BioCro C++ Library", "index.html", [
+    [ "About", "about.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", null ],
         [ "Functions", "namespacemembers_func.html", null ],
-        [ "Variables", "namespacemembers_vars.html", null ],
         [ "Typedefs", "namespacemembers_type.html", null ]
       ] ]
     ] ],
@@ -51,6 +51,7 @@ var NAVTREE =
         [ "All", "globals.html", null ],
         [ "Functions", "globals_func.html", null ],
         [ "Variables", "globals_vars.html", null ],
+        [ "Typedefs", "globals_type.html", null ],
         [ "Enumerations", "globals_enum.html", null ],
         [ "Macros", "globals_defs.html", null ]
       ] ]
@@ -61,23 +62,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_aux_bio_cro_8cpp.html",
-"class_p100.html#a3548e26243c713226a9e4c989216253c",
-"class_p1000.html#a0b2fb7ccd8a1bdb52ef6afe2ef1fb45e",
-"class_p1000.html#a2bd62bc2a344a52332dc2fb4bb094f5c",
-"class_p1000.html#a4ac1a40c22be0461a6008c3eafadbef1",
-"class_p1000.html#a671f2a9649afe455e043fb83a81acb4b",
-"class_p1000.html#a8743408686ac85970233ada00618a8cf",
-"class_p1000.html#aac070f1fa31609bec48603c7b4707473",
-"class_p1000.html#acca3ab32ae560b2f0052bc6bcf88a6c7",
-"class_p1000.html#aeb0db426a7969d317e5a3e8167b96c75",
-"classc3__canopy.html#a0d6a9fcbc830854339f8827c0d1f3602",
-"classed__apply__stomatal__water__stress__via__conductance.html#ac0c8f01f709b7fd7080e8ec47c9a0f7a",
-"classflowering.html#aa657a50d0c811b4b08a2af98eb76401b",
-"classone__layer__soil__profile__derivatives.html#a422d5b72a63d383fa153707339c031bb",
-"classpokhilko__circadian__clock.html#ae8cc275c48ae0749c543c6ccd315e916",
-"classthermal__time__senescence.html#a17c858d906214df3171e1f334cc79ef8",
-"ed__long__wave__energy__loss_8h_source.html",
-"structc3__str.html#ac72aab455ed835560d5b9afd64c777eb"
+"classc3__assimilation.html#aebaf8075767f5e2e368001dc936a3933",
+"classgrimm__soybean__flowering__calculator.html#a770760effdae84cdf1304ea3eb8f7f05",
+"classone__layer__soil__profile.html#afc98cac4d76f2ee23f784fd0bcc44ec7",
+"classpokhilko__circadian__clock.html#a9aa6d62323f623e5d9c6ff0df89ec37e",
+"classstomata__water__stress__linear.html#ab4229ae56f07a95196924020cf506414",
+"dir_567355a66c5b87dfe03a58cbdce72993.html",
+"stomata__water__stress__linear__aba__response_8hpp_source.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

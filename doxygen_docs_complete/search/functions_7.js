@@ -1,12 +1,10 @@
 var searchData=
 [
-  ['handle_5fadaptive_5fincompatibility_4024',['handle_adaptive_incompatibility',['../classsystem__solver.html#a15603e142a92897238185877a1d56ad5',1,'system_solver::handle_adaptive_incompatibility()'],['../classauto__solver.html#a274b32b922a26abcdd2cd6323101bd9f',1,'auto_solver::handle_adaptive_incompatibility()']]],
-  ['harmonic_5fenergy_4025',['harmonic_energy',['../classharmonic__energy.html#aa1ca126e701a5ea8d43472054d78baca',1,'harmonic_energy']]],
-  ['harmonic_5foscillator_4026',['harmonic_oscillator',['../classharmonic__oscillator.html#a646795ca5dfcccbbbb9793d4a6dcd8b5',1,'harmonic_oscillator']]],
-  ['has_5fcycle_4027',['has_cycle',['../module__dependency__utilities_8cpp.html#a3d4b95b648daed0361a13b8953f0e0d1',1,'module_dependency_utilities.cpp']]],
-  ['has_5fcyclic_5fdependency_4028',['has_cyclic_dependency',['../module__dependency__utilities_8cpp.html#af5856a9dbcbed658f7e55b0c422ec032',1,'has_cyclic_dependency(string_vector module_names):&#160;module_dependency_utilities.cpp'],['../module__dependency__utilities_8h.html#af5856a9dbcbed658f7e55b0c422ec032',1,'has_cyclic_dependency(string_vector module_names):&#160;module_dependency_utilities.cpp']]],
-  ['has_5fnot_5fconverged_5fabs_4029',['has_not_converged_abs',['../se__solver__helper__functions_8h.html#a9e8ba84befba9b4aa8ecd16ce9266264',1,'se_solver_helper_functions.h']]],
-  ['has_5fnot_5fconverged_5frel_4030',['has_not_converged_rel',['../se__solver__helper__functions_8h.html#a5be7376d233b66d3ffb03e089c4f04ab',1,'se_solver_helper_functions.h']]],
-  ['homemade_5feuler_5fsolver_4031',['homemade_euler_solver',['../classhomemade__euler__solver.html#a5ed5c48afca1c00c9156790d6003a379',1,'homemade_euler_solver']]],
-  ['hyperbola_5f2d_4032',['hyperbola_2d',['../classhyperbola__2d.html#afa8b18fcfb3d0b8ecf62964eaf0c2a46',1,'hyperbola_2d']]]
+  ['handle_5feuler_5frequirement_1712',['handle_euler_requirement',['../classode__solver.html#a3c7e1ddaba7d3a2306b5a86d1d7e75a6',1,'ode_solver::handle_euler_requirement()'],['../classauto__ode__solver.html#a84ecbf4ffc22428ce7c46c4f28a19a0e',1,'auto_ode_solver::handle_euler_requirement()']]],
+  ['harmonic_5fenergy_1713',['harmonic_energy',['../classharmonic__energy.html#ab6dc2a4142b8c5cc2c487b62ae522414',1,'harmonic_energy']]],
+  ['harmonic_5foscillator_1714',['harmonic_oscillator',['../classharmonic__oscillator.html#adf1c6009a44f5a96ba6658a526d1481c',1,'harmonic_oscillator']]],
+  ['has_5fcycle_1715',['has_cycle',['../module__dependency__utilities_8cpp.html#a3d4b95b648daed0361a13b8953f0e0d1',1,'module_dependency_utilities.cpp']]],
+  ['has_5fcyclic_5fdependency_1716',['has_cyclic_dependency',['../module__dependency__utilities_8cpp.html#af5856a9dbcbed658f7e55b0c422ec032',1,'has_cyclic_dependency(string_vector module_names):&#160;module_dependency_utilities.cpp'],['../module__dependency__utilities_8h.html#af5856a9dbcbed658f7e55b0c422ec032',1,'has_cyclic_dependency(string_vector module_names):&#160;module_dependency_utilities.cpp']]],
+  ['homemade_5feuler_5fode_5fsolver_1717',['homemade_euler_ode_solver',['../classhomemade__euler__ode__solver.html#a427d4b86fbd16465bc33f2945f05817c',1,'homemade_euler_ode_solver']]],
+  ['hyperbola_5f2d_1718',['hyperbola_2d',['../classhyperbola__2d.html#a18a7ef47272a2a408134f4adf8a578c4',1,'hyperbola_2d']]]
 ];

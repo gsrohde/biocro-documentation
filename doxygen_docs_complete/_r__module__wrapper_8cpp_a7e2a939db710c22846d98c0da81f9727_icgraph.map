@@ -1,0 +1,4 @@
+<map id="finalize_module_wrapper_pointer" name="finalize_module_wrapper_pointer">
+<area shape="rect" id="node1" title="Deletes a module_wrapper_base object that is pointed to by an &quot;R external pointer&quot; object." alt="" coords="232,5,395,47"/>
+<area shape="rect" id="node2" href="$_r__module__wrapper_8cpp.html#a76cb1d7da43fc27ac7e300add4b76b18" title="Creates a vector of &quot;R external pointer&quot; objects that each point to a module_wrapper_base object." alt="" coords="5,13,184,39"/>
+</map>

@@ -1,14 +1,14 @@
 <map id="do_operation" name="do_operation">
 <area shape="rect" id="node1" title=" " alt="" coords="5,183,101,209"/>
-<area shape="rect" id="node2" href="$_bio_cro_8h.html#a799eb2bb22fdef53d633f44a4c0ef1b9" title=" " alt="" coords="193,157,255,184"/>
-<area shape="rect" id="node12" href="$class_steady_module.html#a3f5a6c165abfe31f11a5465b11d645be" title=" " alt="" coords="149,208,299,235"/>
-<area shape="rect" id="node3" href="$c4photo_8cpp.html#a267a416bf303e187cbab12efcad0227a" title=" " alt="" coords="357,5,435,32"/>
-<area shape="rect" id="node5" href="$_aux_bio_cro_8cpp.html#a5272d35a20edaa0de28ca4ccae5b10a5" title=" " alt="" coords="347,56,445,83"/>
-<area shape="rect" id="node6" href="$_aux_bio_cro_8cpp.html#ac5f31df2b025300918f031bf8f1e51d9" title="Light Macro Environment." alt="" coords="363,107,429,133"/>
-<area shape="rect" id="node8" href="$_aux_bio_cro_8cpp.html#a2905c23b422ad454d9577841ca594d0d" title=" " alt="" coords="365,157,427,184"/>
-<area shape="rect" id="node9" href="$_aux_bio_cro_8cpp.html#aa4d2cdd07093428af4830f4c8afd660c" title="Preconditions: RH is between 0 and 1." alt="" coords="365,208,427,235"/>
-<area shape="rect" id="node10" href="$_aux_bio_cro_8cpp.html#a29eacaa214f1899c9df199ac80d0e1ca" title="Computation of an n&#45;layered light profile from the direct light Idir, diffuse light Idiff,..." alt="" coords="365,259,427,285"/>
-<area shape="rect" id="node11" href="$_aux_bio_cro_8cpp.html#ad5f0fc680176f312e47c32701ce779f7" title="RH and Wind profile function." alt="" coords="357,309,435,336"/>
-<area shape="rect" id="node4" href="$ball__berry_8cpp.html#a6e9346e63ae6f11483c7104df9ecf92c" title=" " alt="" coords="516,5,593,32"/>
-<area shape="rect" id="node7" href="$_aux_bio_cro_8cpp.html#a81eccf5a903a575f17d799d959397f61" title="Computation of the cosine of the zenith angle from latitute (lat), day of the year (DOY),..." alt="" coords="493,107,616,133"/>
+<area shape="rect" id="node2" href="$_bio_cro_8h.html#ae968ba7b909ced8395a2546ffea9f684" title=" " alt="" coords="192,157,255,184"/>
+<area shape="rect" id="node12" href="$classdirect__module.html#a3f5a6c165abfe31f11a5465b11d645be" title="In a valid dynamical_system object, a given quantity may be defined by only one direct module...." alt="" coords="149,208,297,235"/>
+<area shape="rect" id="node3" href="$c4photo_8cpp.html#a2613ca2f3d1f34c768aacfbd0de1dd3e" title=" " alt="" coords="356,5,433,32"/>
+<area shape="rect" id="node5" href="$_aux_bio_cro_8cpp.html#ad915026e49b0df9535ad8a75616ae267" title=" " alt="" coords="345,56,444,83"/>
+<area shape="rect" id="node6" href="$_aux_bio_cro_8cpp.html#aeb1ea5a7e843d3a15a3aaeb66f38f9cd" title="Calculates some properties of the &quot;light macro environment,&quot; i.e., the light just above the top of th..." alt="" coords="362,107,427,133"/>
+<area shape="rect" id="node7" href="$_aux_bio_cro_8cpp.html#a2905c23b422ad454d9577841ca594d0d" title=" " alt="" coords="363,157,426,184"/>
+<area shape="rect" id="node8" href="$_aux_bio_cro_8cpp.html#aa4d2cdd07093428af4830f4c8afd660c" title="Calculates a relative humidity profile throughout a multilayer canopy." alt="" coords="363,208,426,235"/>
+<area shape="rect" id="node9" href="$_aux_bio_cro_8cpp.html#aa642fb79dd7e9bc444cb8eae150fd64c" title="Computes an n&#45;layered light profile from the direct light, diffuse light, leaf area index,..." alt="" coords="363,259,426,285"/>
+<area shape="rect" id="node11" href="$_aux_bio_cro_8cpp.html#ad5f0fc680176f312e47c32701ce779f7" title="Wind profile function." alt="" coords="355,309,434,336"/>
+<area shape="rect" id="node4" href="$ball__berry_8cpp.html#a6e9346e63ae6f11483c7104df9ecf92c" title=" " alt="" coords="525,5,602,32"/>
+<area shape="rect" id="node10" href="$_aux_bio_cro_8cpp.html#ac923d835bbf1f5120b1cafcbf3da046d" title="Computes total absorbed shortwave radiation from the photosynthetically active photon flux density (P..." alt="" coords="492,251,635,293"/>
 </map>

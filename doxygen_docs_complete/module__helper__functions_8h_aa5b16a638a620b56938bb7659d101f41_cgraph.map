@@ -1,0 +1,6 @@
+<map id="get_multilayer_ip" name="get_multilayer_ip">
+<area shape="rect" id="node1" title="Analagous to get_ip but returns a vector of output pointers, as required for a multilayer module." alt="" coords="5,42,124,69"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a9b9c005d6aefeed83f3af611aa02a0cf" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="172,5,307,47"/>
+<area shape="rect" id="node4" href="$module__helper__functions_8cpp.html#a0a383e0ac5eb41f546616464e3ce62fa" title="Returns a pointer to an element of a module input map, i.e., an input pointer (ip)" alt="" coords="211,71,268,98"/>
+<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="355,5,485,47"/>
+</map>

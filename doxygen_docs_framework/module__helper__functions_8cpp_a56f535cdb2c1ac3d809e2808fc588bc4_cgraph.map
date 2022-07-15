@@ -1,0 +1,4 @@
+<map id="generate_multiclass_quantity_names" name="generate_multiclass_quantity_names">
+<area shape="rect" id="node1" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="5,5,144,47"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="192,5,328,47"/>
+</map>

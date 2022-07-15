@@ -1,6 +1,6 @@
 var classnight__and__day__trackers =
 [
-    [ "night_and_day_trackers", "classnight__and__day__trackers.html#a6d9e8975ae67949647b9c62f613a432b", null ],
+    [ "night_and_day_trackers", "classnight__and__day__trackers.html#a67f76450bc27018bc35465364d00d100", null ],
     [ "do_operation", "classnight__and__day__trackers.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "day_tracker_ip", "classnight__and__day__trackers.html#ace962bd8588eb24dc27870f5c262f8b0", null ],
     [ "day_tracker_op", "classnight__and__day__trackers.html#aef7a90751edd00fd8102b9c55ac57884", null ],

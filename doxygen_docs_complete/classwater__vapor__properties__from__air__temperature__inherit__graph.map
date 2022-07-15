@@ -1,5 +1,5 @@
 <map id="water_vapor_properties_from_air_temperature" name="water_vapor_properties_from_air_temperature">
 <area shape="rect" id="node1" title=" " alt="" coords="5,155,163,196"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="32,80,136,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="52,5,116,32"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="33,80,135,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="35,5,133,32"/>
 </map>

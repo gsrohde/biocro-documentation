@@ -1,6 +1,6 @@
 var classpartitioning__coefficient__selector =
 [
-    [ "partitioning_coefficient_selector", "classpartitioning__coefficient__selector.html#a88d6129d8b6c7f4d8565c0e4457999c3", null ],
+    [ "partitioning_coefficient_selector", "classpartitioning__coefficient__selector.html#a552be7de66b6f92ac18a1f50bfb44042", null ],
     [ "do_operation", "classpartitioning__coefficient__selector.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "kGrain1_ip", "classpartitioning__coefficient__selector.html#a7f1001e76e5ecc57324304a4999a56e4", null ],
     [ "kGrain2_ip", "classpartitioning__coefficient__selector.html#a56acab468b53e4048233be7bb10d9b78", null ],

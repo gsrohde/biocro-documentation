@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['update_632',['update',['../class_module.html#ad80124505b87e8481aedbed068d749c8',1,'Module::update()'],['../class_steady_module.html#a3f5a6c165abfe31f11a5465b11d645be',1,'SteadyModule::update()'],['../class_deriv_module.html#a3f5a6c165abfe31f11a5465b11d645be',1,'DerivModule::update()'],['../class_system.html#a518e406f08df3ca0c267515a5fdeecea',1,'System::update()']]],
-  ['update_5fknown_5fquantities_633',['update_known_quantities',['../classsimultaneous__equations.html#a2672a8862459cb88a9ad500570f01720',1,'simultaneous_equations']]],
-  ['update_5fstate_5fparams_634',['update_state_params',['../class_system.html#ab722e7e5ef669a73a73a45da49bc1672',1,'System']]],
-  ['update_5fvarying_5fparams_635',['update_varying_params',['../class_system.html#ad93cb32977add17cd56c24c147141d9a',1,'System::update_varying_params(double time_indx)'],['../class_system.html#a3942fb4ee2f87555c87344eb7a2af828',1,'System::update_varying_params(time_type time_indx)']]]
+  ['update_503',['update',['../classmodule__base.html#ad80124505b87e8481aedbed068d749c8',1,'module_base::update()'],['../classdirect__module.html#a3f5a6c165abfe31f11a5465b11d645be',1,'direct_module::update()'],['../classdifferential__module.html#a3f5a6c165abfe31f11a5465b11d645be',1,'differential_module::update()']]],
+  ['update_5fall_5fquantities_504',['update_all_quantities',['../classdynamical__system.html#a2fef37d6ec33798ab011389b08e08bff',1,'dynamical_system']]],
+  ['update_5fdifferential_5fquantities_505',['update_differential_quantities',['../classdynamical__system.html#a8a5b457fffabc33a29724fd4eca53108',1,'dynamical_system']]],
+  ['update_5fdrivers_506',['update_drivers',['../classdynamical__system.html#ad2994d904767ac1aab548f55a7b4da65',1,'dynamical_system::update_drivers(double time_indx)'],['../classdynamical__system.html#acf85c6999f6cf78ea54e748e50c619ca',1,'dynamical_system::update_drivers(time_type time_indx)']]]
 ];

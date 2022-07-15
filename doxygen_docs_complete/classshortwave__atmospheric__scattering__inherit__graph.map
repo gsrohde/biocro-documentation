@@ -1,5 +1,5 @@
 <map id="shortwave_atmospheric_scattering" name="shortwave_atmospheric_scattering">
 <area shape="rect" id="node1" title="Calculates the amount of sunlight scattered out of the direct beam by the atmosphere...." alt="" coords="5,155,165,196"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="33,80,137,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="53,5,117,32"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="34,80,137,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="36,5,135,32"/>
 </map>

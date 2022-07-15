@@ -1,10 +1,8 @@
 var classone__layer__soil__profile =
 [
-    [ "one_layer_soil_profile", "classone__layer__soil__profile.html#aac6b6e7a98c849a593580ffd644e4b9d", null ],
+    [ "one_layer_soil_profile", "classone__layer__soil__profile.html#adcca79ad359d910873d71bcbde8c2856", null ],
     [ "do_operation", "classone__layer__soil__profile.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "canopy_transpiration_rate_ip", "classone__layer__soil__profile.html#a0161e8dc7caf6a66af3aa5b0781fc201", null ],
-    [ "phi1_ip", "classone__layer__soil__profile.html#a6ef81f2dcc865ef495ea260c77248af0", null ],
-    [ "phi2_ip", "classone__layer__soil__profile.html#a6d1aed05f85791295270a48ab34e9d3f", null ],
     [ "precip_ip", "classone__layer__soil__profile.html#a220b5147431eeaf6bd966ba14801a7ae", null ],
     [ "soil_air_entry_ip", "classone__layer__soil__profile.html#a1735a0eb71e2eff53efb21e3d8a34f1c", null ],
     [ "soil_b_coefficient_ip", "classone__layer__soil__profile.html#a0e035ae6a49cef3a30d07cd7ab518ddf", null ],

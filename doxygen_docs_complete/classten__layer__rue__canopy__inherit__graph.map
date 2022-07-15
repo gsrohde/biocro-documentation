@@ -1,0 +1,6 @@
+<map id="ten_layer_rue_canopy" name="ten_layer_rue_canopy">
+<area shape="rect" id="node1" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using a simple radiation ..." alt="" coords="5,244,152,271"/>
+<area shape="rect" id="node2" href="$classmultilayer__canopy__photosynthesis.html" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy." alt="" coords="5,155,152,196"/>
+<area shape="rect" id="node3" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="27,80,130,107"/>
+<area shape="rect" id="node4" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="29,5,128,32"/>
+</map>

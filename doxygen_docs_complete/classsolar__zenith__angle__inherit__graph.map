@@ -1,5 +1,0 @@
-<map id="solar_zenith_angle" name="solar_zenith_angle">
-<area shape="rect" id="node1" title="Calculates the solar zenith angle using a simple model. A major shortcoming of this model is that sol..." alt="" coords="5,155,135,181"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="18,80,122,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="38,5,102,32"/>
-</map>

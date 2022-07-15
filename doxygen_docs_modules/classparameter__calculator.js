@@ -1,6 +1,6 @@
 var classparameter__calculator =
 [
-    [ "parameter_calculator", "classparameter__calculator.html#a0552531af72fdfb30da15b6a2df153a3", null ],
+    [ "parameter_calculator", "classparameter__calculator.html#ae9e5a6c9ec56aecc2dc388dd00faa927", null ],
     [ "do_operation", "classparameter__calculator.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "alpha1_ip", "classparameter__calculator.html#a78ec458e585bd5e8c1c66ec4270a22ec", null ],
     [ "alpha_op", "classparameter__calculator.html#a0ffa420856ded13f839a2df39a5948f1", null ],

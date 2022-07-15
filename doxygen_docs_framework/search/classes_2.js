@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['cycle_5fdetector_369',['cycle_detector',['../classcycle__detector.html',1,'']]]
+  ['cycle_5fdetector_296',['cycle_detector',['../classcycle__detector.html',1,'']]]
 ];

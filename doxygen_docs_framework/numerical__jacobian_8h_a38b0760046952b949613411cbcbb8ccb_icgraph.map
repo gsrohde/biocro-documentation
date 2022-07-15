@@ -1,4 +1,0 @@
-<map id="calculate_jacobian_nt" name="calculate_jacobian_nt">
-<area shape="rect" id="node1" title="A wrapper for calculate_jacobian(equation_ptr, x, t, f_current, jacobi) for equations that have no ti..." alt="" coords="209,13,356,39"/>
-<area shape="rect" id="node2" href="$classnewton__raphson__boost.html#a083fc63a9da8f5252ccf540f73b0f016" title=" " alt="" coords="5,5,161,47"/>
-</map>

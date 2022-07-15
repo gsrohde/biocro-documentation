@@ -1,5 +1,5 @@
 <map id="stomata_water_stress_linear_and_aba_response" name="stomata_water_stress_linear_and_aba_response">
 <area shape="rect" id="node1" title=" " alt="" coords="5,155,181,196"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="41,80,145,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="61,5,125,32"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="42,80,145,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="44,5,143,32"/>
 </map>

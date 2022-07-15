@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['y_5fip_6377',['y_ip',['../classhyperbola__2d.html#aef3cfa3ac93264470270f4ef3672aa77',1,'hyperbola_2d']]],
-  ['y_5fop_6378',['y_op',['../classhyperbola__2d.html#af9348ec77658b5ff476b7a7c7209ce52',1,'hyperbola_2d']]]
+  ['x_5fip_2059',['x_ip',['../classgolden__ratio__hyperbola.html#ae1472062658ca9f5f900d17237c9d9e9',1,'golden_ratio_hyperbola::x_ip()'],['../classhyperbola__2d.html#ae1472062658ca9f5f900d17237c9d9e9',1,'hyperbola_2d::x_ip()']]],
+  ['x_5fop_2060',['x_op',['../classgolden__ratio__hyperbola.html#a21ec1ebea024133ce419156cac42c4e5',1,'golden_ratio_hyperbola::x_op()'],['../classhyperbola__2d.html#a21ec1ebea024133ce419156cac42c4e5',1,'hyperbola_2d::x_op()']]]
 ];

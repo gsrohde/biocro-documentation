@@ -1,7 +1,0 @@
-<map id="adjust_bad_guess" name="adjust_bad_guess">
-<area shape="rect" id="node1" title="Sets the default behavior for determining a new guess from a bad one." alt="" coords="5,31,132,57"/>
-<area shape="rect" id="node2" href="$se__solver__helper__functions_8h.html#adef0959092a7736ae2ab30bb2bc054e2" title="Checks whether the elements of vec_to_test lie outside the bounds." alt="" coords="196,5,327,32"/>
-<area shape="rect" id="node3" href="$namespacese__solver__rand.html#ac8a93eb88a69303d9b76d02f973b6ba0" title=" " alt="" coords="180,56,343,83"/>
-<area shape="rect" id="node4" href="$namespacese__solver__rand.html#a3d331b2f4d9f44482f983684824d5a6f" title=" " alt="" coords="391,31,528,57"/>
-<area shape="rect" id="node5" href="$namespacese__solver__rand.html#aacc8aa143c28d4b57309f49d8fa9422a" title=" " alt="" coords="391,81,528,108"/>
-</map>

@@ -1,6 +1,6 @@
 var classpoincare__clock =
 [
-    [ "poincare_clock", "classpoincare__clock.html#a9d842c586b1e3372c73419f432761695", null ],
+    [ "poincare_clock", "classpoincare__clock.html#ad2adaab841dd301e74888e8a18063c78", null ],
     [ "do_operation", "classpoincare__clock.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "clock_gamma_ip", "classpoincare__clock.html#ac4899e7f16f3a86fde8fc6ee445dab09", null ],
     [ "clock_period_ip", "classpoincare__clock.html#abeba66b07950ab010dc0f94094b468ef", null ],

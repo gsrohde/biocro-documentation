@@ -1,5 +1,5 @@
 <map id="partitioning_growth_calculator" name="partitioning_growth_calculator">
-<area shape="rect" id="node1" title="Records new tissue derived from assimilation." alt="" coords="5,155,136,196"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="19,80,123,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="39,5,103,32"/>
+<area shape="rect" id="node1" title="Uses a set of partitioning coefficients to determine net assimilation rates due to photosynthesis and..." alt="" coords="5,155,136,196"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="19,80,122,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="21,5,120,32"/>
 </map>

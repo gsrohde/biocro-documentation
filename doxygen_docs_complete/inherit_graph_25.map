@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structse__observer__null.html" title="An observer to be used when the user doesn&#39;t specify one. This observer doesn&#39;t do anything." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,104,32"/>
+<area shape="rect" id="node2" href="$classquantity__access__error.html" title="Custom error class to indicate problems when accessing a quantity." alt="" coords="152,5,301,32"/>
 </map>

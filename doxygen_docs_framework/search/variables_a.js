@@ -1,10 +1,9 @@
 var searchData=
 [
-  ['max_5fiterations_676',['max_iterations',['../classse__solver.html#a6eb5db680259976e44cd14c7dc924a66',1,'se_solver']]],
-  ['max_5ftime_677',['max_time',['../structpush__back__state__and__time.html#af77a0354db3027f2b7ff69d53fca7530',1,'push_back_state_and_time']]],
-  ['module_5foutput_5fmap_678',['module_output_map',['../classsimultaneous__equations.html#a846adfa2cb990f76b8481575f38c6ed7',1,'simultaneous_equations::module_output_map()'],['../class_standalone___s_s.html#a846adfa2cb990f76b8481575f38c6ed7',1,'Standalone_SS::module_output_map()'],['../class_system.html#a846adfa2cb990f76b8481575f38c6ed7',1,'System::module_output_map()']]],
-  ['module_5foutput_5fptr_5fpairs_679',['module_output_ptr_pairs',['../class_standalone___s_s.html#a2e9b7c7638bca6d60ba953ea7cfef856',1,'Standalone_SS']]],
-  ['module_5foutput_5fptrs_680',['module_output_ptrs',['../class_standalone___s_s.html#a50ae23d0e81e100d08a3b621bc2c9bcd',1,'Standalone_SS']]],
-  ['molar_5fmass_5fof_5fwater_681',['molar_mass_of_water',['../namespacephysical__constants.html#a79fa6e0ce4d1a7831d6cadf04a85777f',1,'physical_constants']]],
-  ['msg_682',['msg',['../structpush__back__state__and__time.html#a6db7cae67cbb66306fa126261eccaf5e',1,'push_back_state_and_time']]]
+  ['max_5ftime_545',['max_time',['../structpush__back__state__and__time.html#af77a0354db3027f2b7ff69d53fca7530',1,'push_back_state_and_time']]],
+  ['module_5fname_546',['module_name',['../classmodule__base.html#a0b37c5938e82da1fb19ed599f7c71217',1,'module_base']]],
+  ['molar_5fmass_5fof_5fdry_5fair_547',['molar_mass_of_dry_air',['../namespacephysical__constants.html#aea5621455b66be4b7f4b027a890d3d49',1,'physical_constants']]],
+  ['molar_5fmass_5fof_5fglucose_548',['molar_mass_of_glucose',['../namespacephysical__constants.html#acfbf75583a5095f83578d42612970094',1,'physical_constants']]],
+  ['molar_5fmass_5fof_5fwater_549',['molar_mass_of_water',['../namespacephysical__constants.html#a7162c8c2c8cfdb894219fadabc0a764c',1,'physical_constants']]],
+  ['msg_550',['msg',['../structpush__back__state__and__time.html#a3cbd254d10a7f8b1f5bdec0548ea5087',1,'push_back_state_and_time']]]
 ];

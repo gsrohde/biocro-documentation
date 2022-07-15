@@ -1,4 +1,0 @@
-<map id="insert_key_names" name="insert_key_names">
-<area shape="rect" id="node1" title="Inserts all the keys from map into name_vector." alt="" coords="5,5,132,32"/>
-<area shape="rect" id="node2" href="$state__map_8h.html#af565e334821397e58476ac34585263de" title="Given a map, return a list of its keys." alt="" coords="180,5,229,32"/>
-</map>

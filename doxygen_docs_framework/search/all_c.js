@@ -1,26 +1,5 @@
 var searchData=
 [
-  ['make_5fvector_166',['make_vector',['../_r__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895',1,'make_vector(SEXP const &amp;r_string_vector):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#ac5b5706bd38a826b60e6e1ec74e69a24',1,'make_vector(SEXP const &amp;r_string_vector):&#160;R_helper_functions.cpp']]],
-  ['map_5ffrom_5flist_167',['map_from_list',['../_r__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff',1,'map_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a427d311e926df18071cfb272015d6dff',1,'map_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]],
-  ['map_5fvector_5ffrom_5flist_168',['map_vector_from_list',['../_r__helper__functions_8cpp.html#a1c40ce5c7a2d8a2d3968c7d71812002c',1,'map_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a1c40ce5c7a2d8a2d3968c7d71812002c',1,'map_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]],
-  ['math_5fconstants_169',['math_constants',['../namespacemath__constants.html',1,'']]],
-  ['max_5fiterations_170',['max_iterations',['../classse__solver.html#a6eb5db680259976e44cd14c7dc924a66',1,'se_solver']]],
-  ['max_5ftime_171',['max_time',['../structpush__back__state__and__time.html#af77a0354db3027f2b7ff69d53fca7530',1,'push_back_state_and_time']]],
-  ['module_172',['Module',['../class_module.html',1,'Module'],['../class_module.html#a22ca75c15cbeac14960d34151f285058',1,'Module::Module()']]],
-  ['module_5fdependency_5futilities_2ecpp_173',['module_dependency_utilities.cpp',['../module__dependency__utilities_8cpp.html',1,'']]],
-  ['module_5fdependency_5futilities_2eh_174',['module_dependency_utilities.h',['../module__dependency__utilities_8h.html',1,'']]],
-  ['module_5fhelper_5ffunctions_2ecpp_175',['module_helper_functions.cpp',['../module__helper__functions_8cpp.html',1,'']]],
-  ['module_5fhelper_5ffunctions_2eh_176',['module_helper_functions.h',['../module__helper__functions_8h.html',1,'']]],
-  ['module_5fname_5fmap_5ft_177',['module_name_map_t',['../module__dependency__utilities_8cpp.html#a040b6bbf875ddd96fdd95f20131b4e40',1,'module_dependency_utilities.cpp']]],
-  ['module_5foutput_5fmap_178',['module_output_map',['../classsimultaneous__equations.html#a846adfa2cb990f76b8481575f38c6ed7',1,'simultaneous_equations::module_output_map()'],['../class_standalone___s_s.html#a846adfa2cb990f76b8481575f38c6ed7',1,'Standalone_SS::module_output_map()'],['../class_system.html#a846adfa2cb990f76b8481575f38c6ed7',1,'System::module_output_map()']]],
-  ['module_5foutput_5fptr_5fpairs_179',['module_output_ptr_pairs',['../class_standalone___s_s.html#a2e9b7c7638bca6d60ba953ea7cfef856',1,'Standalone_SS']]],
-  ['module_5foutput_5fptrs_180',['module_output_ptrs',['../class_standalone___s_s.html#a50ae23d0e81e100d08a3b621bc2c9bcd',1,'Standalone_SS']]],
-  ['module_5fvector_181',['module_vector',['../validate__system_8h.html#a34da96d6b93ff9b355ec5b508d622d29',1,'validate_system.h']]],
-  ['module_5fwrapper_182',['module_wrapper',['../classmodule__wrapper.html',1,'']]],
-  ['module_5fwrapper_2eh_183',['module_wrapper.h',['../module__wrapper_8h.html',1,'']]],
-  ['module_5fwrapper_5fbase_184',['module_wrapper_base',['../classmodule__wrapper__base.html',1,'']]],
-  ['modules_2ecpp_185',['modules.cpp',['../modules_8cpp.html',1,'']]],
-  ['modules_2eh_186',['modules.h',['../modules_8h.html',1,'']]],
-  ['molar_5fmass_5fof_5fwater_187',['molar_mass_of_water',['../namespacephysical__constants.html#a79fa6e0ce4d1a7831d6cadf04a85777f',1,'physical_constants']]],
-  ['msg_188',['msg',['../structpush__back__state__and__time.html#a6db7cae67cbb66306fa126261eccaf5e',1,'push_back_state_and_time']]]
+  ['list_5ffrom_5fmap_157',['list_from_map',['../_r__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa',1,'list_from_map(state_map const &amp;m):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8cpp.html#a3f84e4d08cabe91d1c643c296a9644ec',1,'list_from_map(state_vector_map const &amp;m):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8cpp.html#a688077cfbf5b35cf85acf2747c85a756',1,'list_from_map(std::unordered_map&lt; string, string_vector &gt; const &amp;m):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa',1,'list_from_map(state_map const &amp;m):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a3f84e4d08cabe91d1c643c296a9644ec',1,'list_from_map(state_vector_map const &amp;m):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a1201fe175c0f4c6d5d9ea4b599039d5f',1,'list_from_map(std::unordered_map&lt; std::string, string_vector &gt; const &amp;m):&#160;R_helper_functions.h']]],
+  ['list_5ffrom_5fmodule_5finfo_158',['list_from_module_info',['../_r__helper__functions_8cpp.html#a06fbd415e83fdf0b67bf744fc88ed8f4',1,'list_from_module_info(std::string const &amp;module_name, string_vector const &amp;module_inputs, string_vector const &amp;module_outputs, bool const &amp;is_differential, bool const &amp;requires_euler_ode_solver, std::string const &amp;creation_error_message):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a06fbd415e83fdf0b67bf744fc88ed8f4',1,'list_from_module_info(std::string const &amp;module_name, string_vector const &amp;module_inputs, string_vector const &amp;module_outputs, bool const &amp;is_differential, bool const &amp;requires_euler_ode_solver, std::string const &amp;creation_error_message):&#160;R_helper_functions.cpp']]]
 ];

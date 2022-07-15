@@ -1,6 +1,6 @@
 var classoscillator__clock__calculator =
 [
-    [ "oscillator_clock_calculator", "classoscillator__clock__calculator.html#add772f6a1d3d6fc870ff161c40675dd4", null ],
+    [ "oscillator_clock_calculator", "classoscillator__clock__calculator.html#a5fa79e7d38473718cd04f8f1eacca9e0", null ],
     [ "do_operation", "classoscillator__clock__calculator.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "dawn_a_ip", "classoscillator__clock__calculator.html#a69f19ae7c27ff9ce56b06682eba10ad3", null ],
     [ "dawn_b_ip", "classoscillator__clock__calculator.html#ab8e6b9d12595772685d14fd9f9448bc8", null ],
@@ -9,7 +9,6 @@ var classoscillator__clock__calculator =
     [ "dawn_radius_op", "classoscillator__clock__calculator.html#a49d3bc950537038dbf49fda41689e86f", null ],
     [ "day_length_op", "classoscillator__clock__calculator.html#a817ddb94f655d0137c62f90eec6551ea", null ],
     [ "day_tracker_ip", "classoscillator__clock__calculator.html#ace962bd8588eb24dc27870f5c262f8b0", null ],
-    [ "doy_dbl_ip", "classoscillator__clock__calculator.html#a6b5dc9a941541c7a4ffbf8131a0dc01b", null ],
     [ "dusk_a_ip", "classoscillator__clock__calculator.html#a1408ffd5068c75051d7a05888530285f", null ],
     [ "dusk_b_ip", "classoscillator__clock__calculator.html#ad39f9c6bf70ec869b3a534707e1c047f", null ],
     [ "dusk_kick_op", "classoscillator__clock__calculator.html#a6e9834c2209346d4c8a435b4af32028c", null ],
@@ -24,5 +23,6 @@ var classoscillator__clock__calculator =
     [ "ref_phase_op", "classoscillator__clock__calculator.html#a75ff691473cec759cff99b72df949a88", null ],
     [ "ref_radius_op", "classoscillator__clock__calculator.html#ac3b1202e7f0bd8e12d8afa16415caa8c", null ],
     [ "sunrise_op", "classoscillator__clock__calculator.html#a52bf0be04d7b4422e023424701606131", null ],
-    [ "sunset_op", "classoscillator__clock__calculator.html#ace1259edd18a88730dcbb535ceb6c3dc", null ]
+    [ "sunset_op", "classoscillator__clock__calculator.html#ace1259edd18a88730dcbb535ceb6c3dc", null ],
+    [ "time_ip", "classoscillator__clock__calculator.html#a2cd6b5fc11312ee608b2be51a6c07ce5", null ]
 ];

@@ -1,8 +1,0 @@
-<map id="R_test_standalone_ss" name="R_test_standalone_ss">
-<area shape="rect" id="node1" title=" " alt="" coords="5,122,156,149"/>
-<area shape="rect" id="node2" href="$class_standalone___s_s.html#a6f1d9f42cfcf4d4885cde0274726db53" title=" " alt="" coords="204,5,372,47"/>
-<area shape="rect" id="node3" href="$_r__helper__functions_8cpp.html#a958bd8cf9a5ec1a05b6af932cd5ab1aa" title=" " alt="" coords="236,71,340,98"/>
-<area shape="rect" id="node4" href="$_r__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895" title=" " alt="" coords="239,122,337,149"/>
-<area shape="rect" id="node5" href="$_r__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff" title=" " alt="" coords="236,173,340,199"/>
-<area shape="rect" id="node6" href="$class_standalone___s_s.html#aa6b7bb009af6cd63f442559d3b8d1ab2" title="Gets values from the objects pointed to by the input_ptrs, runs each module, and exports the results ..." alt="" coords="220,223,356,250"/>
-</map>

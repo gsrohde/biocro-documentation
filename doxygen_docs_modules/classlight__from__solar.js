@@ -1,6 +1,6 @@
 var classlight__from__solar =
 [
-    [ "light_from_solar", "classlight__from__solar.html#a45b274abfa495534dc7f488271fca803", null ],
+    [ "light_from_solar", "classlight__from__solar.html#ada395c291db9a2b57009f76339e8d804", null ],
     [ "do_operation", "classlight__from__solar.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "light_exp_at_zero_ip", "classlight__from__solar.html#afb0d749b9b364930dbe85e839ad22f91", null ],
     [ "light_op", "classlight__from__solar.html#a05e494c8f25c558306fa68ceb47f04df", null ],

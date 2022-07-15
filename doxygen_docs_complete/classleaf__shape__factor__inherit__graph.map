@@ -1,5 +1,5 @@
 <map id="leaf_shape_factor" name="leaf_shape_factor">
 <area shape="rect" id="node1" title="Determines the leaf shape factor k from the solar zenith angle and the leaf shape chi_l (expressed as..." alt="" coords="5,155,131,181"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="16,80,120,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="36,5,100,32"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="17,80,119,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="19,5,117,32"/>
 </map>

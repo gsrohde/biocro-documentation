@@ -1,5 +1,8 @@
 <map id="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;" name="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;">
-<area shape="rect" id="node1" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy...." alt="" coords="5,155,224,211"/>
-<area shape="rect" id="node2" href="$class_steady_module.html" title=" " alt="" coords="63,80,167,107"/>
-<area shape="rect" id="node3" href="$class_module.html" title="This class represents a component of a larger system of differential equations." alt="" coords="83,5,147,32"/>
+<area shape="rect" id="node1" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy." alt="" coords="303,85,521,141"/>
+<area shape="rect" id="node4" href="$classten__layer__c3__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Farquhar&#45;von&#45;Ca..." alt="" coords="569,5,771,61"/>
+<area shape="rect" id="node5" href="$classten__layer__c4__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using the Collatz et al...." alt="" coords="569,85,771,141"/>
+<area shape="rect" id="node6" href="$classten__layer__rue__canopy.html" title="Represents a ten layer canopy where leaf&#45;level photosynthesis is calculated using a simple radiation ..." alt="" coords="569,165,771,221"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="152,100,255,127"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="5,100,104,127"/>
 </map>

@@ -1,0 +1,7 @@
+<map id="make_vector" name="make_vector">
+<area shape="rect" id="node1" title=" " alt="" coords="232,81,329,108"/>
+<area shape="rect" id="node2" href="$_r__module__wrapper_8cpp.html#a76cb1d7da43fc27ac7e300add4b76b18" title="Creates a vector of &quot;R external pointer&quot; objects that each point to a module_wrapper_base object." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node3" href="$_r__run__biocro_8cpp.html#a0a4dc99e578f69d10d9be2f9c240b461" title=" " alt="" coords="45,56,144,83"/>
+<area shape="rect" id="node4" href="$_r__system__derivatives_8cpp.html#a8fdeee9bd8f0b9dafa2c1268efffca3b" title="Creates a dynamical_system object from the differential quantities, parameters, drivers,..." alt="" coords="19,107,170,133"/>
+<area shape="rect" id="node5" href="$_r__dynamical__system_8cpp.html#a7776ac7a762a025a6d7c9c24b375cdf8" title=" " alt="" coords="21,158,169,199"/>
+</map>

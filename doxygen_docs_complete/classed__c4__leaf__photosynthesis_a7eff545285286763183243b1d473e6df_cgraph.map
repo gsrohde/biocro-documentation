@@ -1,7 +1,0 @@
-<map id="get_outputs" name="get_outputs">
-<area shape="rect" id="node1" title=" " alt="" coords="5,46,96,73"/>
-<area shape="rect" id="node2" href="$namespaceed__leaf__photosynthesis.html#aea52b1d46ad1fbd37fb8575987029ad7" title="A function that finds all outputs produced by the reference modules." alt="" coords="144,39,303,80"/>
-<area shape="rect" id="node3" href="$validate__system_8cpp.html#a96840539e64ce8ccec9df05cc320222e" title="Returns a set containing all unique outputs produced by the modules." alt="" coords="351,5,487,47"/>
-<area shape="rect" id="node5" href="$validate__system_8cpp.html#a81af0c9fd2ef95fe7d844d49301408d7" title="Converts a string_set to a string_vector." alt="" coords="351,71,487,112"/>
-<area shape="rect" id="node4" href="$classmodule__wrapper__factory.html#a88c7e6e99de6589d718c74152040e94d" title=" " alt="" coords="535,5,697,47"/>
-</map>

@@ -1,6 +1,6 @@
 var classpokhilko__circadian__clock =
 [
-    [ "pokhilko_circadian_clock", "classpokhilko__circadian__clock.html#a0142d99ae21248547c634dfd8abdfce0", null ],
+    [ "pokhilko_circadian_clock", "classpokhilko__circadian__clock.html#a0a73c34677f02946b1a88c69f92d0b40", null ],
     [ "do_operation", "classpokhilko__circadian__clock.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "COP1_cytoplasm_ip", "classpokhilko__circadian__clock.html#a6ad69449d82dc0b856ff25166cc6be9b", null ],
     [ "COP1_cytoplasm_op", "classpokhilko__circadian__clock.html#a26b1cbaaf211ad3a6a2c5262aa595dd1", null ],

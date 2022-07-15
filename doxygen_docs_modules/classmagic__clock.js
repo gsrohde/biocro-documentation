@@ -1,6 +1,6 @@
 var classmagic__clock =
 [
-    [ "magic_clock", "classmagic__clock.html#ac37a6a5503c1e7f77c5cca465b2185f2", null ],
+    [ "magic_clock", "classmagic__clock.html#a81ea93ac0ebd099459bdfd87257d6465", null ],
     [ "do_operation", "classmagic__clock.html#a391e9fd4e949f6e987eb654a11b1e451", null ],
     [ "clock_gamma_ip", "classmagic__clock.html#ac4899e7f16f3a86fde8fc6ee445dab09", null ],
     [ "clock_period_ip", "classmagic__clock.html#abeba66b07950ab010dc0f94094b468ef", null ],

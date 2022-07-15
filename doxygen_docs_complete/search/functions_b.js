@@ -1,16 +1,15 @@
 var searchData=
 [
-  ['magic_5fclock_4050',['magic_clock',['../classmagic__clock.html#ac37a6a5503c1e7f77c5cca465b2185f2',1,'magic_clock']]],
-  ['make_5fse_4051',['make_se',['../namespaceed__leaf__photosynthesis__nr.html#a5d70350198910713933918b34788c9cd',1,'ed_leaf_photosynthesis_nr']]],
-  ['make_5fvector_4052',['make_vector',['../_r__helper__functions_8cpp.html#a6310116404ff62eabbeb384e02482895',1,'make_vector(SEXP const &amp;r_string_vector):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#ac5b5706bd38a826b60e6e1ec74e69a24',1,'make_vector(SEXP const &amp;r_string_vector):&#160;R_helper_functions.cpp']]],
-  ['map_5ffrom_5flist_4053',['map_from_list',['../_r__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff',1,'map_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a427d311e926df18071cfb272015d6dff',1,'map_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]],
-  ['map_5fvector_5ffrom_5flist_4054',['map_vector_from_list',['../_r__helper__functions_8cpp.html#a1c40ce5c7a2d8a2d3968c7d71812002c',1,'map_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a1c40ce5c7a2d8a2d3968c7d71812002c',1,'map_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]],
-  ['module_4055',['Module',['../class_module.html#a22ca75c15cbeac14960d34151f285058',1,'Module']]],
-  ['module_5f1_4056',['Module_1',['../class_module__1.html#a495d2541b8b4da00ee0eba340398fe25',1,'Module_1']]],
-  ['module_5f2_4057',['Module_2',['../class_module__2.html#ad806c2a13926fc00208780193bca9fdf',1,'Module_2']]],
-  ['module_5f3_4058',['Module_3',['../class_module__3.html#a1059e981029a5007791e03623bd57ae4',1,'Module_3']]],
-  ['module_5fbase_4059',['module_base',['../classed__leaf__photosynthesis_1_1module__base.html#ae1e708513ce700a4ab9e06909d0d1b52',1,'ed_leaf_photosynthesis::module_base::module_base()'],['../classed__leaf__photosynthesis__nr_1_1module__base.html#ae1e708513ce700a4ab9e06909d0d1b52',1,'ed_leaf_photosynthesis_nr::module_base::module_base()']]],
-  ['multilayer_5fcanopy_5fintegrator_4060',['multilayer_canopy_integrator',['../classmultilayer__canopy__integrator.html#a29fda7694d447efebe831472317e9dd6',1,'multilayer_canopy_integrator']]],
-  ['multilayer_5fcanopy_5fphotosynthesis_4061',['multilayer_canopy_photosynthesis',['../classmultilayer__canopy__photosynthesis.html#a5bd89c8289c27925e3f0cdd1ed28e490',1,'multilayer_canopy_photosynthesis']]],
-  ['multilayer_5fcanopy_5fproperties_4062',['multilayer_canopy_properties',['../classmultilayer__canopy__properties.html#aee3c0ef743d7a019bf25abc318c60df6',1,'multilayer_canopy_properties']]]
+  ['magic_5fclock_1741',['magic_clock',['../classmagic__clock.html#a81ea93ac0ebd099459bdfd87257d6465',1,'magic_clock']]],
+  ['make_5fvector_1742',['make_vector',['../_r__helper__functions_8cpp.html#a78b4dc65c356615f963ff971d9c28424',1,'make_vector(SEXP const &amp;r_string_vector):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a78b4dc65c356615f963ff971d9c28424',1,'make_vector(SEXP const &amp;r_string_vector):&#160;R_helper_functions.cpp']]],
+  ['map_5ffrom_5flist_1743',['map_from_list',['../_r__helper__functions_8cpp.html#a427d311e926df18071cfb272015d6dff',1,'map_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a427d311e926df18071cfb272015d6dff',1,'map_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]],
+  ['map_5fvector_5ffrom_5flist_1744',['map_vector_from_list',['../_r__helper__functions_8cpp.html#a1c40ce5c7a2d8a2d3968c7d71812002c',1,'map_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a1c40ce5c7a2d8a2d3968c7d71812002c',1,'map_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]],
+  ['module_5f1_1745',['Module_1',['../class_module__1.html#a7b796ee671a51d62debf97c1e4befba1',1,'Module_1']]],
+  ['module_5f2_1746',['Module_2',['../class_module__2.html#a49c585273c12d61886b33a14aa632636',1,'Module_2']]],
+  ['module_5f3_1747',['Module_3',['../class_module__3.html#a40fe4d6c9232b2261c5c3f88beb1955f',1,'Module_3']]],
+  ['module_5fbase_1748',['module_base',['../classmodule__base.html#ac847f2b139b95e0103bc83b8d4d75546',1,'module_base']]],
+  ['multilayer_5fcanopy_5fintegrator_1749',['multilayer_canopy_integrator',['../classmultilayer__canopy__integrator.html#a1fd2f5563dfdf8aeecd0593561b60827',1,'multilayer_canopy_integrator']]],
+  ['multilayer_5fcanopy_5fphotosynthesis_1750',['multilayer_canopy_photosynthesis',['../classmultilayer__canopy__photosynthesis.html#a23a7179b59f988ac0bc630396ec83843',1,'multilayer_canopy_photosynthesis']]],
+  ['multilayer_5fcanopy_5fproperties_1751',['multilayer_canopy_properties',['../classmultilayer__canopy__properties.html#af5e5dd8b6174d3d01bfcccc6f68fa8d8',1,'multilayer_canopy_properties']]],
+  ['mw_5fvector_5ffrom_5flist_1752',['mw_vector_from_list',['../_r__helper__functions_8cpp.html#a663257eb69bfe02f9ca7203cd25d104f',1,'mw_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp'],['../_r__helper__functions_8h.html#a663257eb69bfe02f9ca7203cd25d104f',1,'mw_vector_from_list(SEXP const &amp;list):&#160;R_helper_functions.cpp']]]
 ];
