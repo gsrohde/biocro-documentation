@@ -1,0 +1,5 @@
+<map id="thermal_time_and_frost_senescence" name="thermal_time_and_frost_senescence">
+<area shape="rect" id="node1" title="Determines senescence rates for several plant organs based on thermal time thresholds,..." alt="" coords="5,155,164,196"/>
+<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="19,80,150,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="35,5,134,32"/>
+</map>

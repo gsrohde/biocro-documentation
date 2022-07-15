@@ -1,0 +1,7 @@
+<map id="generate_outputs" name="generate_outputs">
+<area shape="rect" id="node1" title=" " alt="" coords="5,46,128,73"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a56f535cdb2c1ac3d809e2808fc588bc4" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="176,5,315,47"/>
+<area shape="rect" id="node4" href="$module__helper__functions_8cpp.html#a9b9c005d6aefeed83f3af611aa02a0cf" title="For each entry in the quantity_names vector, multiple copies are produced, each of which has a suffix..." alt="" coords="178,71,313,112"/>
+<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#a905f2abf2b3e46bf7f8215552fe20544" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="363,5,499,47"/>
+<area shape="rect" id="node5" href="$module__helper__functions_8cpp.html#a6dee5551e0c27e098260a3385114ffa3" title="Adds a suffix to a quantity name indicating that it was calculated for a certain layer." alt="" coords="365,71,496,112"/>
+</map>

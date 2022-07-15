@@ -1,0 +1,5 @@
+<map id="grimm_soybean_flowering" name="grimm_soybean_flowering">
+<area shape="rect" id="node1" title="Model for soybean development and flowering based on Grimm et al. (1993)." alt="" coords="5,155,176,181"/>
+<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="25,80,156,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="41,5,140,32"/>
+</map>
