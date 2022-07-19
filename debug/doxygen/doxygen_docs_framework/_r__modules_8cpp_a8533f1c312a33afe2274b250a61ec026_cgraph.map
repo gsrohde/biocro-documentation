@@ -1,0 +1,11 @@
+<map id="R_module_info" name="R_module_info">
+<area shape="rect" id="node1" title="Determines vital information about a single module." alt="" coords="5,209,113,235"/>
+<area shape="rect" id="node2" href="$classmodule__wrapper__base.html#af2f9b37d5918dae30e7fd8b17d396c58" title=" " alt="" coords="161,5,313,47"/>
+<area shape="rect" id="node3" href="$classmodule__wrapper__base.html#aa1fe4a1ac38beeba45e12ca29ab55992" title=" " alt="" coords="161,71,313,112"/>
+<area shape="rect" id="node4" href="$classmodule__wrapper__base.html#a0948cc07014a35d6f8b884831e0087a2" title=" " alt="" coords="161,136,313,177"/>
+<area shape="rect" id="node5" href="$classmodule__wrapper__base.html#a3150df851552216c6b455d02800fb9f1" title=" " alt="" coords="161,201,313,243"/>
+<area shape="rect" id="node6" href="$state__map_8h.html#a5505795a40869494568f362567ff51e8" title="Given a map, return a sorted list of its keys." alt="" coords="213,267,262,294"/>
+<area shape="rect" id="node7" href="$_r__helper__functions_8cpp.html#a06fbd415e83fdf0b67bf744fc88ed8f4" title=" " alt="" coords="163,318,312,345"/>
+<area shape="rect" id="node9" href="$_r__helper__functions_8cpp.html#a663257eb69bfe02f9ca7203cd25d104f" title="Creates a std::vector of pointers to module_wrapper_base objects from an R vector of R external point..." alt="" coords="166,369,309,395"/>
+<area shape="rect" id="node8" href="$_r__helper__functions_8cpp.html#a804a6819e7de829ba23f6e24a43f8995" title=" " alt="" coords="361,311,503,352"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="example_model_mass_gain" name="example_model_mass_gain">
+<area shape="rect" id="node1" title="An example for the BioCro II manuscript." alt="" coords="5,155,188,181"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="45,80,148,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="47,5,146,32"/>
+</map>

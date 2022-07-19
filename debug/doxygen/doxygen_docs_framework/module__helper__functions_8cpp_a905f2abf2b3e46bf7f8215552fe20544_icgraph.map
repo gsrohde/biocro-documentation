@@ -1,0 +1,4 @@
+<map id="add_class_prefix_to_quantity_name" name="add_class_prefix_to_quantity_name">
+<area shape="rect" id="node1" title="Adds a class name prefix to the quantity name indicating it was calculated for a certain leaf class,..." alt="" coords="192,5,328,47"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a56f535cdb2c1ac3d809e2808fc588bc4" title="Adds class name prefixes to each quantity name indicating that it was calculated for a certain class...." alt="" coords="5,5,144,47"/>
+</map>

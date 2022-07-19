@@ -1,0 +1,4 @@
+<map id="senescence_logistic" name="senescence_logistic">
+<area shape="rect" id="node1" title="Calculates the change in plant organ biomasses due to senescence." alt="" coords="5,80,145,107"/>
+<area shape="rect" id="node2" title=" " alt="" coords="10,5,141,32"/>
+</map>

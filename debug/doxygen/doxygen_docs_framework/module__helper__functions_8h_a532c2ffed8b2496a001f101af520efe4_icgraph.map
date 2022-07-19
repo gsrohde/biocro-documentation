@@ -1,0 +1,5 @@
+<map id="get_ip" name="get_ip">
+<area shape="rect" id="node1" title="Returns a pointer to an element of a module input map, i.e., an input pointer (ip)" alt="" coords="172,31,229,57"/>
+<area shape="rect" id="node2" href="$module__helper__functions_8cpp.html#a3751b293f86709d702cc5a3a882703e8" title="Returns a vector of pointers to elements of a module input map, i.e., a vector of input pointers (ip)" alt="" coords="36,5,93,32"/>
+<area shape="rect" id="node3" href="$module__helper__functions_8cpp.html#aa5b16a638a620b56938bb7659d101f41" title="Analagous to get_ip but returns a vector of output pointers, as required for a multilayer module." alt="" coords="5,56,124,83"/>
+</map>

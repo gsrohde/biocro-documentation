@@ -1,0 +1,51 @@
+<map id="module_base" name="module_base">
+<area shape="rect" id="node1" title="Represents one or more equations." alt="" coords="5,1261,104,1288"/>
+<area shape="rect" id="node2" href="$classdifferential__module.html" title="This class represents a differential module." alt="" coords="152,680,283,707"/>
+<area shape="rect" id="node29" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="166,1843,269,1869"/>
+<area shape="rect" id="node3" href="$classaba__decay.html" title=" " alt="" coords="380,5,464,32"/>
+<area shape="rect" id="node4" href="$classbucket__soil__drainage.html" title=" " alt="" coords="350,56,494,83"/>
+<area shape="rect" id="node5" href="$classdevelopment__index.html" title="Calculates the development index (DVI) corresponding to plant growth rate." alt="" coords="355,107,489,133"/>
+<area shape="rect" id="node6" href="$classempty__senescence.html" title=" " alt="" coords="355,157,489,184"/>
+<area shape="rect" id="node7" href="$classexample__model__partitioning.html" title="An example for the BioCro II manuscript." alt="" coords="331,208,513,235"/>
+<area shape="rect" id="node8" href="$classgrimm__soybean__flowering.html" title="Model for soybean development and flowering based on Grimm et al. (1993)." alt="" coords="337,259,507,285"/>
+<area shape="rect" id="node9" href="$classharmonic__oscillator.html" title=" " alt="" coords="355,309,489,336"/>
+<area shape="rect" id="node10" href="$classmagic__clock.html" title=" " alt="" coords="375,360,469,387"/>
+<area shape="rect" id="node11" href="$classnight__and__day__trackers.html" title=" " alt="" coords="343,411,501,437"/>
+<area shape="rect" id="node12" href="$classnr__ex.html" title=" " alt="" coords="395,461,449,488"/>
+<area shape="rect" id="node13" href="$classone__layer__soil__profile.html" title=" " alt="" coords="349,512,495,539"/>
+<area shape="rect" id="node14" href="$classone__layer__soil__profile__derivatives.html" title=" " alt="" coords="349,563,495,605"/>
+<area shape="rect" id="node15" href="$classpartitioning__growth.html" title="This module determines the growth rate for several plant organs from the net rate of carbon assimilat..." alt="" coords="357,629,487,656"/>
+<area shape="rect" id="node16" href="$classphase__clock.html" title=" " alt="" coords="375,680,469,707"/>
+<area shape="rect" id="node17" href="$classpoincare__clock.html" title=" " alt="" coords="367,731,477,757"/>
+<area shape="rect" id="node18" href="$classpokhilko__circadian__clock.html" title=" " alt="" coords="357,782,487,823"/>
+<area shape="rect" id="node19" href="$classsenescence__logistic.html" title="Calculates the change in plant organ biomasses due to senescence." alt="" coords="352,848,492,875"/>
+<area shape="rect" id="node20" href="$classsong__flowering.html" title=" " alt="" coords="368,899,476,925"/>
+<area shape="rect" id="node21" href="$classthermal__time__and__frost__senescence.html" title="Determines senescence rates for several plant organs based on thermal time thresholds,..." alt="" coords="343,950,501,991"/>
+<area shape="rect" id="node22" href="$classthermal__time__beta.html" title="Calculates the rate of thermal time accumulation using a beta distribution function." alt="" coords="357,1016,487,1043"/>
+<area shape="rect" id="node23" href="$classthermal__time__bilinear.html" title="Calculates the rate of thermal time accumulation using a bilinear model." alt="" coords="349,1067,495,1093"/>
+<area shape="rect" id="node24" href="$classthermal__time__linear.html" title="Calculates the rate of thermal time accumulation using a linear model." alt="" coords="355,1117,489,1144"/>
+<area shape="rect" id="node25" href="$classthermal__time__linear__extended.html" title="Calculates the rate of thermal time accumulation using an extended linear model." alt="" coords="355,1169,489,1210"/>
+<area shape="rect" id="node26" href="$classthermal__time__senescence.html" title="Determines senescence rates for several plant organs based on thermal time thresholds and magical tim..." alt="" coords="335,1235,509,1261"/>
+<area shape="rect" id="node27" href="$classthermal__time__trilinear.html" title="Calculates the rate of thermal time accumulation using a trilinear model." alt="" coords="349,1285,495,1312"/>
+<area shape="rect" id="node28" href="$classtwo__layer__soil__profile.html" title=" " alt="" coords="349,1336,495,1363"/>
+<area shape="rect" id="node30" href="$class_fv_c_b.html" title=" " alt="" coords="395,1387,449,1413"/>
+<area shape="rect" id="node31" href="$class_module__1.html" title=" " alt="" coords="383,1437,461,1464"/>
+<area shape="rect" id="node32" href="$class_module__2.html" title=" " alt="" coords="383,1488,461,1515"/>
+<area shape="rect" id="node33" href="$class_module__3.html" title=" " alt="" coords="383,1539,461,1565"/>
+<area shape="rect" id="node34" href="$classball__berry__module.html" title=" " alt="" coords="359,1589,485,1616"/>
+<area shape="rect" id="node35" href="$classbiomass__leaf__n__limitation.html" title=" " alt="" coords="336,1640,508,1667"/>
+<area shape="rect" id="node36" href="$classbuck__swvp.html" title="Determines the saturation water vapor pressure of atmospheric air using the saturation_vapor_pressure..." alt="" coords="378,1691,466,1717"/>
+<area shape="rect" id="node37" href="$classc3__assimilation.html" title="Calculates net assimilation, stomatal conductance, and intercellular CO2 concentration for a C3 leaf ..." alt="" coords="366,1741,478,1768"/>
+<area shape="rect" id="node38" href="$classc3__canopy.html" title=" " alt="" coords="380,1792,464,1819"/>
+<area shape="rect" id="node39" href="$classc3__leaf__photosynthesis.html" title="Uses the method from c3CanAC() to calculate leaf photosynthesis parameters for C3 plants." alt="" coords="343,1843,501,1869"/>
+<area shape="rect" id="node40" href="$classc4__assimilation.html" title="Calculates net assimilation, stomatal conductance, and intercellular CO2 concentration for a C4 leaf ..." alt="" coords="366,1893,478,1920"/>
+<area shape="rect" id="node41" href="$classc4__canopy.html" title=" " alt="" coords="380,1944,464,1971"/>
+<area shape="rect" id="node42" href="$classc4__leaf__photosynthesis.html" title="Uses the method from CanAC() to calculate leaf photosynthesis parameters for C4 plants." alt="" coords="343,1995,501,2021"/>
+<area shape="rect" id="node43" href="$classexample__model__mass__gain.html" title="An example for the BioCro II manuscript." alt="" coords="331,2045,513,2072"/>
+<area shape="rect" id="node44" href="$classfake__solar.html" title="Class created by EBL for testing and experimentation ... not meant for real simulations!" alt="" coords="381,2096,463,2123"/>
+<area shape="rect" id="node45" href="$classgolden__ratio__hyperbola.html" title="Represents a simple hyperbola defined by f(x) = 1 + 1 / x. Intended to be used as a simple test case ..." alt="" coords="345,2147,499,2173"/>
+<area shape="rect" id="node46" href="$classgrimm__soybean__flowering__calculator.html" title="Model for soybean development and flowering based on Grimm et al. (1993)" alt="" coords="337,2198,507,2239"/>
+<area shape="rect" id="node47" href="$classharmonic__energy.html" title=" " alt="" coords="362,2264,482,2291"/>
+<area shape="rect" id="node48" href="$classhyperbola__2d.html" title="Represents two 2D hyperbolas defined by f(x,y) = 1 + 1 / (x + y) and g(x,y) = 1 + 1 / (2x &#45; y)...." alt="" coords="373,2315,471,2341"/>
+<area shape="rect" id="node49" href="$classincident__shortwave__from__ground__par.html" title="Uses a value for total PAR flux density measured at the Earth&#39;s surface to calculate the total light ..." alt="" coords="355,2366,489,2407"/>
+</map>
