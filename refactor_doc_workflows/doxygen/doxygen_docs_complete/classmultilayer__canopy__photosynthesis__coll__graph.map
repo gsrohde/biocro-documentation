@@ -1,0 +1,5 @@
+<map id="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;" name="multilayer_canopy_photosynthesis&lt; canopy_module_type, leaf_module_type &gt;">
+<area shape="rect" id="node1" title="Applies a leaf photosynthesis module to each layer and leaf class of a multilayer canopy." alt="" coords="5,155,224,211"/>
+<area shape="rect" id="node2" href="$classdirect__module.html" title="This class represents a direct module." alt="" coords="63,80,166,107"/>
+<area shape="rect" id="node3" href="$classmodule__base.html" title="Represents one or more equations." alt="" coords="65,5,164,32"/>
+</map>
